@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>역사 상식 O/X — Swiq</title>
+<meta name="description" content="한국사와 세계사의 기본 상식">
+<meta name="theme-color" content="#6366F1">
+<link rel="canonical" href="https://swiq.jiun.dev/set/seed.ko.general.history-basic/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='%236366F1'/%3E%3Ccircle%20cx='23'%20cy='32'%20r='9'%20fill='none'%20stroke='white'%20stroke-width='5'/%3E%3Cpath%20d='M37%2023%20L49%2041%20M49%2023%20L37%2041'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='%236366F1'/%3E%3Ccircle%20cx='23'%20cy='32'%20r='9'%20fill='none'%20stroke='white'%20stroke-width='5'/%3E%3Cpath%20d='M37%2023%20L49%2041%20M49%2023%20L37%2041'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Swiq">
+<meta property="og:title" content="역사 상식 O/X — Swiq">
+<meta property="og:description" content="한국사와 세계사의 기본 상식">
+<meta property="og:url" content="https://swiq.jiun.dev/set/seed.ko.general.history-basic/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="역사 상식 O/X — Swiq">
+<meta name="twitter:description" content="한국사와 세계사의 기본 상식">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --indigo:#6366F1;--indigo-600:#4f46e5;--indigo-700:#4338ca;
+  --bg:#f6f7fb;--surface:#ffffff;--text:#1b1d29;--muted:#6b7080;
+  --border:rgba(20,22,40,.08);--shadow:0 6px 24px rgba(38,40,80,.08);
+  --radius:24px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0e0f17;--surface:#181a26;--text:#eceeffe6;--muted:#9a9fb5;
+    --border:rgba(255,255,255,.09);--shadow:0 8px 30px rgba(0,0,0,.45);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",system-ui,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+/* Wordmark */
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em}
+.brand .mark{
+  width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,var(--indigo),#8b5cf6);
+  color:#fff;display:grid;place-items:center;font-size:15px;font-weight:800;
+  box-shadow:0 4px 14px rgba(99,102,241,.4)
+}
+.brand .word{font-size:22px}
+.brand .word b{color:var(--indigo)}
+
+/* Header */
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:saturate(180%) blur(14px);
+  background:color-mix(in srgb,var(--bg) 82%,transparent);border-bottom:1px solid var(--border)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+header.top .word{font-size:19px}
+header.top .mark{width:32px;height:32px;font-size:14px}
+
+/* Hero */
+.hero{padding:52px 0 24px;text-align:center}
+.hero h1{font-size:clamp(28px,6vw,44px);line-height:1.15;margin:16px 0 10px;letter-spacing:-.03em;font-weight:800}
+.hero p{color:var(--muted);font-size:clamp(15px,3.6vw,18px);margin:0 auto;max-width:34ch}
+.hero .pill{display:inline-block;font-size:13px;font-weight:600;color:var(--indigo);
+  background:color-mix(in srgb,var(--indigo) 12%,transparent);padding:6px 14px;border-radius:999px}
+
+/* Language tabs */
+.tabs{display:flex;gap:8px;justify-content:center;margin:26px 0 34px;flex-wrap:wrap}
+.tabs button{
+  font:inherit;font-weight:600;font-size:14px;cursor:pointer;border:1px solid var(--border);
+  background:var(--surface);color:var(--muted);padding:9px 18px;border-radius:999px;transition:.15s
+}
+.tabs button[aria-selected="true"]{background:var(--indigo);color:#fff;border-color:transparent;
+  box-shadow:0 4px 14px rgba(99,102,241,.35)}
+
+/* Category section */
+.cat{margin:0 0 40px}
+.cat-head{display:flex;align-items:baseline;gap:10px;margin:0 0 16px;padding:0 2px}
+.cat-head .dot{width:11px;height:11px;border-radius:4px;
+  background:hsl(var(--h) 62% 52%);flex:0 0 auto;align-self:center}
+.cat-head h2{font-size:19px;margin:0;letter-spacing:-.02em;font-weight:800}
+.cat-head .en{font-size:12px;color:var(--muted);font-weight:600}
+.cat-head .count{margin-left:auto;font-size:12px;color:var(--muted)}
+
+/* Grid + cards */
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.card{
+  --tint:hsl(var(--h) 70% 96%);--badge:hsl(var(--h) 55% 42%);
+  display:flex;flex-direction:column;gap:10px;background:var(--surface);
+  border:1px solid var(--border);border-radius:var(--radius);padding:18px;
+  box-shadow:var(--shadow);transition:transform .15s ease,box-shadow .15s ease;position:relative;overflow:hidden
+}
+@media (prefers-color-scheme:dark){
+  .card{--tint:hsl(var(--h) 34% 17%);--badge:hsl(var(--h) 60% 72%)}
+}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:56px;background:var(--tint);opacity:.9}
+.card>*{position:relative}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 34px rgba(38,40,80,.14)}
+.card .badges{display:flex;gap:6px;align-items:center;min-height:24px}
+.card .cat-badge{font-size:11px;font-weight:700;color:#fff;background:var(--badge);
+  padding:3px 9px;border-radius:999px;letter-spacing:.01em}
+.card .lang-badge{font-size:10px;font-weight:800;color:var(--muted);background:var(--bg);
+  border:1px solid var(--border);padding:2px 7px;border-radius:6px;letter-spacing:.06em}
+.card h3{font-size:16.5px;margin:2px 0 0;line-height:1.3;letter-spacing:-.01em;font-weight:700}
+.card .desc{font-size:13px;color:var(--muted);margin:0;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .meta{margin-top:auto;display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted);font-weight:600}
+.card .meta .num{color:var(--text)}
+.card .arrow{margin-left:auto;color:var(--indigo);font-weight:700}
+
+.empty{display:none;text-align:center;color:var(--muted);padding:40px 0;font-size:15px}
+
+/* Footer */
+footer{border-top:1px solid var(--border);margin-top:24px;padding:28px 0 48px;color:var(--muted);font-size:13px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+
+/* ---- Set detail ---- */
+.detail{padding:30px 0 8px}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:14px;font-weight:600;margin-bottom:20px}
+.back:hover{color:var(--indigo)}
+.detail .cat-badge{display:inline-block;font-size:12px;font-weight:700;color:#fff;
+  background:hsl(var(--h) 55% 46%);padding:4px 12px;border-radius:999px}
+.detail h1{font-size:clamp(24px,5.5vw,34px);margin:14px 0 8px;letter-spacing:-.02em;font-weight:800;line-height:1.2}
+.detail .lead{color:var(--muted);font-size:16px;margin:0 0 18px;max-width:60ch}
+.detail .stats{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px}
+.chip{font-size:13px;font-weight:600;color:var(--text);background:var(--surface);
+  border:1px solid var(--border);border-radius:999px;padding:7px 14px}
+.chip.hl{color:var(--indigo);background:color-mix(in srgb,var(--indigo) 10%,transparent);border-color:transparent}
+
+.cta{display:flex;flex-direction:column;gap:10px;margin:0 0 34px;max-width:420px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:700;font-size:16px;
+  padding:15px 20px;border-radius:16px;cursor:pointer;border:1px solid transparent;transition:.15s}
+.btn-primary{background:var(--indigo);color:#fff;box-shadow:0 6px 20px rgba(99,102,241,.4)}
+.btn-primary:hover{background:var(--indigo-600)}
+.btn-ghost{background:var(--surface);color:var(--text);border-color:var(--border)}
+.btn-ghost:hover{border-color:var(--indigo);color:var(--indigo)}
+.cta .note{font-size:12px;color:var(--muted);text-align:center;margin:2px 0 0}
+
+.preview h2{font-size:15px;font-weight:700;margin:0 0 4px}
+.preview .sub{font-size:13px;color:var(--muted);margin:0 0 16px}
+.qgrid{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:560px){.qgrid{grid-template-columns:1fr 1fr}}
+.qcard{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px 18px;
+  display:flex;gap:12px;align-items:flex-start;box-shadow:var(--shadow)}
+.qcard .n{flex:0 0 auto;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;
+  font-size:12px;font-weight:800;color:hsl(var(--h) 55% 42%);background:hsl(var(--h) 70% 95%)}
+@media (prefers-color-scheme:dark){.qcard .n{color:hsl(var(--h) 60% 74%);background:hsl(var(--h) 34% 18%)}}
+.qcard .q{font-size:14.5px;line-height:1.5;margin:0}
+.qcard .ox{flex:0 0 auto;margin-left:auto;font-size:13px;font-weight:800;color:var(--muted);opacity:.55;align-self:center}
+.lock{margin:18px 0 0;font-size:13px;color:var(--muted);text-align:center;
+  background:var(--surface);border:1px dashed var(--border);border-radius:14px;padding:14px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><span class="mark">S</span><span class="word">Swi<b>q</b></span></a><nav style="font-size:14px;font-weight:600;color:var(--muted)">O/X 암기</nav></div></header>
+<main class="wrap detail" style="--h:28">
+  <a class="back" href="/">← 모든 세트</a>
+  <span class="cat-badge">역사</span>
+  <h1>역사 상식 O/X</h1>
+  <p class="lead">한국사와 세계사의 기본 상식</p>
+  <div class="stats">
+    <span class="chip hl">12문항</span>
+    <span class="chip">한국어</span>
+    <span class="chip">#역사</span><span class="chip">#상식</span>
+  </div>
+
+  <div class="cta">
+    <!-- "앱에서 열기": this page's own URL is the Universal Link (AASA paths:/set/*),
+         so the installed app intercepts it automatically. This button is the
+         custom-scheme fallback for when the app is already installed. -->
+    <a class="btn btn-primary" href="swiq://set/seed.ko.general.history-basic">앱에서 열기 →</a>
+    <!-- TODO(TestFlight): replace "#" with the public TestFlight invite URL. -->
+    <a class="btn btn-ghost" href="https://testflight.apple.com/join/rM2Q3shQ">TestFlight로 받기</a>
+    <p class="note">이미 앱이 설치돼 있다면 위 링크가 세트를 바로 열어요.</p>
+  </div>
+
+  <section class="preview">
+    <h2>미리보기</h2>
+    <p class="sub">프롬프트 5장 미리보기 · 정답과 해설은 앱에서 확인하세요</p>
+    <div class="qgrid">
+    <div class="qcard">
+      <span class="n">1</span>
+      <p class="q">훈민정음은 세종대왕 때 창제되었다.</p>
+      <span class="ox" aria-hidden="true">O / X</span>
+    </div>
+    <div class="qcard">
+      <span class="n">2</span>
+      <p class="q">제1차 세계대전은 1918년에 시작되었다.</p>
+      <span class="ox" aria-hidden="true">O / X</span>
+    </div>
+    <div class="qcard">
+      <span class="n">3</span>
+      <p class="q">이순신 장군은 임진왜란 때 활약했다.</p>
+      <span class="ox" aria-hidden="true">O / X</span>
+    </div>
+    <div class="qcard">
+      <span class="n">4</span>
+      <p class="q">만리장성은 일본에 있다.</p>
+      <span class="ox" aria-hidden="true">O / X</span>
+    </div>
+    <div class="qcard">
+      <span class="n">5</span>
+      <p class="q">조선은 고려보다 먼저 세워진 나라다.</p>
+      <span class="ox" aria-hidden="true">O / X</span>
+    </div>
+    </div>
+    <p class="lock">🔒 정답·해설은 앱에서만 볼 수 있어요</p>
+  </section>
+</main>
+<footer><div class="wrap"><span>Swiq · 틴더식 O/X 암기</span><span>© 2026 · <a href="https://swiq.jiun.dev">https://swiq.jiun.dev</a></span></div></footer>
+</body>
+</html>

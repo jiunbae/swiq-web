@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Swiq — 틴더식 O/X 암기 퀴즈</title>
+<meta name="description" content="스와이프 한 번으로 배우는 O/X 암기. 과학·역사·자격증·영어까지 48개의 큐레이션 퀴즈 세트를 둘러보세요.">
+<meta name="theme-color" content="#6366F1">
+<link rel="canonical" href="https://swiq.jiun.dev/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='%236366F1'/%3E%3Ccircle%20cx='23'%20cy='32'%20r='9'%20fill='none'%20stroke='white'%20stroke-width='5'/%3E%3Cpath%20d='M37%2023%20L49%2041%20M49%2023%20L37%2041'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='%236366F1'/%3E%3Ccircle%20cx='23'%20cy='32'%20r='9'%20fill='none'%20stroke='white'%20stroke-width='5'/%3E%3Cpath%20d='M37%2023%20L49%2041%20M49%2023%20L37%2041'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Swiq">
+<meta property="og:title" content="Swiq — 틴더식 O/X 암기 퀴즈">
+<meta property="og:description" content="스와이프 한 번으로 배우는 O/X 암기. 과학·역사·자격증·영어까지 48개의 큐레이션 퀴즈 세트를 둘러보세요.">
+<meta property="og:url" content="https://swiq.jiun.dev/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Swiq — 틴더식 O/X 암기 퀴즈">
+<meta name="twitter:description" content="스와이프 한 번으로 배우는 O/X 암기. 과학·역사·자격증·영어까지 48개의 큐레이션 퀴즈 세트를 둘러보세요.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --indigo:#6366F1;--indigo-600:#4f46e5;--indigo-700:#4338ca;
+  --bg:#f6f7fb;--surface:#ffffff;--text:#1b1d29;--muted:#6b7080;
+  --border:rgba(20,22,40,.08);--shadow:0 6px 24px rgba(38,40,80,.08);
+  --radius:24px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0e0f17;--surface:#181a26;--text:#eceeffe6;--muted:#9a9fb5;
+    --border:rgba(255,255,255,.09);--shadow:0 8px 30px rgba(0,0,0,.45);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",system-ui,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+/* Wordmark */
+.brand{display:inline-flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.02em}
+.brand .mark{
+  width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,var(--indigo),#8b5cf6);
+  color:#fff;display:grid;place-items:center;font-size:15px;font-weight:800;
+  box-shadow:0 4px 14px rgba(99,102,241,.4)
+}
+.brand .word{font-size:22px}
+.brand .word b{color:var(--indigo)}
+
+/* Header */
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:saturate(180%) blur(14px);
+  background:color-mix(in srgb,var(--bg) 82%,transparent);border-bottom:1px solid var(--border)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+header.top .word{font-size:19px}
+header.top .mark{width:32px;height:32px;font-size:14px}
+
+/* Hero */
+.hero{padding:52px 0 24px;text-align:center}
+.hero h1{font-size:clamp(28px,6vw,44px);line-height:1.15;margin:16px 0 10px;letter-spacing:-.03em;font-weight:800}
+.hero p{color:var(--muted);font-size:clamp(15px,3.6vw,18px);margin:0 auto;max-width:34ch}
+.hero .pill{display:inline-block;font-size:13px;font-weight:600;color:var(--indigo);
+  background:color-mix(in srgb,var(--indigo) 12%,transparent);padding:6px 14px;border-radius:999px}
+
+/* Language tabs */
+.tabs{display:flex;gap:8px;justify-content:center;margin:26px 0 34px;flex-wrap:wrap}
+.tabs button{
+  font:inherit;font-weight:600;font-size:14px;cursor:pointer;border:1px solid var(--border);
+  background:var(--surface);color:var(--muted);padding:9px 18px;border-radius:999px;transition:.15s
+}
+.tabs button[aria-selected="true"]{background:var(--indigo);color:#fff;border-color:transparent;
+  box-shadow:0 4px 14px rgba(99,102,241,.35)}
+
+/* Category section */
+.cat{margin:0 0 40px}
+.cat-head{display:flex;align-items:baseline;gap:10px;margin:0 0 16px;padding:0 2px}
+.cat-head .dot{width:11px;height:11px;border-radius:4px;
+  background:hsl(var(--h) 62% 52%);flex:0 0 auto;align-self:center}
+.cat-head h2{font-size:19px;margin:0;letter-spacing:-.02em;font-weight:800}
+.cat-head .en{font-size:12px;color:var(--muted);font-weight:600}
+.cat-head .count{margin-left:auto;font-size:12px;color:var(--muted)}
+
+/* Grid + cards */
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.card{
+  --tint:hsl(var(--h) 70% 96%);--badge:hsl(var(--h) 55% 42%);
+  display:flex;flex-direction:column;gap:10px;background:var(--surface);
+  border:1px solid var(--border);border-radius:var(--radius);padding:18px;
+  box-shadow:var(--shadow);transition:transform .15s ease,box-shadow .15s ease;position:relative;overflow:hidden
+}
+@media (prefers-color-scheme:dark){
+  .card{--tint:hsl(var(--h) 34% 17%);--badge:hsl(var(--h) 60% 72%)}
+}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:56px;background:var(--tint);opacity:.9}
+.card>*{position:relative}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 34px rgba(38,40,80,.14)}
+.card .badges{display:flex;gap:6px;align-items:center;min-height:24px}
+.card .cat-badge{font-size:11px;font-weight:700;color:#fff;background:var(--badge);
+  padding:3px 9px;border-radius:999px;letter-spacing:.01em}
+.card .lang-badge{font-size:10px;font-weight:800;color:var(--muted);background:var(--bg);
+  border:1px solid var(--border);padding:2px 7px;border-radius:6px;letter-spacing:.06em}
+.card h3{font-size:16.5px;margin:2px 0 0;line-height:1.3;letter-spacing:-.01em;font-weight:700}
+.card .desc{font-size:13px;color:var(--muted);margin:0;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .meta{margin-top:auto;display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted);font-weight:600}
+.card .meta .num{color:var(--text)}
+.card .arrow{margin-left:auto;color:var(--indigo);font-weight:700}
+
+.empty{display:none;text-align:center;color:var(--muted);padding:40px 0;font-size:15px}
+
+/* Footer */
+footer{border-top:1px solid var(--border);margin-top:24px;padding:28px 0 48px;color:var(--muted);font-size:13px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+
+/* ---- Set detail ---- */
+.detail{padding:30px 0 8px}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:14px;font-weight:600;margin-bottom:20px}
+.back:hover{color:var(--indigo)}
+.detail .cat-badge{display:inline-block;font-size:12px;font-weight:700;color:#fff;
+  background:hsl(var(--h) 55% 46%);padding:4px 12px;border-radius:999px}
+.detail h1{font-size:clamp(24px,5.5vw,34px);margin:14px 0 8px;letter-spacing:-.02em;font-weight:800;line-height:1.2}
+.detail .lead{color:var(--muted);font-size:16px;margin:0 0 18px;max-width:60ch}
+.detail .stats{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 26px}
+.chip{font-size:13px;font-weight:600;color:var(--text);background:var(--surface);
+  border:1px solid var(--border);border-radius:999px;padding:7px 14px}
+.chip.hl{color:var(--indigo);background:color-mix(in srgb,var(--indigo) 10%,transparent);border-color:transparent}
+
+.cta{display:flex;flex-direction:column;gap:10px;margin:0 0 34px;max-width:420px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:700;font-size:16px;
+  padding:15px 20px;border-radius:16px;cursor:pointer;border:1px solid transparent;transition:.15s}
+.btn-primary{background:var(--indigo);color:#fff;box-shadow:0 6px 20px rgba(99,102,241,.4)}
+.btn-primary:hover{background:var(--indigo-600)}
+.btn-ghost{background:var(--surface);color:var(--text);border-color:var(--border)}
+.btn-ghost:hover{border-color:var(--indigo);color:var(--indigo)}
+.cta .note{font-size:12px;color:var(--muted);text-align:center;margin:2px 0 0}
+
+.preview h2{font-size:15px;font-weight:700;margin:0 0 4px}
+.preview .sub{font-size:13px;color:var(--muted);margin:0 0 16px}
+.qgrid{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:560px){.qgrid{grid-template-columns:1fr 1fr}}
+.qcard{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:16px 18px;
+  display:flex;gap:12px;align-items:flex-start;box-shadow:var(--shadow)}
+.qcard .n{flex:0 0 auto;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;
+  font-size:12px;font-weight:800;color:hsl(var(--h) 55% 42%);background:hsl(var(--h) 70% 95%)}
+@media (prefers-color-scheme:dark){.qcard .n{color:hsl(var(--h) 60% 74%);background:hsl(var(--h) 34% 18%)}}
+.qcard .q{font-size:14.5px;line-height:1.5;margin:0}
+.qcard .ox{flex:0 0 auto;margin-left:auto;font-size:13px;font-weight:800;color:var(--muted);opacity:.55;align-self:center}
+.lock{margin:18px 0 0;font-size:13px;color:var(--muted);text-align:center;
+  background:var(--surface);border:1px dashed var(--border);border-radius:14px;padding:14px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><span class="mark">S</span><span class="word">Swi<b>q</b></span></a><nav style="font-size:14px;font-weight:600;color:var(--muted)">O/X 암기</nav></div></header>
+<main class="wrap">
+  <section class="hero">
+    <span class="pill">iOS · TestFlight</span>
+    <h1>스와이프로 외우는<br>O/X 퀴즈</h1>
+    <p>틴더처럼 넘기며 암기하는 Swiq. 아래 세트를 골라 앱에서 바로 시작하세요.</p>
+  </section>
+
+  <!-- Minimal-JS language filter -->
+  <div class="tabs" role="tablist" aria-label="언어 필터">
+    <button role="tab" data-filter="all" aria-selected="true">전체</button>
+    <button role="tab" data-filter="ko" aria-selected="false">한국어</button>
+    <button role="tab" data-filter="en" aria-selected="false">English</button>
+  </div>
+
+  <div id="sections">
+    <section class="cat" style="--h:205" data-cat="science">
+      <div class="cat-head"><span class="dot"></span><h2>과학</h2>
+        <span class="en">Science</span><span class="count">4개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:205" href="/set/seed.ko.general.science-basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">과학</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>기초 과학 O/X</h3>
+        <p class="desc">매일 알아두면 좋은 과학 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:205" href="/set/seed.ko.science.space/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">과학</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>우주와 천문 O/X</h3>
+        <p class="desc">태양계와 별에 관한 기본 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:205" href="/set/seed.ko.science.biology/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">과학</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>인체와 생물 O/X</h3>
+        <p class="desc">몸과 생명에 관한 기초 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:205" href="/set/seed.en.science.science/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">과학</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>Science Basics O/X</h3>
+        <p class="desc">Everyday facts about the natural world</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:150" data-cat="geography">
+      <div class="cat-head"><span class="dot"></span><h2>지리</h2>
+        <span class="en">Geography</span><span class="count">4개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:150" href="/set/seed.ko.general.world-geo/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">지리</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>세계 지리 O/X</h3>
+        <p class="desc">나라와 지형에 대한 기본 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:150" href="/set/seed.ko.geography.korea-geo/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">지리</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>한국 지리 O/X</h3>
+        <p class="desc">우리나라 지형과 지역 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:150" href="/set/seed.ko.geography.capitals/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">지리</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>세계의 수도 O/X</h3>
+        <p class="desc">여러 나라의 수도 맞히기</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:150" href="/set/seed.en.geography.world-geo/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">지리</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>World Geography O/X</h3>
+        <p class="desc">Countries, oceans, and landmarks</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:28" data-cat="history">
+      <div class="cat-head"><span class="dot"></span><h2>역사</h2>
+        <span class="en">History</span><span class="count">4개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:28" href="/set/seed.ko.general.history-basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">역사</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>역사 상식 O/X</h3>
+        <p class="desc">한국사와 세계사의 기본 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:28" href="/set/seed.ko.history.korea-history/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">역사</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>한국사 심화 O/X</h3>
+        <p class="desc">우리 역사의 인물과 사건</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:28" href="/set/seed.ko.history.world-history/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">역사</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>세계사 O/X</h3>
+        <p class="desc">세계 역사의 흐름과 사건</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:28" href="/set/seed.en.history.world-history/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">역사</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>World History O/X</h3>
+        <p class="desc">Key events and figures in history</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:265" data-cat="language">
+      <div class="cat-head"><span class="dot"></span><h2>언어</h2>
+        <span class="en">Language</span><span class="count">3개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:265" href="/set/seed.ko.language.spelling/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">언어</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>한글 맞춤법 O/X</h3>
+        <p class="desc">헷갈리는 우리말 바른 표기</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:265" href="/set/seed.ko.language.idioms/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">언어</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>사자성어 뜻 O/X</h3>
+        <p class="desc">자주 쓰는 사자성어의 뜻</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:265" href="/set/seed.en.language.vocabulary/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">언어</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>English Vocabulary O/X</h3>
+        <p class="desc">Common word meanings</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:235" data-cat="general-knowledge">
+      <div class="cat-head"><span class="dot"></span><h2>일반 상식</h2>
+        <span class="en">General Knowledge</span><span class="count">4개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:235" href="/set/seed.ko.general-knowledge.everyday/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">일반 상식</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>생활 안전 상식 O/X</h3>
+        <p class="desc">일상과 안전에 필요한 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:235" href="/set/seed.en.general-knowledge.trivia/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">일반 상식</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>General Knowledge O/X</h3>
+        <p class="desc">Everyday facts and simple trivia</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:235" href="/set/seed.ko.general-knowledge.mcq-basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">일반 상식</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>상식 4지선다</h3>
+        <p class="desc">네 개의 보기 중 정답을 고르는 기본 상식 12장.</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:235" href="/set/seed.ko.general-knowledge.numeric-recall/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">일반 상식</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>숫자로 기억하는 핵심 지식</h3>
+        <p class="desc">한국사·과학·기술의 기준 수치를 여러 방식으로 복습해요</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:320" data-cat="arts-culture">
+      <div class="cat-head"><span class="dot"></span><h2>예술·문화</h2>
+        <span class="en">Arts &amp; Culture</span><span class="count">2개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:320" href="/set/seed.ko.arts-culture.arts/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">예술·문화</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>예술·문화 상식 O/X</h3>
+        <p class="desc">미술·음악·문학의 기본 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:320" href="/set/seed.en.arts-culture.arts/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">예술·문화</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>Arts and Culture O/X</h3>
+        <p class="desc">Basics of art, music, and theatre</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:12" data-cat="sports">
+      <div class="cat-head"><span class="dot"></span><h2>스포츠</h2>
+        <span class="en">Sports</span><span class="count">2개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:12" href="/set/seed.ko.sports.sports/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">스포츠</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>스포츠 상식 O/X</h3>
+        <p class="desc">여러 종목의 기본 규칙과 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:12" href="/set/seed.en.sports.sports/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">스포츠</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>Sports O/X</h3>
+        <p class="desc">Rules and facts about popular sports</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:190" data-cat="it-tech">
+      <div class="cat-head"><span class="dot"></span><h2>IT·기술</h2>
+        <span class="en">IT &amp; Tech</span><span class="count">2개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:190" href="/set/seed.ko.it-tech.tech/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">IT·기술</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>IT·기술 상식 O/X</h3>
+        <p class="desc">컴퓨터와 인터넷 기초 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:190" href="/set/seed.en.it-tech.tech/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">IT·기술</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>Technology O/X</h3>
+        <p class="desc">Computers and the internet basics</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:45" data-cat="exam-korean-history">
+      <div class="cat-head"><span class="dot"></span><h2>한국사 시험</h2>
+        <span class="en">Korean History Exam</span><span class="count">3개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:45" href="/set/seed.ko.exam-korean-history.basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">한국사 시험</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>한국사 기초 O/X</h3>
+        <p class="desc">시험에 자주 나오는 한국사 기본 사실</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:45" href="/set/seed.ko.exam-korean-history.advanced/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">한국사 시험</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>한국사 심화 O/X</h3>
+        <p class="desc">제도·사건의 연도와 흐름을 다지는 심화 문제</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:45" href="/set/seed.ko.exam-korean-history.modern/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">한국사 시험</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>한국 근현대사 O/X</h3>
+        <p class="desc">일제강점기와 광복 전후의 핵심 사건</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:175" data-cat="exam-computer">
+      <div class="cat-head"><span class="dot"></span><h2>컴퓨터 자격증</h2>
+        <span class="en">Computer Certification</span><span class="count">4개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:175" href="/set/seed.ko.exam-computer.basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">컴퓨터 자격증</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>컴퓨터 일반 기초 O/X</h3>
+        <p class="desc">컴퓨터 활용 시험의 기초 개념</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:175" href="/set/seed.ko.exam-computer.advanced/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">컴퓨터 자격증</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>컴퓨터 일반 심화 O/X</h3>
+        <p class="desc">자료구조·보안·데이터베이스 심화 개념</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:175" href="/set/seed.ko.exam-computer.network/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">컴퓨터 자격증</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>네트워크·인터넷 O/X</h3>
+        <p class="desc">인터넷 통신과 웹의 기본 원리</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:175" href="/set/seed.en.exam-computer.basic/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">컴퓨터 자격증</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>Computer Science Basics O/X</h3>
+        <p class="desc">Fundamental computing concepts</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:285" data-cat="english-vocab">
+      <div class="cat-head"><span class="dot"></span><h2>영어 어휘</h2>
+        <span class="en">English Vocabulary</span><span class="count">4개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:285" href="/set/seed.ko.english-vocab.basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">영어 어휘</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>영단어 뜻 기초 O/X</h3>
+        <p class="desc">기초 영단어의 뜻을 O/X로 확인</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:285" href="/set/seed.ko.english-vocab.advanced/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">영어 어휘</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>영단어 뜻 심화 O/X</h3>
+        <p class="desc">수능·시험에 나오는 고급 영단어</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:285" href="/set/seed.ko.english-vocab.practical/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">영어 어휘</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>실용 영단어 O/X</h3>
+        <p class="desc">업무·생활에서 자주 쓰는 영단어</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:285" href="/set/seed.ko.english-vocab.recall-basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">영어 어휘</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>영단어 회상 기초</h3>
+        <p class="desc">직접 입력해서 떠올리는 기초 영단어 12장 — 보고 고르는 대신 기억에서 꺼내 보세요.</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:350" data-cat="health-medical">
+      <div class="cat-head"><span class="dot"></span><h2>건강·의학</h2>
+        <span class="en">Health &amp; Medicine</span><span class="count">5개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:350" href="/set/seed.ko.health-medical.basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">건강·의학</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>건강 상식 기초 O/X</h3>
+        <p class="desc">일상 건강 관리의 기본 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:350" href="/set/seed.ko.health-medical.advanced/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">건강·의학</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>인체·의학 심화 O/X</h3>
+        <p class="desc">장기와 생리 작용에 관한 심화 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:350" href="/set/seed.ko.health-medical.nutrition/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">건강·의학</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>영양·식품 O/X</h3>
+        <p class="desc">영양소와 식생활에 관한 상식</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:350" href="/set/seed.en.health-medical.basic/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">건강·의학</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>Health Basics O/X</h3>
+        <p class="desc">Everyday facts about the human body and health</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:350" href="/set/seed.ko.health-medical.firstaid/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">건강·의학</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>응급처치 상식 O/X</h3>
+        <p class="desc">위급 상황에서 알아 두면 좋은 응급처치</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:130" data-cat="economy-finance">
+      <div class="cat-head"><span class="dot"></span><h2>경제·금융</h2>
+        <span class="en">Economy &amp; Finance</span><span class="count">4개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:130" href="/set/seed.ko.economy-finance.basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">경제·금융</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>경제 상식 기초 O/X</h3>
+        <p class="desc">생활 속 경제 개념의 기초</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:130" href="/set/seed.ko.economy-finance.advanced/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">경제·금융</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>금융·투자 심화 O/X</h3>
+        <p class="desc">금리·채권·투자 원리의 심화</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:130" href="/set/seed.ko.economy-finance.terms/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">경제·금융</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>경제 용어 O/X</h3>
+        <p class="desc">자주 쓰는 경제 용어의 뜻</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:130" href="/set/seed.en.economy-finance.basic/" data-lang="en">
+        <div class="badges">
+          <span class="cat-badge">경제·금융</span>
+          <span class="lang-badge">EN</span>
+        </div>
+        <h3>Economy Basics O/X</h3>
+        <p class="desc">Core ideas about money and the economy</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+    <section class="cat" style="--h:250" data-cat="korean-language">
+      <div class="cat-head"><span class="dot"></span><h2>국어</h2>
+        <span class="en">Korean Language</span><span class="count">3개 세트</span></div>
+      <div class="grid">
+      <a class="card" style="--h:250" href="/set/seed.ko.korean-language.spelling-basic/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">국어</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>맞춤법 기초 O/X</h3>
+        <p class="desc">헷갈리기 쉬운 기본 맞춤법</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:250" href="/set/seed.ko.korean-language.spelling-advanced/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">국어</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>맞춤법 심화 O/X</h3>
+        <p class="desc">뜻이 헷갈리는 단어와 심화 맞춤법</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      <a class="card" style="--h:250" href="/set/seed.ko.korean-language.standard/" data-lang="ko">
+        <div class="badges">
+          <span class="cat-badge">국어</span>
+          <span class="lang-badge">KO</span>
+        </div>
+        <h3>표준어·띄어쓰기 O/X</h3>
+        <p class="desc">표준어 판정과 띄어쓰기 규칙</p>
+        <div class="meta"><span class="num">12</span>&nbsp;문항<span class="arrow">→</span></div>
+      </a>
+      </div>
+    </section>
+  </div>
+  <p class="empty" id="empty">해당 언어의 세트가 없습니다.</p>
+</main>
+<footer><div class="wrap"><span>Swiq · 틴더식 O/X 암기</span><span>© 2026 · <a href="https://swiq.jiun.dev">https://swiq.jiun.dev</a></span></div></footer>
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.tabs button');
+  var cards=document.querySelectorAll('.card[data-lang]');
+  var sections=document.querySelectorAll('.cat');
+  var empty=document.getElementById('empty');
+  function apply(f){
+    cards.forEach(function(c){
+      c.style.display=(f==='all'||c.getAttribute('data-lang')===f)?'':'none';
+    });
+    var anyVisible=false;
+    sections.forEach(function(sec){
+      var vis=sec.querySelectorAll('.card:not([style*="display: none"])').length;
+      sec.style.display=vis?'':'none';
+      if(vis)anyVisible=true;
+    });
+    empty.style.display=anyVisible?'none':'block';
+  }
+  tabs.forEach(function(b){
+    b.addEventListener('click',function(){
+      tabs.forEach(function(x){x.setAttribute('aria-selected','false');});
+      b.setAttribute('aria-selected','true');
+      apply(b.getAttribute('data-filter'));
+    });
+  });
+})();
+</script>
+</body>
+</html>

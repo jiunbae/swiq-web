@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://swiq.jiun.dev/sitemap.xml
