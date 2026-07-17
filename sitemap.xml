@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://swiq.jiun.dev/</loc></url>
+  <url><loc>https://swiq.jiun.dev/format/</loc></url>
+  <url><loc>https://swiq.jiun.dev/privacy/</loc></url>
   <url><loc>https://swiq.jiun.dev/set/seed.ko.general.science-basic/</loc></url>
   <url><loc>https://swiq.jiun.dev/set/seed.ko.general.world-geo/</loc></url>
   <url><loc>https://swiq.jiun.dev/set/seed.ko.general.history-basic/</loc></url>
@@ -49,4 +51,23 @@
   <url><loc>https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-basic/</loc></url>
   <url><loc>https://swiq.jiun.dev/set/seed.ko.general-knowledge.mcq-basic/</loc></url>
   <url><loc>https://swiq.jiun.dev/set/seed.ko.general-knowledge.numeric-recall/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.science.quantum-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.science.relativity-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.science.molecular-biology/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.history.world-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.economy-finance.principles/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.exam-computer.cs-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.exam-computer.programming/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.general-knowledge.philosophy/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.health-medical.anatomy-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.geography.geopolitics/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.general-knowledge.math-concepts/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.arts-culture.classical-arts/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.en.science.advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.en.history.world-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.en.economy-finance.principles/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.en.exam-computer.cs-advanced/</loc></url>
+  <url><loc>https://swiq.jiun.dev/set/seed.en.geography.advanced/</loc></url>
 </urlset>

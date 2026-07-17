@@ -1,0 +1,16 @@
+# Advanced Computer Science O/X
+> Data structures, algorithms, and systems
+// Swiq — https://swiq.jiun.dev/set/seed.en.exam-computer.cs-advanced/
+
+Binary search finds a value in a sorted array in O(log n) time. | O | Binary search halves the search range each step, giving O(log n) time.
+A stack is a Last-In-First-Out (LIFO) data structure. | O | In a stack, the most recently added element is removed first (LIFO).
+A queue is a First-In-First-Out (FIFO) data structure. | O | In a queue, the first element added is the first removed (FIFO).
+Computers internally store and process data in base-10 (decimal). | X | Computers store and process data in binary (base-2), using 0s and 1s.
+One byte consists of 8 bits. | O | A byte is made up of 8 bits.
+A compiler translates source code into machine code before the program runs. | O | A compiler translates the whole program into machine code ahead of execution, unlike an interpreter.
+In most programming languages, array indices start at 1. | X | In many languages (C, Java, Python) array indices start at 0, not 1.
+A hash table can offer average-case O(1) time for insertion and lookup. | O | With good hashing and collision handling, hash tables average O(1) operations.
+Which time complexity grows fastest as input size n becomes large? | 1)O(n²) 2)O(n) 3)O(log n) 4)O(1) | 1 | O(n²) grows faster than O(n), O(log n), or constant time as n increases.
+Which data structure is best suited for Last-In-First-Out behavior? | 1)Stack 2)Queue 3)Array 4)Graph | 1 | A stack provides LIFO behavior; a queue is FIFO.
+Q: What is the decimal value of the binary number 1010? (digits only) | A: 10;ten | 1010 in binary equals 8 + 0 + 2 + 0 = 10 in decimal.
+Q: What do we call a flaw or error in a computer program, the removal of which is called debugging? | A: bug;a bug;software bug | A bug is an error in a program; fixing bugs is called debugging.

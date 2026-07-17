@@ -1,0 +1,16 @@
+# 실용 영단어 O/X
+> 업무·생활에서 자주 쓰는 영단어
+// Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.practical/
+
+'invoice'는 '송장, 청구서'라는 뜻이다. | O | invoice는 대금 청구 내역을 담은 '청구서'를 뜻합니다.
+'refund'는 '추가 요금'이라는 뜻이다. | X | refund는 '환불'이라는 뜻입니다. 돈을 돌려받는 것입니다.
+'deadline'은 '마감 기한'이라는 뜻이다. | O | deadline은 일을 끝내야 하는 '마감 기한'을 뜻합니다.
+'discount'는 '가격 인상'이라는 뜻이다. | X | discount는 '할인'이라는 뜻으로 값을 깎아 주는 것입니다.
+'schedule'은 '일정, 일정표'라는 뜻이다. | O | schedule은 계획한 '일정'이나 '일정표'를 뜻합니다.
+'colleague'는 '경쟁자'라는 뜻이다. | X | colleague는 같이 일하는 '동료'를 뜻합니다. '경쟁자'는 rival입니다.
+'reservation'은 '예약'이라는 뜻이다. | O | reservation은 자리나 방을 미리 잡는 '예약'을 뜻합니다.
+'expense'는 '수입'이라는 뜻이다. | X | expense는 '비용, 지출'이라는 뜻입니다. '수입'은 income입니다.
+'warranty'는 '품질 보증(서)'이라는 뜻이다. | O | warranty는 제품의 품질을 일정 기간 보장하는 '보증'을 뜻합니다.
+'available'은 '이용할 수 없는'이라는 뜻이다. | X | available은 '이용 가능한, 구할 수 있는'이라는 뜻입니다.
+'shipment'는 '수송, 배송(품)'이라는 뜻이다. | O | shipment는 물건을 실어 보내는 '수송, 배송'을 뜻합니다.
+'purchase'는 '판매'라는 뜻이다. | X | purchase는 '구매, 구입'이라는 뜻입니다. '판매'는 sale입니다.

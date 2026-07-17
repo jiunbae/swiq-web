@@ -1,0 +1,16 @@
+# Arts and Culture O/X
+> Basics of art, music, and theatre
+// Swiq — https://swiq.jiun.dev/set/seed.en.arts-culture.arts/
+
+The Mona Lisa was painted by Leonardo da Vinci. | O | The Mona Lisa is a famous portrait painted by Leonardo da Vinci.
+Shakespeare wrote the play 'Romeo and Juliet'. | O | 'Romeo and Juliet' is one of William Shakespeare's best-known plays.
+A piano is a keyboard instrument. | O | A piano is played using a keyboard, making it a keyboard instrument.
+Beethoven was a famous composer. | O | Ludwig van Beethoven was a famous composer of classical music.
+Vincent van Gogh painted 'The Starry Night'. | O | 'The Starry Night' is one of Vincent van Gogh's most famous paintings.
+Ballet is a form of dance. | O | Ballet is a highly technical form of dance that began in Europe.
+The violin is a wind instrument. | X | The violin is a string instrument, played with a bow across its strings.
+Pablo Picasso wrote the play 'Hamlet'. | X | 'Hamlet' was written by William Shakespeare; Picasso was a painter.
+A drum is played by blowing air into it. | X | A drum is a percussion instrument that is struck, not blown.
+The Mona Lisa is a marble sculpture. | X | The Mona Lisa is a painting, not a sculpture.
+An orchestra is led by a chef who cooks food. | X | An orchestra is led by a conductor; a chef cooks food.
+Opera is a sport played with a ball. | X | Opera is a musical stage art that combines singing and drama, not a sport.

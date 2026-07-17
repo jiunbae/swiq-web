@@ -1,0 +1,16 @@
+# Computer Science Basics O/X
+> Fundamental computing concepts
+// Swiq — https://swiq.jiun.dev/set/seed.en.exam-computer.basic/
+
+CPU stands for Central Processing Unit. | O | The CPU, or Central Processing Unit, carries out a computer's instructions.
+One byte consists of 16 bits. | X | One byte is 8 bits, not 16.
+RAM is a type of volatile memory that loses data when power is off. | O | RAM is volatile, so its contents disappear once power is cut.
+HTML is a programming language used to manage databases. | X | HTML is a markup language for web pages; databases use languages like SQL.
+Windows, macOS, and Linux are examples of operating systems. | O | These are all widely used operating systems.
+A monitor is a primary input device. | X | A monitor is an output device that displays information.
+The binary system uses only the digits 0 and 1. | O | Binary represents data using just 0 and 1.
+HTTPS is less secure than HTTP. | X | HTTPS encrypts data, making it more secure than HTTP.
+An algorithm is a step-by-step procedure to solve a problem. | O | An algorithm is an ordered set of steps for solving a problem.
+Software refers to the physical components of a computer. | X | Physical parts are hardware; software refers to programs and code.
+A firewall helps protect a network from unauthorized access. | O | A firewall blocks unauthorized traffic to protect a network.
+DNS translates IP addresses into physical printer locations. | X | DNS translates human-readable domain names into IP addresses.

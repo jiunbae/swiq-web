@@ -1,0 +1,16 @@
+# Sports O/X
+> Rules and facts about popular sports
+// Swiq — https://swiq.jiun.dev/set/seed.en.sports.sports/
+
+A soccer (football) team has 11 players on the field. | O | Each soccer team fields 11 players, including the goalkeeper.
+In basketball, players score by putting the ball through a hoop. | O | Points are scored by shooting the ball through the opponent's hoop.
+The Olympic Games are usually held every four years. | O | The Summer and Winter Olympics are each held every four years.
+A marathon is about 42 kilometres long. | O | The official marathon distance is 42.195 kilometres.
+In baseball, three strikes make an out. | O | A batter is out after three strikes.
+Tennis is played with a racket. | O | Players hit the ball over a net using a racket.
+A soccer team has 20 players on the field at once. | X | A soccer team has 11 players on the field, not 20.
+In golf, the player with the highest score wins. | X | In golf, the lowest score (fewest strokes) wins.
+A basketball is smaller than a golf ball. | X | A basketball is much larger than a golf ball.
+The Olympic Games are held every year. | X | The Olympic Games are held every four years.
+In swimming races, athletes ride bicycles. | X | Swimmers race by swimming; cycling is a separate sport.
+A volleyball team has 15 players on the court. | X | A volleyball team has 6 players on the court.
