@@ -1,0 +1,97 @@
+{
+  "title": "Advanced Science O/X",
+  "description": "Deeper physics, chemistry, and biology",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "According to Einstein's equation E=mc², mass and energy are equivalent and can be converted into each other.",
+      "answer": true,
+      "explanation": "E=mc² expresses the equivalence of mass and energy, a cornerstone of modern physics."
+    },
+    {
+      "type": "ox",
+      "prompt": "The speed of light in a vacuum is approximately 300,000 kilometers per second.",
+      "answer": true,
+      "explanation": "Light travels at about 299,792 km/s in a vacuum."
+    },
+    {
+      "type": "ox",
+      "prompt": "An atom's chemical identity is determined by its number of neutrons.",
+      "answer": false,
+      "explanation": "An element is defined by its number of protons (atomic number), not neutrons."
+    },
+    {
+      "type": "ox",
+      "prompt": "DNA base pairing follows the rule that adenine pairs with thymine and guanine pairs with cytosine.",
+      "answer": true,
+      "explanation": "In DNA, A pairs with T and G pairs with C via complementary base pairing."
+    },
+    {
+      "type": "ox",
+      "prompt": "Absolute zero (0 kelvin) is the lowest possible temperature on the thermodynamic scale.",
+      "answer": true,
+      "explanation": "Absolute zero is the theoretical lower limit of temperature, about -273.15°C."
+    },
+    {
+      "type": "ox",
+      "prompt": "Enzymes are biological catalysts that lower the activation energy of chemical reactions.",
+      "answer": true,
+      "explanation": "Enzymes speed up reactions by lowering activation energy and are not consumed in the process."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sound can travel through the vacuum of outer space just like light.",
+      "answer": false,
+      "explanation": "Sound needs a medium (like air) to travel and cannot propagate through a vacuum; light can."
+    },
+    {
+      "type": "ox",
+      "prompt": "The mitochondria are often described as the powerhouse of the cell because they produce ATP.",
+      "answer": true,
+      "explanation": "Mitochondria generate ATP through cellular respiration, powering the cell."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which subatomic particle carries a negative electric charge?",
+      "choices": [
+        "Electron",
+        "Proton",
+        "Neutron",
+        "Photon"
+      ],
+      "answer": 1,
+      "explanation": "Electrons carry a negative charge; protons are positive and neutrons are neutral."
+    },
+    {
+      "type": "choice",
+      "prompt": "How many chromosomes are in a normal human body (somatic) cell?",
+      "choices": [
+        "46",
+        "23",
+        "48",
+        "44"
+      ],
+      "answer": 1,
+      "explanation": "Human somatic cells have 23 pairs, for a total of 46 chromosomes."
+    },
+    {
+      "type": "text",
+      "prompt": "What gas do plants absorb from the air and use during photosynthesis? (name the gas)",
+      "answers": [
+        "carbon dioxide",
+        "co2",
+        "co₂"
+      ],
+      "explanation": "Plants absorb carbon dioxide and, using sunlight, produce glucose and release oxygen."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the chemical symbol for water? (formula)",
+      "answers": [
+        "h2o",
+        "h₂o"
+      ],
+      "explanation": "Water is made of two hydrogen atoms and one oxygen atom, written H2O."
+    }
+  ]
+}

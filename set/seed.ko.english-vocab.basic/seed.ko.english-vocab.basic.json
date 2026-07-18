@@ -1,0 +1,78 @@
+{
+  "title": "영단어 뜻 기초 O/X",
+  "description": "기초 영단어의 뜻을 O/X로 확인",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "'apple'은 '사과'라는 뜻이다.",
+      "answer": true,
+      "explanation": "apple은 과일 '사과'를 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'happy'는 '슬픈'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "happy는 '행복한, 기쁜'이라는 뜻입니다. '슬픈'은 sad입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'water'는 '물'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "water는 마시는 '물'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'big'은 '작은'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "big은 '큰'이라는 뜻입니다. '작은'은 small입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'friend'는 '친구'라는 뜻이다.",
+      "answer": true,
+      "explanation": "friend는 '친구'를 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'fast'는 '느린'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "fast는 '빠른'이라는 뜻입니다. '느린'은 slow입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'book'은 '책'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "book은 '책'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'open'은 '닫다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "open은 '열다, 열린'이라는 뜻입니다. '닫다'는 close입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'morning'은 '아침'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "morning은 하루의 시작인 '아침'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'hot'은 '차가운'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "hot은 '뜨거운, 더운'이라는 뜻입니다. '차가운'은 cold입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'teacher'는 '교사, 선생님'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "teacher는 가르치는 사람인 '선생님'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'buy'는 '팔다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "buy는 '사다'라는 뜻입니다. '팔다'는 sell입니다."
+    }
+  ]
+}

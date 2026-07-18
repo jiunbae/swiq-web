@@ -1,0 +1,78 @@
+{
+  "title": "한국 지리 O/X",
+  "description": "우리나라 지형과 지역 상식",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "우리나라에서 가장 큰 섬은 제주도다.",
+      "answer": true,
+      "explanation": "제주도는 면적 약 1,850제곱킬로미터로 우리나라에서 가장 큰 섬입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "남한에서 가장 높은 산은 한라산이다.",
+      "answer": true,
+      "explanation": "한라산은 높이 약 1,947m로 남한에서 가장 높은 산입니다. 한반도 전체로는 백두산이 가장 높습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "한강은 서울을 가로질러 흐른다.",
+      "answer": true,
+      "explanation": "한강은 서울 시내를 동에서 서로 가로질러 흐르며 서울의 대표적인 강입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "낙동강은 주로 영남 지방을 흐르는 강이다.",
+      "answer": true,
+      "explanation": "낙동강은 강원도에서 발원해 영남 지방을 지나 남해로 흘러드는 강입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "독도는 행정구역상 경상북도에 속한다.",
+      "answer": true,
+      "explanation": "독도는 경상북도 울릉군에 속하는 대한민국의 영토입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "대한민국의 수도는 서울이다.",
+      "answer": true,
+      "explanation": "대한민국의 수도는 서울특별시입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "한반도에서 가장 긴 강은 한강이다.",
+      "answer": false,
+      "explanation": "한반도에서 가장 긴 강은 압록강(약 790km)입니다. 한강은 그다음 급에 속합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "제주도는 화산 활동과 무관하게 만들어진 섬이다.",
+      "answer": false,
+      "explanation": "제주도는 화산 활동으로 만들어진 화산섬으로, 한라산과 성산일출봉 등이 그 흔적입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "울릉도는 서해에 있다.",
+      "answer": false,
+      "explanation": "울릉도는 동해에 있는 섬입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "태백산맥은 한반도의 서쪽 해안을 따라 뻗어 있다.",
+      "answer": false,
+      "explanation": "태백산맥은 한반도의 동쪽, 즉 동해안을 따라 남북으로 뻗어 있습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "서울은 바다에 직접 접한 항구 도시다.",
+      "answer": false,
+      "explanation": "서울은 바다에 접하지 않은 내륙 도시로, 한강이 도심을 흐릅니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "우리나라에서 가장 큰 섬은 강화도다.",
+      "answer": false,
+      "explanation": "우리나라에서 가장 큰 섬은 제주도이며, 강화도는 그보다 훨씬 작습니다."
+    }
+  ]
+}

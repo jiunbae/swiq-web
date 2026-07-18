@@ -1,0 +1,78 @@
+{
+  "title": "Health Basics O/X",
+  "description": "Everyday facts about the human body and health",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "The human heart pumps blood throughout the body.",
+      "answer": true,
+      "explanation": "The heart works like a pump, circulating blood to every part of the body."
+    },
+    {
+      "type": "ox",
+      "prompt": "Antibiotics are effective at killing the virus that causes the common cold.",
+      "answer": false,
+      "explanation": "Antibiotics work on bacteria, not viruses like the common cold."
+    },
+    {
+      "type": "ox",
+      "prompt": "Regular exercise benefits cardiovascular health.",
+      "answer": true,
+      "explanation": "Consistent exercise strengthens the heart and blood vessels."
+    },
+    {
+      "type": "ox",
+      "prompt": "Humans have only one lung, located on the right side of the body.",
+      "answer": false,
+      "explanation": "Humans have two lungs, one on each side of the chest."
+    },
+    {
+      "type": "ox",
+      "prompt": "Adequate sleep supports the immune system.",
+      "answer": true,
+      "explanation": "Getting enough sleep helps the immune system work properly."
+    },
+    {
+      "type": "ox",
+      "prompt": "Vitamin C is a fat-soluble vitamin that builds up heavily in body fat.",
+      "answer": false,
+      "explanation": "Vitamin C is water-soluble, so excess amounts leave the body in urine."
+    },
+    {
+      "type": "ox",
+      "prompt": "Washing hands regularly helps prevent the spread of infections.",
+      "answer": true,
+      "explanation": "Hand-washing removes germs and reduces the spread of infections."
+    },
+    {
+      "type": "ox",
+      "prompt": "Normal adult body temperature is around 42 degrees Celsius.",
+      "answer": false,
+      "explanation": "Normal body temperature is about 37 degrees Celsius; 42 would be dangerous."
+    },
+    {
+      "type": "ox",
+      "prompt": "The skin is the largest organ of the human body.",
+      "answer": true,
+      "explanation": "By surface area, the skin is the body's largest organ."
+    },
+    {
+      "type": "ox",
+      "prompt": "Smoking has no connection to lung cancer.",
+      "answer": false,
+      "explanation": "Smoking is strongly linked to lung cancer and many other diseases."
+    },
+    {
+      "type": "ox",
+      "prompt": "Drinking water is essential for the human body to function.",
+      "answer": true,
+      "explanation": "Water is vital for digestion, temperature control, and many body functions."
+    },
+    {
+      "type": "ox",
+      "prompt": "The brain can function normally for hours without any oxygen.",
+      "answer": false,
+      "explanation": "The brain is very sensitive to a lack of oxygen and is harmed within minutes."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "World History O/X",
+  "description": "Key events and figures in history",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "World War II ended in 1945.",
+      "answer": true,
+      "explanation": "World War II ended in 1945 with the surrender of Germany and then Japan."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Great Wall is located in China.",
+      "answer": true,
+      "explanation": "The Great Wall was built across northern China to defend against invasions."
+    },
+    {
+      "type": "ox",
+      "prompt": "The first humans landed on the Moon in 1969.",
+      "answer": true,
+      "explanation": "Apollo 11 carried the first humans to walk on the Moon in 1969."
+    },
+    {
+      "type": "ox",
+      "prompt": "The ancient Egyptians built the pyramids at Giza.",
+      "answer": true,
+      "explanation": "The pyramids at Giza were built by the ancient Egyptians as tombs for their pharaohs."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Roman Empire was centered on the Mediterranean Sea.",
+      "answer": true,
+      "explanation": "At its height, the Roman Empire surrounded and controlled the Mediterranean region."
+    },
+    {
+      "type": "ox",
+      "prompt": "Christopher Columbus reached the Americas in 1492.",
+      "answer": true,
+      "explanation": "In 1492, Columbus crossed the Atlantic and reached islands in the Americas."
+    },
+    {
+      "type": "ox",
+      "prompt": "World War I began in 1950.",
+      "answer": false,
+      "explanation": "World War I began in 1914; 1950 was the start of the Korean War."
+    },
+    {
+      "type": "ox",
+      "prompt": "The pyramids of Egypt were built by the ancient Romans.",
+      "answer": false,
+      "explanation": "The pyramids were built by the ancient Egyptians, long before the Roman Empire existed."
+    },
+    {
+      "type": "ox",
+      "prompt": "Napoleon was an emperor of England.",
+      "answer": false,
+      "explanation": "Napoleon was an emperor of France, and he fought against Britain."
+    },
+    {
+      "type": "ox",
+      "prompt": "The printing press with movable type in Europe was invented by Shakespeare.",
+      "answer": false,
+      "explanation": "In Europe, Johannes Gutenberg is credited with the movable-type printing press; Shakespeare was a playwright."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Berlin Wall fell in 1789.",
+      "answer": false,
+      "explanation": "The Berlin Wall fell in 1989. 1789 was the start of the French Revolution."
+    },
+    {
+      "type": "ox",
+      "prompt": "Ancient Greece is famous for building the Taj Mahal.",
+      "answer": false,
+      "explanation": "The Taj Mahal was built in India under the Mughal Empire, not in ancient Greece."
+    }
+  ]
+}

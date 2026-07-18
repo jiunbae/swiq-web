@@ -1,0 +1,78 @@
+{
+  "title": "컴퓨터 일반 심화 O/X",
+  "description": "자료구조·보안·데이터베이스 심화 개념",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "IP 주소는 네트워크에서 장치를 식별하는 데 사용된다.",
+      "answer": true,
+      "explanation": "IP 주소는 네트워크에 연결된 각 장치를 구분하는 주소입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "캐시 메모리는 처리 속도를 느리게 하려고 사용하는 장치다.",
+      "answer": false,
+      "explanation": "캐시 메모리는 자주 쓰는 데이터를 미리 담아 처리 속도를 높입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "컴파일러는 소스 코드를 기계어로 번역하는 프로그램이다.",
+      "answer": true,
+      "explanation": "컴파일러는 사람이 쓴 고급 언어를 컴퓨터가 이해하는 기계어로 바꿉니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "16진수는 0부터 9까지의 숫자만 사용한다.",
+      "answer": false,
+      "explanation": "16진수는 0~9와 A~F까지 사용합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "알고리즘은 문제를 해결하기 위한 절차나 방법을 뜻한다.",
+      "answer": true,
+      "explanation": "알고리즘은 문제 해결을 위한 단계적 절차입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "데이터베이스에서 기본키(primary key)는 중복된 값을 여러 개 가질 수 있다.",
+      "answer": false,
+      "explanation": "기본키는 각 행을 유일하게 구별하므로 값이 중복될 수 없습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "방화벽은 네트워크 보안을 위한 시스템이다.",
+      "answer": true,
+      "explanation": "방화벽은 허가되지 않은 접근을 막아 네트워크를 보호합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "컴퓨터 바이러스는 하드웨어의 한 종류다.",
+      "answer": false,
+      "explanation": "컴퓨터 바이러스는 시스템을 해치는 악성 소프트웨어입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "클라우드 컴퓨팅은 인터넷을 통해 컴퓨팅 자원을 제공하는 방식이다.",
+      "answer": true,
+      "explanation": "클라우드는 인터넷으로 저장 공간·서버 등을 빌려 쓰는 방식입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "GPU는 소리를 처리하기 위해 만든 전용 장치다.",
+      "answer": false,
+      "explanation": "GPU는 그래픽·영상 처리를 위한 장치입니다. 소리는 사운드 카드가 담당합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "오픈 소스 소프트웨어는 소스 코드가 공개된 소프트웨어다.",
+      "answer": true,
+      "explanation": "오픈 소스는 누구나 소스 코드를 보고 수정·배포할 수 있습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "프로그래밍에서 변수는 값을 저장할 수 없는 상수다.",
+      "answer": false,
+      "explanation": "변수는 값을 담고 바꿀 수 있는 공간이며, 고정된 값은 상수입니다."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "컴퓨터과학 심화 O/X",
+  "description": "자료구조·알고리즘·시스템 원리",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "이진 탐색(binary search)은 정렬된 배열에서 O(log n) 시간에 값을 찾을 수 있다.",
+      "answer": true,
+      "explanation": "이진 탐색은 매 단계마다 탐색 범위를 절반으로 줄여 O(log n)의 시간복잡도를 가집니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "스택(stack)은 나중에 들어온 데이터가 먼저 나가는 LIFO 구조다.",
+      "answer": true,
+      "explanation": "스택은 Last In First Out으로, 가장 나중에 넣은 원소가 가장 먼저 빠져나옵니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "큐(queue)는 먼저 들어온 데이터가 먼저 나가는 FIFO 구조다.",
+      "answer": true,
+      "explanation": "큐는 First In First Out으로, 먼저 삽입된 원소가 먼저 제거됩니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "컴퓨터는 내부적으로 데이터를 10진수로 저장하고 처리한다.",
+      "answer": false,
+      "explanation": "컴퓨터는 0과 1로 이루어진 2진수로 데이터를 저장하고 처리합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "해시 테이블은 평균적으로 O(1)에 가까운 시간에 삽입·검색을 수행할 수 있다.",
+      "answer": true,
+      "explanation": "충돌이 잘 관리되면 해시 테이블은 평균 O(1) 시간에 삽입·검색이 가능합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "운영체제의 역할 중 하나는 CPU, 메모리 등 하드웨어 자원을 여러 프로세스에 배분·관리하는 것이다.",
+      "answer": true,
+      "explanation": "운영체제는 자원 관리자로서 프로세스에 CPU·메모리 등을 스케줄링하고 배분합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "컴파일러는 소스 코드를 한 줄씩 즉시 실행하며 기계어로 변환하지 않는다.",
+      "answer": false,
+      "explanation": "컴파일러는 소스 코드 전체를 기계어(목적 코드)로 번역합니다. 한 줄씩 실행하는 것은 인터프리터입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "빅오 표기법에서 O(n²)은 O(n log n)보다 입력이 커질수록 더 빠르게 증가한다.",
+      "answer": true,
+      "explanation": "점근적으로 n²은 n log n보다 빠르게 증가하므로 대규모 입력에서 더 느립니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "1바이트(byte)는 몇 비트(bit)인가?",
+      "choices": [
+        "8비트",
+        "4비트",
+        "16비트",
+        "10비트"
+      ],
+      "answer": 1,
+      "explanation": "1바이트는 8비트로 구성됩니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 중 비선형 자료구조에 해당하는 것은?",
+      "choices": [
+        "트리",
+        "배열",
+        "스택",
+        "큐"
+      ],
+      "answer": 1,
+      "explanation": "트리는 계층적 비선형 자료구조이고, 배열·스택·큐는 선형 자료구조입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "2진수 1011을 10진수로 바꾸면? (숫자만 입력)",
+      "answers": [
+        "11",
+        "십일"
+      ],
+      "explanation": "1011(2) = 8 + 0 + 2 + 1 = 11(10) 입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "정렬된 데이터에서 가운데 값과 비교하며 탐색 범위를 절반씩 줄이는 탐색 알고리즘의 이름은?",
+      "answers": [
+        "이진 탐색",
+        "이진탐색",
+        "binary search",
+        "이분 탐색",
+        "이분탐색"
+      ],
+      "explanation": "이진 탐색은 정렬된 자료에서 중앙값 비교로 범위를 절반씩 줄여 O(log n)에 탐색합니다."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "title": "영단어 회상 기초",
+  "description": "직접 입력해서 떠올리는 기초 영단어 12장 — 보고 고르는 대신 기억에서 꺼내 보세요.",
+  "cards": [
+    {
+      "type": "text",
+      "prompt": "'사과(과일)'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "apple"
+      ],
+      "explanation": "apple — 대표적인 기초 과일 어휘입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'책'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "book"
+      ],
+      "explanation": "book — '예약하다'라는 동사 의미도 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'물'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "water"
+      ],
+      "explanation": "water — 불가산 명사로 관사 없이 씁니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'학교'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "school"
+      ],
+      "explanation": "school — '학파', '(물고기) 떼'라는 뜻도 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'행복한'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "happy"
+      ],
+      "explanation": "happy — 명사형은 happiness입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'아침 식사'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "breakfast"
+      ],
+      "explanation": "breakfast — break(깨다) + fast(단식)에서 온 단어입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'도서관'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "library"
+      ],
+      "explanation": "library — 서점(bookstore)과 혼동하지 마세요."
+    },
+    {
+      "type": "text",
+      "prompt": "'우산'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "umbrella"
+      ],
+      "explanation": "umbrella — 라틴어 umbra(그늘)에서 왔습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'기억하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "remember"
+      ],
+      "explanation": "remember — 반의어는 forget입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'중요한'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "important"
+      ],
+      "explanation": "important — 명사형은 importance입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'대답하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "answer",
+        "reply"
+      ],
+      "explanation": "answer 또는 reply — 둘 다 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'여행'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "travel",
+        "trip"
+      ],
+      "explanation": "travel(여행하다/여행) 또는 trip(짧은 여행) — 둘 다 정답입니다."
+    }
+  ]
+}

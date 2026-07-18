@@ -1,0 +1,78 @@
+{
+  "title": "Technology O/X",
+  "description": "Computers and the internet basics",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "CPU stands for Central Processing Unit.",
+      "answer": true,
+      "explanation": "CPU is short for Central Processing Unit, the main processor of a computer."
+    },
+    {
+      "type": "ox",
+      "prompt": "'www' stands for World Wide Web.",
+      "answer": true,
+      "explanation": "www stands for World Wide Web, the system of web pages on the internet."
+    },
+    {
+      "type": "ox",
+      "prompt": "Email addresses usually contain the '@' symbol.",
+      "answer": true,
+      "explanation": "An email address places the '@' symbol between the user name and the domain."
+    },
+    {
+      "type": "ox",
+      "prompt": "Wi-Fi lets devices connect to the internet without cables.",
+      "answer": true,
+      "explanation": "Wi-Fi uses radio signals to connect devices to a network without wires."
+    },
+    {
+      "type": "ox",
+      "prompt": "1 gigabyte (GB) is larger than 1 megabyte (MB).",
+      "answer": true,
+      "explanation": "1 GB is about 1,000 MB, so it is much larger than 1 MB."
+    },
+    {
+      "type": "ox",
+      "prompt": "Android and iOS are operating systems for smartphones.",
+      "answer": true,
+      "explanation": "Android (Google) and iOS (Apple) are the two most widely used smartphone operating systems."
+    },
+    {
+      "type": "ox",
+      "prompt": "RAM keeps all its data even after the computer is turned off.",
+      "answer": false,
+      "explanation": "RAM is volatile memory; its contents are lost when the power is off."
+    },
+    {
+      "type": "ox",
+      "prompt": "HTML is an antivirus program.",
+      "answer": false,
+      "explanation": "HTML is a markup language used to build web pages, not an antivirus program."
+    },
+    {
+      "type": "ox",
+      "prompt": "One byte is smaller than one bit.",
+      "answer": false,
+      "explanation": "One byte equals eight bits, so a byte is larger than a bit."
+    },
+    {
+      "type": "ox",
+      "prompt": "iOS is an operating system made by Google.",
+      "answer": false,
+      "explanation": "iOS is made by Apple; Google makes Android."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'URL' is a type of computer virus.",
+      "answer": false,
+      "explanation": "A URL is a web address that points to a page or file, not a virus."
+    },
+    {
+      "type": "ox",
+      "prompt": "The internet was invented in the year 1500.",
+      "answer": false,
+      "explanation": "The internet grew out of networks developed in the 20th century, not in 1500."
+    }
+  ]
+}

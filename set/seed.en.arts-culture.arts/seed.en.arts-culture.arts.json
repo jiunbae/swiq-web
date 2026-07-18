@@ -1,0 +1,78 @@
+{
+  "title": "Arts and Culture O/X",
+  "description": "Basics of art, music, and theatre",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "The Mona Lisa was painted by Leonardo da Vinci.",
+      "answer": true,
+      "explanation": "The Mona Lisa is a famous portrait painted by Leonardo da Vinci."
+    },
+    {
+      "type": "ox",
+      "prompt": "Shakespeare wrote the play 'Romeo and Juliet'.",
+      "answer": true,
+      "explanation": "'Romeo and Juliet' is one of William Shakespeare's best-known plays."
+    },
+    {
+      "type": "ox",
+      "prompt": "A piano is a keyboard instrument.",
+      "answer": true,
+      "explanation": "A piano is played using a keyboard, making it a keyboard instrument."
+    },
+    {
+      "type": "ox",
+      "prompt": "Beethoven was a famous composer.",
+      "answer": true,
+      "explanation": "Ludwig van Beethoven was a famous composer of classical music."
+    },
+    {
+      "type": "ox",
+      "prompt": "Vincent van Gogh painted 'The Starry Night'.",
+      "answer": true,
+      "explanation": "'The Starry Night' is one of Vincent van Gogh's most famous paintings."
+    },
+    {
+      "type": "ox",
+      "prompt": "Ballet is a form of dance.",
+      "answer": true,
+      "explanation": "Ballet is a highly technical form of dance that began in Europe."
+    },
+    {
+      "type": "ox",
+      "prompt": "The violin is a wind instrument.",
+      "answer": false,
+      "explanation": "The violin is a string instrument, played with a bow across its strings."
+    },
+    {
+      "type": "ox",
+      "prompt": "Pablo Picasso wrote the play 'Hamlet'.",
+      "answer": false,
+      "explanation": "'Hamlet' was written by William Shakespeare; Picasso was a painter."
+    },
+    {
+      "type": "ox",
+      "prompt": "A drum is played by blowing air into it.",
+      "answer": false,
+      "explanation": "A drum is a percussion instrument that is struck, not blown."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Mona Lisa is a marble sculpture.",
+      "answer": false,
+      "explanation": "The Mona Lisa is a painting, not a sculpture."
+    },
+    {
+      "type": "ox",
+      "prompt": "An orchestra is led by a chef who cooks food.",
+      "answer": false,
+      "explanation": "An orchestra is led by a conductor; a chef cooks food."
+    },
+    {
+      "type": "ox",
+      "prompt": "Opera is a sport played with a ball.",
+      "answer": false,
+      "explanation": "Opera is a musical stage art that combines singing and drama, not a sport."
+    }
+  ]
+}

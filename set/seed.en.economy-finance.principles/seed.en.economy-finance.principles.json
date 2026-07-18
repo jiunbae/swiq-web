@@ -1,0 +1,94 @@
+{
+  "title": "Advanced Economics O/X",
+  "description": "Core principles of micro and macro economics",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "According to the law of demand, all else equal, when the price of a good rises its quantity demanded tends to fall.",
+      "answer": true,
+      "explanation": "The law of demand states that higher prices generally reduce the quantity demanded."
+    },
+    {
+      "type": "ox",
+      "prompt": "Inflation is a general and sustained increase in prices that reduces the purchasing power of money.",
+      "answer": true,
+      "explanation": "Inflation erodes purchasing power as the same money buys fewer goods over time."
+    },
+    {
+      "type": "ox",
+      "prompt": "Opportunity cost is the combined value of every alternative given up, not just the next-best one.",
+      "answer": false,
+      "explanation": "Opportunity cost is the value of the single next-best alternative forgone, not the sum of all alternatives."
+    },
+    {
+      "type": "ox",
+      "prompt": "Raising the central bank's key interest rate generally tends to cool borrowing, spending, and investment.",
+      "answer": true,
+      "explanation": "Higher rates raise borrowing costs, which tends to slow spending and investment."
+    },
+    {
+      "type": "ox",
+      "prompt": "GDP measures the market value of final goods and services produced within a country over a period.",
+      "answer": true,
+      "explanation": "GDP sums the market value of final output produced within a nation's borders in a period."
+    },
+    {
+      "type": "ox",
+      "prompt": "In a monopoly, many firms compete so that no single firm can influence the price.",
+      "answer": false,
+      "explanation": "A monopoly has a single dominant supplier that can influence price; many-firm competition is the opposite."
+    },
+    {
+      "type": "ox",
+      "prompt": "Supply and demand determine the equilibrium price where quantity supplied equals quantity demanded.",
+      "answer": true,
+      "explanation": "At equilibrium the quantity supplied equals the quantity demanded, setting the market price."
+    },
+    {
+      "type": "ox",
+      "prompt": "Deflation is a sustained fall in the general price level.",
+      "answer": true,
+      "explanation": "Deflation is a sustained decrease in prices, which can discourage spending and deepen slumps."
+    },
+    {
+      "type": "choice",
+      "prompt": "What policy tool does a central bank use to manage inflation by adjusting interest rates and money supply?",
+      "choices": [
+        "Monetary policy",
+        "Fiscal policy",
+        "Trade policy",
+        "Industrial policy"
+      ],
+      "answer": 1,
+      "explanation": "Monetary policy is run by a central bank to manage money supply, interest rates, and inflation."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which term describes goods that tend to be bought less as consumer income rises?",
+      "choices": [
+        "Inferior goods",
+        "Luxury goods",
+        "Normal goods",
+        "Public goods"
+      ],
+      "answer": 1,
+      "explanation": "Demand for inferior goods falls as income rises, unlike normal or luxury goods."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the government's use of taxation and spending to influence the economy called? (two words)",
+      "answers": [
+        "fiscal policy"
+      ],
+      "explanation": "Fiscal policy uses government taxing and spending to influence aggregate demand and the economy."
+    },
+    {
+      "type": "text",
+      "prompt": "What term describes a general, sustained rise in prices that reduces money's value?",
+      "answers": [
+        "inflation"
+      ],
+      "explanation": "Inflation is a sustained increase in the general price level that lowers purchasing power."
+    }
+  ]
+}

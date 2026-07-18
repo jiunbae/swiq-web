@@ -1,0 +1,78 @@
+{
+  "title": "세계의 수도 O/X",
+  "description": "여러 나라의 수도 맞히기",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "프랑스의 수도는 파리다.",
+      "answer": true,
+      "explanation": "프랑스의 수도는 파리입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "영국의 수도는 런던이다.",
+      "answer": true,
+      "explanation": "영국의 수도는 런던입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "이집트의 수도는 카이로다.",
+      "answer": true,
+      "explanation": "이집트의 수도는 카이로입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "중국의 수도는 베이징이다.",
+      "answer": true,
+      "explanation": "중국의 수도는 베이징(북경)입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "독일의 수도는 베를린이다.",
+      "answer": true,
+      "explanation": "독일의 수도는 베를린입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "러시아의 수도는 모스크바다.",
+      "answer": true,
+      "explanation": "러시아의 수도는 모스크바입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "미국의 수도는 뉴욕이다.",
+      "answer": false,
+      "explanation": "미국의 수도는 워싱턴 D.C.입니다. 뉴욕은 인구가 가장 많은 도시일 뿐입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "스위스의 수도는 취리히다.",
+      "answer": false,
+      "explanation": "스위스의 수도는 베른입니다. 취리히는 가장 큰 도시입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "튀르키예(터키)의 수도는 이스탄불이다.",
+      "answer": false,
+      "explanation": "튀르키예의 수도는 앙카라입니다. 이스탄불은 가장 큰 도시입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "스페인의 수도는 바르셀로나다.",
+      "answer": false,
+      "explanation": "스페인의 수도는 마드리드입니다. 바르셀로나는 두 번째로 큰 도시입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "브라질의 수도는 리우데자네이루다.",
+      "answer": false,
+      "explanation": "브라질의 수도는 계획도시 브라질리아입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "인도의 수도는 뭄바이다.",
+      "answer": false,
+      "explanation": "인도의 수도는 뉴델리입니다. 뭄바이는 경제 중심 도시입니다."
+    }
+  ]
+}

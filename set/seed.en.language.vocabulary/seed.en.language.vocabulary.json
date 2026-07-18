@@ -1,0 +1,78 @@
+{
+  "title": "English Vocabulary O/X",
+  "description": "Common word meanings",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "The word 'aquatic' relates to water.",
+      "answer": true,
+      "explanation": "'Aquatic' describes things that live in or relate to water."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'decade' is a period of ten years.",
+      "answer": true,
+      "explanation": "A decade means a span of ten years."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Enormous' means extremely large.",
+      "answer": true,
+      "explanation": "'Enormous' describes something very big in size or amount."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'herbivore' is an animal that eats plants.",
+      "answer": true,
+      "explanation": "A herbivore is an animal whose diet is mainly plants."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Ancient' means very old, from long ago.",
+      "answer": true,
+      "explanation": "'Ancient' describes something belonging to the very distant past."
+    },
+    {
+      "type": "ox",
+      "prompt": "To 'increase' means to become larger or greater in amount.",
+      "answer": true,
+      "explanation": "'Increase' means to grow in size, number, or amount."
+    },
+    {
+      "type": "ox",
+      "prompt": "The word 'gigantic' means very small.",
+      "answer": false,
+      "explanation": "'Gigantic' means extremely large, the opposite of small."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'century' is a period of ten years.",
+      "answer": false,
+      "explanation": "A century is a period of one hundred years; ten years is a decade."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Optional' means that something is required.",
+      "answer": false,
+      "explanation": "'Optional' means something is a choice and not required."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'carnivore' is an animal that eats only plants.",
+      "answer": false,
+      "explanation": "A carnivore is an animal that eats meat; a plant-eater is a herbivore."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Ascend' means to go down.",
+      "answer": false,
+      "explanation": "'Ascend' means to move upward; going down is to 'descend'."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Visible' means impossible to see.",
+      "answer": false,
+      "explanation": "'Visible' means able to be seen."
+    }
+  ]
+}

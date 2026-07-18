@@ -1,0 +1,99 @@
+{
+  "title": "Advanced World History O/X",
+  "description": "Key turning points in world history",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "The French Revolution began in 1789, marked by the storming of the Bastille.",
+      "answer": true,
+      "explanation": "The storming of the Bastille on 14 July 1789 is the symbolic start of the French Revolution."
+    },
+    {
+      "type": "ox",
+      "prompt": "World War I began in 1914, triggered by the assassination in Sarajevo.",
+      "answer": true,
+      "explanation": "The assassination of Archduke Franz Ferdinand in Sarajevo helped ignite WWI in 1914."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Industrial Revolution first began in Japan in the late 18th century.",
+      "answer": false,
+      "explanation": "The Industrial Revolution began in Britain in the late 18th century, not Japan."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Declaration of Independence of the United States was adopted in 1776.",
+      "answer": true,
+      "explanation": "The U.S. Declaration of Independence was adopted on 4 July 1776."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Roman Empire was founded in the 20th century.",
+      "answer": false,
+      "explanation": "The Roman Empire dates to antiquity (traditionally from 27 BC), not the 20th century."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Cold War was a period of geopolitical tension mainly between the United States and the Soviet Union.",
+      "answer": true,
+      "explanation": "The Cold War was the post-WWII rivalry between the U.S.-led West and the Soviet-led East."
+    },
+    {
+      "type": "ox",
+      "prompt": "World War II ended in 1945.",
+      "answer": true,
+      "explanation": "World War II ended in 1945 after beginning in 1939."
+    },
+    {
+      "type": "ox",
+      "prompt": "Christopher Columbus reached the Americas in 1492.",
+      "answer": true,
+      "explanation": "Columbus crossed the Atlantic and reached the Americas region in 1492."
+    },
+    {
+      "type": "choice",
+      "prompt": "In which year did World War II end?",
+      "choices": [
+        "1945",
+        "1918",
+        "1939",
+        "1950"
+      ],
+      "answer": 1,
+      "explanation": "World War II ended in 1945."
+    },
+    {
+      "type": "choice",
+      "prompt": "The storming of which fortress-prison symbolized the start of the French Revolution in 1789?",
+      "choices": [
+        "The Bastille",
+        "The Tower of London",
+        "The Louvre",
+        "Versailles"
+      ],
+      "answer": 1,
+      "explanation": "The storming of the Bastille on 14 July 1789 symbolized the revolution's beginning."
+    },
+    {
+      "type": "text",
+      "prompt": "Which wall divided East and West Berlin and fell in 1989? (name it)",
+      "answers": [
+        "berlin wall",
+        "the berlin wall"
+      ],
+      "explanation": "The Berlin Wall divided the city from 1961 and fell in 1989, symbolizing the Cold War's end."
+    },
+    {
+      "type": "text",
+      "prompt": "Which ancient civilization built the pyramids at Giza? (name the civilization)",
+      "answers": [
+        "egypt",
+        "ancient egypt",
+        "egyptian",
+        "the egyptians",
+        "egyptians"
+      ],
+      "explanation": "The ancient Egyptians built the pyramids at Giza as royal tombs."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Science Basics O/X",
+  "description": "Everyday facts about the natural world",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "Water freezes at 0 degrees Celsius at standard atmospheric pressure.",
+      "answer": true,
+      "explanation": "At standard pressure, water turns to ice at 0 degrees Celsius (32 degrees Fahrenheit)."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Sun is a star.",
+      "answer": true,
+      "explanation": "The Sun is the star at the center of our Solar System, producing light and heat by nuclear fusion."
+    },
+    {
+      "type": "ox",
+      "prompt": "Humans breathe in oxygen and breathe out carbon dioxide.",
+      "answer": true,
+      "explanation": "In respiration, we take in oxygen and release carbon dioxide as a waste product."
+    },
+    {
+      "type": "ox",
+      "prompt": "Plants make their own food through photosynthesis.",
+      "answer": true,
+      "explanation": "Plants use sunlight, water, and carbon dioxide to make food through photosynthesis."
+    },
+    {
+      "type": "ox",
+      "prompt": "The chemical formula for water is H2O.",
+      "answer": true,
+      "explanation": "Each water molecule is made of two hydrogen atoms and one oxygen atom, written as H2O."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sound travels slower than light.",
+      "answer": true,
+      "explanation": "Light travels far faster (about 300,000 km/s) than sound (about 340 m/s in air)."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Earth is the largest planet in the Solar System.",
+      "answer": false,
+      "explanation": "Jupiter is the largest planet; the Earth is much smaller."
+    },
+    {
+      "type": "ox",
+      "prompt": "A healthy human has two hearts.",
+      "answer": false,
+      "explanation": "A human normally has one heart that pumps blood around the body."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Sun revolves around the Earth.",
+      "answer": false,
+      "explanation": "The Earth and other planets orbit the Sun, not the other way around."
+    },
+    {
+      "type": "ox",
+      "prompt": "Bats are a kind of bird.",
+      "answer": false,
+      "explanation": "Bats can fly, but they are mammals that feed milk to their young, not birds."
+    },
+    {
+      "type": "ox",
+      "prompt": "Diamond is made of gold.",
+      "answer": false,
+      "explanation": "Diamond is made of carbon atoms, not gold."
+    },
+    {
+      "type": "ox",
+      "prompt": "A year on Earth is exactly 100 days long.",
+      "answer": false,
+      "explanation": "A year on Earth is about 365 days, the time it takes to orbit the Sun once."
+    }
+  ]
+}

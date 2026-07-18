@@ -1,0 +1,78 @@
+{
+  "title": "Economy Basics O/X",
+  "description": "Core ideas about money and the economy",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "Inflation refers to a general rise in prices over time.",
+      "answer": true,
+      "explanation": "Inflation means the overall level of prices keeps rising."
+    },
+    {
+      "type": "ox",
+      "prompt": "When demand rises and supply stays the same, prices usually fall.",
+      "answer": false,
+      "explanation": "When demand rises with fixed supply, prices usually rise, not fall."
+    },
+    {
+      "type": "ox",
+      "prompt": "A central bank can influence interest rates in an economy.",
+      "answer": true,
+      "explanation": "Central banks set policy rates that guide interest rates across the economy."
+    },
+    {
+      "type": "ox",
+      "prompt": "GDP stands for the total population of a country.",
+      "answer": false,
+      "explanation": "GDP means Gross Domestic Product, the value of goods and services produced."
+    },
+    {
+      "type": "ox",
+      "prompt": "Diversifying investments can help reduce risk.",
+      "answer": true,
+      "explanation": "Spreading money across assets lowers the impact of any single loss."
+    },
+    {
+      "type": "ox",
+      "prompt": "A budget deficit means income is greater than spending.",
+      "answer": false,
+      "explanation": "A deficit means spending is greater than income."
+    },
+    {
+      "type": "ox",
+      "prompt": "Banks accept deposits and provide loans.",
+      "answer": true,
+      "explanation": "Banks take in deposits and lend money out to borrowers."
+    },
+    {
+      "type": "ox",
+      "prompt": "Buying a company's stock makes you a creditor who lent it money.",
+      "answer": false,
+      "explanation": "Buying stock makes you a shareholder who owns part of the company."
+    },
+    {
+      "type": "ox",
+      "prompt": "Compound interest means earning interest on both principal and prior interest.",
+      "answer": true,
+      "explanation": "With compound interest, earned interest is added and itself earns interest."
+    },
+    {
+      "type": "ox",
+      "prompt": "Deflation means prices are continuously rising.",
+      "answer": false,
+      "explanation": "Deflation means prices are continuously falling; rising prices are inflation."
+    },
+    {
+      "type": "ox",
+      "prompt": "Supply and demand influence the price of goods.",
+      "answer": true,
+      "explanation": "The balance of supply and demand shapes market prices."
+    },
+    {
+      "type": "ox",
+      "prompt": "Taxes are voluntary donations that citizens may choose not to pay.",
+      "answer": false,
+      "explanation": "Taxes are compulsory payments required by law, not voluntary donations."
+    }
+  ]
+}

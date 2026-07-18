@@ -1,0 +1,78 @@
+{
+  "title": "네트워크·인터넷 O/X",
+  "description": "인터넷 통신과 웹의 기본 원리",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "HTTP는 웹에서 데이터를 주고받는 통신 규약이다.",
+      "answer": true,
+      "explanation": "HTTP는 웹 브라우저와 서버가 데이터를 주고받는 규약입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "HTTPS는 HTTP보다 보안이 약한 방식이다.",
+      "answer": false,
+      "explanation": "HTTPS는 통신을 암호화해 HTTP보다 보안이 강합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "DNS는 도메인 이름을 IP 주소로 변환한다.",
+      "answer": true,
+      "explanation": "DNS는 사람이 읽는 도메인 이름을 숫자 IP 주소로 바꿔 줍니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "Wi-Fi는 유선으로만 연결할 수 있는 기술이다.",
+      "answer": false,
+      "explanation": "Wi-Fi는 케이블 없이 연결하는 무선 통신 기술입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "URL은 인터넷 자원의 주소를 나타낸다.",
+      "answer": true,
+      "explanation": "URL은 웹 페이지 등 인터넷 자원의 위치를 가리키는 주소입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "이메일 주소는 @ 기호 없이 작성하는 것이 표준이다.",
+      "answer": false,
+      "explanation": "이메일 주소에는 사용자명과 도메인을 잇는 @ 기호가 반드시 들어갑니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "IPv6는 IPv4보다 더 많은 주소를 제공한다.",
+      "answer": true,
+      "explanation": "IPv6는 훨씬 긴 주소 체계로 IPv4보다 방대한 주소를 제공합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "쿠키(cookie)는 웹 서버가 아니라 프린터에 저장되는 정보다.",
+      "answer": false,
+      "explanation": "쿠키는 사용자 정보를 담아 웹 브라우저에 저장되는 데이터입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "라우터는 서로 다른 네트워크를 연결하는 장비다.",
+      "answer": true,
+      "explanation": "라우터는 네트워크 사이에서 데이터의 경로를 정해 연결합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "LAN은 광역 통신망을 의미한다.",
+      "answer": false,
+      "explanation": "LAN은 근거리 통신망입니다. 광역 통신망은 WAN입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "인터넷은 전 세계 컴퓨터 네트워크를 연결한 망이다.",
+      "answer": true,
+      "explanation": "인터넷은 수많은 네트워크가 서로 연결된 전 세계적 통신망입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "스팸 메일은 사용자가 요청한 유익한 정보성 메일을 뜻한다.",
+      "answer": false,
+      "explanation": "스팸 메일은 원하지 않는데 대량으로 오는 광고성 메일을 말합니다."
+    }
+  ]
+}

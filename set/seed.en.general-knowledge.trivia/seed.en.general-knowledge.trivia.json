@@ -1,0 +1,78 @@
+{
+  "title": "General Knowledge O/X",
+  "description": "Everyday facts and simple trivia",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "There are seven days in a week.",
+      "answer": true,
+      "explanation": "A week is made up of seven days."
+    },
+    {
+      "type": "ox",
+      "prompt": "A triangle has three sides.",
+      "answer": true,
+      "explanation": "By definition, a triangle is a shape with three sides."
+    },
+    {
+      "type": "ox",
+      "prompt": "An adult human has about 206 bones.",
+      "answer": true,
+      "explanation": "An adult human skeleton has about 206 bones."
+    },
+    {
+      "type": "ox",
+      "prompt": "Honey is made by bees.",
+      "answer": true,
+      "explanation": "Bees make honey from the nectar of flowers."
+    },
+    {
+      "type": "ox",
+      "prompt": "The largest animal on Earth is the blue whale.",
+      "answer": true,
+      "explanation": "The blue whale is the largest animal known to have lived on Earth."
+    },
+    {
+      "type": "ox",
+      "prompt": "There are twelve months in a year.",
+      "answer": true,
+      "explanation": "A calendar year is divided into twelve months."
+    },
+    {
+      "type": "ox",
+      "prompt": "A square has five sides.",
+      "answer": false,
+      "explanation": "A square has four equal sides, not five."
+    },
+    {
+      "type": "ox",
+      "prompt": "Mixing blue and yellow paint makes red.",
+      "answer": false,
+      "explanation": "Mixing blue and yellow paint makes green."
+    },
+    {
+      "type": "ox",
+      "prompt": "Spiders have six legs.",
+      "answer": false,
+      "explanation": "Spiders have eight legs; insects have six."
+    },
+    {
+      "type": "ox",
+      "prompt": "There are 24 hours in a week.",
+      "answer": false,
+      "explanation": "There are 24 hours in a day; a week has 168 hours."
+    },
+    {
+      "type": "ox",
+      "prompt": "The freezing point of water is 100 degrees Celsius.",
+      "answer": false,
+      "explanation": "Water freezes at 0 degrees Celsius; it boils at about 100 degrees Celsius."
+    },
+    {
+      "type": "ox",
+      "prompt": "An adult human normally has three eyes.",
+      "answer": false,
+      "explanation": "A human normally has two eyes."
+    }
+  ]
+}

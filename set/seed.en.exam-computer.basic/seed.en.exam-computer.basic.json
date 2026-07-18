@@ -1,0 +1,78 @@
+{
+  "title": "Computer Science Basics O/X",
+  "description": "Fundamental computing concepts",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "CPU stands for Central Processing Unit.",
+      "answer": true,
+      "explanation": "The CPU, or Central Processing Unit, carries out a computer's instructions."
+    },
+    {
+      "type": "ox",
+      "prompt": "One byte consists of 16 bits.",
+      "answer": false,
+      "explanation": "One byte is 8 bits, not 16."
+    },
+    {
+      "type": "ox",
+      "prompt": "RAM is a type of volatile memory that loses data when power is off.",
+      "answer": true,
+      "explanation": "RAM is volatile, so its contents disappear once power is cut."
+    },
+    {
+      "type": "ox",
+      "prompt": "HTML is a programming language used to manage databases.",
+      "answer": false,
+      "explanation": "HTML is a markup language for web pages; databases use languages like SQL."
+    },
+    {
+      "type": "ox",
+      "prompt": "Windows, macOS, and Linux are examples of operating systems.",
+      "answer": true,
+      "explanation": "These are all widely used operating systems."
+    },
+    {
+      "type": "ox",
+      "prompt": "A monitor is a primary input device.",
+      "answer": false,
+      "explanation": "A monitor is an output device that displays information."
+    },
+    {
+      "type": "ox",
+      "prompt": "The binary system uses only the digits 0 and 1.",
+      "answer": true,
+      "explanation": "Binary represents data using just 0 and 1."
+    },
+    {
+      "type": "ox",
+      "prompt": "HTTPS is less secure than HTTP.",
+      "answer": false,
+      "explanation": "HTTPS encrypts data, making it more secure than HTTP."
+    },
+    {
+      "type": "ox",
+      "prompt": "An algorithm is a step-by-step procedure to solve a problem.",
+      "answer": true,
+      "explanation": "An algorithm is an ordered set of steps for solving a problem."
+    },
+    {
+      "type": "ox",
+      "prompt": "Software refers to the physical components of a computer.",
+      "answer": false,
+      "explanation": "Physical parts are hardware; software refers to programs and code."
+    },
+    {
+      "type": "ox",
+      "prompt": "A firewall helps protect a network from unauthorized access.",
+      "answer": true,
+      "explanation": "A firewall blocks unauthorized traffic to protect a network."
+    },
+    {
+      "type": "ox",
+      "prompt": "DNS translates IP addresses into physical printer locations.",
+      "answer": false,
+      "explanation": "DNS translates human-readable domain names into IP addresses."
+    }
+  ]
+}

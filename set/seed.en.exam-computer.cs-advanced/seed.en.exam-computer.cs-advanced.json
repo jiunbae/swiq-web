@@ -1,0 +1,97 @@
+{
+  "title": "Advanced Computer Science O/X",
+  "description": "Data structures, algorithms, and systems",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "Binary search finds a value in a sorted array in O(log n) time.",
+      "answer": true,
+      "explanation": "Binary search halves the search range each step, giving O(log n) time."
+    },
+    {
+      "type": "ox",
+      "prompt": "A stack is a Last-In-First-Out (LIFO) data structure.",
+      "answer": true,
+      "explanation": "In a stack, the most recently added element is removed first (LIFO)."
+    },
+    {
+      "type": "ox",
+      "prompt": "A queue is a First-In-First-Out (FIFO) data structure.",
+      "answer": true,
+      "explanation": "In a queue, the first element added is the first removed (FIFO)."
+    },
+    {
+      "type": "ox",
+      "prompt": "Computers internally store and process data in base-10 (decimal).",
+      "answer": false,
+      "explanation": "Computers store and process data in binary (base-2), using 0s and 1s."
+    },
+    {
+      "type": "ox",
+      "prompt": "One byte consists of 8 bits.",
+      "answer": true,
+      "explanation": "A byte is made up of 8 bits."
+    },
+    {
+      "type": "ox",
+      "prompt": "A compiler translates source code into machine code before the program runs.",
+      "answer": true,
+      "explanation": "A compiler translates the whole program into machine code ahead of execution, unlike an interpreter."
+    },
+    {
+      "type": "ox",
+      "prompt": "In most programming languages, array indices start at 1.",
+      "answer": false,
+      "explanation": "In many languages (C, Java, Python) array indices start at 0, not 1."
+    },
+    {
+      "type": "ox",
+      "prompt": "A hash table can offer average-case O(1) time for insertion and lookup.",
+      "answer": true,
+      "explanation": "With good hashing and collision handling, hash tables average O(1) operations."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which time complexity grows fastest as input size n becomes large?",
+      "choices": [
+        "O(n²)",
+        "O(n)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": 1,
+      "explanation": "O(n²) grows faster than O(n), O(log n), or constant time as n increases."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which data structure is best suited for Last-In-First-Out behavior?",
+      "choices": [
+        "Stack",
+        "Queue",
+        "Array",
+        "Graph"
+      ],
+      "answer": 1,
+      "explanation": "A stack provides LIFO behavior; a queue is FIFO."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the decimal value of the binary number 1010? (digits only)",
+      "answers": [
+        "10",
+        "ten"
+      ],
+      "explanation": "1010 in binary equals 8 + 0 + 2 + 0 = 10 in decimal."
+    },
+    {
+      "type": "text",
+      "prompt": "What do we call a flaw or error in a computer program, the removal of which is called debugging?",
+      "answers": [
+        "bug",
+        "a bug",
+        "software bug"
+      ],
+      "explanation": "A bug is an error in a program; fixing bugs is called debugging."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "인체·의학 심화 O/X",
+  "description": "장기와 생리 작용에 관한 심화 상식",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "인슐린은 혈당을 낮추는 호르몬이다.",
+      "answer": true,
+      "explanation": "인슐린은 이자에서 분비되어 혈당을 낮춥니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "적혈구는 산소가 아니라 이산화탄소만 운반한다.",
+      "answer": false,
+      "explanation": "적혈구는 주로 산소를 온몸으로 운반합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "백혈구는 우리 몸의 면역과 방어를 담당한다.",
+      "answer": true,
+      "explanation": "백혈구는 세균·바이러스와 싸우는 면역 세포입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "혈액을 걸러 소변을 만드는 기관은 심장이다.",
+      "answer": false,
+      "explanation": "소변은 신장(콩팥)에서 혈액을 걸러 만들어집니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "간은 해독 작용과 영양소 대사를 담당하는 기관이다.",
+      "answer": true,
+      "explanation": "간은 독성 물질을 처리하고 영양소를 저장·대사합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "뇌는 산소 없이도 오랜 시간 정상 기능을 유지할 수 있다.",
+      "answer": false,
+      "explanation": "뇌는 산소 부족에 매우 취약해 잠깐만 끊겨도 손상됩니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "뼈는 혈액을 만드는 골수를 품고 있다.",
+      "answer": true,
+      "explanation": "뼈 속 골수에서 적혈구·백혈구 등이 만들어집니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "혈압에서 수축기 혈압은 심장이 이완할 때의 압력을 뜻한다.",
+      "answer": false,
+      "explanation": "수축기 혈압은 심장이 수축해 피를 내보낼 때의 압력입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "DNA는 유전 정보를 담고 있는 물질이다.",
+      "answer": true,
+      "explanation": "DNA에는 생명의 설계도인 유전 정보가 담겨 있습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "소화는 위에서만 이루어지고 소장에서는 일어나지 않는다.",
+      "answer": false,
+      "explanation": "소장에서도 많은 영양소가 소화·흡수됩니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "항체는 특정 항원에 대응하여 만들어지는 단백질이다.",
+      "answer": true,
+      "explanation": "항체는 침입한 항원에 맞서 만들어지는 방어 단백질입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "사람의 정상 심박수는 안정 시 분당 약 200회다.",
+      "answer": false,
+      "explanation": "안정 시 성인의 정상 심박수는 대략 분당 60~100회입니다."
+    }
+  ]
+}

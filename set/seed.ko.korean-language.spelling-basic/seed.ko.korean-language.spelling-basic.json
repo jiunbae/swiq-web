@@ -1,0 +1,78 @@
+{
+  "title": "맞춤법 기초 O/X",
+  "description": "헷갈리기 쉬운 기본 맞춤법",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "'됩니다'는 '되다'의 올바른 활용 표기다.",
+      "answer": true,
+      "explanation": "'되+ㅂ니다'로 '됩니다'가 바른 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'설겆이'는 '설거지'의 올바른 표기다.",
+      "answer": false,
+      "explanation": "바른 표기는 '설거지'입니다. '설겆이'는 틀린 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'깨끗이'는 바른 표기다.",
+      "answer": true,
+      "explanation": "'깨끗이'가 표준 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'역활'은 '역할'의 올바른 표기다.",
+      "answer": false,
+      "explanation": "바른 표기는 '역할'입니다. '역활'은 틀린 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'며칠'은 바른 표기다.",
+      "answer": true,
+      "explanation": "'며칠'이 표준이며 '몇 일'은 틀린 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'오랫만에'는 '오랜만에'의 올바른 표기다.",
+      "answer": false,
+      "explanation": "바른 표기는 '오랜만에'입니다. '오랫만에'는 틀린 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'금세'는 '지금 바로'라는 뜻의 바른 표기다.",
+      "answer": true,
+      "explanation": "'금세'는 '지금 바로'라는 뜻의 올바른 표기입니다. '금새'는 틀립니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'웬지'는 '왠지'의 올바른 표기다.",
+      "answer": false,
+      "explanation": "바른 표기는 '왠지'입니다. '웬지'는 틀린 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'희망'의 뜻으로 쓰는 '바람'은 바른 표기다.",
+      "answer": true,
+      "explanation": "'바라다'에서 온 명사는 '바람'이 맞습니다. '바램'은 틀린 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'알맞는'은 '알맞은'의 올바른 표기다.",
+      "answer": false,
+      "explanation": "'알맞다'는 형용사라 '알맞은'이 맞습니다. '알맞는'은 틀린 표기입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'가르치다'는 '지식을 전하다'라는 뜻의 바른 표기다.",
+      "answer": true,
+      "explanation": "지식을 전할 때는 '가르치다'가 맞고, '가리키다'는 방향을 나타냅니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'어의없다'는 '어이없다'의 올바른 표기다.",
+      "answer": false,
+      "explanation": "바른 표기는 '어이없다'입니다. '어의없다'는 틀린 표기입니다."
+    }
+  ]
+}

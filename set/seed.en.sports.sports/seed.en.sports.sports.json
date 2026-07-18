@@ -1,0 +1,78 @@
+{
+  "title": "Sports O/X",
+  "description": "Rules and facts about popular sports",
+  "cards": [
+    {
+      "type": "ox",
+      "prompt": "A soccer (football) team has 11 players on the field.",
+      "answer": true,
+      "explanation": "Each soccer team fields 11 players, including the goalkeeper."
+    },
+    {
+      "type": "ox",
+      "prompt": "In basketball, players score by putting the ball through a hoop.",
+      "answer": true,
+      "explanation": "Points are scored by shooting the ball through the opponent's hoop."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Olympic Games are usually held every four years.",
+      "answer": true,
+      "explanation": "The Summer and Winter Olympics are each held every four years."
+    },
+    {
+      "type": "ox",
+      "prompt": "A marathon is about 42 kilometres long.",
+      "answer": true,
+      "explanation": "The official marathon distance is 42.195 kilometres."
+    },
+    {
+      "type": "ox",
+      "prompt": "In baseball, three strikes make an out.",
+      "answer": true,
+      "explanation": "A batter is out after three strikes."
+    },
+    {
+      "type": "ox",
+      "prompt": "Tennis is played with a racket.",
+      "answer": true,
+      "explanation": "Players hit the ball over a net using a racket."
+    },
+    {
+      "type": "ox",
+      "prompt": "A soccer team has 20 players on the field at once.",
+      "answer": false,
+      "explanation": "A soccer team has 11 players on the field, not 20."
+    },
+    {
+      "type": "ox",
+      "prompt": "In golf, the player with the highest score wins.",
+      "answer": false,
+      "explanation": "In golf, the lowest score (fewest strokes) wins."
+    },
+    {
+      "type": "ox",
+      "prompt": "A basketball is smaller than a golf ball.",
+      "answer": false,
+      "explanation": "A basketball is much larger than a golf ball."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Olympic Games are held every year.",
+      "answer": false,
+      "explanation": "The Olympic Games are held every four years."
+    },
+    {
+      "type": "ox",
+      "prompt": "In swimming races, athletes ride bicycles.",
+      "answer": false,
+      "explanation": "Swimmers race by swimming; cycling is a separate sport."
+    },
+    {
+      "type": "ox",
+      "prompt": "A volleyball team has 15 players on the court.",
+      "answer": false,
+      "explanation": "A volleyball team has 6 players on the court."
+    }
+  ]
+}
