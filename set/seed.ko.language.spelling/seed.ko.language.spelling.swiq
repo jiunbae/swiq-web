@@ -1,5 +1,6 @@
 # 한글 맞춤법 O/X
 > 헷갈리는 우리말 바른 표기
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.language.spelling/
 
 '되어요'의 준말로 '돼요'는 올바른 표기다. | O | '돼'는 '되어'의 준말이라 '돼요(=되어요)'는 올바른 표기입니다.

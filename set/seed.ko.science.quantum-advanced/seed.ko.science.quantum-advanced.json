@@ -1,6 +1,7 @@
 {
   "title": "양자·현대물리 심화 O/X",
   "description": "양자역학과 현대물리의 핵심 개념",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

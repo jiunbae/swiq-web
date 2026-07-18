@@ -1,6 +1,7 @@
 {
   "title": "맞춤법 심화 O/X",
   "description": "뜻이 헷갈리는 단어와 심화 맞춤법",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

@@ -1,5 +1,6 @@
 # 실용 영단어 O/X
 > 업무·생활에서 자주 쓰는 영단어
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.practical/
 
 'invoice'는 '송장, 청구서'라는 뜻이다. | O | invoice는 대금 청구 내역을 담은 '청구서'를 뜻합니다.

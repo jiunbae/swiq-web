@@ -1,5 +1,6 @@
 # 기초 과학 O/X
 > 매일 알아두면 좋은 과학 상식
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.general.science-basic/
 
 물은 표준 대기압에서 섭씨 100도에 끓는다. | O | 해수면 부근의 표준 대기압(1기압)을 기준으로 한 값입니다. 고도가 높아져 기압이 낮아지면 끓는점도 낮아집니다.

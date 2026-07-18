@@ -1,6 +1,7 @@
 {
   "title": "철학·논리학 심화 O/X",
   "description": "서양 철학과 논리학의 핵심",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

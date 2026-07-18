@@ -1,6 +1,7 @@
 {
   "title": "Computer Science Basics O/X",
   "description": "Fundamental computing concepts",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

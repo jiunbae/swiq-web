@@ -1,6 +1,7 @@
 {
   "title": "IT·기술 상식 O/X",
   "description": "컴퓨터와 인터넷 기초 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

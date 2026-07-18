@@ -1,6 +1,7 @@
 {
   "title": "맞춤법 기초 O/X",
   "description": "헷갈리기 쉬운 기본 맞춤법",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

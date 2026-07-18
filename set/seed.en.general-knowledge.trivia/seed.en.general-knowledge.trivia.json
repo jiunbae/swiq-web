@@ -1,6 +1,7 @@
 {
   "title": "General Knowledge O/X",
   "description": "Everyday facts and simple trivia",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

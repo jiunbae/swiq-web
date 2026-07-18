@@ -1,5 +1,6 @@
 # 맞춤법 심화 O/X
 > 뜻이 헷갈리는 단어와 심화 맞춤법
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.korean-language.spelling-advanced/
 
 '드러내다'는 '겉으로 나타내다'라는 뜻의 바른 표기다. | O | '드러내다'는 감정 등을 겉으로 나타낼 때 씁니다. '들어내다'는 물건을 밖으로 옮기는 뜻입니다.

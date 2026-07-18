@@ -1,6 +1,7 @@
 {
   "title": "영단어 뜻 심화 O/X",
   "description": "수능·시험에 나오는 고급 영단어",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

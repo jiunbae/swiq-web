@@ -1,6 +1,7 @@
 {
   "title": "분자생물학 심화 O/X",
   "description": "DNA·단백질·세포의 원리",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

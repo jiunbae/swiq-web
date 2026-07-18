@@ -1,6 +1,7 @@
 {
   "title": "영단어 뜻 기초 O/X",
   "description": "기초 영단어의 뜻을 O/X로 확인",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

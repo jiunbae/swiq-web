@@ -1,5 +1,6 @@
 # 영단어 뜻 기초 O/X
 > 기초 영단어의 뜻을 O/X로 확인
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.basic/
 
 'apple'은 '사과'라는 뜻이다. | O | apple은 과일 '사과'를 뜻합니다.

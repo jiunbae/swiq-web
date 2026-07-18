@@ -1,6 +1,7 @@
 {
   "title": "역사 상식 O/X",
   "description": "한국사와 세계사의 기본 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

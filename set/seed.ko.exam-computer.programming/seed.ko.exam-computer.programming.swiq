@@ -1,5 +1,6 @@
 # 프로그래밍 개념 심화 O/X
 > 언어·패러다임·개발 원리
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.exam-computer.programming/
 
 객체지향 프로그래밍의 캡슐화는 데이터와 그 데이터를 다루는 메서드를 하나의 단위로 묶는 개념이다. | O | 캡슐화는 상태와 동작을 객체로 묶고 내부 구현을 감춰 접근을 통제하는 개념입니다.

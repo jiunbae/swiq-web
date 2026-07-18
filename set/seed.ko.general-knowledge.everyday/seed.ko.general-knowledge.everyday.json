@@ -1,6 +1,7 @@
 {
   "title": "생활 안전 상식 O/X",
   "description": "일상과 안전에 필요한 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

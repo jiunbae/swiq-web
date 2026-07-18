@@ -1,5 +1,6 @@
 # 맞춤법 기초 O/X
 > 헷갈리기 쉬운 기본 맞춤법
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.korean-language.spelling-basic/
 
 '됩니다'는 '되다'의 올바른 활용 표기다. | O | '되+ㅂ니다'로 '됩니다'가 바른 표기입니다.

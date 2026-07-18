@@ -1,6 +1,7 @@
 {
   "title": "Health Basics O/X",
   "description": "Everyday facts about the human body and health",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

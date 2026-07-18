@@ -1,6 +1,7 @@
 {
   "title": "한글 맞춤법 O/X",
   "description": "헷갈리는 우리말 바른 표기",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

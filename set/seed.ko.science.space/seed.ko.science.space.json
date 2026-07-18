@@ -1,6 +1,7 @@
 {
   "title": "우주와 천문 O/X",
   "description": "태양계와 별에 관한 기본 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

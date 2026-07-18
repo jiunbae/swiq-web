@@ -1,6 +1,7 @@
 {
   "title": "Sports O/X",
   "description": "Rules and facts about popular sports",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

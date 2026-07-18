@@ -1,6 +1,7 @@
 {
   "title": "Advanced Science O/X",
   "description": "Deeper physics, chemistry, and biology",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

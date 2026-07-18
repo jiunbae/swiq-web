@@ -1,6 +1,7 @@
 {
   "title": "수학 개념 심화 O/X",
   "description": "수와 도형, 확률의 핵심 개념",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

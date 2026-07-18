@@ -1,6 +1,7 @@
 {
   "title": "경제 원리 심화 O/X",
   "description": "수요·공급부터 거시경제까지",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

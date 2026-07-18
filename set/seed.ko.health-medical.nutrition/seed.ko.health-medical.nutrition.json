@@ -1,6 +1,7 @@
 {
   "title": "영양·식품 O/X",
   "description": "영양소와 식생활에 관한 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

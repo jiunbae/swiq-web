@@ -1,5 +1,6 @@
 # 양자·현대물리 심화 O/X
 > 양자역학과 현대물리의 핵심 개념
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.science.quantum-advanced/
 
 하이젠베르크의 불확정성 원리에 따르면 입자의 위치와 운동량을 동시에 임의의 정밀도로 측정할 수 없다. | O | 위치의 불확정성과 운동량의 불확정성의 곱은 플랑크 상수에 비례하는 하한값보다 작을 수 없습니다.

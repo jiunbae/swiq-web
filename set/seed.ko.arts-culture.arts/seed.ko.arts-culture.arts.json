@@ -1,6 +1,7 @@
 {
   "title": "예술·문화 상식 O/X",
   "description": "미술·음악·문학의 기본 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

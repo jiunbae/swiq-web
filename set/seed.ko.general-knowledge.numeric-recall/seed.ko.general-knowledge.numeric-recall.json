@@ -1,6 +1,7 @@
 {
   "title": "숫자로 기억하는 핵심 지식",
   "description": "한국사·과학·기술의 기준 수치를 여러 방식으로 복습해요",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

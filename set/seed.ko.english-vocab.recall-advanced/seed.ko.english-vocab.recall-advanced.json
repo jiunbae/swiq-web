@@ -1,6 +1,7 @@
 {
   "title": "영단어 고급 회상",
   "description": "고급 어휘를 뜻으로 떠올려 입력",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "text",

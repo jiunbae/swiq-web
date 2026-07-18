@@ -1,6 +1,7 @@
 {
   "title": "Technology O/X",
   "description": "Computers and the internet basics",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

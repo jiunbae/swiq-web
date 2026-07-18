@@ -1,6 +1,7 @@
 {
   "title": "세계의 수도 O/X",
   "description": "여러 나라의 수도 맞히기",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

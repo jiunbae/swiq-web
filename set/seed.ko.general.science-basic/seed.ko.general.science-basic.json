@@ -1,6 +1,7 @@
 {
   "title": "기초 과학 O/X",
   "description": "매일 알아두면 좋은 과학 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

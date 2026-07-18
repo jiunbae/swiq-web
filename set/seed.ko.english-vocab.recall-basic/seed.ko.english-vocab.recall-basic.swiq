@@ -1,5 +1,6 @@
 # 영단어 회상 기초
 > 직접 입력해서 떠올리는 기초 영단어 12장 — 보고 고르는 대신 기억에서 꺼내 보세요.
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-basic/
 
 Q: '사과(과일)'를 뜻하는 영단어를 입력하세요. | A: apple | apple — 대표적인 기초 과일 어휘입니다.

@@ -1,5 +1,6 @@
 # 한국 지리 O/X
 > 우리나라 지형과 지역 상식
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.geography.korea-geo/
 
 우리나라에서 가장 큰 섬은 제주도다. | O | 제주도는 면적 약 1,850제곱킬로미터로 우리나라에서 가장 큰 섬입니다.

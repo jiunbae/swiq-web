@@ -1,5 +1,6 @@
 # 한국사 심화 O/X
 > 우리 역사의 인물과 사건
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.history.korea-history/
 
 세종대왕은 조선의 제4대 왕이다. | O | 세종대왕은 태조, 정종, 태종에 이은 조선의 제4대 왕입니다.

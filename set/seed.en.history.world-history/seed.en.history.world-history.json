@@ -1,6 +1,7 @@
 {
   "title": "World History O/X",
   "description": "Key events and figures in history",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

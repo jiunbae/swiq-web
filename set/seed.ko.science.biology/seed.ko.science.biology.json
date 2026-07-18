@@ -1,6 +1,7 @@
 {
   "title": "인체와 생물 O/X",
   "description": "몸과 생명에 관한 기초 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

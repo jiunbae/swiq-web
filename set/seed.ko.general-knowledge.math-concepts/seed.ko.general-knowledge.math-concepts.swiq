@@ -1,5 +1,6 @@
 # 수학 개념 심화 O/X
 > 수와 도형, 확률의 핵심 개념
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.general-knowledge.math-concepts/
 
 소수(prime number)는 1과 자기 자신만을 약수로 가지는 1보다 큰 자연수다. | O | 소수는 1과 자기 자신 외에 약수가 없는 1보다 큰 자연수입니다.

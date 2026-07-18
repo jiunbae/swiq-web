@@ -1,5 +1,6 @@
 # 영단어 고급 회상
 > 고급 어휘를 뜻으로 떠올려 입력
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-advanced/
 
 Q: '모호한, 여러 뜻으로 해석되는'을 뜻하는 영단어를 입력하세요. | A: ambiguous | ambiguous는 뜻이 분명하지 않고 여러 해석이 가능한 상태를 나타냅니다.

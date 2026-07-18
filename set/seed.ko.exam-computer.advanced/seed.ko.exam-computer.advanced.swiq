@@ -1,5 +1,6 @@
 # 컴퓨터 일반 심화 O/X
 > 자료구조·보안·데이터베이스 심화 개념
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.exam-computer.advanced/
 
 IP 주소는 네트워크에서 장치를 식별하는 데 사용된다. | O | IP 주소는 네트워크에 연결된 각 장치를 구분하는 주소입니다.

@@ -1,6 +1,7 @@
 {
   "title": "Arts and Culture O/X",
   "description": "Basics of art, music, and theatre",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

@@ -1,5 +1,6 @@
 # 스포츠 상식 O/X
 > 여러 종목의 기본 규칙과 상식
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.sports.sports/
 
 축구는 한 팀이 11명으로 경기한다. | O | 축구는 골키퍼를 포함해 한 팀이 11명으로 경기합니다.

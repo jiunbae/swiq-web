@@ -1,5 +1,6 @@
 # 표준어·띄어쓰기 O/X
 > 표준어 판정과 띄어쓰기 규칙
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.korean-language.standard/
 
 '강낭콩'은 표준어다. | O | '강낭콩'이 표준어이며 '강남콩'은 틀린 표기입니다.

@@ -1,6 +1,7 @@
 {
   "title": "한국사 심화 O/X",
   "description": "우리 역사의 인물과 사건",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

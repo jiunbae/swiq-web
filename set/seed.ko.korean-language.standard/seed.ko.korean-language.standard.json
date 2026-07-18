@@ -1,6 +1,7 @@
 {
   "title": "표준어·띄어쓰기 O/X",
   "description": "표준어 판정과 띄어쓰기 규칙",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

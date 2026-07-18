@@ -1,6 +1,7 @@
 {
   "title": "컴퓨터 일반 기초 O/X",
   "description": "컴퓨터 활용 시험의 기초 개념",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

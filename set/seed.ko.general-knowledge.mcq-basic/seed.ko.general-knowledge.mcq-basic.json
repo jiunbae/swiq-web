@@ -1,6 +1,7 @@
 {
   "title": "상식 4지선다",
   "description": "네 개의 보기 중 정답을 고르는 기본 상식 12장.",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "choice",

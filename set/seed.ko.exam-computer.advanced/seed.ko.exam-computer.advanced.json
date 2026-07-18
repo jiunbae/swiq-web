@@ -1,6 +1,7 @@
 {
   "title": "컴퓨터 일반 심화 O/X",
   "description": "자료구조·보안·데이터베이스 심화 개념",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

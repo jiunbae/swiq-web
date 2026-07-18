@@ -1,6 +1,7 @@
 {
   "title": "World Geography O/X",
   "description": "Countries, oceans, and landmarks",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

@@ -1,6 +1,7 @@
 {
   "title": "인체·의학 심화 O/X",
   "description": "장기와 생리 작용에 관한 심화 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

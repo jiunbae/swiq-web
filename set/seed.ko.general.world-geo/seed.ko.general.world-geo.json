@@ -1,6 +1,7 @@
 {
   "title": "세계 지리 O/X",
   "description": "나라와 지형에 대한 기본 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

@@ -1,6 +1,7 @@
 {
   "title": "응급처치 상식 O/X",
   "description": "위급 상황에서 알아 두면 좋은 응급처치",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

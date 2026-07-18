@@ -1,6 +1,7 @@
 {
   "title": "프로그래밍 개념 심화 O/X",
   "description": "언어·패러다임·개발 원리",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

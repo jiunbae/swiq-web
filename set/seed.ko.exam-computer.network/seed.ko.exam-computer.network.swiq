@@ -1,5 +1,6 @@
 # 네트워크·인터넷 O/X
 > 인터넷 통신과 웹의 기본 원리
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.exam-computer.network/
 
 HTTP는 웹에서 데이터를 주고받는 통신 규약이다. | O | HTTP는 웹 브라우저와 서버가 데이터를 주고받는 규약입니다.

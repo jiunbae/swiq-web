@@ -1,6 +1,7 @@
 {
   "title": "건강 상식 기초 O/X",
   "description": "일상 건강 관리의 기본 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

@@ -1,6 +1,7 @@
 {
   "title": "한국사 고급 O/X",
   "description": "고대부터 조선까지 심화 한국사",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

@@ -1,5 +1,6 @@
 # 컴퓨터과학 심화 O/X
 > 자료구조·알고리즘·시스템 원리
+@languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.exam-computer.cs-advanced/
 
 이진 탐색(binary search)은 정렬된 배열에서 O(log n) 시간에 값을 찾을 수 있다. | O | 이진 탐색은 매 단계마다 탐색 범위를 절반으로 줄여 O(log n)의 시간복잡도를 가집니다.

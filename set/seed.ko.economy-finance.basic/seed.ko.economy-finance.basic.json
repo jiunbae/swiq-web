@@ -1,6 +1,7 @@
 {
   "title": "경제 상식 기초 O/X",
   "description": "생활 속 경제 개념의 기초",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

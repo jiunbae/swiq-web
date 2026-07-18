@@ -1,6 +1,7 @@
 {
   "title": "클래식 음악·미술사 고급 O/X",
   "description": "명작곡가와 미술 사조의 핵심",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

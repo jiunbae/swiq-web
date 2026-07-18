@@ -1,6 +1,7 @@
 {
   "title": "Advanced Computer Science O/X",
   "description": "Data structures, algorithms, and systems",
+  "languageCode": "en",
   "cards": [
     {
       "type": "ox",

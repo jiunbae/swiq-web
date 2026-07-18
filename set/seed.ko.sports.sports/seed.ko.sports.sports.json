@@ -1,6 +1,7 @@
 {
   "title": "스포츠 상식 O/X",
   "description": "여러 종목의 기본 규칙과 상식",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",

@@ -1,6 +1,7 @@
 {
   "title": "영단어 회상 기초",
   "description": "직접 입력해서 떠올리는 기초 영단어 12장 — 보고 고르는 대신 기억에서 꺼내 보세요.",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "text",

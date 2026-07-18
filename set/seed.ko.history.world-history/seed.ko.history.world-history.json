@@ -1,6 +1,7 @@
 {
   "title": "세계사 O/X",
   "description": "세계 역사의 흐름과 사건",
+  "languageCode": "ko",
   "cards": [
     {
       "type": "ox",
