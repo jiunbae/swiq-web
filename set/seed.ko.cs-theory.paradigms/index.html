@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>선언형 vs 명령형 입문 — Swiq</title>
+<meta name="description" content="&#x27;무엇(what)&#x27;과 &#x27;어떻게(how)&#x27;로 갈라 보는 두 패러다임 — 그 경계가 왜 생각만큼 또렷하지 않은지부터 짚습니다.">
+<meta name="theme-color" content="#F7F7F4">
+<link rel="canonical" href="https://swiq.jiun.dev/set/seed.ko.cs-theory.paradigms/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='%236366F1'/%3E%3Ccircle%20cx='23'%20cy='32'%20r='9'%20fill='none'%20stroke='white'%20stroke-width='5'/%3E%3Cpath%20d='M37%2023%20L49%2041%20M49%2023%20L37%2041'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='16'%20fill='%236366F1'/%3E%3Ccircle%20cx='23'%20cy='32'%20r='9'%20fill='none'%20stroke='white'%20stroke-width='5'/%3E%3Cpath%20d='M37%2023%20L49%2041%20M49%2023%20L37%2041'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Swiq">
+<meta property="og:title" content="선언형 vs 명령형 입문 — Swiq">
+<meta property="og:description" content="&#x27;무엇(what)&#x27;과 &#x27;어떻게(how)&#x27;로 갈라 보는 두 패러다임 — 그 경계가 왜 생각만큼 또렷하지 않은지부터 짚습니다.">
+<meta property="og:url" content="https://swiq.jiun.dev/set/seed.ko.cs-theory.paradigms/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="선언형 vs 명령형 입문 — Swiq">
+<meta name="twitter:description" content="&#x27;무엇(what)&#x27;과 &#x27;어떻게(how)&#x27;로 갈라 보는 두 패러다임 — 그 경계가 왜 생각만큼 또렷하지 않은지부터 짚습니다.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --indigo:#5146e5;--indigo-600:#4338ca;--indigo-700:#3730a3;
+  --bg:#f7f7f4;--surface:#fcfcfa;--surface-2:#ecece7;
+  --text:#181816;--muted:#64645f;--faint:#6f6f68;
+  --border:#deded7;--border-strong:#c7c7bd;--shadow:none;
+  --radius:10px;--radius-sm:7px;
+  scroll-behavior:smooth;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#11110f;--surface:#171715;--surface-2:#22221f;
+    --text:#f0f0eb;--muted:#adada5;--faint:#85857e;
+    --border:#30302c;--border-strong:#484842;
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",system-ui,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.5;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+
+/* Wordmark */
+.brand{display:inline-flex;align-items:center;font-weight:780;letter-spacing:-.045em}
+.brand .word{font-size:23px}
+.brand .word b{color:inherit}
+
+/* Header */
+header.top{position:sticky;top:0;z-index:30;background:var(--bg);border-bottom:1px solid var(--border)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+header.top nav{display:flex;align-items:center;gap:22px;font-size:13px;font-weight:650;color:var(--muted)}
+header.top nav a:hover{color:var(--text)}
+header.top .nav-cta{padding:8px 12px;border:1px solid var(--border-strong);border-radius:6px;color:var(--text)}
+header.top .nav-cta:hover{background:var(--text);border-color:var(--text);color:var(--bg)}
+
+/* Hero — editorial, not a generic app-store landing block */
+.hero{padding:74px 0 60px;border-bottom:1px solid var(--border)}
+.hero .wrap{display:block}
+.hero .eyebrow{margin:0 0 20px;color:var(--muted);font-size:12px;font-weight:750;letter-spacing:.12em;text-transform:uppercase}
+.hero h1{max-width:720px;font-size:clamp(38px,6vw,68px);line-height:1.02;margin:0;letter-spacing:-.055em;font-weight:790}
+.hero .lead{max-width:570px;color:var(--muted);font-size:17px;margin:24px 0 0;line-height:1.65}
+.hero-actions{display:flex;align-items:center;gap:16px;margin-top:30px}
+.hero-actions .btn{min-width:0}
+.hero-actions .availability{font-size:12.5px;color:var(--faint)}
+
+/* Sticky filter toolbar */
+.toolbar{position:sticky;top:64px;z-index:20;background:var(--bg);border-bottom:1px solid var(--border)}
+.tb-inner{display:flex;flex-direction:column;padding-top:12px;padding-bottom:10px}
+.tb-search{display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--border);padding-bottom:10px}
+.tb-field{flex:1;display:flex;align-items:center;gap:10px;min-width:0}
+.tb-field:focus-within svg{stroke:var(--text)}
+.tb-field svg{width:17px;height:17px;flex:0 0 auto;fill:none;stroke:var(--faint);stroke-width:2}
+.tb-field input{flex:1;min-width:0;font:inherit;font-size:15px;border:none;outline:none;background:none;color:var(--text)}
+.tb-field input::placeholder{color:var(--faint)}
+.tb-count{flex:0 0 auto;font-size:12px;font-weight:650;color:var(--faint);white-space:nowrap}
+.tb-chips{display:flex;gap:22px;align-items:center;overflow-x:auto;scrollbar-width:none;
+  -webkit-overflow-scrolling:touch;padding-top:10px}
+.tb-chips::-webkit-scrollbar{display:none}
+.lang-chip{flex:0 0 auto;font:inherit;font-weight:650;font-size:12.5px;cursor:pointer;border:0;
+  border-bottom:1px solid transparent;background:none;color:var(--faint);padding:3px 0 6px;white-space:nowrap}
+.lang-chip[aria-selected="true"]{color:var(--text);border-bottom-color:var(--text)}
+.tb-div{flex:0 0 auto;width:1px;height:14px;background:var(--border-strong);margin:0 1px}
+.cat-chip{flex:0 0 auto;display:inline-flex;align-items:baseline;gap:5px;font-size:12.5px;font-weight:580;
+  color:var(--muted);white-space:nowrap}
+.cat-chip:hover{color:var(--text)}
+.cat-chip .cdot{display:none}
+.cat-chip b{font-weight:700;color:var(--faint)}
+
+/* Category section */
+main.wrap{padding-top:18px}
+.cat{margin:34px 0 64px;scroll-margin-top:145px}
+.cat-head{display:flex;align-items:baseline;gap:10px;margin:0 0 14px;border-bottom:1px solid var(--border-strong);padding-bottom:12px}
+.cat-head .dot{display:none}
+.cat-head h2{font-size:20px;margin:0;letter-spacing:-.025em;font-weight:740}
+.cat-head .en{font-size:11px;color:var(--faint);font-weight:650;letter-spacing:.05em;text-transform:uppercase}
+.cat-head .count{margin-left:auto;font-size:12px;color:var(--faint);font-weight:600}
+
+/* Grid + cards */
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:36px;row-gap:0}
+.card{
+  display:flex;flex-direction:column;gap:10px;min-height:184px;background:transparent;
+  border:0;border-bottom:1px solid var(--border);border-radius:0;
+  padding:18px 0 22px;transition:opacity .16s ease
+}
+@media (hover:hover){
+  .card:hover{opacity:.64}
+}
+.card:focus-visible{outline:2px solid var(--indigo);outline-offset:4px}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+.card .badges{display:flex;align-items:center;justify-content:space-between;min-height:18px}
+.card .badges::after{content:"→";color:var(--faint);font-size:15px}
+.card .lang-badge{font-size:10px;font-weight:750;color:var(--faint);letter-spacing:.1em}
+.card h3{font-size:17px;margin:1px 0 0;line-height:1.35;letter-spacing:-.018em;font-weight:700}
+.card .desc{font-size:13px;color:var(--muted);margin:0;line-height:1.55;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .meta{margin-top:auto;padding-top:8px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;
+  font-size:11.5px;color:var(--faint);font-weight:580}
+.card .meta .num{color:var(--text);font-weight:700}
+.card .meta .types{display:inline-flex;gap:5px;flex-wrap:wrap}
+.card .meta .tt{color:var(--faint);font-weight:600}
+.card .meta .tt::before{content:"/";margin-right:5px;color:var(--border-strong)}
+
+.empty{display:none;text-align:center;color:var(--muted);padding:48px 0;font-size:15px}
+
+/* Footer */
+footer{border-top:1px solid var(--border);margin-top:48px;padding:26px 0 52px;color:var(--faint);font-size:12px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center}
+footer a:hover{color:var(--text)}
+
+/* ---- Set detail ---- */
+.detail{padding-top:40px;padding-bottom:24px}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:14px;font-weight:600;margin-bottom:16px}
+.back:hover{color:var(--text)}
+.detail .cat-badge{display:inline-flex;align-items:center;font-size:11px;font-weight:700;
+  color:var(--faint);letter-spacing:.08em;text-transform:uppercase}
+.detail .cat-badge::before{display:none}
+.detail h1{font-size:clamp(23px,5vw,32px);margin:12px 0 8px;letter-spacing:-.02em;font-weight:800;line-height:1.2}
+.detail .lead{color:var(--muted);font-size:15.5px;margin:0 0 16px;max-width:62ch}
+.detail .stats{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 22px}
+.chip{font-size:12px;font-weight:600;color:var(--muted);background:transparent;
+  border:1px solid var(--border);border-radius:6px;padding:6px 10px}
+.chip.hl{color:var(--text);border-color:var(--border-strong);font-weight:700}
+
+/* Primary action row (앱에서 열기 + .swiq 다운로드) */
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px;max-width:480px}
+@media(max-width:440px){.actions{grid-template-columns:1fr}}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:680;font-size:14px;
+  padding:12px 16px;border-radius:7px;cursor:pointer;border:1px solid transparent;transition:.15s;text-align:center}
+.btn-primary{background:var(--text);color:var(--bg)}
+.btn-primary:hover{opacity:.78}
+.btn-ghost{background:transparent;color:var(--text);border-color:var(--border-strong)}
+.btn-ghost:hover{background:var(--surface-2)}
+.cta{display:flex;flex-direction:column;gap:9px;margin:0 0 30px;max-width:480px}
+.cta .note{font-size:12px;color:var(--faint);margin:2px 0 0}
+.cta .tf-line{display:flex;align-items:center;gap:10px;font-size:13.5px;color:var(--muted);margin-top:2px}
+.cta .tf-line .btn-tf{padding:8px 12px;font-size:13px;border-radius:6px;min-height:0;box-shadow:none;
+  flex:0 0 auto;background:transparent;color:var(--text);border-color:var(--border-strong)}
+
+/* "Open in app" fallback — hidden by default, revealed by inline JS when the
+   custom-scheme attempt doesn't switch apps (i.e. app not installed). */
+.fallback{display:none;font-size:13.5px;line-height:1.55;
+  background:color-mix(in srgb,var(--indigo) 8%,var(--surface));
+  border:1px solid color-mix(in srgb,var(--indigo) 30%,transparent);
+  border-radius:13px;padding:12px 15px;color:var(--text)}
+.fallback.show{display:block}
+.btn-tf.hl{box-shadow:0 0 0 3px color-mix(in srgb,var(--indigo) 30%,transparent)}
+
+.preview{margin-top:8px}
+.preview h2{font-size:16px;font-weight:800;margin:0 0 3px;letter-spacing:-.01em}
+.preview .sub{font-size:12.5px;color:var(--faint);margin:0 0 14px}
+.qgrid{display:grid;gap:9px;grid-template-columns:1fr}
+@media(min-width:560px){.qgrid{grid-template-columns:1fr 1fr}}
+.qcard{background:transparent;border:0;border-top:1px solid var(--border);border-radius:0;padding:14px 0;
+  display:flex;gap:13px;align-items:flex-start;box-shadow:none}
+.qcard .n{flex:0 0 auto;width:24px;height:24px;display:grid;place-items:center;
+  font-size:11px;font-weight:750;color:var(--faint)}
+.qcard .q{font-size:14px;line-height:1.5;margin:0}
+.qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
+  border:1px solid var(--border);border-radius:6px;padding:2px 7px;align-self:center}
+.lock{margin:16px 0 0;font-size:13px;color:var(--muted);text-align:left;
+  background:transparent;border-top:1px solid var(--border);border-radius:0;padding:14px 0}
+
+/* ---- App Store badge (pure CSS/inline SVG — no external images) ---- */
+.store{display:flex;flex-direction:column;gap:10px;align-items:center;margin:22px 0 0}
+.store-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:stretch}
+.store-badge{display:inline-flex;align-items:center;gap:10px;min-height:52px;
+  padding:8px 18px 8px 14px;border-radius:13px;background:#000;color:#fff;
+  border:1px solid rgba(255,255,255,.28);line-height:1.1;transition:.15s}
+.store-badge svg{width:24px;height:24px;flex:0 0 auto;fill:currentColor}
+.store-badge .st{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+.store-badge .st small{font-size:10.5px;font-weight:500;letter-spacing:.02em;opacity:.85}
+.store-badge .st strong{font-size:17px;font-weight:700;letter-spacing:-.01em}
+a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.store-badge.soon{background:var(--surface);color:var(--muted);cursor:default;
+  border:1px dashed color-mix(in srgb,var(--muted) 45%,transparent);box-shadow:none}
+.store-badge.soon .st strong{font-size:14px}
+.store-note{font-size:12.5px;color:var(--muted);margin:0;text-align:center}
+.btn-tf{background:var(--indigo);color:#fff;box-shadow:0 6px 20px rgba(99,102,241,.4)}
+.btn-tf:hover{background:var(--indigo-600)}
+.store-row .btn{min-height:52px;padding:10px 20px;font-size:15px;border-radius:13px}
+
+/* ---- Format doc page ---- */
+.doc{padding-top:40px;padding-bottom:24px;max-width:816px;margin:0 auto}
+.doc h1{font-size:clamp(26px,5.5vw,36px);margin:10px 0 8px;letter-spacing:-.02em;font-weight:800}
+.doc .lead{color:var(--muted);font-size:16px;margin:0 0 8px;max-width:60ch}
+.doc .en-sub{font-size:13px;color:var(--muted);opacity:.8;margin:0 0 26px}
+.doc h2{font-size:20px;font-weight:800;letter-spacing:-.02em;margin:38px 0 4px}
+.doc h2+.en{display:block;font-size:12.5px;color:var(--muted);margin:0 0 14px}
+.doc p{font-size:15px;margin:10px 0}
+.doc pre{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+  padding:16px 18px;overflow-x:auto;box-shadow:var(--shadow);margin:14px 0;position:relative}
+.doc pre code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:13px;line-height:1.7;color:var(--text);white-space:pre}
+.doc code.inline{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86em;
+  background:color-mix(in srgb,var(--indigo) 9%,transparent);color:var(--indigo);
+  padding:2px 6px;border-radius:6px}
+.syntax{display:grid;gap:12px;margin:16px 0}
+.syntax .sx{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+  padding:16px 18px;box-shadow:var(--shadow)}
+.syntax .sx h3{margin:0 0 2px;font-size:15px;font-weight:700}
+.syntax .sx .en{font-size:12px;color:var(--muted);display:block;margin:0 0 10px}
+.syntax .sx code{display:block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:12.5px;line-height:1.7;overflow-x:auto;white-space:pre;color:var(--text)}
+.syntax .sx code b{color:var(--indigo);font-weight:700}
+.rules{margin:14px 0;padding:0;list-style:none;display:grid;gap:8px}
+.rules li{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:10px 14px;font-size:14px;display:flex;gap:10px;align-items:baseline}
+.rules li::before{content:"·";color:var(--indigo);font-weight:800}
+.steps{margin:14px 0;padding:0;list-style:none;counter-reset:st;display:grid;gap:10px}
+.steps li{counter-increment:st;background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;padding:13px 16px;font-size:14.5px;display:flex;gap:12px;align-items:baseline}
+.steps li::before{content:counter(st);flex:0 0 auto;width:24px;height:24px;border-radius:8px;
+  display:grid;place-items:center;font-size:12px;font-weight:800;color:#fff;background:var(--indigo)}
+.copybtn{position:absolute;top:10px;right:10px;font:inherit;font-size:12px;font-weight:700;
+  color:var(--indigo);background:color-mix(in srgb,var(--indigo) 10%,transparent);
+  border:none;border-radius:8px;padding:6px 12px;cursor:pointer}
+.copybtn:hover{background:color-mix(in srgb,var(--indigo) 18%,transparent)}
+.doc .dl{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14.5px;
+  color:var(--indigo);background:color-mix(in srgb,var(--indigo) 10%,transparent);
+  padding:11px 18px;border-radius:12px;margin:6px 0}
+.doc .dl:hover{background:color-mix(in srgb,var(--indigo) 18%,transparent)}
+
+@media(max-width:760px){
+  .wrap{padding-left:18px;padding-right:18px}
+  header.top .wrap{height:58px}
+  header.top nav{gap:14px}
+  header.top .nav-format{display:none}
+  header.top .nav-cta{padding:7px 10px}
+  .hero{padding:48px 0 42px}
+  .hero h1{font-size:clamp(38px,11.5vw,54px)}
+  .hero .lead{font-size:15px;margin-top:20px}
+  .hero-actions{align-items:flex-start;flex-direction:column;gap:10px;margin-top:24px}
+  .toolbar{top:58px}
+  .tb-inner{padding-top:10px}
+  .tb-chips{gap:18px}
+  main.wrap{padding-top:8px}
+  .cat{margin:28px 0 48px;scroll-margin-top:132px}
+  .cat-head .en{display:none}
+  .grid{grid-template-columns:1fr}
+  .card{min-height:0;padding:17px 0 20px}
+  footer .wrap{align-items:flex-start;flex-direction:column}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><span class="word">Swiq</span></a><nav><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://testflight.apple.com/join/rM2Q3shQ">TestFlight</a></nav></div></header>
+<main class="wrap detail">
+  <a class="back" href="/">← 모든 세트</a>
+  <span class="cat-badge">CS 이론</span>
+  <h1>선언형 vs 명령형 입문</h1>
+  <p class="lead">&#x27;무엇(what)&#x27;과 &#x27;어떻게(how)&#x27;로 갈라 보는 두 패러다임 — 그 경계가 왜 생각만큼 또렷하지 않은지부터 짚습니다.</p>
+  <div class="stats">
+    <span class="chip hl">12문항</span>
+    <span class="chip">한국어</span>
+    <span class="chip">O/X</span><span class="chip">주관식</span><span class="chip">4지선다</span>
+    <span class="chip">#프로그래밍</span><span class="chip">#패러다임</span><span class="chip">#선언형</span>
+  </div>
+
+  <!-- Primary action row: open in app + download the .swiq file. -->
+  <!-- "앱에서 열기" deliberately uses the custom scheme (swiq://), NOT a
+       Universal Link: this page's own https URL *is* the universal-link URL
+       (AASA paths:/set/*), so an https link to the same domain would simply
+       reload this page in the browser — a redirect loop — instead of opening
+       the app. The inline script below (OPEN_APP_JS) handles the
+       not-installed case: if ~1.2s after the tap the page was never hidden
+       (visibilitychange/pagehide), it reveals the TestFlight fallback.
+       With JS disabled this stays a plain scheme link, working as before. -->
+  <!-- open-app spans the full width; the two downloads (.swiq / .json) sit
+       side by side beneath it. Both files carry the full set (answers +
+       explanations); the app auto-detects the format from the contents. -->
+  <div class="actions">
+    <a class="btn btn-primary" id="open-app" style="grid-column:1/-1" href="swiq://set/seed.ko.cs-theory.paradigms">앱에서 열기 →</a>
+    <a class="btn btn-ghost" href="seed.ko.cs-theory.paradigms.swiq" download="seed.ko.cs-theory.paradigms.swiq">⬇ .swiq 다운로드</a>
+    <a class="btn btn-ghost" href="seed.ko.cs-theory.paradigms.json" download="seed.ko.cs-theory.paradigms.json">⬇ .json 다운로드</a>
+  </div>
+  <div class="cta">
+    <p class="fallback" id="open-fallback" role="alert">앱이 아직 설치되지 않은 것 같아요. 아래 TestFlight에서 Swiq를 설치한 뒤, 이 페이지로 돌아와 다시 눌러 주세요.</p>
+    <p class="note">앱이 설치돼 있다면 '앱에서 열기'가 이 세트를 바로 열어요.</p>
+    <div class="tf-line">
+      <span>아직 앱이 없다면</span>
+      <a class="btn btn-tf" id="tf-cta" href="https://testflight.apple.com/join/rM2Q3shQ">TestFlight로 받기</a>
+    </div>
+  </div>
+
+  <section class="preview">
+    <h2>미리보기</h2>
+    <p class="sub">프롬프트 5장 미리보기 · 정답과 해설은 앱에서 확인하세요</p>
+    <div class="qgrid">
+    <div class="qcard">
+      <span class="n">1</span>
+      <p class="q">명령형 프로그래밍은 &#x27;무엇을 원하는가&#x27;보다 &#x27;어떻게 계산하는가&#x27;를 단계적으로 기술한다.</p>
+      <span class="ox" aria-hidden="true">O/X</span>
+    </div>
+    <div class="qcard">
+      <span class="n">2</span>
+      <p class="q">선언형 언어는 목표(what)를 기술하고, 그것을 달성하는 구체적 실행 절차(how)는 대체로 언어 구현·런타임에 맡긴다.</p>
+      <span class="ox" aria-hidden="true">O/X</span>
+    </div>
+    <div class="qcard">
+      <span class="n">3</span>
+      <p class="q">다음 중 일반적으로 &#x27;선언형&#x27;으로 분류되지 않는 것은?</p>
+      <span class="ox" aria-hidden="true">4지선다</span>
+    </div>
+    <div class="qcard">
+      <span class="n">4</span>
+      <p class="q">SQL의 SELECT 문은 원하는 결과의 조건을 기술할 뿐, 조인 순서나 인덱스 사용 같은 실행 계획을 직접 지정하지 않는다.</p>
+      <span class="ox" aria-hidden="true">O/X</span>
+    </div>
+    <div class="qcard">
+      <span class="n">5</span>
+      <p class="q">&#x27;선언형 vs 명령형&#x27;의 경계는 형식적으로 엄밀히 정의된 기준이라기보다, 상당 부분 관례적·사회문화적 분류에 가깝다.</p>
+      <span class="ox" aria-hidden="true">O/X</span>
+    </div>
+    </div>
+    <p class="lock">🔒 정답·해설은 앱에서만 볼 수 있어요</p>
+  </section>
+</main>
+<footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
+<script>
+(function(){
+  var open=document.getElementById('open-app');
+  if(!open)return;
+  var timer=null;
+  function cancel(){if(timer){clearTimeout(timer);timer=null;}}
+  // App took over → Safari is hidden → the scheme worked; stand down.
+  document.addEventListener('visibilitychange',function(){
+    if(document.visibilityState==='hidden')cancel();
+  });
+  window.addEventListener('pagehide',cancel);
+  open.addEventListener('click',function(){
+    cancel();
+    timer=setTimeout(function(){
+      timer=null;
+      if(document.visibilityState==='hidden')return;
+      var fb=document.getElementById('open-fallback');
+      if(fb)fb.classList.add('show');
+      var tf=document.getElementById('tf-cta');
+      if(tf)tf.classList.add('hl');
+    },1200);
+  });
+})();
+</script>
+</body>
+</html>
