@@ -5,7 +5,8 @@
       {
         "appID": "728FW73BS8.dev.jiun.swiq",
         "paths": [
-          "/set/*"
+          "/set/*",
+          "/shared/*"
         ]
       }
     ]
