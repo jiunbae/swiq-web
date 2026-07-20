@@ -301,12 +301,15 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <h1>개인정보처리방침</h1>
   <p class="lead">학습 데이터는 기기에 저장됩니다. 로그인은 선택 사항이며,
     로그인하지 않아도 모든 기능을 그대로 사용할 수 있습니다.</p>
-  <p class="en-sub">Privacy Policy — English summary at the bottom. · 시행일 2026-07-21</p>
+  <p class="en-sub">Privacy Policy — English summary at the bottom. · 시행일 2026-07-22</p>
 
   <h2>학습 데이터는 기기에 저장됩니다</h2>
   <span class="en">Learning data stays on your device</span>
   <p>퀴즈 세트, 학습 기록, 진도, 앱 내 통계는 사용자의 기기에만 저장됩니다(온디바이스).
-    서버로 전송하지 않으며, 기기에서 앱을 삭제하면 함께 사라집니다.</p>
+    기기에서 앱을 삭제하면 함께 사라집니다.</p>
+  <p>로그인한 경우에만, 세션을 마칠 때 <strong>문항 수·정답 수·소요 시간·날짜</strong>가
+    서버로 전송됩니다. 순위와 뱃지를 계산하기 위한 것이며, <strong>어떤 문제를 풀었는지나
+    문항 내용은 보내지 않습니다.</strong> 로그아웃 상태에서는 아무것도 전송하지 않습니다.</p>
 
   <h2>계정 (선택)</h2>
   <span class="en">Accounts are optional</span>
@@ -332,7 +335,14 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <li><strong>아바타</strong> — 앱이 제공하는 목록에서 고른 기호와 배경색입니다. 사진 업로드는
       지원하지 않습니다.</li>
     <li><strong>커뮤니티에 공개한 세트 목록</strong>과 가입 시점.</li>
+    <li><strong>주간 순위와 이번 주 XP</strong> — 순위표에 이름·아바타와 함께 표시됩니다.</li>
+    <li><strong>획득한 뱃지</strong>와 연속 학습일.</li>
   </ul>
+  <p>순위표에는 <strong>이번 주에 학습한 양(XP)과 순위만</strong> 올라갑니다. 무엇을 공부했는지,
+    어떤 세트를 풀었는지, 정답률은 다른 사람에게 보이지 않습니다. 순위는 매주 월요일에
+    초기화됩니다.</p>
+  <p>이름을 정하지 않은 계정도 순위에는 포함되지만 <strong>「익명」으로만 표시</strong>되며,
+    이름·아바타는 나타나지 않습니다.</p>
   <p>이름은 30일에 한 번만 바꿀 수 있습니다. 다른 사용자가 차단 기능을 쓰는 기준이 이름이기
     때문입니다. 이름을 정하지 않으면 공유한 세트는 계속 익명으로 표시됩니다.</p>
   <p>다른 사용자를 차단하면 그 사용자의 세트가 목록에서 숨겨집니다. 차단 목록은
@@ -362,6 +372,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <li>계정 정보와 공개 프로필(이름·아바타)은 계정을 삭제할 때까지 보관합니다.</li>
     <li>공유한 세트는 삭제하거나 계정을 삭제할 때까지 공개됩니다.</li>
     <li>로그인 세션 정보는 30일이 지나면 자동으로 만료·삭제됩니다.</li>
+    <li>학습 세션 기록과 주간 순위 기록은 계정을 삭제할 때까지 보관합니다.</li>
     <li>구매 기록은 환불·이용 문의 대응을 위해 계정 삭제 시까지 보관합니다.</li>
   </ul>
 
@@ -397,7 +408,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <p>개인정보 관련 문의·열람·삭제 요청은 <a href="mailto:feedback@jiun.dev" style="color:var(--indigo)">feedback@jiun.dev</a> 로 보내 주세요.</p>
 
   <h2>English summary</h2>
-  <span class="en">Effective date: 2026-07-21</span>
+  <span class="en">Effective date: 2026-07-22</span>
   <p>Your learning data (quiz sets, study history, progress, in-app statistics) is
     stored on your device and is never sent to our servers.</p>
   <p><strong>Your public profile is opt-in.</strong> Until you choose a handle, nothing
@@ -413,6 +424,11 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     never learn your real one), the name you chose to share, and a random device value
     our app generates to tell sessions apart. That value is not the advertising
     identifier and not a hardware id, and it disappears when you delete the app.</p>
+  <p>When you are signed in, finishing a session sends the <strong>number of cards, how many
+    were correct, how long it took and the date</strong> — enough to compute your rank and
+    badges. <strong>Which questions you answered is never sent.</strong> Signed out, nothing
+    leaves the device. Your handle, avatar, weekly XP and rank appear on a leaderboard that
+    resets every Monday; an account without a handle is ranked but shown only as "anonymous".</p>
   <p>Sets you share to the community are published publicly, including their questions —
     so please keep personal details out of them. When shared without an account we store
     only a hash of a random device token, never the token itself.</p>
@@ -432,7 +448,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     on-device. This website is a set of static pages with no cookies or analytics
     scripts. Questions: <a href="mailto:feedback@jiun.dev" style="color:var(--indigo)">feedback@jiun.dev</a>.</p>
 
-  <p class="en-sub">시행일: 2026-07-21</p>
+  <p class="en-sub">시행일: 2026-07-22</p>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 </body>
