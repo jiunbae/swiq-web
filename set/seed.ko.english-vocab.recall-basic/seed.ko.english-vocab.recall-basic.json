@@ -100,6 +100,202 @@
         "trip"
       ],
       "explanation": "travel(여행하다/여행) 또는 trip(짧은 여행) — 둘 다 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'고양이'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "cat"
+      ],
+      "explanation": "cat — 대표적인 반려동물 어휘입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'노래'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "song"
+      ],
+      "explanation": "song — '노래하다'라는 동사는 sing입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'의사'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "doctor"
+      ],
+      "explanation": "doctor — 병원(hospital)에서 환자를 진료하는 사람입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'부엌, 주방'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "kitchen"
+      ],
+      "explanation": "kitchen — 요리하는 공간을 뜻합니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'봄(계절)'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "spring"
+      ],
+      "explanation": "spring — '용수철', '샘'이라는 뜻도 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'숫자, 번호'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "number"
+      ],
+      "explanation": "number — 축약형 No.로도 자주 씁니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'가족'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "family"
+      ],
+      "explanation": "family — 가족 구성원은 family member라고 합니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'병원'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "hospital"
+      ],
+      "explanation": "hospital — 의사(doctor)와 간호사(nurse)가 일하는 곳입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'공항'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "airport"
+      ],
+      "explanation": "airport — air(항공) + port(항구)가 합쳐진 단어입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'저녁 식사'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "dinner",
+        "supper"
+      ],
+      "explanation": "dinner — supper도 저녁 식사를 뜻해 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'노란색'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "yellow"
+      ],
+      "explanation": "yellow — 바나나나 병아리의 색을 떠올리면 쉬운 색깔 어휘입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'(강 위의) 다리'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "bridge"
+      ],
+      "explanation": "bridge — 신체의 다리는 leg입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'편지'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "letter"
+      ],
+      "explanation": "letter — '글자, 문자'라는 뜻도 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'시장(물건을 사고파는 곳)'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "market"
+      ],
+      "explanation": "market — 물건을 사고파는 곳이며, 경제의 '시장'이라는 뜻도 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'아름다운'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "beautiful",
+        "pretty"
+      ],
+      "explanation": "beautiful — pretty(예쁜)도 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'시작하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "begin",
+        "start"
+      ],
+      "explanation": "begin 또는 start — 둘 다 '시작하다'라는 뜻으로 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'돕다, 도와주다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "help"
+      ],
+      "explanation": "help — 명사로 '도움'이라는 뜻도 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'질문'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "question"
+      ],
+      "explanation": "question — 대답은 answer입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'열쇠'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "key"
+      ],
+      "explanation": "key — '핵심적인'이라는 형용사 뜻도 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'목소리'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "voice"
+      ],
+      "explanation": "voice — 말하거나 노래할 때 내는 '목소리'입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'지도'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "map"
+      ],
+      "explanation": "map — 길을 찾을 때 보는 '지도'입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'배고픈'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "hungry"
+      ],
+      "explanation": "hungry — 명사형은 hunger(배고픔)입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'춤추다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "dance"
+      ],
+      "explanation": "dance — 명사 '춤'으로도 씁니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'신발'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "shoes",
+        "shoe"
+      ],
+      "explanation": "shoe(s) — 보통 두 짝을 함께 신어 복수형 shoes로 자주 씁니다."
     }
   ]
 }

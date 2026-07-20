@@ -74,6 +74,150 @@
       "prompt": "A volleyball team has 15 players on the court.",
       "answer": false,
       "explanation": "A volleyball team has 6 players on the court."
+    },
+    {
+      "type": "ox",
+      "prompt": "A basketball team has five players on the court at once.",
+      "answer": true,
+      "explanation": "Each basketball team fields five players on the court at any one time."
+    },
+    {
+      "type": "ox",
+      "prompt": "Rugby is played with a round ball.",
+      "answer": false,
+      "explanation": "Rugby is played with an oval ball, which makes its bounce hard to predict."
+    },
+    {
+      "type": "ox",
+      "prompt": "In tennis, a score of zero is called 'love'.",
+      "answer": true,
+      "explanation": "Tennis uses the word 'love' to mean a score of zero, as in '15-love'."
+    },
+    {
+      "type": "ox",
+      "prompt": "In soccer, a hat-trick means scoring five goals in one game.",
+      "answer": false,
+      "explanation": "A hat-trick means one player scores three goals in a single game."
+    },
+    {
+      "type": "ox",
+      "prompt": "The FIFA World Cup is held every four years.",
+      "answer": true,
+      "explanation": "The FIFA World Cup, soccer's biggest tournament, takes place every four years."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Tour de France is a famous running race.",
+      "answer": false,
+      "explanation": "The Tour de France is a multi-week cycling race held mainly in France."
+    },
+    {
+      "type": "ox",
+      "prompt": "In ice hockey, players use sticks to hit a puck.",
+      "answer": true,
+      "explanation": "Ice hockey players use sticks to shoot a flat rubber puck into the opponent's goal."
+    },
+    {
+      "type": "ox",
+      "prompt": "In basketball, a successful shot from beyond the three-point line is worth two points.",
+      "answer": false,
+      "explanation": "A shot made from beyond the three-point line is worth three points; shots inside the line are worth two."
+    },
+    {
+      "type": "ox",
+      "prompt": "A boxing match takes place in a ring.",
+      "answer": true,
+      "explanation": "Boxing matches are held in a square platform with ropes called a ring."
+    },
+    {
+      "type": "ox",
+      "prompt": "Beach volleyball is an event at the Winter Olympics.",
+      "answer": false,
+      "explanation": "Beach volleyball is a Summer Olympic sport; the Winter Olympics feature snow and ice sports."
+    },
+    {
+      "type": "ox",
+      "prompt": "A standard round of golf has 18 holes.",
+      "answer": true,
+      "explanation": "A full round of golf is played over 18 holes on the course."
+    },
+    {
+      "type": "ox",
+      "prompt": "In bowling, knocking down all ten pins with one roll is called a spare.",
+      "answer": false,
+      "explanation": "Knocking down all ten pins with the first roll is a strike; a spare uses two rolls."
+    },
+    {
+      "type": "ox",
+      "prompt": "The butterfly is one of the four main swimming strokes.",
+      "answer": true,
+      "explanation": "Competitive swimming has four main strokes: freestyle, backstroke, breaststroke, and butterfly."
+    },
+    {
+      "type": "ox",
+      "prompt": "Cricket is played with a puck.",
+      "answer": false,
+      "explanation": "Cricket is played with a hard ball and a bat; a puck is used in ice hockey."
+    },
+    {
+      "type": "ox",
+      "prompt": "In baseball, a home run allows the batter to run all the bases and score.",
+      "answer": true,
+      "explanation": "A home run, usually hit over the outfield fence, lets the batter and any runners on base score."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sumo wrestling is a traditional sport of Brazil.",
+      "answer": false,
+      "explanation": "Sumo is the traditional national sport of Japan; Brazil is known for football and capoeira."
+    },
+    {
+      "type": "ox",
+      "prompt": "Table tennis is also known as ping-pong.",
+      "answer": true,
+      "explanation": "Table tennis is commonly called ping-pong, after the sound of the ball on the table and paddles."
+    },
+    {
+      "type": "ox",
+      "prompt": "In American football, a touchdown is worth one point.",
+      "answer": false,
+      "explanation": "A touchdown is worth six points, with the chance to add extra points afterward."
+    },
+    {
+      "type": "ox",
+      "prompt": "A triathlon combines swimming, cycling, and running.",
+      "answer": true,
+      "explanation": "A triathlon is a single race made up of three stages: swimming, cycling, and running."
+    },
+    {
+      "type": "ox",
+      "prompt": "Badminton is played with a heavy metal ball.",
+      "answer": false,
+      "explanation": "Badminton is played with a light feathered (or plastic) shuttlecock, not a ball."
+    },
+    {
+      "type": "ox",
+      "prompt": "In soccer, the goalkeeper is the only player allowed to handle the ball during open play.",
+      "answer": true,
+      "explanation": "Only the goalkeeper may use their hands, and only inside their own penalty area."
+    },
+    {
+      "type": "ox",
+      "prompt": "In tennis, the ball may bounce twice before a player returns it.",
+      "answer": false,
+      "explanation": "A player loses the point if the ball bounces twice on their side; it must be returned after at most one bounce."
+    },
+    {
+      "type": "ox",
+      "prompt": "Fencing is a sport of sword fighting.",
+      "answer": true,
+      "explanation": "Fencing is an Olympic combat sport in which athletes duel with blunted swords such as the foil, épée, and sabre."
+    },
+    {
+      "type": "ox",
+      "prompt": "The 100-metre sprint is a long-distance running event.",
+      "answer": false,
+      "explanation": "The 100-metre race is the shortest outdoor sprint; long-distance events include the 5,000 metres and beyond."
     }
   ]
 }

@@ -74,6 +74,150 @@
       "prompt": "'purchase'는 '판매'라는 뜻이다.",
       "answer": false,
       "explanation": "purchase는 '구매, 구입'이라는 뜻입니다. '판매'는 sale입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'receipt'는 '영수증'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "receipt는 결제 내역을 확인해 주는 '영수증'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'departure'는 '도착'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "departure는 '출발'이라는 뜻입니다. '도착'은 arrival입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'appointment'는 '(만날) 약속, 예약'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "appointment는 병원 진료나 미팅처럼 시간을 정한 '약속'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'cancel'은 '확정하다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "cancel은 '취소하다'라는 뜻입니다. '확정하다'는 confirm입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'luggage'는 '(여행) 짐, 수하물'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "luggage는 여행할 때 들고 다니는 '짐, 수하물'을 뜻합니다. baggage도 같은 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'hire'는 '해고하다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "hire는 '고용하다'라는 뜻입니다. '해고하다'는 fire, dismiss입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'resume'는 명사로 '이력서'라는 뜻이다.",
+      "answer": true,
+      "explanation": "resume(résumé)는 명사로 '이력서'를 뜻합니다. 동사로는 '재개하다'라는 뜻도 있습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'urgent'는 '사소한'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "urgent는 '긴급한'이라는 뜻입니다. '사소한'은 trivial입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'fee'는 '수수료, 요금'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "fee는 서비스 이용 대가로 내는 '수수료, 요금'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'borrow'는 '빌려주다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "borrow는 '빌리다'라는 뜻입니다. '빌려주다'는 lend입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'branch'는 '지점, 지사'라는 뜻이다.",
+      "answer": true,
+      "explanation": "branch는 은행이나 회사의 '지점, 지사'를 뜻하며, '나뭇가지'라는 뜻도 있습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'attach'는 '삭제하다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "attach는 '붙이다, 첨부하다'라는 뜻입니다. '삭제하다'는 delete입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'fragile'은 '깨지기 쉬운'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "fragile은 '깨지기 쉬운'이라는 뜻으로 택배 상자의 취급 주의 표시에 자주 쓰입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'postpone'은 '앞당기다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "postpone은 '연기하다, 미루다'라는 뜻입니다. '앞당기다'는 move up입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'estimate'는 '견적(서), 추정'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "estimate는 비용을 미리 계산한 '견적'이나 '추정(하다)'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'vacant'는 '사용 중인'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "vacant는 '비어 있는'이라는 뜻입니다. '사용 중인'은 occupied입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'install'은 '설치하다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "install은 프로그램이나 장비를 '설치하다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'profit'은 '손실'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "profit은 '이익, 수익'이라는 뜻입니다. '손실'은 loss입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'delay'는 '지연, 지연시키다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "delay는 '지연(시키다)'을 뜻합니다. 항공편 지연 안내에 자주 쓰입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'domestic'은 '해외의'라는 뜻이다.",
+      "answer": false,
+      "explanation": "domestic은 '국내의'라는 뜻입니다. '해외의'는 international, overseas입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'deposit'은 '보증금, 예치금'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "deposit은 미리 맡겨 두는 '보증금, 예치금'을 뜻하며, '예금하다'라는 동사로도 씁니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'complaint'는 '칭찬'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "complaint는 '불만, 항의'라는 뜻입니다. '칭찬'은 compliment로 철자가 비슷해 헷갈리기 쉽습니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'negotiate'는 '협상하다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "negotiate는 조건을 조율하며 '협상하다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'retail'은 '도매'라는 뜻이다.",
+      "answer": false,
+      "explanation": "retail은 소비자에게 직접 파는 '소매'라는 뜻입니다. '도매'는 wholesale입니다."
     }
   ]
 }

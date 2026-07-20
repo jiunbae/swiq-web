@@ -15,3 +15,27 @@ Which time complexity grows fastest as input size n becomes large? | 1)O(n²) 2)
 Which data structure is best suited for Last-In-First-Out behavior? | 1)Stack 2)Queue 3)Array 4)Graph | 1 | A stack provides LIFO behavior; a queue is FIFO.
 Q: What is the decimal value of the binary number 1010? (digits only) | A: 10;ten | 1010 in binary equals 8 + 0 + 2 + 0 = 10 in decimal.
 Q: What do we call a flaw or error in a computer program, the removal of which is called debugging? | A: bug;a bug;software bug | A bug is an error in a program; fixing bugs is called debugging.
+Merge sort has a worst-case time complexity of O(n log n). | O | Merge sort always divides the array in half and merges in linear time, giving O(n log n) even in the worst case.
+Quicksort's worst-case time complexity is O(n log n). | X | Quicksort averages O(n log n), but with consistently bad pivots (e.g. an already sorted array) it degrades to O(n²).
+Which tree traversal visits the root before its left and right subtrees? | 1)In-order 2)Pre-order 3)Post-order 4)Level-order | 2 | Pre-order traversal visits root, then left subtree, then right subtree; in-order visits the root between the subtrees.
+A balanced binary search tree supports search, insertion, and deletion in O(log n) time. | O | Balanced BSTs like AVL or red-black trees keep their height at O(log n), so core operations run in O(log n).
+DNS translates IP addresses into MAC addresses. | X | DNS resolves human-readable domain names into IP addresses; mapping IPs to MAC addresses is done by ARP.
+Q: What is the hexadecimal number FF in decimal? (digits only) | A: 255;two hundred fifty-five;two hundred and fifty-five | FF in hexadecimal is 15×16 + 15 = 255, the largest value of an unsigned 8-bit byte.
+TCP provides reliable, ordered delivery of data, while UDP does not guarantee delivery. | O | TCP uses acknowledgments and retransmission for reliable, in-order delivery; UDP is faster but offers no such guarantees.
+RAM retains its contents even after the computer is powered off. | X | RAM is volatile memory that loses its contents when power is cut; non-volatile storage like SSDs or ROM keeps data.
+In the OSI model, which layer is responsible for routing packets between networks? | 1)Physical layer 2)Transport layer 3)Network layer 4)Application layer | 3 | The network layer (layer 3) handles logical addressing and routing of packets across networks; IP operates at this layer.
+A deadlock can occur when processes each hold a resource while waiting for a resource held by another. | O | Deadlock arises from circular waiting: each process holds something another needs, so none can proceed.
+In Big-O notation, O(1) means an algorithm performs exactly one operation. | X | O(1) means constant time — the number of operations does not grow with input size, not that only one operation occurs.
+Q: What does the abbreviation CPU stand for? (three words) | A: central processing unit;the central processing unit | The Central Processing Unit executes instructions and is often called the 'brain' of the computer.
+A linked list allows O(1) insertion at its head, unlike inserting at the front of an array. | O | Inserting at a linked list's head only rewires pointers (O(1)); an array must shift every element, costing O(n).
+Plain HTTP encrypts data in transit by default. | X | HTTP sends data in plaintext; HTTPS adds TLS encryption to protect data between browser and server.
+Which data structure does breadth-first search (BFS) typically use to track the next nodes to visit? | 1)Stack 2)Heap 3)Tree 4)Queue | 4 | BFS explores level by level using a queue; depth-first search uses a stack or recursion instead.
+A connected graph with no cycles is called a tree. | O | By definition, a tree is a connected acyclic graph; with n vertices it always has exactly n−1 edges.
+An operating system's kernel runs in user mode. | X | The kernel runs in privileged kernel mode with full hardware access; applications run in restricted user mode.
+Q: What is the name of the smallest unit of digital information, representing a 0 or a 1? | A: bit;a bit;binary digit | A bit (binary digit) is the smallest unit of information; eight bits make one byte.
+Two's complement is the standard way modern computers represent signed integers. | O | Two's complement lets the same addition circuitry handle positive and negative numbers, so it is the universal choice.
+Recursion always uses less memory than an equivalent iterative solution. | X | Recursion usually uses more memory because each call adds a stack frame; deep recursion can even overflow the call stack.
+What does SQL stand for? | 1)Structured Query Language 2)Standard Query Logic 3)Sequential Question Language 4)System Quality Language | 1 | SQL, Structured Query Language, is the standard language for querying and managing relational databases.
+In a relational database, a primary key uniquely identifies each row in a table. | O | A primary key is a column (or set of columns) whose values are unique and non-null, identifying each row exactly once.
+Moore's law states that processor clock speed doubles every year. | X | Moore's law is the observation that the number of transistors on a chip doubles roughly every two years — it is about transistor density, not clock speed.
+Q: What acronym names the non-volatile memory that stores firmware and keeps its contents without power? | A: rom;read only memory;read-only memory | ROM (Read-Only Memory) is non-volatile and traditionally holds firmware such as a computer's boot code.

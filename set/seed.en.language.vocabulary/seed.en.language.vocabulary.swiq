@@ -15,3 +15,27 @@ A 'century' is a period of ten years. | X | A century is a period of one hundred
 A 'carnivore' is an animal that eats only plants. | X | A carnivore is an animal that eats meat; a plant-eater is a herbivore.
 'Ascend' means to go down. | X | 'Ascend' means to move upward; going down is to 'descend'.
 'Visible' means impossible to see. | X | 'Visible' means able to be seen.
+'Fragile' means easily broken. | O | 'Fragile' describes something delicate that can break or be damaged easily.
+'Annual' means happening once a year. | O | 'Annual' describes something that occurs every year, like an annual festival or report.
+'Rapid' means very slow. | X | 'Rapid' means very fast or quick, the opposite of slow.
+A 'pessimist' is a person who expects the best to happen. | X | A pessimist tends to expect the worst; a person who expects the best is an optimist.
+'Transparent' describes something you can see through. | O | 'Transparent' means clear enough for light to pass through, like glass.
+'Fiction' refers to true stories about real events. | X | Fiction is invented storytelling from the imagination; writing about real events is nonfiction.
+A 'pediatrician' is a doctor who treats children. | O | A pediatrician specializes in the medical care of babies, children, and teenagers.
+A 'pharmacist' is a person who repairs cars. | X | A pharmacist prepares and dispenses medicines; a person who repairs cars is a mechanic.
+To 'purchase' something means to buy it. | O | 'Purchase' is a more formal word for buying something with money.
+'Courageous' means brave. | O | 'Courageous' describes someone who shows bravery in the face of danger or difficulty.
+'Arrogant' means humble and modest. | X | 'Arrogant' describes someone with an exaggerated sense of their own importance, the opposite of humble.
+'Departure' means the act of arriving somewhere. | X | 'Departure' is the act of leaving; the act of arriving is 'arrival'.
+A 'bilingual' person can speak two languages. | O | 'Bilingual' means able to use two languages; the prefix 'bi-' means two.
+'Fatal' means completely harmless. | X | 'Fatal' means causing death, as in a fatal accident, so it is far from harmless.
+'Exhausted' means extremely tired. | O | 'Exhausted' describes being drained of energy, far more tired than usual.
+'Generous' means unwilling to share with others. | X | 'Generous' means freely giving or sharing; someone unwilling to share is stingy.
+'Temporary' means lasting forever. | X | 'Temporary' means lasting only for a limited time; something lasting forever is permanent.
+To 'postpone' means to delay something until later. | O | 'Postpone' means to move an event to a later time, like postponing a meeting.
+'Vacant' means full of people. | X | 'Vacant' means empty or unoccupied, like a vacant seat or room.
+'Nocturnal' animals are active mainly at night. | O | 'Nocturnal' describes creatures like owls and bats that sleep by day and are active at night.
+An 'author' is a person who writes books. | O | An author is the writer of a book, article, or other written work.
+To 'whisper' means to shout loudly. | X | 'Whisper' means to speak very softly and quietly, the opposite of shouting.
+A 'punctual' person is always late. | X | 'Punctual' means arriving or doing things exactly on time, not late.
+'Identical' means exactly the same. | O | 'Identical' describes things that are exactly alike, such as identical twins.

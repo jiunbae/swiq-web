@@ -15,3 +15,27 @@ Napoleon was an emperor of England. | X | Napoleon was an emperor of France, and
 The printing press with movable type in Europe was invented by Shakespeare. | X | In Europe, Johannes Gutenberg is credited with the movable-type printing press; Shakespeare was a playwright.
 The Berlin Wall fell in 1789. | X | The Berlin Wall fell in 1989. 1789 was the start of the French Revolution.
 Ancient Greece is famous for building the Taj Mahal. | X | The Taj Mahal was built in India under the Mughal Empire, not in ancient Greece.
+During World War II, Winston Churchill was the prime minister of France. | X | Churchill was the prime minister of the United Kingdom, leading Britain through most of World War II.
+The Titanic sank in 1912. | O | The Titanic struck an iceberg and sank on its first voyage across the Atlantic in April 1912.
+Cleopatra was a queen of ancient Egypt. | O | Cleopatra VII was the last active ruler of ancient Egypt's Ptolemaic dynasty.
+Julius Caesar was the first emperor of Rome. | X | Caesar was a Roman general and dictator but never emperor; his heir Augustus became Rome's first emperor.
+The Colosseum in Rome was used for gladiator contests. | O | The Colosseum was a huge amphitheatre where ancient Romans watched gladiator fights and other public spectacles.
+Machu Picchu was built by the Aztec Empire. | X | Machu Picchu was built by the Inca in the mountains of Peru; the Aztec Empire was in Mexico.
+The Hundred Years' War lasted exactly one hundred years. | X | The Hundred Years' War between England and France actually lasted 116 years, from 1337 to 1453.
+The Vikings came from Scandinavia. | O | The Vikings were seafarers from Scandinavia, the region of modern Denmark, Norway, and Sweden, who raided and traded across Europe.
+Genghis Khan founded the Mongol Empire. | O | Genghis Khan united the Mongol tribes around 1206 and founded an empire that became the largest contiguous land empire in history.
+Marie Antoinette was a queen of Spain. | X | Marie Antoinette was the queen of France, married to Louis XVI, and was executed during the French Revolution.
+The Renaissance began in Italy. | O | The Renaissance, a rebirth of art and learning, began in Italian cities like Florence in the 14th century before spreading across Europe.
+The Industrial Revolution began in Germany. | X | The Industrial Revolution began in Britain in the late 18th century, powered by steam engines and textile factories.
+The United States Declaration of Independence was adopted in 1776. | O | The Declaration of Independence was adopted on July 4, 1776, announcing the American colonies' separation from Britain.
+Joan of Arc was an English military leader. | X | Joan of Arc was a French heroine who led French forces against England during the Hundred Years' War.
+The Wright brothers made the first powered airplane flight in 1953. | X | The Wright brothers first flew a powered airplane in 1903 at Kitty Hawk, North Carolina, fifty years earlier.
+Abraham Lincoln was president of the United States during the American Civil War. | O | Lincoln led the Union through the Civil War (1861-1865) and issued the Emancipation Proclamation against slavery.
+The Cold War was mainly a rivalry between the United States and the Soviet Union. | O | After World War II, the United States and the Soviet Union competed for global influence for decades without fighting each other directly.
+The United States gained its independence from France. | X | The American colonies won independence from Britain; France actually helped the Americans in that war.
+The Soviet Union collapsed in 1961. | X | The Soviet Union was dissolved in 1991; 1961 was the year the Berlin Wall was built.
+The ancient Olympic Games were held in Greece. | O | The ancient Olympics were held at Olympia in Greece every four years in honor of the god Zeus.
+The Aztec Empire was located in what is now Mexico. | O | The Aztec Empire flourished in central Mexico, with its capital Tenochtitlan on the site of today's Mexico City.
+Alexander the Great was a king of Persia. | X | Alexander was the king of Macedonia in Greece; he conquered the Persian Empire rather than ruling it as a Persian king.
+Nelson Mandela became South Africa's first Black president in 1994. | O | After 27 years in prison, Mandela was elected president in South Africa's first fully democratic election in 1994.
+The samurai were warriors of ancient China. | X | The samurai were the warrior class of Japan, serving lords under a strict code of honor for centuries.

@@ -74,6 +74,150 @@
       "prompt": "'scarce'는 '풍부한'이라는 뜻이다.",
       "answer": false,
       "explanation": "scarce는 '부족한, 드문'이라는 뜻입니다. '풍부한'은 abundant입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'tenacious'는 '끈질긴, 집요한'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "tenacious는 쉽게 포기하지 않는 '끈질긴, 집요한'이라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'lucid'는 '흐릿한'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "lucid는 '명료한, 또렷한'이라는 뜻입니다. '흐릿한'은 vague, murky입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'prudent'는 '신중한'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "prudent는 앞일을 헤아려 '신중한, 분별 있는'이라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'hostile'은 '우호적인'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "hostile은 '적대적인'이라는 뜻입니다. '우호적인'은 friendly, amicable입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'profound'는 '심오한, 깊은'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "profound는 생각이나 영향이 '깊은, 심오한'이라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'mundane'은 '비범한'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "mundane은 '평범한, 일상적인'이라는 뜻입니다. '비범한'은 extraordinary입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'vulnerable'은 '취약한, 상처받기 쉬운'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "vulnerable은 공격이나 피해에 '취약한, 상처받기 쉬운'이라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'reluctant'는 '기꺼이 하는'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "reluctant는 '꺼리는, 마지못해 하는'이라는 뜻입니다. '기꺼이 하는'은 willing입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'coherent'는 '일관성 있는, 논리적인'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "coherent는 앞뒤가 맞아 '일관성 있는, 조리 있는'이라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'adverse'는 '유리한'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "adverse는 '불리한, 해로운'이라는 뜻입니다. '유리한'은 favorable입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'plausible'은 '그럴듯한'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "plausible은 사실일 법하게 '그럴듯한, 타당해 보이는'이라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'concise'는 '장황한'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "concise는 '간결한'이라는 뜻입니다. '장황한'은 verbose, lengthy입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'deteriorate'는 '악화되다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "deteriorate는 상태가 점점 '악화되다, 나빠지다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'abolish'는 '제정하다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "abolish는 제도나 법을 '폐지하다'라는 뜻입니다. '제정하다'는 enact입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'hypothesis'는 '가설'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "hypothesis는 검증을 위해 세우는 '가설'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'indifferent'는 '관심이 많은'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "indifferent는 '무관심한'이라는 뜻입니다. '관심 있는'은 interested입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'compensate'는 '보상하다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "compensate는 손해나 노력에 대해 '보상하다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'transparent'는 '불투명한'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "transparent는 '투명한'이라는 뜻입니다. '불투명한'은 opaque입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'alleviate'는 '완화하다, 덜어 주다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "alleviate는 고통이나 문제를 '완화하다, 덜어 주다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'futile'은 '효과적인'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "futile은 '헛된, 소용없는'이라는 뜻입니다. '효과적인'은 effective입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'contemplate'는 '심사숙고하다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "contemplate는 오래 깊이 '심사숙고하다, 곰곰이 생각하다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'sporadic'은 '지속적인'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "sporadic은 '산발적인, 이따금 일어나는'이라는 뜻입니다. '지속적인'은 continuous입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'eloquent'는 '유창한, 웅변의'라는 뜻이다.",
+      "answer": true,
+      "explanation": "eloquent는 말이나 글이 '유창하고 설득력 있는'이라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'novice'는 '전문가'라는 뜻이다.",
+      "answer": false,
+      "explanation": "novice는 '초보자'라는 뜻입니다. '전문가'는 expert입니다."
     }
   ]
 }

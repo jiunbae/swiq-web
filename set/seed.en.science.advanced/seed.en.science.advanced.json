@@ -93,6 +93,187 @@
         "h₂o"
       ],
       "explanation": "Water is made of two hydrogen atoms and one oxygen atom, written H2O."
+    },
+    {
+      "type": "ox",
+      "prompt": "Newton's third law states that for every action there is an equal and opposite reaction.",
+      "answer": true,
+      "explanation": "When one body exerts a force on another, the second exerts an equal force in the opposite direction."
+    },
+    {
+      "type": "ox",
+      "prompt": "The pH scale ranges from 0 to 7, with 7 being the most acidic value.",
+      "answer": false,
+      "explanation": "The pH scale runs from 0 to 14; 7 is neutral, and lower numbers (toward 0) are more acidic."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which particle is the carrier (mediator) of the electromagnetic force?",
+      "choices": [
+        "Photon",
+        "Gluon",
+        "Neutrino",
+        "Electron"
+      ],
+      "answer": 1,
+      "explanation": "The photon is the exchange particle that mediates the electromagnetic force."
+    },
+    {
+      "type": "ox",
+      "prompt": "Photosynthesis converts light energy into chemical energy stored in glucose.",
+      "answer": true,
+      "explanation": "Plants use sunlight to build glucose, storing energy in its chemical bonds."
+    },
+    {
+      "type": "text",
+      "prompt": "What force pulls objects toward the center of the Earth? (name the force)",
+      "answers": [
+        "gravity",
+        "gravitation",
+        "gravitational force"
+      ],
+      "explanation": "Gravity is the attractive force that pulls masses toward one another, including toward Earth's center."
+    },
+    {
+      "type": "ox",
+      "prompt": "Isotopes of the same element differ in their number of protons.",
+      "answer": false,
+      "explanation": "Isotopes have the same number of protons but different numbers of neutrons."
+    },
+    {
+      "type": "ox",
+      "prompt": "The second law of thermodynamics says the entropy of an isolated system tends to increase over time.",
+      "answer": true,
+      "explanation": "In an isolated system, disorder (entropy) tends to rise, setting a direction for spontaneous processes."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the most abundant gas in Earth's atmosphere?",
+      "choices": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": 3,
+      "explanation": "Nitrogen makes up about 78 percent of Earth's atmosphere, far more than oxygen."
+    },
+    {
+      "type": "ox",
+      "prompt": "A catalyst is permanently consumed and used up during a chemical reaction.",
+      "answer": false,
+      "explanation": "A catalyst speeds up a reaction without being consumed, so it can be reused."
+    },
+    {
+      "type": "ox",
+      "prompt": "Ohm's law states that voltage equals current multiplied by resistance.",
+      "answer": true,
+      "explanation": "Ohm's law is written V = I × R, relating voltage, current, and resistance in a circuit."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the process by which a liquid changes into a gas called? (single word)",
+      "answers": [
+        "evaporation",
+        "vaporization",
+        "vaporisation"
+      ],
+      "explanation": "Vaporization, commonly called evaporation at a surface, is the change of a liquid into a gas."
+    },
+    {
+      "type": "ox",
+      "prompt": "Ribosomes are the organelles chiefly responsible for producing the cell's ATP.",
+      "answer": false,
+      "explanation": "Ribosomes build proteins; ATP is mainly produced by the mitochondria."
+    },
+    {
+      "type": "ox",
+      "prompt": "Noble gases are largely chemically inert because they have full outer electron shells.",
+      "answer": true,
+      "explanation": "With complete valence shells, noble gases have little tendency to gain, lose, or share electrons."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which type of electromagnetic radiation carries the highest energy?",
+      "choices": [
+        "Radio waves",
+        "Gamma rays",
+        "Visible light",
+        "Microwaves"
+      ],
+      "answer": 2,
+      "explanation": "Gamma rays have the shortest wavelength and highest frequency, so they carry the most energy."
+    },
+    {
+      "type": "ox",
+      "prompt": "Red light has a shorter wavelength than blue light.",
+      "answer": false,
+      "explanation": "Red light has a longer wavelength than blue light; blue is at the shorter-wavelength end of visible light."
+    },
+    {
+      "type": "ox",
+      "prompt": "Water expands when it freezes, so ice is less dense than liquid water.",
+      "answer": true,
+      "explanation": "Ice's crystal structure spreads molecules farther apart, making it less dense so it floats."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the chemical symbol for the element gold?",
+      "answers": [
+        "au"
+      ],
+      "explanation": "Gold's symbol is Au, from its Latin name aurum."
+    },
+    {
+      "type": "ox",
+      "prompt": "In a covalent bond, electrons are transferred completely from one atom to another.",
+      "answer": false,
+      "explanation": "Covalent bonds involve shared electrons; complete electron transfer describes ionic bonds."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Doppler effect describes a change in a wave's observed frequency due to relative motion between source and observer.",
+      "answer": true,
+      "explanation": "As a source and observer move relative to each other, the observed frequency shifts, as with a passing siren."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the SI base unit of electric current?",
+      "choices": [
+        "Volt",
+        "Watt",
+        "Ohm",
+        "Ampere"
+      ],
+      "answer": 4,
+      "explanation": "The ampere (A) is the SI base unit of electric current."
+    },
+    {
+      "type": "ox",
+      "prompt": "Mitosis produces four genetically unique daughter cells from one parent cell.",
+      "answer": false,
+      "explanation": "Mitosis yields two genetically identical daughter cells; four genetically varied cells come from meiosis."
+    },
+    {
+      "type": "ox",
+      "prompt": "Kinetic energy is the energy an object possesses because of its motion.",
+      "answer": true,
+      "explanation": "A moving object carries kinetic energy that increases with its mass and the square of its speed."
+    },
+    {
+      "type": "text",
+      "prompt": "What term describes an animal that eats only plants?",
+      "answers": [
+        "herbivore",
+        "herbivorous"
+      ],
+      "explanation": "A herbivore is an animal whose diet consists mainly or entirely of plants."
+    },
+    {
+      "type": "ox",
+      "prompt": "The half-life of a radioactive isotope is the time it takes for all of its atoms to decay.",
+      "answer": false,
+      "explanation": "A half-life is the time for half of the atoms in a sample to decay, not all of them."
     }
   ]
 }

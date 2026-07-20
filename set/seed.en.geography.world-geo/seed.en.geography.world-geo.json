@@ -74,6 +74,150 @@
       "prompt": "The Atlantic Ocean is larger than the Pacific Ocean.",
       "answer": false,
       "explanation": "The Pacific Ocean is larger than the Atlantic Ocean."
+    },
+    {
+      "type": "ox",
+      "prompt": "The capital of Japan is Tokyo.",
+      "answer": true,
+      "explanation": "Tokyo is Japan's capital and one of the most populous metropolitan areas in the world."
+    },
+    {
+      "type": "ox",
+      "prompt": "The capital of Australia is Sydney.",
+      "answer": false,
+      "explanation": "Australia's capital is Canberra; Sydney is its largest city."
+    },
+    {
+      "type": "ox",
+      "prompt": "Brazil is the largest country in South America.",
+      "answer": true,
+      "explanation": "Brazil covers nearly half of South America, making it the continent's largest country by area and population."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Statue of Liberty is located in London.",
+      "answer": false,
+      "explanation": "The Statue of Liberty stands in New York Harbor in the United States; it was a gift from France."
+    },
+    {
+      "type": "ox",
+      "prompt": "The capital of Canada is Toronto.",
+      "answer": false,
+      "explanation": "Canada's capital is Ottawa; Toronto is the country's largest city."
+    },
+    {
+      "type": "ox",
+      "prompt": "The equator divides the Earth into the Northern and Southern Hemispheres.",
+      "answer": true,
+      "explanation": "The equator is an imaginary line around the middle of the Earth that separates the Northern Hemisphere from the Southern Hemisphere."
+    },
+    {
+      "type": "ox",
+      "prompt": "Canada shares a land border with the United States.",
+      "answer": true,
+      "explanation": "Canada and the United States share the world's longest international land border."
+    },
+    {
+      "type": "ox",
+      "prompt": "The capital of Brazil is Rio de Janeiro.",
+      "answer": false,
+      "explanation": "Brazil's capital is Brasília, a planned city that replaced Rio de Janeiro as capital in 1960."
+    },
+    {
+      "type": "ox",
+      "prompt": "The capital of Italy is Rome.",
+      "answer": true,
+      "explanation": "Rome is Italy's capital and largest city, famous for its long history."
+    },
+    {
+      "type": "ox",
+      "prompt": "Mount Kilimanjaro is located in Europe.",
+      "answer": false,
+      "explanation": "Kilimanjaro is in Tanzania and is the highest mountain in Africa."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Arctic Ocean is the warmest ocean on Earth.",
+      "answer": false,
+      "explanation": "The Arctic is the coldest and smallest of the world's oceans, largely covered by sea ice."
+    },
+    {
+      "type": "ox",
+      "prompt": "Antarctica is the coldest continent on Earth.",
+      "answer": true,
+      "explanation": "Antarctica holds the record for the lowest temperatures ever measured on Earth and is covered by a thick ice sheet."
+    },
+    {
+      "type": "ox",
+      "prompt": "Switzerland has a long ocean coastline.",
+      "answer": false,
+      "explanation": "Switzerland is a landlocked country in the Alps with no coastline at all."
+    },
+    {
+      "type": "ox",
+      "prompt": "Egypt is a country in Africa.",
+      "answer": true,
+      "explanation": "Egypt lies in the north-east corner of Africa, with a small part of its territory, the Sinai Peninsula, in Asia."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Alps are a mountain range in Europe.",
+      "answer": true,
+      "explanation": "The Alps stretch across several European countries, including France, Switzerland, Italy, and Austria."
+    },
+    {
+      "type": "ox",
+      "prompt": "The capital of South Korea is Busan.",
+      "answer": false,
+      "explanation": "South Korea's capital is Seoul; Busan is the country's second-largest city and main port."
+    },
+    {
+      "type": "ox",
+      "prompt": "Greenland is the largest island in the world.",
+      "answer": true,
+      "explanation": "Greenland is the world's largest island; Australia is bigger but is counted as a continent."
+    },
+    {
+      "type": "ox",
+      "prompt": "England and France are connected by a bridge.",
+      "answer": false,
+      "explanation": "There is no bridge between them; they are linked by the Channel Tunnel, an undersea rail tunnel beneath the English Channel."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Andes mountain range is in South America.",
+      "answer": true,
+      "explanation": "The Andes run along the western edge of South America and form the longest mountain range on land."
+    },
+    {
+      "type": "ox",
+      "prompt": "Madagascar is an island off the coast of India.",
+      "answer": false,
+      "explanation": "Madagascar lies in the Indian Ocean off the south-east coast of Africa, not near India."
+    },
+    {
+      "type": "ox",
+      "prompt": "The shore of the Dead Sea is the highest point on Earth's land surface.",
+      "answer": false,
+      "explanation": "The Dead Sea shore is the lowest land point on Earth, more than 400 metres below sea level."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Mediterranean Sea lies between Europe and Africa.",
+      "answer": true,
+      "explanation": "The Mediterranean separates southern Europe from northern Africa and connects to the Atlantic through the Strait of Gibraltar."
+    },
+    {
+      "type": "ox",
+      "prompt": "New Zealand is part of the continent of Asia.",
+      "answer": false,
+      "explanation": "New Zealand is an island country in Oceania, in the south-western Pacific Ocean."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Great Barrier Reef is located off the coast of Australia.",
+      "answer": true,
+      "explanation": "The Great Barrier Reef, the world's largest coral reef system, lies off the north-east coast of Australia."
     }
   ]
 }

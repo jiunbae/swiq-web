@@ -96,6 +96,193 @@
         "the amazon river"
       ],
       "explanation": "The Amazon River is the longest river in South America and carries the most water of any river."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Strait of Gibraltar separates Spain in Europe from Morocco in Africa.",
+      "answer": true,
+      "explanation": "The Strait of Gibraltar, only about 13 km wide at its narrowest, links the Atlantic to the Mediterranean and separates Europe from Africa."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Caspian Sea, the world's largest inland body of water, is a freshwater lake.",
+      "answer": false,
+      "explanation": "The Caspian Sea is salty; the largest freshwater lake by surface area is Lake Superior in North America."
+    },
+    {
+      "type": "choice",
+      "prompt": "Nairobi is the capital city of which African country?",
+      "choices": [
+        "Tanzania",
+        "Kenya",
+        "Uganda",
+        "Ethiopia"
+      ],
+      "answer": 2,
+      "explanation": "Nairobi is the capital and largest city of Kenya in East Africa."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Ring of Fire, a belt of volcanoes and frequent earthquakes, encircles much of the Pacific Ocean.",
+      "answer": true,
+      "explanation": "The Pacific Ring of Fire follows tectonic plate boundaries and hosts most of the world's active volcanoes and earthquakes."
+    },
+    {
+      "type": "ox",
+      "prompt": "Kathmandu is the capital of Bhutan.",
+      "answer": false,
+      "explanation": "Kathmandu is the capital of Nepal; Bhutan's capital is Thimphu."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the capital city of Canada?",
+      "answers": [
+        "ottawa",
+        "ottawa, ontario"
+      ],
+      "explanation": "Ottawa, in Ontario, is Canada's capital — not the larger cities of Toronto, Montreal, or Vancouver."
+    },
+    {
+      "type": "ox",
+      "prompt": "The shoreline of the Dead Sea is the lowest land elevation on Earth, more than 400 meters below sea level.",
+      "answer": true,
+      "explanation": "The Dead Sea shore lies over 400 m below sea level, the lowest dry land on Earth, and its water is famously hypersaline."
+    },
+    {
+      "type": "ox",
+      "prompt": "Angel Falls, the world's tallest waterfall, is located in Zimbabwe.",
+      "answer": false,
+      "explanation": "Angel Falls (about 979 m) is in Venezuela; Zimbabwe shares Victoria Falls with Zambia."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which strait separates Asia from North America?",
+      "choices": [
+        "Strait of Malacca",
+        "Strait of Hormuz",
+        "Bering Strait",
+        "Strait of Dover"
+      ],
+      "answer": 3,
+      "explanation": "The Bering Strait, between Russia and Alaska, separates Asia from North America by only about 85 km."
+    },
+    {
+      "type": "ox",
+      "prompt": "Istanbul straddles two continents, with districts in both Europe and Asia across the Bosporus.",
+      "answer": true,
+      "explanation": "The Bosporus strait runs through Istanbul, making it a transcontinental city spanning Europe and Asia."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Atacama Desert, one of the driest places on Earth, is located in Australia.",
+      "answer": false,
+      "explanation": "The Atacama Desert is in northern Chile, South America; some of its weather stations have never recorded rain."
+    },
+    {
+      "type": "text",
+      "prompt": "Which river flows through the Grand Canyon in the United States?",
+      "answers": [
+        "colorado",
+        "colorado river",
+        "the colorado",
+        "the colorado river"
+      ],
+      "explanation": "The Colorado River carved the Grand Canyon in Arizona over millions of years."
+    },
+    {
+      "type": "ox",
+      "prompt": "Lake Baikal in Siberia is the deepest lake in the world.",
+      "answer": true,
+      "explanation": "Lake Baikal reaches about 1,642 m deep, making it Earth's deepest lake and its largest by freshwater volume."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Volga, Europe's longest river, empties into the Black Sea.",
+      "answer": false,
+      "explanation": "The Volga flows into the Caspian Sea; rivers like the Danube and Dnieper empty into the Black Sea."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which country has the longest coastline in the world?",
+      "choices": [
+        "Russia",
+        "Australia",
+        "Indonesia",
+        "Canada"
+      ],
+      "answer": 4,
+      "explanation": "Canada's coastline, at over 200,000 km including its many islands, is by far the longest of any country."
+    },
+    {
+      "type": "ox",
+      "prompt": "Indonesia is an archipelago made up of more than 17,000 islands.",
+      "answer": true,
+      "explanation": "Indonesia is the world's largest archipelagic state, comprising over 17,000 islands including Java, Sumatra, and Borneo's Kalimantan."
+    },
+    {
+      "type": "ox",
+      "prompt": "Greenland is an autonomous territory of Norway.",
+      "answer": false,
+      "explanation": "Greenland is an autonomous territory of Denmark, not Norway, despite its geographic position in North America."
+    },
+    {
+      "type": "text",
+      "prompt": "What imaginary line near 180 degrees longitude do travelers cross to move from one calendar day to another?",
+      "answers": [
+        "international date line",
+        "the international date line",
+        "date line",
+        "dateline"
+      ],
+      "explanation": "The International Date Line roughly follows 180° longitude; crossing it shifts the calendar date by one day."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Andes are the longest continental mountain range in the world.",
+      "answer": true,
+      "explanation": "The Andes stretch about 7,000 km along South America's western edge, the longest continental mountain range on Earth."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Tropic of Capricorn lies in the Northern Hemisphere.",
+      "answer": false,
+      "explanation": "The Tropic of Capricorn is in the Southern Hemisphere at about 23.5°S; the Tropic of Cancer is its northern counterpart."
+    },
+    {
+      "type": "choice",
+      "prompt": "The ancient Inca site of Machu Picchu is located in which country?",
+      "choices": [
+        "Peru",
+        "Bolivia",
+        "Ecuador",
+        "Chile"
+      ],
+      "answer": 1,
+      "explanation": "Machu Picchu, the 15th-century Inca citadel, sits high in the Andes of Peru near Cusco."
+    },
+    {
+      "type": "ox",
+      "prompt": "Africa is the only continent crossed by the equator, the Tropic of Cancer, and the Tropic of Capricorn.",
+      "answer": true,
+      "explanation": "All three major latitude lines pass through Africa, the only continent spanning both tropics and the equator."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Great Barrier Reef lies off the coast of Brazil.",
+      "answer": false,
+      "explanation": "The Great Barrier Reef, the world's largest coral reef system, lies off the northeast coast of Australia."
+    },
+    {
+      "type": "text",
+      "prompt": "Which mountain range in Russia is traditionally considered the boundary between Europe and Asia?",
+      "answers": [
+        "urals",
+        "the urals",
+        "ural mountains",
+        "the ural mountains",
+        "ural"
+      ],
+      "explanation": "The Ural Mountains, running north–south through Russia, mark the conventional land boundary between Europe and Asia."
     }
   ]
 }

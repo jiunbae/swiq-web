@@ -74,6 +74,150 @@
       "prompt": "DNS translates IP addresses into physical printer locations.",
       "answer": false,
       "explanation": "DNS translates human-readable domain names into IP addresses."
+    },
+    {
+      "type": "ox",
+      "prompt": "A compiler translates source code into machine code.",
+      "answer": true,
+      "explanation": "A compiler converts human-readable source code into machine code a computer can run."
+    },
+    {
+      "type": "ox",
+      "prompt": "A GPU is mainly used for permanent long-term data storage.",
+      "answer": false,
+      "explanation": "A GPU (Graphics Processing Unit) handles graphics and parallel computation, not storage."
+    },
+    {
+      "type": "ox",
+      "prompt": "An IP address identifies a device on a network.",
+      "answer": true,
+      "explanation": "An IP address is a numeric label that identifies a device so data can be routed to it."
+    },
+    {
+      "type": "ox",
+      "prompt": "Python is a type of computer hardware.",
+      "answer": false,
+      "explanation": "Python is a programming language, which is software, not a physical hardware component."
+    },
+    {
+      "type": "ox",
+      "prompt": "The kilobyte, megabyte, and gigabyte are units of digital storage.",
+      "answer": true,
+      "explanation": "These are increasingly large units used to measure digital data and storage capacity."
+    },
+    {
+      "type": "ox",
+      "prompt": "Cache memory is slower than main memory (RAM).",
+      "answer": false,
+      "explanation": "Cache is small, very fast memory placed close to the CPU, faster than main RAM."
+    },
+    {
+      "type": "ox",
+      "prompt": "A URL specifies the address of a resource on the web.",
+      "answer": true,
+      "explanation": "A URL (Uniform Resource Locator) tells a browser where to find a web resource."
+    },
+    {
+      "type": "ox",
+      "prompt": "Open-source software keeps its source code hidden from the public.",
+      "answer": false,
+      "explanation": "Open-source software makes its source code publicly available to view and modify."
+    },
+    {
+      "type": "ox",
+      "prompt": "A bug is an error or flaw in a computer program.",
+      "answer": true,
+      "explanation": "A bug is a defect that makes a program behave incorrectly or unexpectedly."
+    },
+    {
+      "type": "ox",
+      "prompt": "Encryption makes data easier for anyone to read.",
+      "answer": false,
+      "explanation": "Encryption scrambles data so only those with the correct key can read it."
+    },
+    {
+      "type": "ox",
+      "prompt": "The operating system manages a computer's hardware and software resources.",
+      "answer": true,
+      "explanation": "The operating system coordinates hardware, memory, and programs so they work together."
+    },
+    {
+      "type": "ox",
+      "prompt": "A hard disk drive (HDD) loses all its data when the computer is turned off.",
+      "answer": false,
+      "explanation": "An HDD is non-volatile storage, so it keeps data even without power."
+    },
+    {
+      "type": "ox",
+      "prompt": "A pixel is the smallest unit of a digital image.",
+      "answer": true,
+      "explanation": "A pixel is a single tiny dot of color; many pixels together form a digital image."
+    },
+    {
+      "type": "ox",
+      "prompt": "The World Wide Web and the Internet are exactly the same thing.",
+      "answer": false,
+      "explanation": "The Internet is the underlying network; the Web is one service of many that runs on top of it."
+    },
+    {
+      "type": "ox",
+      "prompt": "A loop is used to repeat a set of instructions in a program.",
+      "answer": true,
+      "explanation": "A loop runs the same block of code multiple times until a condition is met."
+    },
+    {
+      "type": "ox",
+      "prompt": "Malware is software designed to protect your computer from threats.",
+      "answer": false,
+      "explanation": "Malware is malicious software meant to harm or exploit systems; protective tools are antivirus or security software."
+    },
+    {
+      "type": "ox",
+      "prompt": "A variable stores data that can change during a program's execution.",
+      "answer": true,
+      "explanation": "A variable is a named location in memory whose value can be updated as a program runs."
+    },
+    {
+      "type": "ox",
+      "prompt": "A router's only job is to print documents.",
+      "answer": false,
+      "explanation": "A router forwards data between networks; printing is done by a printer."
+    },
+    {
+      "type": "ox",
+      "prompt": "Cloud computing delivers computing services over the Internet.",
+      "answer": true,
+      "explanation": "Cloud computing provides storage, servers, and software on demand over the Internet."
+    },
+    {
+      "type": "ox",
+      "prompt": "A boolean value can hold any whole number.",
+      "answer": false,
+      "explanation": "A boolean can hold only one of two values, true or false."
+    },
+    {
+      "type": "ox",
+      "prompt": "Backing up data helps protect against data loss.",
+      "answer": true,
+      "explanation": "Keeping backups means you can recover files if the original is lost or damaged."
+    },
+    {
+      "type": "ox",
+      "prompt": "Solid-state drives (SSDs) store data on spinning magnetic disks.",
+      "answer": false,
+      "explanation": "SSDs use flash memory with no moving parts; spinning magnetic disks are used by HDDs."
+    },
+    {
+      "type": "ox",
+      "prompt": "A database is an organized collection of data.",
+      "answer": true,
+      "explanation": "A database stores data in a structured way so it can be searched and managed efficiently."
+    },
+    {
+      "type": "ox",
+      "prompt": "A single bit can represent four different values.",
+      "answer": false,
+      "explanation": "A single bit has only two possible values, 0 or 1."
     }
   ]
 }

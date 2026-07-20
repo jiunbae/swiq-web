@@ -74,6 +74,150 @@
       "prompt": "An adult human normally has three eyes.",
       "answer": false,
       "explanation": "A human normally has two eyes."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Earth revolves around the Sun.",
+      "answer": true,
+      "explanation": "The Earth orbits the Sun, completing one full revolution in about 365 days."
+    },
+    {
+      "type": "ox",
+      "prompt": "Goldfish can only remember things for three seconds.",
+      "answer": false,
+      "explanation": "This is a myth; studies show goldfish can remember things for weeks or even months."
+    },
+    {
+      "type": "ox",
+      "prompt": "Penguins are birds.",
+      "answer": true,
+      "explanation": "Penguins are flightless birds; they have feathers and lay eggs like other birds."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Great Wall of China is easily visible from the Moon with the naked eye.",
+      "answer": false,
+      "explanation": "This is a popular myth; the wall is far too narrow to be seen from the Moon without aid."
+    },
+    {
+      "type": "ox",
+      "prompt": "There are 60 minutes in an hour.",
+      "answer": true,
+      "explanation": "An hour is divided into 60 minutes, and each minute into 60 seconds."
+    },
+    {
+      "type": "ox",
+      "prompt": "A tomato is botanically classified as a vegetable.",
+      "answer": false,
+      "explanation": "Botanically, a tomato is a fruit because it develops from a flower and contains seeds."
+    },
+    {
+      "type": "ox",
+      "prompt": "Paris is the capital of France.",
+      "answer": true,
+      "explanation": "Paris is the capital and largest city of France."
+    },
+    {
+      "type": "ox",
+      "prompt": "Lightning never strikes the same place twice.",
+      "answer": false,
+      "explanation": "Lightning often strikes the same place repeatedly; tall buildings like the Empire State Building are hit many times a year."
+    },
+    {
+      "type": "ox",
+      "prompt": "Water is made of hydrogen and oxygen.",
+      "answer": true,
+      "explanation": "A water molecule (H2O) is made of two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "type": "ox",
+      "prompt": "Ostriches bury their heads in the sand when they are scared.",
+      "answer": false,
+      "explanation": "This is a myth; ostriches may lie low or run from danger, but they do not bury their heads."
+    },
+    {
+      "type": "ox",
+      "prompt": "A leap year has 366 days.",
+      "answer": true,
+      "explanation": "In a leap year an extra day is added to February, giving the year 366 days instead of 365."
+    },
+    {
+      "type": "ox",
+      "prompt": "Bulls charge at capes because the color red makes them angry.",
+      "answer": false,
+      "explanation": "Cattle cannot distinguish red from green; it is the movement of the cape, not its color, that provokes the bull."
+    },
+    {
+      "type": "ox",
+      "prompt": "Bats are mammals.",
+      "answer": true,
+      "explanation": "Bats are the only mammals capable of true sustained flight; they give birth to live young and nurse them with milk."
+    },
+    {
+      "type": "ox",
+      "prompt": "A dozen means twenty items.",
+      "answer": false,
+      "explanation": "A dozen means twelve items; twenty items is sometimes called a score."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Pacific is the largest ocean on Earth.",
+      "answer": true,
+      "explanation": "The Pacific Ocean is the largest and deepest ocean, covering about a third of the Earth's surface."
+    },
+    {
+      "type": "ox",
+      "prompt": "Bananas grow on trees.",
+      "answer": false,
+      "explanation": "Banana plants are actually giant herbaceous plants, not true trees; their 'trunk' is made of tightly packed leaf bases."
+    },
+    {
+      "type": "ox",
+      "prompt": "A carrot is a root vegetable.",
+      "answer": true,
+      "explanation": "The part of the carrot we eat is the plant's taproot, which grows underground."
+    },
+    {
+      "type": "ox",
+      "prompt": "Humans use only 10 percent of their brains.",
+      "answer": false,
+      "explanation": "This is a myth; brain scans show that virtually all parts of the brain are active over the course of a day."
+    },
+    {
+      "type": "ox",
+      "prompt": "A century is a period of 100 years.",
+      "answer": true,
+      "explanation": "A century means 100 years, just as a decade means 10 years."
+    },
+    {
+      "type": "ox",
+      "prompt": "An octagon has six sides.",
+      "answer": false,
+      "explanation": "An octagon has eight sides; a six-sided shape is called a hexagon."
+    },
+    {
+      "type": "ox",
+      "prompt": "An octopus has eight arms.",
+      "answer": true,
+      "explanation": "Octopuses have eight flexible arms lined with suckers."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Statue of Liberty is located in London.",
+      "answer": false,
+      "explanation": "The Statue of Liberty stands in New York Harbor in the United States; it was a gift from France."
+    },
+    {
+      "type": "ox",
+      "prompt": "The human heart pumps blood around the body.",
+      "answer": true,
+      "explanation": "The heart is a muscular pump that circulates blood, carrying oxygen and nutrients throughout the body."
+    },
+    {
+      "type": "ox",
+      "prompt": "Antarctica is the hottest continent on Earth.",
+      "answer": false,
+      "explanation": "Antarctica is the coldest continent; the hottest average temperatures are found in Africa."
     }
   ]
 }

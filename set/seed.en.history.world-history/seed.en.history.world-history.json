@@ -74,6 +74,150 @@
       "prompt": "Ancient Greece is famous for building the Taj Mahal.",
       "answer": false,
       "explanation": "The Taj Mahal was built in India under the Mughal Empire, not in ancient Greece."
+    },
+    {
+      "type": "ox",
+      "prompt": "During World War II, Winston Churchill was the prime minister of France.",
+      "answer": false,
+      "explanation": "Churchill was the prime minister of the United Kingdom, leading Britain through most of World War II."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Titanic sank in 1912.",
+      "answer": true,
+      "explanation": "The Titanic struck an iceberg and sank on its first voyage across the Atlantic in April 1912."
+    },
+    {
+      "type": "ox",
+      "prompt": "Cleopatra was a queen of ancient Egypt.",
+      "answer": true,
+      "explanation": "Cleopatra VII was the last active ruler of ancient Egypt's Ptolemaic dynasty."
+    },
+    {
+      "type": "ox",
+      "prompt": "Julius Caesar was the first emperor of Rome.",
+      "answer": false,
+      "explanation": "Caesar was a Roman general and dictator but never emperor; his heir Augustus became Rome's first emperor."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Colosseum in Rome was used for gladiator contests.",
+      "answer": true,
+      "explanation": "The Colosseum was a huge amphitheatre where ancient Romans watched gladiator fights and other public spectacles."
+    },
+    {
+      "type": "ox",
+      "prompt": "Machu Picchu was built by the Aztec Empire.",
+      "answer": false,
+      "explanation": "Machu Picchu was built by the Inca in the mountains of Peru; the Aztec Empire was in Mexico."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Hundred Years' War lasted exactly one hundred years.",
+      "answer": false,
+      "explanation": "The Hundred Years' War between England and France actually lasted 116 years, from 1337 to 1453."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Vikings came from Scandinavia.",
+      "answer": true,
+      "explanation": "The Vikings were seafarers from Scandinavia, the region of modern Denmark, Norway, and Sweden, who raided and traded across Europe."
+    },
+    {
+      "type": "ox",
+      "prompt": "Genghis Khan founded the Mongol Empire.",
+      "answer": true,
+      "explanation": "Genghis Khan united the Mongol tribes around 1206 and founded an empire that became the largest contiguous land empire in history."
+    },
+    {
+      "type": "ox",
+      "prompt": "Marie Antoinette was a queen of Spain.",
+      "answer": false,
+      "explanation": "Marie Antoinette was the queen of France, married to Louis XVI, and was executed during the French Revolution."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Renaissance began in Italy.",
+      "answer": true,
+      "explanation": "The Renaissance, a rebirth of art and learning, began in Italian cities like Florence in the 14th century before spreading across Europe."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Industrial Revolution began in Germany.",
+      "answer": false,
+      "explanation": "The Industrial Revolution began in Britain in the late 18th century, powered by steam engines and textile factories."
+    },
+    {
+      "type": "ox",
+      "prompt": "The United States Declaration of Independence was adopted in 1776.",
+      "answer": true,
+      "explanation": "The Declaration of Independence was adopted on July 4, 1776, announcing the American colonies' separation from Britain."
+    },
+    {
+      "type": "ox",
+      "prompt": "Joan of Arc was an English military leader.",
+      "answer": false,
+      "explanation": "Joan of Arc was a French heroine who led French forces against England during the Hundred Years' War."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Wright brothers made the first powered airplane flight in 1953.",
+      "answer": false,
+      "explanation": "The Wright brothers first flew a powered airplane in 1903 at Kitty Hawk, North Carolina, fifty years earlier."
+    },
+    {
+      "type": "ox",
+      "prompt": "Abraham Lincoln was president of the United States during the American Civil War.",
+      "answer": true,
+      "explanation": "Lincoln led the Union through the Civil War (1861-1865) and issued the Emancipation Proclamation against slavery."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Cold War was mainly a rivalry between the United States and the Soviet Union.",
+      "answer": true,
+      "explanation": "After World War II, the United States and the Soviet Union competed for global influence for decades without fighting each other directly."
+    },
+    {
+      "type": "ox",
+      "prompt": "The United States gained its independence from France.",
+      "answer": false,
+      "explanation": "The American colonies won independence from Britain; France actually helped the Americans in that war."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Soviet Union collapsed in 1961.",
+      "answer": false,
+      "explanation": "The Soviet Union was dissolved in 1991; 1961 was the year the Berlin Wall was built."
+    },
+    {
+      "type": "ox",
+      "prompt": "The ancient Olympic Games were held in Greece.",
+      "answer": true,
+      "explanation": "The ancient Olympics were held at Olympia in Greece every four years in honor of the god Zeus."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Aztec Empire was located in what is now Mexico.",
+      "answer": true,
+      "explanation": "The Aztec Empire flourished in central Mexico, with its capital Tenochtitlan on the site of today's Mexico City."
+    },
+    {
+      "type": "ox",
+      "prompt": "Alexander the Great was a king of Persia.",
+      "answer": false,
+      "explanation": "Alexander was the king of Macedonia in Greece; he conquered the Persian Empire rather than ruling it as a Persian king."
+    },
+    {
+      "type": "ox",
+      "prompt": "Nelson Mandela became South Africa's first Black president in 1994.",
+      "answer": true,
+      "explanation": "After 27 years in prison, Mandela was elected president in South Africa's first fully democratic election in 1994."
+    },
+    {
+      "type": "ox",
+      "prompt": "The samurai were warriors of ancient China.",
+      "answer": false,
+      "explanation": "The samurai were the warrior class of Japan, serving lords under a strict code of honor for centuries."
     }
   ]
 }

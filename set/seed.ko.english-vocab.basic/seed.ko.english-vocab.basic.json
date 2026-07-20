@@ -74,6 +74,150 @@
       "prompt": "'buy'는 '팔다'라는 뜻이다.",
       "answer": false,
       "explanation": "buy는 '사다'라는 뜻입니다. '팔다'는 sell입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'dog'는 '개'라는 뜻이다.",
+      "answer": true,
+      "explanation": "dog는 동물 '개'를 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'house'는 '자동차'라는 뜻이다.",
+      "answer": false,
+      "explanation": "house는 '집'이라는 뜻입니다. '자동차'는 car입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'eat'은 '먹다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "eat은 음식을 '먹다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'night'는 '낮'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "night는 '밤'이라는 뜻입니다. '낮'은 day입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'rain'은 '비'라는 뜻이다.",
+      "answer": true,
+      "explanation": "rain은 하늘에서 내리는 '비'를 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'old'는 '새로운'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "old는 '늙은, 오래된'이라는 뜻입니다. '새로운'은 new입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'milk'는 '우유'라는 뜻이다.",
+      "answer": true,
+      "explanation": "milk는 마시는 '우유'를 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'run'은 '걷다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "run은 '달리다'라는 뜻입니다. '걷다'는 walk입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'door'는 '문'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "door는 드나드는 '문'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'easy'는 '어려운'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "easy는 '쉬운'이라는 뜻입니다. '어려운'은 difficult입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'moon'은 '달'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "moon은 밤하늘의 '달'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'clean'은 '더러운'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "clean은 '깨끗한'이라는 뜻입니다. '더러운'은 dirty입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'sing'은 '노래하다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "sing은 '노래하다'라는 뜻입니다. 명사 '노래'는 song입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'winter'는 '여름'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "winter는 '겨울'이라는 뜻입니다. '여름'은 summer입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'chair'는 '의자'라는 뜻이다.",
+      "answer": true,
+      "explanation": "chair는 앉는 '의자'를 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'strong'은 '약한'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "strong은 '강한, 힘센'이라는 뜻입니다. '약한'은 weak입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'flower'는 '꽃'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "flower는 식물의 '꽃'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'cry'는 '웃다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "cry는 '울다'라는 뜻입니다. '웃다'는 laugh입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'bread'는 '빵'이라는 뜻이다.",
+      "answer": true,
+      "explanation": "bread는 밀가루로 만든 '빵'을 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'tall'은 '키가 작은'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "tall은 '키가 큰'이라는 뜻입니다. '키가 작은'은 short입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'sleep'은 '자다'라는 뜻이다.",
+      "answer": true,
+      "explanation": "sleep은 잠을 '자다'라는 뜻입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'window'는 '벽'이라는 뜻이다.",
+      "answer": false,
+      "explanation": "window는 '창문'이라는 뜻입니다. '벽'은 wall입니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'bird'는 '새'라는 뜻이다.",
+      "answer": true,
+      "explanation": "bird는 하늘을 나는 '새'를 뜻합니다."
+    },
+    {
+      "type": "ox",
+      "prompt": "'give'는 '받다'라는 뜻이다.",
+      "answer": false,
+      "explanation": "give는 '주다'라는 뜻입니다. '받다'는 receive입니다."
     }
   ]
 }

@@ -15,3 +15,27 @@ A drum is played by blowing air into it. | X | A drum is a percussion instrument
 The Mona Lisa is a marble sculpture. | X | The Mona Lisa is a painting, not a sculpture.
 An orchestra is led by a chef who cooks food. | X | An orchestra is led by a conductor; a chef cooks food.
 Opera is a sport played with a ball. | X | Opera is a musical stage art that combines singing and drama, not a sport.
+Michelangelo painted the ceiling of the Sistine Chapel. | O | Michelangelo spent about four years painting the Sistine Chapel ceiling in the Vatican.
+William Shakespeare wrote his plays in French. | X | Shakespeare wrote in English; his works are among the most famous in English literature.
+A standard guitar has six strings. | O | The standard guitar has six strings, though variants with seven or twelve strings also exist.
+The saxophone is a string instrument. | X | The saxophone is a woodwind instrument; the player blows air through a reed to make sound.
+Claude Monet was an Impressionist painter. | O | Monet was a founder of Impressionism; the movement was named after his painting 'Impression, Sunrise'.
+Beethoven was completely deaf from birth. | X | Beethoven could hear normally as a young man; he gradually lost his hearing as an adult yet kept composing.
+A haiku is a short form of Japanese poetry. | O | A haiku is a traditional Japanese poem of three lines, usually with a 5-7-5 syllable pattern.
+'The Scream' was painted by Pablo Picasso. | X | 'The Scream' was painted by the Norwegian artist Edvard Munch, not Picasso.
+Mozart began composing music as a young child. | O | Mozart was a child prodigy who started composing at around the age of five.
+Origami is the Japanese art of flower arranging. | X | Origami is the Japanese art of paper folding; Japanese flower arranging is called ikebana.
+Auguste Rodin created the sculpture 'The Thinker'. | O | 'The Thinker' is one of the most famous works by the French sculptor Auguste Rodin.
+Salvador Dalí was a painter of the Renaissance period. | X | Dalí was a 20th-century Surrealist painter; the Renaissance took place centuries earlier.
+In traditional painting, red, blue, and yellow are called the primary colors. | O | In traditional color theory, red, blue, and yellow are the primary colors from which other colors are mixed.
+A sonnet is a poem that must have exactly 100 lines. | X | A sonnet has 14 lines; Shakespeare wrote a famous collection of 154 sonnets.
+Antonio Vivaldi composed 'The Four Seasons'. | O | 'The Four Seasons' is a set of four violin concertos by the Italian Baroque composer Antonio Vivaldi.
+Jazz music originated in Japan. | X | Jazz originated in the United States, especially in New Orleans, in the early 20th century.
+The flute is a wind instrument. | O | The flute produces sound when the player blows air across its mouth hole, making it a wind instrument.
+Watercolor paintings are made with oil-based paints. | X | Watercolor paint uses pigments mixed with water; oil paint is a separate medium mixed with oils.
+In theatre, a comedy is meant to make the audience laugh. | O | A comedy is a play written to amuse the audience, unlike a tragedy, which deals with sad events.
+The Beatles were a rock band from the United States. | X | The Beatles came from Liverpool, England, and became one of the most influential bands in history.
+Frida Kahlo was a Mexican painter. | O | Frida Kahlo was a Mexican artist famous for her self-portraits and vivid colors.
+An acoustic guitar needs electricity to make sound. | X | An acoustic guitar produces sound naturally through its hollow body; only electric guitars need amplification.
+Andy Warhol was a leading figure of Pop Art. | O | Andy Warhol led the Pop Art movement, famous for works based on everyday objects like soup cans.
+Sculptures can only be made of wood. | X | Sculptures are made from many materials, including stone, metal, clay, and wood.

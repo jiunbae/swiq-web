@@ -90,6 +90,192 @@
         "inflation"
       ],
       "explanation": "Inflation is a sustained increase in the general price level that lowers purchasing power."
+    },
+    {
+      "type": "ox",
+      "prompt": "According to comparative advantage, countries gain from trade by specializing in goods they can produce at a lower opportunity cost.",
+      "answer": true,
+      "explanation": "Comparative advantage says trade benefits both parties when each specializes where its opportunity cost is lowest."
+    },
+    {
+      "type": "ox",
+      "prompt": "A price ceiling set below the equilibrium price typically creates a surplus of the good.",
+      "answer": false,
+      "explanation": "A binding price ceiling creates a shortage: at the artificially low price, quantity demanded exceeds quantity supplied."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which measure tracks the average change in prices of a fixed basket of consumer goods and services?",
+      "choices": [
+        "GDP deflator",
+        "Producer Price Index",
+        "Consumer Price Index",
+        "Gini coefficient"
+      ],
+      "answer": 3,
+      "explanation": "The Consumer Price Index (CPI) measures the average price change of a typical basket of consumer goods and services."
+    },
+    {
+      "type": "ox",
+      "prompt": "Demand is called elastic when quantity demanded responds strongly to a change in price.",
+      "answer": true,
+      "explanation": "Price elasticity measures responsiveness; elastic demand means a small price change causes a large change in quantity demanded."
+    },
+    {
+      "type": "ox",
+      "prompt": "Public goods, such as national defense, are excludable and rival in consumption.",
+      "answer": false,
+      "explanation": "Public goods are non-excludable and non-rival: no one can be barred from them, and one person's use does not reduce another's."
+    },
+    {
+      "type": "text",
+      "prompt": "What term describes how easily an asset can be converted into cash without losing value?",
+      "answers": [
+        "liquidity",
+        "asset liquidity"
+      ],
+      "explanation": "Liquidity is the ease with which an asset can be turned into cash; cash itself is the most liquid asset."
+    },
+    {
+      "type": "ox",
+      "prompt": "Nominal GDP is measured at current prices, while real GDP adjusts for inflation.",
+      "answer": true,
+      "explanation": "Real GDP removes the effect of price changes, so it reflects changes in actual output rather than inflation."
+    },
+    {
+      "type": "ox",
+      "prompt": "In a progressive tax system, everyone pays the same percentage of their income in tax.",
+      "answer": false,
+      "explanation": "A progressive tax charges higher rates on higher incomes; a flat (proportional) tax applies the same rate to everyone."
+    },
+    {
+      "type": "choice",
+      "prompt": "In which market structure do many sellers offer identical products, so no single seller can influence the price?",
+      "choices": [
+        "Monopoly",
+        "Perfect competition",
+        "Oligopoly",
+        "Monopolistic competition"
+      ],
+      "answer": 2,
+      "explanation": "Perfect competition features many price-taking firms selling identical products with free market entry and exit."
+    },
+    {
+      "type": "ox",
+      "prompt": "Marginal cost is the additional cost of producing one more unit of output.",
+      "answer": true,
+      "explanation": "Marginal cost measures the extra cost of one additional unit and guides a firm's optimal output decision."
+    },
+    {
+      "type": "ox",
+      "prompt": "Stagflation refers to a period of high economic growth combined with low inflation.",
+      "answer": false,
+      "explanation": "Stagflation is the opposite: stagnant growth and high unemployment occurring together with high inflation, as in the 1970s."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the rate at which one currency can be traded for another called? (two words)",
+      "answers": [
+        "exchange rate",
+        "the exchange rate",
+        "currency exchange rate",
+        "foreign exchange rate"
+      ],
+      "explanation": "The exchange rate is the price of one currency in terms of another and shifts with supply and demand in currency markets."
+    },
+    {
+      "type": "ox",
+      "prompt": "A negative externality occurs when a transaction imposes costs on third parties, as with pollution.",
+      "answer": true,
+      "explanation": "Externalities are costs or benefits that fall on outsiders; pollution is the classic negative externality."
+    },
+    {
+      "type": "ox",
+      "prompt": "When a country's currency depreciates, its exports generally become more expensive for foreign buyers.",
+      "answer": false,
+      "explanation": "Depreciation makes exports cheaper for foreigners and imports more expensive at home, which tends to boost export demand."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which economist wrote 'The Wealth of Nations' (1776) and described the 'invisible hand' of markets?",
+      "choices": [
+        "John Maynard Keynes",
+        "Karl Marx",
+        "David Ricardo",
+        "Adam Smith"
+      ],
+      "answer": 4,
+      "explanation": "Adam Smith's 'The Wealth of Nations' founded classical economics and used the invisible hand to describe self-regulating markets."
+    },
+    {
+      "type": "ox",
+      "prompt": "Diminishing marginal utility means each additional unit of a good tends to give less extra satisfaction than the one before.",
+      "answer": true,
+      "explanation": "As consumption increases, the added satisfaction from each extra unit typically falls — the law of diminishing marginal utility."
+    },
+    {
+      "type": "ox",
+      "prompt": "The unemployment rate counts everyone without a job, including people who are not looking for work.",
+      "answer": false,
+      "explanation": "The unemployment rate only counts jobless people actively seeking work; those not searching are outside the labor force."
+    },
+    {
+      "type": "text",
+      "prompt": "What is a government payment that lowers producers' costs to encourage the output of a good called?",
+      "answers": [
+        "subsidy",
+        "a subsidy",
+        "subsidies",
+        "government subsidy"
+      ],
+      "explanation": "A subsidy is a government payment or tax break that lowers production costs to encourage the supply of a good or service."
+    },
+    {
+      "type": "ox",
+      "prompt": "An oligopoly is a market dominated by a small number of large firms.",
+      "answer": true,
+      "explanation": "In an oligopoly a few large firms dominate, so each firm's decisions strongly affect its rivals."
+    },
+    {
+      "type": "ox",
+      "prompt": "A budget deficit occurs when a government's revenue exceeds its spending.",
+      "answer": false,
+      "explanation": "A deficit means spending exceeds revenue; when revenue exceeds spending, the government runs a surplus."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which term is commonly defined informally as two consecutive quarters of falling real GDP?",
+      "choices": [
+        "Depression",
+        "Hyperinflation",
+        "Recession",
+        "Stagnation"
+      ],
+      "answer": 3,
+      "explanation": "A recession is a broad economic downturn, often informally identified as two straight quarters of declining real GDP."
+    },
+    {
+      "type": "ox",
+      "prompt": "Rational decision-making should ignore sunk costs, since they cannot be recovered.",
+      "answer": true,
+      "explanation": "Sunk costs are already spent and unrecoverable, so rational choices should weigh only future costs and benefits."
+    },
+    {
+      "type": "ox",
+      "prompt": "According to the law of supply, producers generally offer less of a good for sale as its price rises.",
+      "answer": false,
+      "explanation": "The law of supply says the opposite: higher prices make production more profitable, so quantity supplied tends to rise."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the strategy of spreading investments across different assets to reduce risk called?",
+      "answers": [
+        "diversification",
+        "portfolio diversification",
+        "diversifying",
+        "diversify"
+      ],
+      "explanation": "Diversification spreads money across varied assets so that losses in one holding are offset by others, lowering overall risk."
     }
   ]
 }

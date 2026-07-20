@@ -15,3 +15,27 @@ One byte is smaller than one bit. | X | One byte equals eight bits, so a byte is
 iOS is an operating system made by Google. | X | iOS is made by Apple; Google makes Android.
 A 'URL' is a type of computer virus. | X | A URL is a web address that points to a page or file, not a virus.
 The internet was invented in the year 1500. | X | The internet grew out of networks developed in the 20th century, not in 1500.
+A mouse and a keyboard are input devices. | O | Input devices like the mouse and keyboard send information from the user into the computer.
+A computer virus is a biological illness that can infect people. | X | A computer virus is malicious software that spreads between computers; it cannot infect people.
+Google is a widely used internet search engine. | O | Google is the world's most widely used search engine for finding information on the web.
+A firewall is a physical wall built to keep computers warm. | X | A firewall is security software or hardware that blocks unauthorized network traffic.
+PDF is a common file format for documents. | O | PDF (Portable Document Format) is widely used to share documents that look the same on any device.
+Cloud storage keeps your files in actual clouds in the sky. | X | Cloud storage saves files on remote servers in data centers, accessed over the internet.
+Bluetooth connects devices wirelessly over short distances. | O | Bluetooth uses short-range radio waves to link devices like headphones and phones without cables.
+Deleting a file always destroys it instantly beyond any recovery. | X | Deleted files often go to a recycle bin first, and even afterwards they can sometimes be recovered with special tools.
+USB stands for Universal Serial Bus. | O | USB (Universal Serial Bus) is a standard for connecting devices and transferring data and power.
+Private (incognito) browsing makes you completely anonymous on the internet. | X | Incognito mode only stops the browser from saving your local history; websites and network providers can still see your activity.
+A web browser is a program used to visit websites. | O | Browsers such as Chrome, Safari, and Firefox display web pages and let you navigate the internet.
+A megapixel measures how loud a speaker can be. | X | A megapixel is one million pixels and measures image resolution, not loudness.
+Computers ultimately store data as ones and zeros. | O | All digital data is stored in binary form, using only the digits 1 and 0.
+Linux is a type of computer hardware. | X | Linux is an operating system, like Windows or macOS, not a piece of hardware.
+An SSD has no spinning parts, unlike a traditional hard disk drive. | O | An SSD stores data on flash memory chips with no moving parts, which makes it faster and more durable than a spinning hard disk.
+Bluetooth and Wi-Fi are exactly the same technology. | X | They are different wireless standards: Bluetooth links nearby devices, while Wi-Fi connects devices to a network over longer ranges.
+The 'CC' field in an email sends a copy of the message to additional recipients. | O | CC stands for 'carbon copy'; everyone in the CC field receives a copy of the email.
+A 'bug' in software means an insect is trapped inside the computer. | X | A software bug is an error in a program's code; the term was popularized after a moth was found in an early computer.
+A screenshot is an image of what is currently shown on a screen. | O | Taking a screenshot captures the current contents of the display as an image file.
+The 'HTTP' at the start of a web address stands for 'High Tech Transfer Protocol'. | X | HTTP stands for HyperText Transfer Protocol, the protocol used to load web pages.
+A QR code can be scanned with a smartphone camera. | O | A QR code is a square barcode that smartphone cameras can scan to open links or read information.
+'AI' stands for 'Automatic Internet'. | X | AI stands for Artificial Intelligence, technology that lets computers perform tasks that normally require human intelligence.
+A strong password helps protect an account from unauthorized access. | O | Passwords verify a user's identity; long, unique passwords make accounts much harder to break into.
+The first electronic computers were small enough to fit in a pocket. | X | Early computers like ENIAC filled entire rooms and weighed many tons; pocket-sized computing came decades later.

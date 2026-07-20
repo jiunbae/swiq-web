@@ -74,6 +74,150 @@
       "prompt": "Taxes are voluntary donations that citizens may choose not to pay.",
       "answer": false,
       "explanation": "Taxes are compulsory payments required by law, not voluntary donations."
+    },
+    {
+      "type": "ox",
+      "prompt": "A recession is a significant, broad decline in economic activity.",
+      "answer": true,
+      "explanation": "A recession is a widespread drop in output, income, and employment lasting more than a few months."
+    },
+    {
+      "type": "ox",
+      "prompt": "When a country's currency gains value, its imports become more expensive.",
+      "answer": false,
+      "explanation": "A stronger currency buys more foreign goods, so imports actually become cheaper."
+    },
+    {
+      "type": "ox",
+      "prompt": "Interest is the cost of borrowing money.",
+      "answer": true,
+      "explanation": "Borrowers pay interest as the price of using a lender's money over time."
+    },
+    {
+      "type": "ox",
+      "prompt": "A bond represents a share of ownership in a company.",
+      "answer": false,
+      "explanation": "A bond is a loan to the issuer; stocks, not bonds, represent ownership."
+    },
+    {
+      "type": "ox",
+      "prompt": "The unemployment rate measures the share of the labor force that is jobless but seeking work.",
+      "answer": true,
+      "explanation": "It counts people who are actively looking for a job but do not have one, as a share of the labor force."
+    },
+    {
+      "type": "ox",
+      "prompt": "Printing more money always makes a country wealthier.",
+      "answer": false,
+      "explanation": "Printing money without more goods and services tends to cause inflation, not real wealth."
+    },
+    {
+      "type": "ox",
+      "prompt": "Opportunity cost is the value of the next best option you give up when making a choice.",
+      "answer": true,
+      "explanation": "Every choice means forgoing alternatives; the best forgone alternative is the opportunity cost."
+    },
+    {
+      "type": "ox",
+      "prompt": "The stock market only ever moves upward and never falls.",
+      "answer": false,
+      "explanation": "Stock prices rise and fall; markets regularly experience declines as well as gains."
+    },
+    {
+      "type": "ox",
+      "prompt": "A monopoly is a market controlled by a single seller.",
+      "answer": true,
+      "explanation": "In a monopoly, one seller dominates the market with no close competitors."
+    },
+    {
+      "type": "ox",
+      "prompt": "Money you deposit at a bank sits locked in a vault and is never lent out.",
+      "answer": false,
+      "explanation": "Banks keep only part of deposits on hand and lend the rest out to earn interest."
+    },
+    {
+      "type": "ox",
+      "prompt": "Exports are goods and services sold to other countries.",
+      "answer": true,
+      "explanation": "Exports are what a country sells abroad, while imports are what it buys from abroad."
+    },
+    {
+      "type": "ox",
+      "prompt": "A higher credit score generally makes it more expensive to borrow money.",
+      "answer": false,
+      "explanation": "A higher credit score usually earns lower interest rates, making borrowing cheaper."
+    },
+    {
+      "type": "ox",
+      "prompt": "Fiscal policy involves government decisions on spending and taxation.",
+      "answer": true,
+      "explanation": "Fiscal policy uses government spending and taxes to influence the economy."
+    },
+    {
+      "type": "ox",
+      "prompt": "Barter requires the use of money to trade goods.",
+      "answer": false,
+      "explanation": "Barter is the direct exchange of goods or services without using money."
+    },
+    {
+      "type": "ox",
+      "prompt": "Scarcity means resources are limited relative to people's wants.",
+      "answer": true,
+      "explanation": "Scarcity is the basic economic problem that unlimited wants exceed limited resources."
+    },
+    {
+      "type": "ox",
+      "prompt": "Inflation increases the purchasing power of money.",
+      "answer": false,
+      "explanation": "Inflation raises prices, so each unit of money buys less; its purchasing power falls."
+    },
+    {
+      "type": "ox",
+      "prompt": "A dividend is a payment made to shareholders out of a company's profits.",
+      "answer": true,
+      "explanation": "Companies may distribute part of their earnings to shareholders as dividends."
+    },
+    {
+      "type": "ox",
+      "prompt": "Gross profit is calculated after subtracting all of a company's operating expenses.",
+      "answer": false,
+      "explanation": "Gross profit subtracts only the cost of goods sold; net profit accounts for all expenses."
+    },
+    {
+      "type": "ox",
+      "prompt": "A supply chain links producers of raw materials through to final consumers.",
+      "answer": true,
+      "explanation": "A supply chain is the network of steps that turns raw materials into products delivered to customers."
+    },
+    {
+      "type": "ox",
+      "prompt": "A progressive tax charges lower earners a higher percentage than higher earners.",
+      "answer": false,
+      "explanation": "A progressive tax charges higher earners a higher percentage, not lower earners."
+    },
+    {
+      "type": "ox",
+      "prompt": "Insurance spreads financial risk across many policyholders.",
+      "answer": true,
+      "explanation": "Many people pay premiums so that the few who suffer losses can be compensated, pooling risk."
+    },
+    {
+      "type": "ox",
+      "prompt": "The law of demand says people buy more of a good as its price rises.",
+      "answer": false,
+      "explanation": "The law of demand states that, all else equal, people buy less as the price rises."
+    },
+    {
+      "type": "ox",
+      "prompt": "Capital refers to assets used to produce goods and services.",
+      "answer": true,
+      "explanation": "Capital includes tools, machines, and buildings used in producing goods and services."
+    },
+    {
+      "type": "ox",
+      "prompt": "A trade surplus means a country imports more than it exports.",
+      "answer": false,
+      "explanation": "A trade surplus means exports exceed imports; the opposite is a trade deficit."
     }
   ]
 }

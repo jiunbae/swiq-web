@@ -74,6 +74,150 @@
       "prompt": "Opera is a sport played with a ball.",
       "answer": false,
       "explanation": "Opera is a musical stage art that combines singing and drama, not a sport."
+    },
+    {
+      "type": "ox",
+      "prompt": "Michelangelo painted the ceiling of the Sistine Chapel.",
+      "answer": true,
+      "explanation": "Michelangelo spent about four years painting the Sistine Chapel ceiling in the Vatican."
+    },
+    {
+      "type": "ox",
+      "prompt": "William Shakespeare wrote his plays in French.",
+      "answer": false,
+      "explanation": "Shakespeare wrote in English; his works are among the most famous in English literature."
+    },
+    {
+      "type": "ox",
+      "prompt": "A standard guitar has six strings.",
+      "answer": true,
+      "explanation": "The standard guitar has six strings, though variants with seven or twelve strings also exist."
+    },
+    {
+      "type": "ox",
+      "prompt": "The saxophone is a string instrument.",
+      "answer": false,
+      "explanation": "The saxophone is a woodwind instrument; the player blows air through a reed to make sound."
+    },
+    {
+      "type": "ox",
+      "prompt": "Claude Monet was an Impressionist painter.",
+      "answer": true,
+      "explanation": "Monet was a founder of Impressionism; the movement was named after his painting 'Impression, Sunrise'."
+    },
+    {
+      "type": "ox",
+      "prompt": "Beethoven was completely deaf from birth.",
+      "answer": false,
+      "explanation": "Beethoven could hear normally as a young man; he gradually lost his hearing as an adult yet kept composing."
+    },
+    {
+      "type": "ox",
+      "prompt": "A haiku is a short form of Japanese poetry.",
+      "answer": true,
+      "explanation": "A haiku is a traditional Japanese poem of three lines, usually with a 5-7-5 syllable pattern."
+    },
+    {
+      "type": "ox",
+      "prompt": "'The Scream' was painted by Pablo Picasso.",
+      "answer": false,
+      "explanation": "'The Scream' was painted by the Norwegian artist Edvard Munch, not Picasso."
+    },
+    {
+      "type": "ox",
+      "prompt": "Mozart began composing music as a young child.",
+      "answer": true,
+      "explanation": "Mozart was a child prodigy who started composing at around the age of five."
+    },
+    {
+      "type": "ox",
+      "prompt": "Origami is the Japanese art of flower arranging.",
+      "answer": false,
+      "explanation": "Origami is the Japanese art of paper folding; Japanese flower arranging is called ikebana."
+    },
+    {
+      "type": "ox",
+      "prompt": "Auguste Rodin created the sculpture 'The Thinker'.",
+      "answer": true,
+      "explanation": "'The Thinker' is one of the most famous works by the French sculptor Auguste Rodin."
+    },
+    {
+      "type": "ox",
+      "prompt": "Salvador Dalí was a painter of the Renaissance period.",
+      "answer": false,
+      "explanation": "Dalí was a 20th-century Surrealist painter; the Renaissance took place centuries earlier."
+    },
+    {
+      "type": "ox",
+      "prompt": "In traditional painting, red, blue, and yellow are called the primary colors.",
+      "answer": true,
+      "explanation": "In traditional color theory, red, blue, and yellow are the primary colors from which other colors are mixed."
+    },
+    {
+      "type": "ox",
+      "prompt": "A sonnet is a poem that must have exactly 100 lines.",
+      "answer": false,
+      "explanation": "A sonnet has 14 lines; Shakespeare wrote a famous collection of 154 sonnets."
+    },
+    {
+      "type": "ox",
+      "prompt": "Antonio Vivaldi composed 'The Four Seasons'.",
+      "answer": true,
+      "explanation": "'The Four Seasons' is a set of four violin concertos by the Italian Baroque composer Antonio Vivaldi."
+    },
+    {
+      "type": "ox",
+      "prompt": "Jazz music originated in Japan.",
+      "answer": false,
+      "explanation": "Jazz originated in the United States, especially in New Orleans, in the early 20th century."
+    },
+    {
+      "type": "ox",
+      "prompt": "The flute is a wind instrument.",
+      "answer": true,
+      "explanation": "The flute produces sound when the player blows air across its mouth hole, making it a wind instrument."
+    },
+    {
+      "type": "ox",
+      "prompt": "Watercolor paintings are made with oil-based paints.",
+      "answer": false,
+      "explanation": "Watercolor paint uses pigments mixed with water; oil paint is a separate medium mixed with oils."
+    },
+    {
+      "type": "ox",
+      "prompt": "In theatre, a comedy is meant to make the audience laugh.",
+      "answer": true,
+      "explanation": "A comedy is a play written to amuse the audience, unlike a tragedy, which deals with sad events."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Beatles were a rock band from the United States.",
+      "answer": false,
+      "explanation": "The Beatles came from Liverpool, England, and became one of the most influential bands in history."
+    },
+    {
+      "type": "ox",
+      "prompt": "Frida Kahlo was a Mexican painter.",
+      "answer": true,
+      "explanation": "Frida Kahlo was a Mexican artist famous for her self-portraits and vivid colors."
+    },
+    {
+      "type": "ox",
+      "prompt": "An acoustic guitar needs electricity to make sound.",
+      "answer": false,
+      "explanation": "An acoustic guitar produces sound naturally through its hollow body; only electric guitars need amplification."
+    },
+    {
+      "type": "ox",
+      "prompt": "Andy Warhol was a leading figure of Pop Art.",
+      "answer": true,
+      "explanation": "Andy Warhol led the Pop Art movement, famous for works based on everyday objects like soup cans."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sculptures can only be made of wood.",
+      "answer": false,
+      "explanation": "Sculptures are made from many materials, including stone, metal, clay, and wood."
     }
   ]
 }

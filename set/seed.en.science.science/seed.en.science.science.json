@@ -74,6 +74,150 @@
       "prompt": "A year on Earth is exactly 100 days long.",
       "answer": false,
       "explanation": "A year on Earth is about 365 days, the time it takes to orbit the Sun once."
+    },
+    {
+      "type": "ox",
+      "prompt": "A bolt of lightning is hotter than the surface of the Sun.",
+      "answer": true,
+      "explanation": "Lightning can heat the air to around 30,000 degrees Celsius, several times hotter than the Sun's surface, which is about 5,500 degrees Celsius."
+    },
+    {
+      "type": "ox",
+      "prompt": "Humans use only 10 percent of their brains.",
+      "answer": false,
+      "explanation": "This is a popular myth. Brain scans show that virtually all parts of the brain are active, and we use the whole brain over the course of a day."
+    },
+    {
+      "type": "ox",
+      "prompt": "Goldfish can only remember things for three seconds.",
+      "answer": false,
+      "explanation": "Goldfish actually have memories lasting weeks or months; they can even be trained to respond to signals."
+    },
+    {
+      "type": "ox",
+      "prompt": "More than half of the adult human body is water.",
+      "answer": true,
+      "explanation": "Water makes up roughly 60 percent of an adult's body weight, filling cells, blood, and other fluids."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sound cannot travel through a vacuum.",
+      "answer": true,
+      "explanation": "Sound needs a medium like air, water, or solids to travel. In the empty vacuum of space there is nothing to carry the vibrations."
+    },
+    {
+      "type": "ox",
+      "prompt": "Penguins live in the wild at the North Pole.",
+      "answer": false,
+      "explanation": "Wild penguins live only in the Southern Hemisphere, such as Antarctica; polar bears, not penguins, live in the Arctic."
+    },
+    {
+      "type": "ox",
+      "prompt": "An octopus has three hearts.",
+      "answer": true,
+      "explanation": "An octopus has one main heart that pumps blood around the body and two extra hearts that pump blood through the gills."
+    },
+    {
+      "type": "ox",
+      "prompt": "Earth's seasons are caused by the planet being closer to the Sun in summer.",
+      "answer": false,
+      "explanation": "Seasons are caused by the tilt of Earth's axis, which changes how directly sunlight hits each hemisphere, not by the distance to the Sun."
+    },
+    {
+      "type": "ox",
+      "prompt": "The blood inside your veins is blue.",
+      "answer": false,
+      "explanation": "Blood is always red; it is darker when low in oxygen. Veins only look bluish because of how light passes through skin."
+    },
+    {
+      "type": "ox",
+      "prompt": "Venus is the hottest planet in the Solar System.",
+      "answer": true,
+      "explanation": "Although Mercury is closer to the Sun, Venus is hotter because its thick carbon dioxide atmosphere traps heat, keeping the surface around 460 degrees Celsius."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Moon's gravity is the main cause of ocean tides on Earth.",
+      "answer": true,
+      "explanation": "The Moon's gravitational pull on Earth's oceans is the main driver of the tides, with the Sun adding a smaller effect."
+    },
+    {
+      "type": "ox",
+      "prompt": "Botanically, a tomato is a vegetable.",
+      "answer": false,
+      "explanation": "Botanically, a tomato is a fruit because it develops from a flower and contains seeds, even though it is used as a vegetable in cooking."
+    },
+    {
+      "type": "ox",
+      "prompt": "An adult human skeleton normally has 206 bones.",
+      "answer": true,
+      "explanation": "Babies are born with about 300 bones, but many fuse during growth, leaving an adult with 206 bones."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sharks are fish.",
+      "answer": true,
+      "explanation": "Sharks are fish with skeletons made of cartilage instead of bone, and they breathe through gills like other fish."
+    },
+    {
+      "type": "ox",
+      "prompt": "Antibiotics can cure illnesses caused by viruses.",
+      "answer": false,
+      "explanation": "Antibiotics only work against bacteria. Viral illnesses like colds and flu are not cured by antibiotics."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sound travels faster in air than in water.",
+      "answer": false,
+      "explanation": "Sound travels about four times faster in water than in air, because water molecules are packed closer together."
+    },
+    {
+      "type": "ox",
+      "prompt": "Spiders have eight legs.",
+      "answer": true,
+      "explanation": "Spiders are arachnids with eight legs, which sets them apart from insects, which have six."
+    },
+    {
+      "type": "ox",
+      "prompt": "Lightning never strikes the same place twice.",
+      "answer": false,
+      "explanation": "Lightning often strikes the same spot repeatedly; tall structures like skyscrapers are hit many times every year."
+    },
+    {
+      "type": "ox",
+      "prompt": "Iron is attracted to magnets.",
+      "answer": true,
+      "explanation": "Iron is a ferromagnetic metal, which means magnets pull on it strongly; many other metals, like copper, are not attracted."
+    },
+    {
+      "type": "ox",
+      "prompt": "Bulls charge because the color red makes them angry.",
+      "answer": false,
+      "explanation": "Cattle cannot see red the way humans do. Bulls react to the movement of the cape, not its color."
+    },
+    {
+      "type": "ox",
+      "prompt": "Ostriches bury their heads in the sand when they are scared.",
+      "answer": false,
+      "explanation": "This is a myth. Ostriches may lower their heads to the ground or run away, but they do not bury their heads in sand."
+    },
+    {
+      "type": "ox",
+      "prompt": "Earth's atmosphere is made up mostly of nitrogen.",
+      "answer": true,
+      "explanation": "Air is about 78 percent nitrogen and about 21 percent oxygen, with small amounts of other gases."
+    },
+    {
+      "type": "ox",
+      "prompt": "A rainbow forms when sunlight is bent and reflected by water droplets.",
+      "answer": true,
+      "explanation": "Raindrops refract and reflect sunlight, splitting it into its different colors and creating a rainbow."
+    },
+    {
+      "type": "ox",
+      "prompt": "Early humans lived at the same time as dinosaurs like Tyrannosaurus rex.",
+      "answer": false,
+      "explanation": "Non-bird dinosaurs died out about 66 million years ago, tens of millions of years before the first humans appeared."
     }
   ]
 }

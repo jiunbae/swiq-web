@@ -74,6 +74,150 @@
       "prompt": "The brain can function normally for hours without any oxygen.",
       "answer": false,
       "explanation": "The brain is very sensitive to a lack of oxygen and is harmed within minutes."
+    },
+    {
+      "type": "ox",
+      "prompt": "The adult human body has 206 bones.",
+      "answer": true,
+      "explanation": "A typical adult skeleton is made up of 206 bones."
+    },
+    {
+      "type": "ox",
+      "prompt": "Cracking your knuckles causes arthritis.",
+      "answer": false,
+      "explanation": "The popping sound comes from gas bubbles in the joint fluid, and studies have not linked it to arthritis."
+    },
+    {
+      "type": "ox",
+      "prompt": "The liver can regenerate lost tissue.",
+      "answer": true,
+      "explanation": "The liver is unusual among organs in its ability to regrow tissue after part of it is removed or damaged."
+    },
+    {
+      "type": "ox",
+      "prompt": "Humans only use 10 percent of their brains.",
+      "answer": false,
+      "explanation": "This is a myth; brain scans show that virtually all parts of the brain are active at some point."
+    },
+    {
+      "type": "ox",
+      "prompt": "Human blood is always red and is never truly blue.",
+      "answer": true,
+      "explanation": "Blood is red because of hemoglobin; veins can look blue through the skin, but the blood inside is still red."
+    },
+    {
+      "type": "ox",
+      "prompt": "Eating lots of carrots gives you dramatically better than normal night vision.",
+      "answer": false,
+      "explanation": "Carrots supply vitamin A needed for healthy eyes, but they do not push vision beyond normal levels."
+    },
+    {
+      "type": "ox",
+      "prompt": "The stomach produces acid that helps digest food.",
+      "answer": true,
+      "explanation": "Stomach acid breaks down food and helps kill many ingested germs."
+    },
+    {
+      "type": "ox",
+      "prompt": "Shaving hair makes it grow back thicker and darker.",
+      "answer": false,
+      "explanation": "Shaving cuts hair at the surface and does not change its thickness or color; regrowth only feels coarse at first."
+    },
+    {
+      "type": "ox",
+      "prompt": "Vaccines help the body build immunity to specific diseases.",
+      "answer": true,
+      "explanation": "Vaccines train the immune system to recognize and fight a germ before a real infection occurs."
+    },
+    {
+      "type": "ox",
+      "prompt": "Reading in dim light permanently damages your eyes.",
+      "answer": false,
+      "explanation": "Reading in dim light can cause temporary eye strain but does not cause lasting damage."
+    },
+    {
+      "type": "ox",
+      "prompt": "A resting adult heart usually beats about 60 to 100 times per minute.",
+      "answer": true,
+      "explanation": "A normal resting heart rate for adults falls roughly between 60 and 100 beats per minute."
+    },
+    {
+      "type": "ox",
+      "prompt": "Humans can go for weeks with no sleep at all and stay perfectly healthy.",
+      "answer": false,
+      "explanation": "Sleep is essential; going without it for long causes serious impairment and can be dangerous."
+    },
+    {
+      "type": "ox",
+      "prompt": "Calcium is important for building strong bones and teeth.",
+      "answer": true,
+      "explanation": "Calcium is a key mineral that helps form and maintain bones and teeth."
+    },
+    {
+      "type": "ox",
+      "prompt": "Cold weather by itself is what causes the common cold.",
+      "answer": false,
+      "explanation": "Colds are caused by viruses, not by cold temperatures, though people gather indoors more in winter."
+    },
+    {
+      "type": "ox",
+      "prompt": "The small intestine is longer than the large intestine.",
+      "answer": true,
+      "explanation": "The small intestine is several meters long, much longer than the large intestine."
+    },
+    {
+      "type": "ox",
+      "prompt": "Drinking alcohol raises your body's core temperature to keep you warm.",
+      "answer": false,
+      "explanation": "Alcohol widens skin blood vessels so you feel warm, but it actually lowers core body temperature."
+    },
+    {
+      "type": "ox",
+      "prompt": "A fever is one of the body's natural responses to infection.",
+      "answer": true,
+      "explanation": "Raising body temperature helps the immune system fight off invading germs."
+    },
+    {
+      "type": "ox",
+      "prompt": "Muscle turns into fat when you stop exercising.",
+      "answer": false,
+      "explanation": "Muscle and fat are different tissues; muscle can shrink and fat can grow, but one does not convert into the other."
+    },
+    {
+      "type": "ox",
+      "prompt": "Dietary fiber aids digestion.",
+      "answer": true,
+      "explanation": "Fiber adds bulk and helps food move through the digestive tract."
+    },
+    {
+      "type": "ox",
+      "prompt": "Type O negative blood cannot be given to anyone else.",
+      "answer": false,
+      "explanation": "O negative is the universal donor type and can be given to patients of any blood type in emergencies."
+    },
+    {
+      "type": "ox",
+      "prompt": "Too much salt in the diet can raise blood pressure.",
+      "answer": true,
+      "explanation": "High salt intake can increase blood pressure in many people, raising heart risks."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sitting too close to a television causes permanent blindness.",
+      "answer": false,
+      "explanation": "Sitting close may tire the eyes but does not cause lasting damage or blindness."
+    },
+    {
+      "type": "ox",
+      "prompt": "Sunscreen helps protect skin from ultraviolet damage.",
+      "answer": true,
+      "explanation": "Sunscreen blocks or absorbs UV rays, reducing sunburn and long-term skin damage."
+    },
+    {
+      "type": "ox",
+      "prompt": "The heart sits entirely on the left side of the chest.",
+      "answer": false,
+      "explanation": "The heart lies near the center of the chest, tilted slightly to the left, not entirely on the left."
     }
   ]
 }

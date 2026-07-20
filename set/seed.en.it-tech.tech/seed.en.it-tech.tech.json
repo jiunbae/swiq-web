@@ -74,6 +74,150 @@
       "prompt": "The internet was invented in the year 1500.",
       "answer": false,
       "explanation": "The internet grew out of networks developed in the 20th century, not in 1500."
+    },
+    {
+      "type": "ox",
+      "prompt": "A mouse and a keyboard are input devices.",
+      "answer": true,
+      "explanation": "Input devices like the mouse and keyboard send information from the user into the computer."
+    },
+    {
+      "type": "ox",
+      "prompt": "A computer virus is a biological illness that can infect people.",
+      "answer": false,
+      "explanation": "A computer virus is malicious software that spreads between computers; it cannot infect people."
+    },
+    {
+      "type": "ox",
+      "prompt": "Google is a widely used internet search engine.",
+      "answer": true,
+      "explanation": "Google is the world's most widely used search engine for finding information on the web."
+    },
+    {
+      "type": "ox",
+      "prompt": "A firewall is a physical wall built to keep computers warm.",
+      "answer": false,
+      "explanation": "A firewall is security software or hardware that blocks unauthorized network traffic."
+    },
+    {
+      "type": "ox",
+      "prompt": "PDF is a common file format for documents.",
+      "answer": true,
+      "explanation": "PDF (Portable Document Format) is widely used to share documents that look the same on any device."
+    },
+    {
+      "type": "ox",
+      "prompt": "Cloud storage keeps your files in actual clouds in the sky.",
+      "answer": false,
+      "explanation": "Cloud storage saves files on remote servers in data centers, accessed over the internet."
+    },
+    {
+      "type": "ox",
+      "prompt": "Bluetooth connects devices wirelessly over short distances.",
+      "answer": true,
+      "explanation": "Bluetooth uses short-range radio waves to link devices like headphones and phones without cables."
+    },
+    {
+      "type": "ox",
+      "prompt": "Deleting a file always destroys it instantly beyond any recovery.",
+      "answer": false,
+      "explanation": "Deleted files often go to a recycle bin first, and even afterwards they can sometimes be recovered with special tools."
+    },
+    {
+      "type": "ox",
+      "prompt": "USB stands for Universal Serial Bus.",
+      "answer": true,
+      "explanation": "USB (Universal Serial Bus) is a standard for connecting devices and transferring data and power."
+    },
+    {
+      "type": "ox",
+      "prompt": "Private (incognito) browsing makes you completely anonymous on the internet.",
+      "answer": false,
+      "explanation": "Incognito mode only stops the browser from saving your local history; websites and network providers can still see your activity."
+    },
+    {
+      "type": "ox",
+      "prompt": "A web browser is a program used to visit websites.",
+      "answer": true,
+      "explanation": "Browsers such as Chrome, Safari, and Firefox display web pages and let you navigate the internet."
+    },
+    {
+      "type": "ox",
+      "prompt": "A megapixel measures how loud a speaker can be.",
+      "answer": false,
+      "explanation": "A megapixel is one million pixels and measures image resolution, not loudness."
+    },
+    {
+      "type": "ox",
+      "prompt": "Computers ultimately store data as ones and zeros.",
+      "answer": true,
+      "explanation": "All digital data is stored in binary form, using only the digits 1 and 0."
+    },
+    {
+      "type": "ox",
+      "prompt": "Linux is a type of computer hardware.",
+      "answer": false,
+      "explanation": "Linux is an operating system, like Windows or macOS, not a piece of hardware."
+    },
+    {
+      "type": "ox",
+      "prompt": "An SSD has no spinning parts, unlike a traditional hard disk drive.",
+      "answer": true,
+      "explanation": "An SSD stores data on flash memory chips with no moving parts, which makes it faster and more durable than a spinning hard disk."
+    },
+    {
+      "type": "ox",
+      "prompt": "Bluetooth and Wi-Fi are exactly the same technology.",
+      "answer": false,
+      "explanation": "They are different wireless standards: Bluetooth links nearby devices, while Wi-Fi connects devices to a network over longer ranges."
+    },
+    {
+      "type": "ox",
+      "prompt": "The 'CC' field in an email sends a copy of the message to additional recipients.",
+      "answer": true,
+      "explanation": "CC stands for 'carbon copy'; everyone in the CC field receives a copy of the email."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'bug' in software means an insect is trapped inside the computer.",
+      "answer": false,
+      "explanation": "A software bug is an error in a program's code; the term was popularized after a moth was found in an early computer."
+    },
+    {
+      "type": "ox",
+      "prompt": "A screenshot is an image of what is currently shown on a screen.",
+      "answer": true,
+      "explanation": "Taking a screenshot captures the current contents of the display as an image file."
+    },
+    {
+      "type": "ox",
+      "prompt": "The 'HTTP' at the start of a web address stands for 'High Tech Transfer Protocol'.",
+      "answer": false,
+      "explanation": "HTTP stands for HyperText Transfer Protocol, the protocol used to load web pages."
+    },
+    {
+      "type": "ox",
+      "prompt": "A QR code can be scanned with a smartphone camera.",
+      "answer": true,
+      "explanation": "A QR code is a square barcode that smartphone cameras can scan to open links or read information."
+    },
+    {
+      "type": "ox",
+      "prompt": "'AI' stands for 'Automatic Internet'.",
+      "answer": false,
+      "explanation": "AI stands for Artificial Intelligence, technology that lets computers perform tasks that normally require human intelligence."
+    },
+    {
+      "type": "ox",
+      "prompt": "A strong password helps protect an account from unauthorized access.",
+      "answer": true,
+      "explanation": "Passwords verify a user's identity; long, unique passwords make accounts much harder to break into."
+    },
+    {
+      "type": "ox",
+      "prompt": "The first electronic computers were small enough to fit in a pocket.",
+      "answer": false,
+      "explanation": "Early computers like ENIAC filled entire rooms and weighed many tons; pocket-sized computing came decades later."
     }
   ]
 }

@@ -74,6 +74,150 @@
       "prompt": "'Visible' means impossible to see.",
       "answer": false,
       "explanation": "'Visible' means able to be seen."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Fragile' means easily broken.",
+      "answer": true,
+      "explanation": "'Fragile' describes something delicate that can break or be damaged easily."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Annual' means happening once a year.",
+      "answer": true,
+      "explanation": "'Annual' describes something that occurs every year, like an annual festival or report."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Rapid' means very slow.",
+      "answer": false,
+      "explanation": "'Rapid' means very fast or quick, the opposite of slow."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'pessimist' is a person who expects the best to happen.",
+      "answer": false,
+      "explanation": "A pessimist tends to expect the worst; a person who expects the best is an optimist."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Transparent' describes something you can see through.",
+      "answer": true,
+      "explanation": "'Transparent' means clear enough for light to pass through, like glass."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Fiction' refers to true stories about real events.",
+      "answer": false,
+      "explanation": "Fiction is invented storytelling from the imagination; writing about real events is nonfiction."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'pediatrician' is a doctor who treats children.",
+      "answer": true,
+      "explanation": "A pediatrician specializes in the medical care of babies, children, and teenagers."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'pharmacist' is a person who repairs cars.",
+      "answer": false,
+      "explanation": "A pharmacist prepares and dispenses medicines; a person who repairs cars is a mechanic."
+    },
+    {
+      "type": "ox",
+      "prompt": "To 'purchase' something means to buy it.",
+      "answer": true,
+      "explanation": "'Purchase' is a more formal word for buying something with money."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Courageous' means brave.",
+      "answer": true,
+      "explanation": "'Courageous' describes someone who shows bravery in the face of danger or difficulty."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Arrogant' means humble and modest.",
+      "answer": false,
+      "explanation": "'Arrogant' describes someone with an exaggerated sense of their own importance, the opposite of humble."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Departure' means the act of arriving somewhere.",
+      "answer": false,
+      "explanation": "'Departure' is the act of leaving; the act of arriving is 'arrival'."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'bilingual' person can speak two languages.",
+      "answer": true,
+      "explanation": "'Bilingual' means able to use two languages; the prefix 'bi-' means two."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Fatal' means completely harmless.",
+      "answer": false,
+      "explanation": "'Fatal' means causing death, as in a fatal accident, so it is far from harmless."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Exhausted' means extremely tired.",
+      "answer": true,
+      "explanation": "'Exhausted' describes being drained of energy, far more tired than usual."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Generous' means unwilling to share with others.",
+      "answer": false,
+      "explanation": "'Generous' means freely giving or sharing; someone unwilling to share is stingy."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Temporary' means lasting forever.",
+      "answer": false,
+      "explanation": "'Temporary' means lasting only for a limited time; something lasting forever is permanent."
+    },
+    {
+      "type": "ox",
+      "prompt": "To 'postpone' means to delay something until later.",
+      "answer": true,
+      "explanation": "'Postpone' means to move an event to a later time, like postponing a meeting."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Vacant' means full of people.",
+      "answer": false,
+      "explanation": "'Vacant' means empty or unoccupied, like a vacant seat or room."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Nocturnal' animals are active mainly at night.",
+      "answer": true,
+      "explanation": "'Nocturnal' describes creatures like owls and bats that sleep by day and are active at night."
+    },
+    {
+      "type": "ox",
+      "prompt": "An 'author' is a person who writes books.",
+      "answer": true,
+      "explanation": "An author is the writer of a book, article, or other written work."
+    },
+    {
+      "type": "ox",
+      "prompt": "To 'whisper' means to shout loudly.",
+      "answer": false,
+      "explanation": "'Whisper' means to speak very softly and quietly, the opposite of shouting."
+    },
+    {
+      "type": "ox",
+      "prompt": "A 'punctual' person is always late.",
+      "answer": false,
+      "explanation": "'Punctual' means arriving or doing things exactly on time, not late."
+    },
+    {
+      "type": "ox",
+      "prompt": "'Identical' means exactly the same.",
+      "answer": true,
+      "explanation": "'Identical' describes things that are exactly alike, such as identical twins."
     }
   ]
 }

@@ -95,6 +95,190 @@
         "egyptians"
       ],
       "explanation": "The ancient Egyptians built the pyramids at Giza as royal tombs."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Peace of Westphalia in 1648 ended the Thirty Years' War in Europe.",
+      "answer": true,
+      "explanation": "The 1648 Peace of Westphalia ended the Thirty Years' War and helped establish the modern idea of sovereign states."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Aztec Empire was conquered by the Spanish conquistador Francisco Pizarro.",
+      "answer": false,
+      "explanation": "Hernán Cortés led the conquest of the Aztec Empire; Francisco Pizarro conquered the Inca Empire in South America."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which empire was ruled by Emperor Justinian I, famous for codifying Roman law in the 6th century?",
+      "choices": [
+        "The Ottoman Empire",
+        "The Holy Roman Empire",
+        "The Byzantine Empire",
+        "The Carolingian Empire"
+      ],
+      "answer": 3,
+      "explanation": "Justinian I ruled the Byzantine Empire and ordered the Corpus Juris Civilis, a landmark codification of Roman law."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Meiji Restoration of 1868 launched Japan's rapid modernization and industrialization.",
+      "answer": true,
+      "explanation": "The Meiji Restoration restored imperial rule in 1868 and set Japan on a course of swift Western-style modernization."
+    },
+    {
+      "type": "ox",
+      "prompt": "Napoleon Bonaparte was finally defeated at the Battle of Austerlitz in 1815.",
+      "answer": false,
+      "explanation": "Napoleon's final defeat came at Waterloo in 1815; Austerlitz in 1805 was actually one of his greatest victories."
+    },
+    {
+      "type": "text",
+      "prompt": "Which ancient network of trade routes connected China to the Mediterranean and was named after a prized fabric?",
+      "answers": [
+        "silk road",
+        "the silk road",
+        "silk route",
+        "the silk route"
+      ],
+      "explanation": "The Silk Road linked China with Central Asia, the Middle East, and Europe, carrying silk, goods, and ideas for centuries."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Black Death of the 14th century killed roughly one-third of Europe's population.",
+      "answer": true,
+      "explanation": "The Black Death (1347–1351) is estimated to have killed about a third of Europe's people, reshaping its economy and society."
+    },
+    {
+      "type": "ox",
+      "prompt": "The revolution that brought the Bolsheviks to power in Russia took place in 1905.",
+      "answer": false,
+      "explanation": "The Bolsheviks seized power in the October Revolution of 1917; the 1905 revolution failed to topple the tsar."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which 1919 treaty formally ended World War I between Germany and the Allied Powers?",
+      "choices": [
+        "The Treaty of Tordesillas",
+        "The Treaty of Versailles",
+        "The Treaty of Utrecht",
+        "The Treaty of Ghent"
+      ],
+      "answer": 2,
+      "explanation": "The Treaty of Versailles, signed in 1919, ended the war with Germany and imposed heavy reparations on it."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Ottoman Empire was dissolved after World War I, and the Republic of Turkey was proclaimed in 1923.",
+      "answer": true,
+      "explanation": "After defeat in WWI the Ottoman Empire collapsed, and Mustafa Kemal Atatürk proclaimed the Republic of Turkey in 1923."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Hundred Years' War was fought primarily between England and Spain.",
+      "answer": false,
+      "explanation": "The Hundred Years' War (1337–1453) was fought between England and France over claims to the French throne."
+    },
+    {
+      "type": "text",
+      "prompt": "Which English charter of 1215 limited the power of the king and influenced later constitutional law? (two words)",
+      "answers": [
+        "magna carta",
+        "the magna carta",
+        "magna charta"
+      ],
+      "explanation": "Magna Carta, sealed by King John in 1215, restricted royal power and became a foundation for constitutional government."
+    },
+    {
+      "type": "ox",
+      "prompt": "After the First Opium War, China ceded Hong Kong Island to Britain in 1842.",
+      "answer": true,
+      "explanation": "The Treaty of Nanking in 1842 ended the First Opium War and ceded Hong Kong Island to Britain."
+    },
+    {
+      "type": "ox",
+      "prompt": "In 1588, the Spanish Armada defeated the English navy and secured control of the English Channel.",
+      "answer": false,
+      "explanation": "England defeated the Spanish Armada in 1588; storms and English tactics devastated the Spanish fleet."
+    },
+    {
+      "type": "choice",
+      "prompt": "Who became the first emperor of a unified China in 221 BC?",
+      "choices": [
+        "Kublai Khan",
+        "Sun Yat-sen",
+        "Wu Zetian",
+        "Qin Shi Huang"
+      ],
+      "answer": 4,
+      "explanation": "Qin Shi Huang unified China in 221 BC, founding the Qin dynasty and taking the title of first emperor."
+    },
+    {
+      "type": "ox",
+      "prompt": "Genghis Khan founded the Mongol Empire in the early 13th century.",
+      "answer": true,
+      "explanation": "Genghis Khan united the Mongol tribes around 1206 and built what became history's largest contiguous land empire."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Renaissance began in France during the 12th century.",
+      "answer": false,
+      "explanation": "The Renaissance began in Italy in the 14th century, spreading to the rest of Europe over the following two centuries."
+    },
+    {
+      "type": "text",
+      "prompt": "Who served as British prime minister for most of World War II? (surname is enough)",
+      "answers": [
+        "churchill",
+        "winston churchill",
+        "sir winston churchill"
+      ],
+      "explanation": "Winston Churchill led Britain as prime minister from 1940 to 1945, through most of World War II."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Congress of Vienna (1814–1815) reorganized Europe after the Napoleonic Wars.",
+      "answer": true,
+      "explanation": "At the Congress of Vienna, the great powers redrew Europe's borders and sought a balance of power after Napoleon's defeat."
+    },
+    {
+      "type": "ox",
+      "prompt": "Martin Luther posted his Ninety-five Theses in 1417, starting the Protestant Reformation.",
+      "answer": false,
+      "explanation": "Luther posted the Ninety-five Theses in 1517, not 1417, an act traditionally seen as the start of the Reformation."
+    },
+    {
+      "type": "choice",
+      "prompt": "Whose expedition completed the first circumnavigation of the globe between 1519 and 1522?",
+      "choices": [
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "James Cook",
+        "Amerigo Vespucci"
+      ],
+      "answer": 2,
+      "explanation": "Ferdinand Magellan's expedition completed the first circumnavigation in 1522, though Magellan himself died en route."
+    },
+    {
+      "type": "ox",
+      "prompt": "India gained independence from British rule in 1947.",
+      "answer": true,
+      "explanation": "British India became independent in August 1947 and was partitioned into India and Pakistan."
+    },
+    {
+      "type": "ox",
+      "prompt": "The Berlin Conference of 1884–1885 set the rules for European powers dividing up South America.",
+      "answer": false,
+      "explanation": "The Berlin Conference regulated the European colonization and partition of Africa, not South America."
+    },
+    {
+      "type": "text",
+      "prompt": "Which city, capital of the Byzantine Empire, fell to the Ottomans in 1453 and is now called Istanbul?",
+      "answers": [
+        "constantinople",
+        "byzantium"
+      ],
+      "explanation": "Constantinople fell to the Ottomans under Mehmed II in 1453, ending the Byzantine Empire; the city is today's Istanbul."
     }
   ]
 }

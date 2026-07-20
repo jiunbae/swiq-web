@@ -106,6 +106,212 @@
         "about"
       ],
       "explanation": "approximately는 정확하지 않지만 그에 가깝게, 대략을 뜻하는 부사입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'설득하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "persuade",
+        "convince"
+      ],
+      "explanation": "persuade는 상대가 어떤 일을 하도록 설득하는 것을 뜻합니다. convince도 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'평가하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "evaluate",
+        "assess"
+      ],
+      "explanation": "evaluate는 가치나 수준을 따져 평가하는 것을 뜻합니다. assess도 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'정교한, 세련된'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "sophisticated"
+      ],
+      "explanation": "sophisticated는 기술·취향이 정교하고 세련된 것을 나타냅니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'강화하다, 보강하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "reinforce",
+        "strengthen"
+      ],
+      "explanation": "reinforce는 기존의 것을 더 튼튼하게 강화·보강하는 것을 뜻합니다. strengthen도 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'가속하다, 속도를 높이다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "accelerate"
+      ],
+      "explanation": "accelerate는 속도를 점점 높이는 것을 뜻합니다. (반대말: decelerate)"
+    },
+    {
+      "type": "text",
+      "prompt": "'동시에 일어나는'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "simultaneous"
+      ],
+      "explanation": "simultaneous는 두 가지 이상의 일이 같은 시각에 일어나는 것을 뜻합니다. 부사형은 simultaneously입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'주저하다, 망설이다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "hesitate"
+      ],
+      "explanation": "hesitate는 결정을 내리지 못하고 머뭇거리는 것을 뜻합니다. 명사형은 hesitation입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'보존하다, 지키다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "preserve",
+        "conserve"
+      ],
+      "explanation": "preserve는 훼손되지 않게 보존하는 것을 뜻합니다. conserve도 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'가혹한, 혹독한'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "harsh",
+        "severe"
+      ],
+      "explanation": "harsh는 날씨·처벌·말투 등이 가혹하고 혹독한 것을 나타냅니다. severe도 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'번영하다, 번창하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "prosper",
+        "thrive",
+        "flourish"
+      ],
+      "explanation": "prosper는 사업이나 나라가 잘되어 번창하는 것을 뜻합니다. thrive, flourish도 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'가정하다, 추정하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "assume",
+        "presume"
+      ],
+      "explanation": "assume은 확실한 근거 없이 그러리라 가정·추정하는 것을 뜻합니다. presume도 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'드러내다, 폭로하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "reveal",
+        "disclose"
+      ],
+      "explanation": "reveal은 숨겨져 있던 것을 드러내는 것을 뜻합니다. disclose도 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'통합하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "integrate"
+      ],
+      "explanation": "integrate는 여러 부분을 하나로 통합하는 것을 뜻합니다. 명사형은 integration입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'엄청나게 큰, 거대한'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "enormous",
+        "immense",
+        "huge"
+      ],
+      "explanation": "enormous는 크기나 양이 엄청나게 큰 것을 나타냅니다. immense, huge도 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'유연한, 융통성 있는'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "flexible"
+      ],
+      "explanation": "flexible은 잘 구부러지거나 상황에 맞게 융통성 있는 것을 뜻합니다. 명사형은 flexibility입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'(말이나 일을) 중간에 끊다, 방해하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "interrupt"
+      ],
+      "explanation": "interrupt는 진행 중인 말이나 일을 중간에 끊는 것을 뜻합니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'뛰어난, 두드러진'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "outstanding",
+        "remarkable"
+      ],
+      "explanation": "outstanding은 남들보다 눈에 띄게 뛰어난 것을 나타냅니다. remarkable도 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'축적하다, 모으다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "accumulate"
+      ],
+      "explanation": "accumulate는 시간이 지나며 조금씩 쌓아 모으는 것을 뜻합니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'겸손한'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "humble",
+        "modest"
+      ],
+      "explanation": "humble은 자신을 낮추는 겸손함을 나타냅니다. modest도 정답으로 인정됩니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'자발적인'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "voluntary"
+      ],
+      "explanation": "voluntary는 강요 없이 스스로 하는 자발적인 것을 뜻합니다. 자원봉사자는 volunteer입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'통찰(력)'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "insight"
+      ],
+      "explanation": "insight는 본질을 꿰뚫어 보는 통찰력을 뜻합니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'확장하다, 확대하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "expand"
+      ],
+      "explanation": "expand는 크기나 범위를 넓혀 확장하는 것을 뜻합니다. 명사형은 expansion입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'고의적인, 의도적인'을 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "deliberate",
+        "intentional"
+      ],
+      "explanation": "deliberate는 우연이 아니라 일부러 하는 고의적인 것을 나타냅니다. intentional도 정답입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'극복하다'를 뜻하는 영단어를 입력하세요.",
+      "answers": [
+        "overcome"
+      ],
+      "explanation": "overcome은 어려움이나 장애물을 이겨 내는 것을 뜻합니다."
     }
   ]
 }
