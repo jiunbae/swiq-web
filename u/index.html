@@ -3,23 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>인체·의학 심화 O/X — Swiq</title>
-<meta name="description" content="장기와 생리 작용에 관한 심화 상식">
+<title>사용자 프로필 — Swiq</title>
+<meta name="description" content="Swiq 사용자가 공개한 퀴즈 세트를 확인하세요.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F7F7F4">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#11110F">
-<link rel="canonical" href="https://swiq.jiun.dev/set/seed.ko.health-medical.advanced/">
+<link rel="canonical" href="https://swiq.jiun.dev/u/">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Swiq">
-<meta property="og:title" content="인체·의학 심화 O/X — Swiq">
-<meta property="og:description" content="장기와 생리 작용에 관한 심화 상식">
-<meta property="og:url" content="https://swiq.jiun.dev/set/seed.ko.health-medical.advanced/">
+<meta property="og:title" content="사용자 프로필 — Swiq">
+<meta property="og:description" content="Swiq 사용자가 공개한 퀴즈 세트를 확인하세요.">
+<meta property="og:url" content="https://swiq.jiun.dev/u/">
 <meta property="og:image" content="https://swiq.jiun.dev/og.png">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="인체·의학 심화 O/X — Swiq">
-<meta name="twitter:description" content="장기와 생리 작용에 관한 심화 상식">
+<meta name="twitter:title" content="사용자 프로필 — Swiq">
+<meta name="twitter:description" content="Swiq 사용자가 공개한 퀴즈 세트를 확인하세요.">
 <meta name="twitter:image" content="https://swiq.jiun.dev/og.png">
 <style>
 *,*::before,*::after{box-sizing:border-box}
@@ -316,98 +316,73 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 <header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/ranking/">순위</a><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://testflight.apple.com/join/rM2Q3shQ">TestFlight</a></nav></div></header>
 <main class="wrap detail">
   <a class="back" href="/">← 모든 세트</a>
-  <span class="cat-badge">건강·의학</span>
-  <h1>인체·의학 심화 O/X</h1>
-  <p class="lead">장기와 생리 작용에 관한 심화 상식</p>
-  <div class="stats">
-    <span class="chip hl">36문항</span>
-    <span class="chip">한국어</span>
-    <span class="chip">O/X</span>
-    <span class="chip">#건강</span><span class="chip">#심화</span>
+  <div id="u-loading"><p class="lead">불러오는 중…</p></div>
+  <div id="u-content" hidden>
+    <div class="u-head">
+      <div class="u-avatar" id="u-avatar" aria-hidden="true"></div>
+      <div>
+        <h1 id="u-handle">@</h1>
+        <p class="lead" id="u-meta"></p>
+      </div>
+    </div>
+    <h2 class="u-sets-title">공개한 세트</h2>
+    <div class="grid" id="u-sets"></div>
+    <p class="fallback" id="u-empty" hidden>아직 공개한 세트가 없어요.</p>
   </div>
-
-  <!-- Primary action row: open in app + download the .swiq file. -->
-  <!-- "앱에서 열기" deliberately uses the custom scheme (swiq://), NOT a
-       Universal Link: this page's own https URL *is* the universal-link URL
-       (AASA paths:/set/*), so an https link to the same domain would simply
-       reload this page in the browser — a redirect loop — instead of opening
-       the app. The inline script below (OPEN_APP_JS) handles the
-       not-installed case: if ~1.2s after the tap the page was never hidden
-       (visibilitychange/pagehide), it reveals the TestFlight fallback.
-       With JS disabled this stays a plain scheme link, working as before. -->
-  <!-- open-app spans the full width; the two downloads (.swiq / .json) sit
-       side by side beneath it. Both files carry the full set (answers +
-       explanations); the app auto-detects the format from the contents. -->
-  <div class="actions">
-    <a class="btn btn-primary" id="open-app" style="grid-column:1/-1" href="swiq://set/seed.ko.health-medical.advanced">앱에서 열기 →</a>
-    <a class="btn btn-ghost" href="seed.ko.health-medical.advanced.swiq" download="seed.ko.health-medical.advanced.swiq">⬇ .swiq 다운로드</a>
-    <a class="btn btn-ghost" href="seed.ko.health-medical.advanced.json" download="seed.ko.health-medical.advanced.json">⬇ .json 다운로드</a>
-  </div>
-  <div class="cta">
-    <p class="fallback" id="open-fallback" role="alert">앱이 아직 설치되지 않은 것 같아요. 아래 TestFlight에서 Swiq를 설치한 뒤, 이 페이지로 돌아와 다시 눌러 주세요.</p>
-    <p class="note">앱이 설치돼 있다면 '앱에서 열기'가 이 세트를 바로 열어요.</p>
-    <div class="tf-line">
-      <span>아직 앱이 없다면</span>
-      <a class="btn btn-tf" id="tf-cta" href="https://testflight.apple.com/join/rM2Q3shQ">TestFlight로 받기</a>
-    </div>
-  </div>
-
-  <section class="preview">
-    <h2>미리보기</h2>
-    <p class="sub">프롬프트 5장 미리보기 · 정답과 해설은 앱에서 확인하세요</p>
-    <div class="qgrid">
-    <div class="qcard">
-      <span class="n">1</span>
-      <p class="q">인슐린은 혈당을 낮추는 호르몬이다.</p>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
-    <div class="qcard">
-      <span class="n">2</span>
-      <p class="q">적혈구는 산소가 아니라 이산화탄소만 운반한다.</p>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
-    <div class="qcard">
-      <span class="n">3</span>
-      <p class="q">백혈구는 우리 몸의 면역과 방어를 담당한다.</p>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
-    <div class="qcard">
-      <span class="n">4</span>
-      <p class="q">혈액을 걸러 소변을 만드는 기관은 심장이다.</p>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
-    <div class="qcard">
-      <span class="n">5</span>
-      <p class="q">간은 해독 작용과 영양소 대사를 담당하는 기관이다.</p>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
-    </div>
-    <p class="lock">🔒 정답·해설은 앱에서만 볼 수 있어요</p>
-  </section>
+  <p class="fallback" id="u-missing" role="alert" hidden>이 사용자를 찾을 수 없어요.</p>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 <script>
 (function(){
-  var open=document.getElementById('open-app');
-  if(!open)return;
-  var timer=null;
-  function cancel(){if(timer){clearTimeout(timer);timer=null;}}
-  // App took over → Safari is hidden → the scheme worked; stand down.
-  document.addEventListener('visibilitychange',function(){
-    if(document.visibilityState==='hidden')cancel();
-  });
-  window.addEventListener('pagehide',cancel);
-  open.addEventListener('click',function(){
-    cancel();
-    timer=setTimeout(function(){
-      timer=null;
-      if(document.visibilityState==='hidden')return;
-      var fb=document.getElementById('open-fallback');
-      if(fb)fb.classList.add('show');
-      var tf=document.getElementById('tf-cta');
-      if(tf)tf.classList.add('hl');
-    },1200);
-  });
+  var h=(new URLSearchParams(window.location.search).get('h')||'').toLowerCase();
+  var loading=document.getElementById('u-loading');
+  var content=document.getElementById('u-content');
+  var missing=document.getElementById('u-missing');
+  function fail(){
+    if(loading)loading.hidden=true;
+    if(missing){missing.hidden=false;missing.classList.add('show')}
+  }
+  if(!/^[a-z0-9](?:[a-z0-9_]{1,18}[a-z0-9])?$/.test(h)){fail();return}
+  if(window.history&&window.history.replaceState){
+    window.history.replaceState(null,'','/u/'+h);
+  }
+  var API='https://swiq-api.jiun.dev';
+  fetch(API+'/v1/users/'+encodeURIComponent(h))
+    .then(function(r){if(!r.ok)throw 0;return r.json()})
+    .then(function(p){
+      document.getElementById('u-handle').textContent='@'+p.handle;
+      document.title='@'+p.handle+' — Swiq';
+      var av=document.getElementById('u-avatar');
+      av.className='u-avatar bg-'+(p.avatar&&p.avatar.background||'indigo');
+      av.textContent=(p.handle||'?').slice(0,1).toUpperCase();
+      var joined=p.createdAt?new Date(p.createdAt):null;
+      document.getElementById('u-meta').textContent=
+        joined?joined.getFullYear()+'년부터 Swiq 사용 중':'';
+      if(loading)loading.hidden=true;
+      content.hidden=false;
+      return fetch(API+'/v1/users/'+encodeURIComponent(h)+'/sets');
+    })
+    .then(function(r){return r&&r.ok?r.json():{items:[]}})
+    .then(function(page){
+      var items=(page&&page.items)||[];
+      if(!items.length){
+        var e=document.getElementById('u-empty');
+        e.hidden=false;e.classList.add('show');
+        return;
+      }
+      var host=document.getElementById('u-sets');
+      items.forEach(function(it){
+        var a=document.createElement('a');
+        a.className='card';
+        a.href='/shared/?id='+encodeURIComponent(it.id);
+        var t=document.createElement('h3');t.textContent=it.title||'';
+        var m=document.createElement('p');m.className='meta';
+        m.textContent=(it.cardCount||0)+'문항';
+        a.appendChild(t);a.appendChild(m);
+        host.appendChild(a);
+      });
+    })
+    .catch(fail);
 })();
 </script>
 </body>
