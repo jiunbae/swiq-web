@@ -319,7 +319,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <h1>개인정보처리방침</h1>
   <p class="lead">학습 데이터는 기기에 저장됩니다. 로그인은 선택 사항이며,
     로그인하지 않아도 모든 기능을 그대로 사용할 수 있습니다.</p>
-  <p class="en-sub">Privacy Policy — English summary at the bottom. · 시행일 2026-07-23</p>
+  <p class="en-sub">Privacy Policy — English summary at the bottom. · 시행일 2026-07-27</p>
 
   <h2>학습 데이터는 기기에 저장됩니다</h2>
   <span class="en">Learning data stays on your device</span>
@@ -380,8 +380,24 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 
   <h2>광고</h2>
   <span class="en">Advertising</span>
-  <p>현재 버전은 광고를 게재하지 않으며, 제3자 광고·분석 SDK를 사용하지 않습니다. 향후 광고를
-    도입할 경우 도입 시점에 이 방침과 App Store의 앱 개인정보 정보를 함께 갱신합니다.</p>
+  <p>앱 안에 Google AdMob 광고가 표시됩니다. 광고는 <strong>세션을 끝내고 결과를 확인한 뒤에만</strong>
+    나오며, 문제와 문제 사이에는 절대 넣지 않습니다.</p>
+  <ul class="rules">
+    <li><strong>맞춤형 광고를 사용하지 않습니다.</strong> 앱은 광고 식별자(IDFA)를 요청하지 않고,
+      추적 허용 여부를 묻는 창도 띄우지 않습니다. 광고 요청에는 언제나 「비개인화」 표시를 붙여
+      보냅니다.</li>
+    <li>그래도 광고를 띄우고 부정 클릭을 막기 위해 Google은 <strong>IP 주소, 기기·앱 정보,
+      광고를 보거나 누른 기록</strong>을 수집합니다. 이 정보는 Google이 처리하며, 자세한 내용은
+      <a href="https://business.safety.google/privacy/" rel="noopener">Google의 개인정보처리방침</a>과
+      <a href="https://support.google.com/admob/answer/9012903" rel="noopener">AdMob 데이터 이용 안내</a>를
+      확인해 주세요.</li>
+    <li>학습 기록, 어떤 문제를 풀었는지, 계정 식별자는 <strong>광고 회사에 전달하지 않습니다.</strong></li>
+    <li>유럽경제지역·영국에서는 Google의 동의 관리 화면이 먼저 표시되며, 거기서 고른 설정이
+      적용됩니다.</li>
+  </ul>
+  <p><strong>광고 없이 쓰고 싶다면</strong> 프로필에서 「광고 제거」를 구입하면 광고가 완전히 사라지고
+    광고 SDK 자체도 실행되지 않습니다. 구입하지 않아도 보상형 광고를 한 번 보면 1시간 동안 광고가
+    나오지 않습니다.</p>
 
   <h2>보관 및 파기</h2>
   <span class="en">Retention and deletion</span>
@@ -400,11 +416,13 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 
   <h2>제3자 제공 및 처리 위탁</h2>
   <span class="en">Third parties</span>
-  <p>수집한 정보를 판매하거나 광고 목적으로 제공하지 않습니다. 서비스 운영에 다음을 이용합니다.</p>
+  <p>수집한 정보를 판매하지 않으며, 학습 기록이나 계정 정보를 광고 목적으로 제공하지 않습니다.
+    서비스 운영에 다음을 이용합니다.</p>
   <ul class="rules">
     <li><strong>Apple</strong> — 로그인 인증, 앱 내 구입 처리.</li>
     <li><strong>Cloudflare</strong> — 서버 접속 경로 보호 및 전송 구간 암호화. 이 과정에서 통신이
       국외 서버를 경유할 수 있습니다.</li>
+    <li><strong>Google AdMob</strong> — 앱 내 광고 게재. 위 「광고」 항목을 확인해 주세요.</li>
   </ul>
 
   <h2>알림</h2>
@@ -425,7 +443,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <p>개인정보 관련 문의·열람·삭제 요청은 <a href="mailto:feedback@jiun.dev" style="color:var(--indigo)">feedback@jiun.dev</a> 로 보내 주세요.</p>
 
   <h2>English summary</h2>
-  <span class="en">Effective date: 2026-07-23</span>
+  <span class="en">Effective date: 2026-07-27</span>
   <p>Your learning data (quiz sets, study history, progress, in-app statistics) is
     stored on your device and is never sent to our servers.</p>
   <p><strong>Your public profile is opt-in.</strong> Until you choose a handle, nothing
@@ -453,20 +471,29 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <p>In-app purchases are handled by Apple. <strong>We never receive or store payment
     details</strong> — only Apple's transaction identifier and the product id, so the
     purchase can follow your account.</p>
-  <p>This version shows no ads and uses no third-party advertising or analytics SDKs.
-    If that changes, this policy and the App Store privacy disclosures will be updated
-    in the same release.</p>
+  <p>The app shows Google AdMob ads, and only <strong>after</strong> you have finished a
+    session and seen your results — never between cards. <strong>Ads are always requested
+    non-personalized:</strong> we do not request the advertising identifier and show no
+    tracking prompt. Google still collects your IP address, device and app information and
+    your ad interactions in order to serve ads and prevent fraud — see
+    <a href="https://business.safety.google/privacy/" rel="noopener">Google's privacy policy</a>.
+    Your study history, the questions you answered and your account identifier are never
+    shared with the ad network. In the EEA and the UK, Google's consent screen appears first
+    and your choice there is what applies. Buying <strong>Remove ads</strong> in the app stops
+    the ads entirely — the ad SDK is then never started at all — and watching one rewarded ad
+    turns ads off for an hour.</p>
   <p>Account data is kept until you delete your account; sign-in sessions expire after
     30 days. You can delete your account in the app under
     <strong>Profile → Account → Delete account</strong>, which removes the account, the
     sets you shared, and your sessions. Learning data on your device is unaffected.</p>
-  <p>We do not sell your information or share it for advertising. We rely on Apple
-    (sign-in, purchases) and Cloudflare (transport security), and traffic may pass
+  <p>We do not sell your information, and we never share your study data or account
+    information for advertising. We rely on Apple (sign-in, purchases), Google AdMob
+    (in-app ads, above) and Cloudflare (transport security), and traffic may pass
     through servers outside your country. Reminders are local notifications scheduled
     on-device. This website is a set of static pages with no cookies or analytics
     scripts. Questions: <a href="mailto:feedback@jiun.dev" style="color:var(--indigo)">feedback@jiun.dev</a>.</p>
 
-  <p class="en-sub">시행일: 2026-07-23</p>
+  <p class="en-sub">시행일: 2026-07-27</p>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 </body>
