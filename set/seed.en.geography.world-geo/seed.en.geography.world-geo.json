@@ -221,7 +221,7 @@
     },
     {
       "type": "choice",
-      "prompt": "Which is the longest river in the world?",
+      "prompt": "According to the USGS list of the world's longest rivers, which river is the longest?",
       "choices": [
         "The Nile",
         "The Amazon",
@@ -229,7 +229,7 @@
         "The Mississippi"
       ],
       "answer": 1,
-      "explanation": "The Nile runs roughly 6,650 km through north-east Africa. The Amazon is longer by volume, not length."
+      "explanation": "The USGS list gives the Nile a length of roughly 6,650 km. River lengths can vary with the choice of source and measurement method. The Amazon carries the greatest volume of water; discharge and length are different measurements."
     },
     {
       "type": "choice",

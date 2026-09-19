@@ -363,7 +363,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     </div>
     <div class="qcard">
       <span class="n">2</span>
-      <p class="q">데이터 경합(data race)은 최소 하나가 쓰기인 두 접근이, 동기화 없이(happens-before로 순서지어지지 않은 채) 충돌하는 상황이다.</p>
+      <p class="q">C++에서 서로 다른 스레드가 같은 메모리 위치를 읽거나 쓸 때, 하나 이상이 쓰기이고 하나 이상이 비원자적 접근이며 어느 쪽도 다른 쪽보다 happens-before 관계에 있지 않으면 데이터 경합이다.</p>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
     <div class="qcard">
