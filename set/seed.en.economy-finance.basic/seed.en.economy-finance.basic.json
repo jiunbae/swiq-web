@@ -11,10 +11,10 @@
     },
     {
       "type": "ox",
-      "prompt": "When demand rises and supply stays the same, prices usually fall.",
+      "prompt": "In a standard competitive market, when demand increases and the supply curve stays unchanged, the equilibrium price usually falls.",
       "answer": false,
-      "explanation": "When demand rises with fixed supply, prices usually rise, not fall.",
-      "hint": "More buyers push prices up."
+      "explanation": "With an unchanged upward-sloping supply curve, increased demand raises the equilibrium price.",
+      "hint": "Consider more demand at each price with supply unchanged."
     },
     {
       "type": "ox",
@@ -89,10 +89,10 @@
     },
     {
       "type": "ox",
-      "prompt": "When a country's currency gains value, its imports become more expensive.",
+      "prompt": "Other things equal, when a currency gains value against the currency used to price an import, that import becomes more expensive in the home currency.",
       "answer": false,
-      "explanation": "A stronger currency buys more foreign goods, so imports actually become cheaper.",
-      "hint": "A strong currency buys more abroad."
+      "explanation": "With the foreign-currency price unchanged, a stronger home currency reduces the import’s price in home-currency terms. Actual retail prices also depend on other costs.",
+      "hint": "Hold the foreign price fixed and compare the exchange rates."
     },
     {
       "type": "ox",
@@ -157,7 +157,7 @@
       "prompt": "A higher credit score generally makes it more expensive to borrow money.",
       "answer": false,
       "explanation": "A higher credit score usually earns lower interest rates, making borrowing cheaper.",
-      "hint": "Better scores get lower rates."
+      "hint": "Higher scores can help borrowers qualify for lower rates."
     },
     {
       "type": "ox",
@@ -219,10 +219,10 @@
     },
     {
       "type": "ox",
-      "prompt": "The law of demand says people buy more of a good as its price rises.",
+      "prompt": "The law of demand says that, all else equal, the quantity demanded rises as a good’s price rises.",
       "answer": false,
       "explanation": "The law of demand states that, all else equal, people buy less as the price rises.",
-      "hint": "Higher prices usually reduce demand."
+      "hint": "Higher prices usually reduce the quantity demanded."
     },
     {
       "type": "ox",
@@ -263,7 +263,7 @@
     },
     {
       "type": "choice",
-      "prompt": "If demand rises while supply stays fixed, price usually…",
+      "prompt": "With an unchanged upward-sloping supply curve in a competitive market, an increase in demand makes the equilibrium price…",
       "choices": [
         "Stays the same",
         "Becomes zero",
@@ -271,7 +271,7 @@
         "Falls"
       ],
       "answer": 3,
-      "explanation": "Excess demand at the old price bids the price upward."
+      "explanation": "A rightward shift in demand raises the equilibrium price when the upward-sloping supply curve is unchanged."
     },
     {
       "type": "choice",
@@ -299,7 +299,7 @@
     },
     {
       "type": "choice",
-      "prompt": "What does 'diversification' reduce in an investment portfolio?",
+      "prompt": "What can diversification help reduce in an investment portfolio?",
       "choices": [
         "Tax",
         "Risk",
@@ -307,7 +307,7 @@
         "Liquidity"
       ],
       "answer": 2,
-      "explanation": "Spreading holdings reduces exposure to any single asset's failure."
+      "explanation": "Spreading holdings can reduce dependence on any one investment, but it does not eliminate investment risk."
     },
     {
       "type": "text",
