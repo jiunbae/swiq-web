@@ -199,7 +199,7 @@
       "type": "ox",
       "prompt": "The shore of the Dead Sea is the highest point on Earth's land surface.",
       "answer": false,
-      "explanation": "The Dead Sea shore is the lowest land point on Earth, more than 400 metres below sea level."
+      "explanation": "The Dead Sea shore is the lowest point on exposed dry land, more than 400 metres below sea level."
     },
     {
       "type": "ox",
@@ -331,7 +331,7 @@
     },
     {
       "type": "text",
-      "prompt": "Name the highest mountain in the world.",
+      "prompt": "Name the highest mountain in the world above sea level.",
       "answers": [
         "Everest",
         "Mount Everest",
