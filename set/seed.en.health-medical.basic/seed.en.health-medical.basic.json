@@ -206,10 +206,10 @@
     },
     {
       "type": "ox",
-      "prompt": "Type O negative blood cannot be given to anyone else.",
+      "prompt": "Type O negative red blood cells cannot be transfused to people with other ABO blood types.",
       "answer": false,
-      "explanation": "O negative is the universal donor type and can be given to patients of any blood type in emergencies.",
-      "hint": "It is the universal donor."
+      "explanation": "O negative is the universal red blood cell donor type. This refers to red blood cells, not every blood component: AB is the universal plasma donor type.",
+      "hint": "Distinguish red blood cells from plasma."
     },
     {
       "type": "ox",
