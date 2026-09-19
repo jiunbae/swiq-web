@@ -169,7 +169,7 @@
       "type": "ox",
       "prompt": "The capital of South Korea is Busan.",
       "answer": false,
-      "explanation": "South Korea's capital is Seoul; Busan is the country's second-largest city and main port."
+      "explanation": "South Korea's capital is Seoul. Busan's official city overview, using 2025 figures, describes it as the country's second-largest city; it is also a major seaport."
     },
     {
       "type": "ox",
@@ -319,7 +319,7 @@
         "Sahara Desert",
         "the Sahara Desert"
       ],
-      "explanation": "The Sahara spans about 9.2 million square kilometres."
+      "explanation": "The Sahara is the world's largest hot desert. ESA describes its area as about 9 million square kilometres."
     },
     {
       "type": "text",
