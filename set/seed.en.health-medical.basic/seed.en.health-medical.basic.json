@@ -275,7 +275,7 @@
     },
     {
       "type": "choice",
-      "prompt": "Which nutrient group is the body's main source of quick energy?",
+      "prompt": "Which nutrient group is generally the body’s main dietary energy source?",
       "choices": [
         "Vitamins",
         "Carbohydrates",
@@ -283,7 +283,7 @@
         "Fats"
       ],
       "answer": 2,
-      "explanation": "Carbohydrates break down into glucose, the body's readiest fuel."
+      "explanation": "Carbohydrates are a primary dietary energy source. Digestible starch is broken down into glucose; digestion rates vary with the food."
     },
     {
       "type": "choice",
