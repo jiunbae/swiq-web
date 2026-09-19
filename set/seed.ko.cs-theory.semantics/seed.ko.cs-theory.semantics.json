@@ -25,7 +25,7 @@
         "표시적 의미론(denotational)"
       ],
       "answer": 3,
-      "explanation": "작동적 의미론은 상태가 어떻게 한 단계씩 바뀌는지로 의미를 줍니다."
+      "explanation": "작동적 의미론입니다. 특히 small-step 방식은 추상 기계의 상태나 식이 한 단계씩 어떻게 바뀌는지 규정합니다. big-step 방식은 시작 상태와 최종 결과 사이의 평가 관계를 규정합니다."
     },
     {
       "type": "choice",
@@ -61,7 +61,7 @@
         "operational",
         "연산적 의미론"
       ],
-      "explanation": "작동적(operational) 의미론입니다. small-step·big-step 두 형태가 있습니다."
+      "explanation": "작동적(operational) 의미론입니다. small-step은 개별 계산 단계를, big-step은 시작 상태와 최종 결과 사이의 평가 관계를 규정하는 대표적인 방식입니다."
     },
     {
       "type": "ox",
@@ -107,9 +107,9 @@
     },
     {
       "type": "ox",
-      "prompt": "big-step(자연) 의미론은 무한히 도는 프로그램과 오류로 막힌 프로그램을 자연스럽게 구별해준다.",
+      "prompt": "종료한 결과만 귀납적으로 정의하는 기본 big-step 의미론은 무한히 도는 프로그램과 오류로 막힌 프로그램을 자연스럽게 구별해준다.",
       "answer": false,
-      "explanation": "big-step에서는 두 경우 모두 '평가 관계의 도출이 존재하지 않음'으로 뭉뚱그려집니다. 발산과 막힘(stuck)을 구분하려면 한 걸음씩 보는 small-step 의미론이 유리합니다."
+      "explanation": "이 기본 방식에서는 두 경우 모두 최종 결과에 대한 평가 도출이 없습니다. small-step은 무한 계산과 더 진행할 수 없는 막힘을 구분하기에 편리합니다. 다만 별도의 발산 판단이나 공귀납적 규칙을 추가한 big-step 의미론은 발산도 표현할 수 있습니다."
     },
     {
       "type": "choice",
