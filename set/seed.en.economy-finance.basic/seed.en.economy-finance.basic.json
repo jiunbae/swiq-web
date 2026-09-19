@@ -26,7 +26,7 @@
       "type": "ox",
       "prompt": "GDP stands for the total population of a country.",
       "answer": false,
-      "explanation": "GDP means Gross Domestic Product, the value of goods and services produced.",
+      "explanation": "GDP stands for Gross Domestic Product: the monetary value of final goods and services produced within a country during a given period.",
       "hint": "It measures output, not people."
     },
     {
@@ -65,8 +65,8 @@
       "type": "ox",
       "prompt": "Deflation means prices are continuously rising.",
       "answer": false,
-      "explanation": "Deflation means prices are continuously falling; rising prices are inflation.",
-      "hint": "Deflation = falling prices."
+      "explanation": "Deflation is a sustained fall in the general price level. A sustained general rise in prices is inflation.",
+      "hint": "Think of the general price level falling."
     },
     {
       "type": "ox",
@@ -85,7 +85,7 @@
       "type": "ox",
       "prompt": "A recession is a significant, broad decline in economic activity.",
       "answer": true,
-      "explanation": "A recession is a widespread drop in output, income, and employment lasting more than a few months."
+      "explanation": "A recession is a broad, significant decline in economic activity. It usually lasts more than a few months, but an unusually deep and widespread contraction may be shorter."
     },
     {
       "type": "ox",
@@ -109,9 +109,9 @@
     },
     {
       "type": "ox",
-      "prompt": "The unemployment rate measures the share of the labor force that is jobless but seeking work.",
+      "prompt": "The unemployment rate measures unemployed people as a percentage of the labor force.",
       "answer": true,
-      "explanation": "It counts people who are actively looking for a job but do not have one, as a share of the labor force."
+      "explanation": "Unemployed people generally have no job, are available for work and are seeking one. Definitions have specific exceptions; for example, U.S. statistics include some workers on temporary layoff who are not searching."
     },
     {
       "type": "ox",
@@ -143,8 +143,8 @@
       "type": "ox",
       "prompt": "Money you deposit at a bank sits locked in a vault and is never lent out.",
       "answer": false,
-      "explanation": "Banks keep only part of deposits on hand and lend the rest out to earn interest.",
-      "hint": "Banks lend most deposits out."
+      "explanation": "Banks provide loans as well as deposit accounts. In modern banking, making a loan can create a new bank deposit; deposits are not simply cash locked away in a vault.",
+      "hint": "Banks make loans and create deposit balances."
     },
     {
       "type": "ox",
@@ -195,8 +195,8 @@
       "type": "ox",
       "prompt": "Gross profit is calculated after subtracting all of a company's operating expenses.",
       "answer": false,
-      "explanation": "Gross profit subtracts only the cost of goods sold; net profit accounts for all expenses.",
-      "hint": "That describes net profit."
+      "explanation": "Gross profit is revenue minus cost of sales. Deducting operating expenses gives operating profit; net profit also accounts for other income and expenses, including interest and tax.",
+      "hint": "Gross profit comes before operating expenses are deducted."
     },
     {
       "type": "ox",
@@ -251,7 +251,7 @@
     },
     {
       "type": "choice",
-      "prompt": "What is the term for the total value of goods and services produced in a country?",
+      "prompt": "What measures the monetary value of final goods and services produced within a country during a given period?",
       "choices": [
         "National Debt",
         "Gross Domestic Product",
@@ -259,7 +259,7 @@
         "Balance of Trade"
       ],
       "answer": 2,
-      "explanation": "GDP measures a country's total output over a period."
+      "explanation": "GDP measures final output produced within a country during a period, such as a quarter or year."
     },
     {
       "type": "choice",
@@ -295,7 +295,7 @@
         "An insurance contract"
       ],
       "answer": 1,
-      "explanation": "A bondholder lends money and receives interest plus repayment of principal."
+      "explanation": "A bond is debt issued to investors. Its terms specify promised payments, but the issuer may default; interest arrangements vary by bond."
     },
     {
       "type": "choice",
@@ -315,7 +315,7 @@
       "answers": [
         "Gross Domestic Product"
       ],
-      "explanation": "GDP is the total market value of final goods and services produced."
+      "explanation": "GDP stands for Gross Domestic Product. It measures the monetary value of final goods and services produced within a country during a given period."
     },
     {
       "type": "text",

@@ -57,9 +57,9 @@
     },
     {
       "type": "ox",
-      "prompt": "The skin is the largest organ of the human body.",
+      "prompt": "The skin is the heaviest organ of the human body.",
       "answer": true,
-      "explanation": "By surface area, the skin is the body's largest organ."
+      "explanation": "Skin forms the body’s outer covering and is its heaviest organ. This comparison is by weight, not by the microscopic surface area inside other organs."
     },
     {
       "type": "ox",
@@ -311,12 +311,12 @@
     },
     {
       "type": "text",
-      "prompt": "What is the largest organ of the human body?",
+      "prompt": "Which organ forms the body’s outer covering and is its heaviest organ?",
       "answers": [
         "skin",
         "the skin"
       ],
-      "explanation": "Skin is the largest organ by surface area and weight."
+      "explanation": "Skin covers the body and is its heaviest organ."
     },
     {
       "type": "text",
