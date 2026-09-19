@@ -8,7 +8,7 @@ A stack is a Last-In-First-Out (LIFO) data structure. | O | In a stack, the most
 A queue is a First-In-First-Out (FIFO) data structure. | O | In a queue, the first element added is the first removed (FIFO).
 Computers internally store and process data in base-10 (decimal). | X | Computers store and process data in binary (base-2), using 0s and 1s.
 One byte consists of 8 bits. | O | A byte is made up of 8 bits.
-A compiler translates source code into machine code before the program runs. | O | A compiler translates the whole program into machine code ahead of execution, unlike an interpreter.
+An ahead-of-time native compiler translates source code into machine code before that code is executed. | O | Ahead-of-time native compilation produces machine code before execution. Other compilers can produce intermediate code or compile during execution, as in JIT compilation.
 In most programming languages, array indices start at 1. | X | In many languages (C, Java, Python) array indices start at 0, not 1.
 A hash table can offer average-case O(1) time for insertion and lookup. | O | With good hashing and collision handling, hash tables average O(1) operations.
 Which time complexity grows fastest as input size n becomes large? | 1)O(n²) 2)O(n) 3)O(log n) 4)O(1) | 1 | O(n²) grows faster than O(n), O(log n), or constant time as n increases.
@@ -17,12 +17,12 @@ Q: What is the decimal value of the binary number 1010? (digits only) | A: 10;te
 Q: What do we call a flaw or error in a computer program, the removal of which is called debugging? | A: bug;a bug;software bug | A bug is an error in a program; fixing bugs is called debugging.
 Merge sort has a worst-case time complexity of O(n log n). | O | Merge sort always divides the array in half and merges in linear time, giving O(n log n) even in the worst case.
 Quicksort's worst-case time complexity is O(n log n). | X | Quicksort averages O(n log n), but with consistently bad pivots (e.g. an already sorted array) it degrades to O(n²).
-Which tree traversal visits the root before its left and right subtrees? | 1)Level-order 2)In-order 3)Pre-order 4)Post-order | 3 | Pre-order traversal visits root, then left subtree, then right subtree; in-order visits the root between the subtrees.
+Which binary-tree traversal visits the root, recursively traverses the entire left subtree, and then recursively traverses the entire right subtree? | 1)Level-order 2)In-order 3)Pre-order 4)Post-order | 3 | Pre-order follows root, left subtree, then right subtree recursively. Level-order instead visits nodes by depth.
 A balanced binary search tree supports search, insertion, and deletion in O(log n) time. | O | Balanced BSTs like AVL or red-black trees keep their height at O(log n), so core operations run in O(log n).
 DNS translates IP addresses into MAC addresses. | X | DNS resolves human-readable domain names into IP addresses; mapping IPs to MAC addresses is done by ARP.
 Q: What is the hexadecimal number FF in decimal? (digits only) | A: 255;two hundred fifty-five;two hundred and fifty-five | FF in hexadecimal is 15×16 + 15 = 255, the largest value of an unsigned 8-bit byte.
 TCP provides reliable, ordered delivery of data, while UDP does not guarantee delivery. | O | TCP uses acknowledgments and retransmission for reliable, in-order delivery; UDP is faster but offers no such guarantees.
-RAM retains its contents even after the computer is powered off. | X | RAM is volatile memory that loses its contents when power is cut; non-volatile storage like SSDs or ROM keeps data.
+The DRAM commonly used as main memory in personal computers retains its contents without power. | X | DRAM is volatile and needs power to retain data. Non-volatile storage such as an SSD retains data without power.
 In the OSI model, which layer is responsible for routing packets between networks? | 1)Application layer 2)Physical layer 3)Transport layer 4)Network layer | 4 | The network layer (layer 3) handles logical addressing and routing of packets across networks; IP operates at this layer.
 A deadlock can occur when processes each hold a resource while waiting for a resource held by another. | O | Deadlock arises from circular waiting: each process holds something another needs, so none can proceed.
 In Big-O notation, O(1) means an algorithm performs exactly one operation. | X | O(1) means constant time — the number of operations does not grow with input size, not that only one operation occurs.
@@ -30,7 +30,7 @@ Q: What does the abbreviation CPU stand for? (three words) | A: central processi
 A linked list allows O(1) insertion at its head, unlike inserting at the front of an array. | O | Inserting at a linked list's head only rewires pointers (O(1)); an array must shift every element, costing O(n).
 Plain HTTP encrypts data in transit by default. | X | HTTP sends data in plaintext; HTTPS adds TLS encryption to protect data between browser and server.
 Which data structure does breadth-first search (BFS) typically use to track the next nodes to visit? | 1)Queue 2)Stack 3)Heap 4)Tree | 1 | BFS explores level by level using a queue; depth-first search uses a stack or recursion instead.
-A connected graph with no cycles is called a tree. | O | By definition, a tree is a connected acyclic graph; with n vertices it always has exactly n−1 edges.
+A finite, connected, undirected graph with no cycles is called a tree. | O | In graph theory, a tree is a connected, undirected, acyclic graph. A finite tree with n vertices has n−1 edges.
 An operating system's kernel runs in user mode. | X | The kernel runs in privileged kernel mode with full hardware access; applications run in restricted user mode.
 Q: What is the name of the smallest unit of digital information, representing a 0 or a 1? | A: bit;a bit;binary digit | A bit (binary digit) is the smallest unit of information; eight bits make one byte.
 Two's complement is the standard way modern computers represent signed integers. | O | Two's complement lets the same addition circuitry handle positive and negative numbers, so it is the universal choice.

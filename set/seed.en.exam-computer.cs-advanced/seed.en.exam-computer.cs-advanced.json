@@ -35,9 +35,9 @@
     },
     {
       "type": "ox",
-      "prompt": "A compiler translates source code into machine code before the program runs.",
+      "prompt": "An ahead-of-time native compiler translates source code into machine code before that code is executed.",
       "answer": true,
-      "explanation": "A compiler translates the whole program into machine code ahead of execution, unlike an interpreter."
+      "explanation": "Ahead-of-time native compilation produces machine code before execution. Other compilers can produce intermediate code or compile during execution, as in JIT compilation."
     },
     {
       "type": "ox",
@@ -110,7 +110,7 @@
     },
     {
       "type": "choice",
-      "prompt": "Which tree traversal visits the root before its left and right subtrees?",
+      "prompt": "Which binary-tree traversal visits the root, recursively traverses the entire left subtree, and then recursively traverses the entire right subtree?",
       "choices": [
         "Level-order",
         "In-order",
@@ -118,7 +118,7 @@
         "Post-order"
       ],
       "answer": 3,
-      "explanation": "Pre-order traversal visits root, then left subtree, then right subtree; in-order visits the root between the subtrees."
+      "explanation": "Pre-order follows root, left subtree, then right subtree recursively. Level-order instead visits nodes by depth."
     },
     {
       "type": "ox",
@@ -151,9 +151,9 @@
     },
     {
       "type": "ox",
-      "prompt": "RAM retains its contents even after the computer is powered off.",
+      "prompt": "The DRAM commonly used as main memory in personal computers retains its contents without power.",
       "answer": false,
-      "explanation": "RAM is volatile memory that loses its contents when power is cut; non-volatile storage like SSDs or ROM keeps data."
+      "explanation": "DRAM is volatile and needs power to retain data. Non-volatile storage such as an SSD retains data without power."
     },
     {
       "type": "choice",
@@ -215,9 +215,9 @@
     },
     {
       "type": "ox",
-      "prompt": "A connected graph with no cycles is called a tree.",
+      "prompt": "A finite, connected, undirected graph with no cycles is called a tree.",
       "answer": true,
-      "explanation": "By definition, a tree is a connected acyclic graph; with n vertices it always has exactly n−1 edges."
+      "explanation": "In graph theory, a tree is a connected, undirected, acyclic graph. A finite tree with n vertices has n−1 edges."
     },
     {
       "type": "ox",
