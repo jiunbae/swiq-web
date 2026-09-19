@@ -17,9 +17,9 @@
     },
     {
       "type": "ox",
-      "prompt": "Australia is both a country and a continent.",
+      "prompt": "Australia is the name of a country and is also used for a continent.",
       "answer": true,
-      "explanation": "Australia is a single country that also forms its own continent."
+      "explanation": "Australia refers both to the country and to the continental landmass. These are two geographic uses of the same name; a country is a political unit, while a continent is a geographic division."
     },
     {
       "type": "ox",
@@ -55,7 +55,7 @@
       "type": "ox",
       "prompt": "Africa is the smallest continent.",
       "answer": false,
-      "explanation": "Africa is the second-largest continent; Australia/Oceania is the smallest."
+      "explanation": "Africa is the second-largest continent by area. Geoscience Australia identifies Australia as the smallest continental landmass."
     },
     {
       "type": "ox",
