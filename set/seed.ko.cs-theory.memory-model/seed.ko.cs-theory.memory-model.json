@@ -151,13 +151,13 @@
       "type": "ox",
       "prompt": "C++ 표준에서 두 원자적(atomic) 접근끼리 동시에 일어나는 것은 데이터 경합으로 규정되지 않는다.",
       "answer": true,
-      "explanation": "데이터 경합의 정의는 '충돌하는 두 접근 중 적어도 하나가 비원자적(non-atomic)이고 happens-before로 순서지어지지 않을 것'입니다. 원자 연산끼리의 경쟁은 경합이 아니라 정의된 동작입니다."
+      "explanation": "C++의 데이터 경합에는 충돌하는 접근 중 적어도 하나가 비원자적이라는 조건이 있습니다. 따라서 두 원자적 접근끼리의 충돌만으로는 데이터 경합이 되지 않습니다. 그렇다고 프로그램 전체에 미정의 동작이 없다는 뜻은 아니며, 원자 객체의 초기화·수명 등 다른 조건도 지켜야 합니다."
     },
     {
       "type": "ox",
       "prompt": "relaxed 순서(memory_order_relaxed)로 지정한 원자 연산은 원자성마저 포기한다.",
       "answer": false,
-      "explanation": "relaxed도 해당 연산 자체의 원자성과 위치별 modification order는 유지합니다. 포기하는 것은 다른 위치 접근과의 순서·동기화 보장뿐입니다."
+      "explanation": "relaxed도 원자성과 원자 객체별 수정 순서(modification order)를 유지합니다. 해당 연산만으로 다른 스레드와의 synchronizes-with 관계를 만들지는 않지만, 별도 동기화에서 생긴 happens-before와 일관성 제약까지 없어지는 것은 아닙니다."
     },
     {
       "type": "choice",
@@ -253,9 +253,9 @@
     },
     {
       "type": "ox",
-      "prompt": "원자적 읽기-수정-쓰기(CAS 등) 연산은 해당 위치의 modification order에서 자기 바로 앞 값을 읽는다.",
+      "prompt": "C++의 원자적 읽기-수정-쓰기(RMW) 연산은 해당 객체의 modification order에서 그 연산 바로 앞 수정이 기록한 값을 읽는다.",
       "answer": true,
-      "explanation": "RMW는 수정 순서상 직전 값을 읽도록 규정되어 있어, 두 RMW가 같은 값을 읽고 둘 다 성공하는 일이 없습니다. 이 성질이 락프리 알고리즘의 정확성 근거입니다."
+      "explanation": "성공한 CAS는 RMW이지만 실패한 CAS는 읽기 연산입니다. 직전 수정의 값을 읽는다는 조건은 두 성공한 RMW의 숫자 값이 반드시 다르다는 뜻이 아닙니다. 예를 들어 0을 0으로 바꾸는 두 CAS는 차례로 모두 성공할 수 있습니다."
     },
     {
       "type": "ox",
