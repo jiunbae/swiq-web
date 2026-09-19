@@ -52,7 +52,7 @@
       "type": "ox",
       "prompt": "Normal adult body temperature is around 42 degrees Celsius.",
       "answer": false,
-      "explanation": "Normal body temperature is about 37 degrees Celsius; 42 would be dangerous.",
+      "explanation": "Average normal body temperature is about 37 degrees Celsius, but it varies by person, activity and time of day. 42 degrees Celsius is not a normal adult temperature.",
       "hint": "Around 37, not 42."
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "type": "ox",
-      "prompt": "The adult human body has 206 bones.",
+      "prompt": "A typical adult human skeleton has 206 bones.",
       "answer": true,
       "explanation": "A typical adult skeleton is made up of 206 bones."
     },
@@ -109,7 +109,7 @@
     },
     {
       "type": "ox",
-      "prompt": "Human blood is always red and is never truly blue.",
+      "prompt": "In normal circulation, human blood is red in both arteries and veins.",
       "answer": true,
       "explanation": "Blood is red because of hemoglobin; veins can look blue through the skin, but the blood inside is still red."
     },
@@ -124,7 +124,7 @@
       "type": "ox",
       "prompt": "The stomach produces acid that helps digest food.",
       "answer": true,
-      "explanation": "Stomach acid breaks down food and helps kill many ingested germs."
+      "explanation": "The stomach mixes food with acid and digestive enzymes to help break it down."
     },
     {
       "type": "ox",
@@ -180,10 +180,10 @@
     },
     {
       "type": "ox",
-      "prompt": "Drinking alcohol raises your body's core temperature to keep you warm.",
+      "prompt": "Drinking alcohol is a reliable way to keep your core body temperature up in cold weather.",
       "answer": false,
-      "explanation": "Alcohol widens skin blood vessels so you feel warm, but it actually lowers core body temperature.",
-      "hint": "It only makes the skin feel warm."
+      "explanation": "Alcohol can make your skin feel warm while increasing heat loss and lowering core temperature. It does not protect you from the cold.",
+      "hint": "Feeling warm is not the same as retaining body heat."
     },
     {
       "type": "ox",
@@ -202,7 +202,7 @@
       "type": "ox",
       "prompt": "Dietary fiber aids digestion.",
       "answer": true,
-      "explanation": "Fiber adds bulk and helps food move through the digestive tract."
+      "explanation": "Fiber can support bowel regularity. Insoluble fiber adds bulk to stool and can help it pass, while soluble fiber forms a gel that slows digestion."
     },
     {
       "type": "ox",
@@ -228,7 +228,7 @@
       "type": "ox",
       "prompt": "Sunscreen helps protect skin from ultraviolet damage.",
       "answer": true,
-      "explanation": "Sunscreen blocks or absorbs UV rays, reducing sunburn and long-term skin damage."
+      "explanation": "Broad-spectrum sunscreen with SPF 15 or higher helps protect against UVA and UVB rays. Use it as directed along with other sun protection to reduce sunburn and skin damage."
     },
     {
       "type": "ox",
@@ -320,11 +320,11 @@
     },
     {
       "type": "text",
-      "prompt": "How many bones are in the adult human body?",
+      "prompt": "How many bones are in a typical adult human skeleton?",
       "answers": [
         "206"
       ],
-      "explanation": "An adult skeleton has 206 bones; newborns have around 270 that later fuse."
+      "explanation": "A typical adult skeleton has 206 bones. Many bones fuse as a child grows."
     },
     {
       "type": "text",
