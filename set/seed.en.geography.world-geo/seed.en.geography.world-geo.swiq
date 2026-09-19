@@ -26,7 +26,7 @@ The capital of Brazil is Rio de Janeiro. | X | Brazil's capital is Brasília, a 
 The capital of Italy is Rome. | O | Rome is Italy's capital and largest city, famous for its long history.
 Mount Kilimanjaro is located in Europe. | X | Kilimanjaro is in Tanzania and is the highest mountain in Africa.
 The Arctic Ocean is the warmest ocean on Earth. | X | The Arctic is the coldest and smallest of the world's oceans, largely covered by sea ice.
-Antarctica is the coldest continent on Earth. | O | Antarctica holds the record for the lowest temperatures ever measured on Earth and is covered by a thick ice sheet.
+Antarctica is the coldest continent on Earth. | O | Antarctica is almost entirely covered by a thick ice sheet. Vostok Station holds the WMO record for the lowest air temperature measured at a weather station: -89.2°C on 21 July 1983.
 Switzerland has a long ocean coastline. | X | Switzerland is a landlocked country in the Alps with no coastline at all.
 Egypt is a country in Africa. | O | Egypt lies in the north-east corner of Africa, with a small part of its territory, the Sinai Peninsula, in Asia.
 The Alps are a mountain range in Europe. | O | The Alps stretch across several European countries, including France, Switzerland, Italy, and Austria.

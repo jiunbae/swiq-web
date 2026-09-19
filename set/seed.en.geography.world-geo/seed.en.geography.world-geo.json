@@ -145,7 +145,7 @@
       "type": "ox",
       "prompt": "Antarctica is the coldest continent on Earth.",
       "answer": true,
-      "explanation": "Antarctica holds the record for the lowest temperatures ever measured on Earth and is covered by a thick ice sheet."
+      "explanation": "Antarctica is almost entirely covered by a thick ice sheet. Vostok Station holds the WMO record for the lowest air temperature measured at a weather station: -89.2°C on 21 July 1983."
     },
     {
       "type": "ox",
