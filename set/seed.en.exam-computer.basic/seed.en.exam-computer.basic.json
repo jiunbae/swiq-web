@@ -18,9 +18,9 @@
     },
     {
       "type": "ox",
-      "prompt": "RAM is a type of volatile memory that loses data when power is off.",
+      "prompt": "The DRAM commonly used as a computer’s main memory is volatile.",
       "answer": true,
-      "explanation": "RAM is volatile, so its contents disappear once power is cut."
+      "explanation": "Typical main-memory DRAM needs power to retain its contents. This statement refers to DRAM, not every technology that permits random access."
     },
     {
       "type": "ox",
@@ -83,9 +83,9 @@
     },
     {
       "type": "ox",
-      "prompt": "A compiler translates source code into machine code.",
+      "prompt": "A compiler translates a program into another code format or language.",
       "answer": true,
-      "explanation": "A compiler converts human-readable source code into machine code a computer can run."
+      "explanation": "A compiler may produce machine code, bytecode, or code in another programming language. Compilation is not limited to producing native machine code."
     },
     {
       "type": "ox",
@@ -161,9 +161,9 @@
     },
     {
       "type": "ox",
-      "prompt": "A pixel is the smallest unit of a digital image.",
+      "prompt": "A pixel is an individual picture element in a raster image.",
       "answer": true,
-      "explanation": "A pixel is a single tiny dot of color; many pixels together form a digital image."
+      "explanation": "A raster image is made of pixels arranged in rows and columns. Vector images instead describe shapes and are not inherently stored as a fixed pixel grid."
     },
     {
       "type": "ox",
@@ -187,9 +187,9 @@
     },
     {
       "type": "ox",
-      "prompt": "A variable stores data that can change during a program's execution.",
+      "prompt": "A mutable variable lets a program refer to a value by name and update the associated value.",
       "answer": true,
-      "explanation": "A variable is a named location in memory whose value can be updated as a program runs."
+      "explanation": "A variable provides a name through which a program can access a value. The rules for updating that value or binding depend on the programming language."
     },
     {
       "type": "ox",
@@ -251,7 +251,7 @@
     },
     {
       "type": "choice",
-      "prompt": "What is the time complexity of binary search on a sorted array?",
+      "prompt": "Which listed Big-O bound is tightest for the worst-case running time of binary search on a sorted array of n elements?",
       "choices": [
         "O(n)",
         "O(n log n)",
@@ -259,19 +259,19 @@
         "O(log n)"
       ],
       "answer": 4,
-      "explanation": "Each comparison halves the search space."
+      "explanation": "With constant-time array access and comparisons, each step roughly halves the remaining interval, giving worst-case O(log n) time."
     },
     {
       "type": "choice",
-      "prompt": "Which of these converts source code into machine code before execution?",
+      "prompt": "Which tool translates source code into native machine code ahead of execution?",
       "choices": [
-        "A compiler",
-        "An interpreter",
+        "An ahead-of-time native compiler",
+        "A source-code interpreter without compilation",
         "A linker only",
         "A debugger"
       ],
       "answer": 1,
-      "explanation": "A compiler translates ahead of time; an interpreter executes directly."
+      "explanation": "An ahead-of-time native compiler produces machine code before execution. Other compilers may run just in time or target another code format."
     },
     {
       "type": "choice",
@@ -328,14 +328,14 @@
     },
     {
       "type": "text",
-      "prompt": "In Big-O notation, what is the worst-case complexity of bubble sort?",
+      "prompt": "What is the tightest worst-case Big-O time bound for standard bubble sort on n elements?",
       "answers": [
         "O(n^2)",
         "O(n²)",
         "n^2",
         "n²"
       ],
-      "explanation": "Bubble sort compares every pair in the worst case."
+      "explanation": "Bubble sort repeatedly compares adjacent elements and swaps those that are out of order. In the worst case, the number of comparisons grows quadratically: O(n²)."
     },
     {
       "type": "text",
