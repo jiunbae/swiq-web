@@ -37,7 +37,7 @@
       "type": "ox",
       "prompt": "Haskell의 타입 클래스나 Rust의 트레잇 해석(trait resolution)은 '적절한 인스턴스·구현이 존재하는가'를 찾는 일종의 증명 탐색이다.",
       "answer": true,
-      "explanation": "인스턴스/구현 탐색은 규칙에 따른 프루프 서치입니다 — 비자명한 ∃의 전형입니다."
+      "explanation": "타입 클래스·트레잇 해석은 인스턴스나 구현 규칙과 주어진 제약을 이용해 필요한 조건을 증명하는 과정으로 볼 수 있습니다. 예를 들어 Rust의 제네릭 함수 안에서는 구체적인 impl을 고르지 않고 T: Clone 같은 타입 경계로 요구 조건을 충족할 수 있습니다."
     },
     {
       "type": "choice",
@@ -53,9 +53,9 @@
     },
     {
       "type": "ox",
-      "prompt": "일반적으로 타입 클래스·트레잇의 인스턴스 탐색은 규칙에 따라 무한히 확장될 수 있어, 이론적으로 결정 불가능(undecidable)해질 수도 있다.",
+      "prompt": "GHC에서 인스턴스 탐색의 종료를 보장하는 제한을 완화하면, 타입 검사가 끝나지 않는 경우가 생길 수 있다.",
       "answer": true,
-      "explanation": "그래서 언어들은 종료를 보장하려 다양한 제약(coherence·overlap 규칙 등)을 둡니다."
+      "explanation": "GHC는 Paterson 조건과 coverage 조건 등으로 인스턴스 탐색이 줄어들도록 제한합니다. UndecidableInstances는 이러한 제한을 완화해 비종료 가능성을 허용하지만, 모든 프로그램이 끝나지 않는다는 뜻은 아닙니다. 중복 인스턴스의 선택과 일관성(coherence)을 다루는 규칙은 이 종료 조건과 구분해야 합니다."
     },
     {
       "type": "text",
