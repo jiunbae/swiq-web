@@ -16,7 +16,7 @@ The Sahara Desert is located in South America. | X | The Sahara Desert is in nor
 Russia is smaller in area than Italy. | X | Russia is the largest country in the world by area, far larger than Italy.
 The Atlantic Ocean is larger than the Pacific Ocean. | X | The Pacific Ocean is larger than the Atlantic Ocean.
 The capital of Japan is Tokyo. | O | Tokyo is Japan's capital and one of the most populous metropolitan areas in the world.
-The capital of Australia is Sydney. | X | Australia's capital is Canberra; Sydney is its largest city.
+The capital of Australia is Sydney. | X | Australia's national capital is Canberra. In the ABS population estimates for 30 June 2025, Greater Sydney had the largest population among Australia's Greater Capital City Statistical Areas.
 Brazil is the largest country in South America. | O | Brazil covers nearly half of South America, making it the continent's largest country by area and population.
 The Statue of Liberty is located in London. | X | The Statue of Liberty stands in New York Harbor in the United States; it was a gift from France.
 The capital of Canada is Toronto. | X | Canada's capital is Ottawa; Toronto is the country's largest city.
@@ -42,7 +42,7 @@ The Great Barrier Reef is located off the coast of Australia. | O | The Great Ba
 According to the USGS list of the world's longest rivers, which river is the longest? | 1)The Nile 2)The Amazon 3)The Yangtze 4)The Mississippi | 1 | The USGS list gives the Nile a length of roughly 6,650 km. River lengths can vary with the choice of source and measurement method. The Amazon carries the greatest volume of water; discharge and length are different measurements.
 Which continent contains the Sahara Desert? | 1)South America 2)Africa 3)Asia 4)Australia | 2 | The Sahara spans northern Africa and is the largest hot desert on Earth.
 Which ocean lies between Africa and Australia? | 1)The Pacific Ocean 2)The Arctic Ocean 3)The Indian Ocean 4)The Atlantic Ocean | 3 | The Indian Ocean is bounded by Africa to the west and Australia to the east.
-Which country has the largest population in the world? | 1)China 2)The United States 3)Indonesia 4)India | 4 | India overtook China in 2023 and now has the largest population.
+According to UN population estimates, which country became the world's most populous country in 2023? | 1)China 2)The United States 3)Indonesia 4)India | 4 | UN estimates placed India ahead of China in population in 2023. The timing of the crossover is estimated, rather than established by a census taken on that exact day.
 Mount Everest sits on the border between which two countries? | 1)Nepal and China 2)India and Nepal 3)China and Bhutan 4)India and Bhutan | 1 | Everest straddles the Nepal–Tibet (China) border in the Himalaya.
 Which is the smallest country in the world by area? | 1)Liechtenstein 2)Vatican City 3)Monaco 4)San Marino | 2 | Vatican City is the smallest independent state. Its official geography page gives its area as about 0.44 square kilometres.
 Q: What is the capital of New Zealand? | A: Wellington | Wellington is the capital of New Zealand. In the 2023 census figures reported by EHINZ, Auckland was the largest city by population.

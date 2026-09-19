@@ -85,7 +85,7 @@
       "type": "ox",
       "prompt": "The capital of Australia is Sydney.",
       "answer": false,
-      "explanation": "Australia's capital is Canberra; Sydney is its largest city."
+      "explanation": "Australia's national capital is Canberra. In the ABS population estimates for 30 June 2025, Greater Sydney had the largest population among Australia's Greater Capital City Statistical Areas."
     },
     {
       "type": "ox",
@@ -257,7 +257,7 @@
     },
     {
       "type": "choice",
-      "prompt": "Which country has the largest population in the world?",
+      "prompt": "According to UN population estimates, which country became the world's most populous country in 2023?",
       "choices": [
         "China",
         "The United States",
@@ -265,7 +265,7 @@
         "India"
       ],
       "answer": 4,
-      "explanation": "India overtook China in 2023 and now has the largest population."
+      "explanation": "UN estimates placed India ahead of China in population in 2023. The timing of the crossover is estimated, rather than established by a census taken on that exact day."
     },
     {
       "type": "choice",
