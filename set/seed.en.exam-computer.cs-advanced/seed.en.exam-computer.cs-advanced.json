@@ -23,9 +23,9 @@
     },
     {
       "type": "ox",
-      "prompt": "Computers internally store and process data in base-10 (decimal).",
+      "prompt": "In a typical modern binary digital computer, each bit can represent any one of the decimal digits 0 through 9.",
       "answer": false,
-      "explanation": "Computers store and process data in binary (base-2), using 0s and 1s."
+      "explanation": "A bit has two possible values, 0 and 1. Multiple bits can encode decimal digits and other data."
     },
     {
       "type": "ox",
@@ -41,9 +41,9 @@
     },
     {
       "type": "ox",
-      "prompt": "In most programming languages, array indices start at 1.",
+      "prompt": "In Java, the first element of a nonempty array has index 1.",
       "answer": false,
-      "explanation": "In many languages (C, Java, Python) array indices start at 0, not 1."
+      "explanation": "Java array indices start at 0. An array of length n has indices 0 through n−1."
     },
     {
       "type": "ox",
@@ -53,15 +53,15 @@
     },
     {
       "type": "choice",
-      "prompt": "Which time complexity grows fastest as input size n becomes large?",
+      "prompt": "Which function grows fastest as positive input size n tends to infinity?",
       "choices": [
-        "O(n²)",
-        "O(n)",
-        "O(log n)",
-        "O(1)"
+        "n²",
+        "n",
+        "log₂ n",
+        "1"
       ],
       "answer": 1,
-      "explanation": "O(n²) grows faster than O(n), O(log n), or constant time as n increases."
+      "explanation": "Among these functions, n² grows fastest for large n. Big-O notation describes an upper bound, which need not be tight."
     },
     {
       "type": "choice",
@@ -98,15 +98,15 @@
     },
     {
       "type": "ox",
-      "prompt": "Merge sort has a worst-case time complexity of O(n log n).",
+      "prompt": "Standard top-down merge sort has worst-case O(n log n) time when comparisons and element moves take constant time.",
       "answer": true,
-      "explanation": "Merge sort always divides the array in half and merges in linear time, giving O(n log n) even in the worst case."
+      "explanation": "This version splits the sequence into roughly equal halves, recursively sorts them, and merges each pair in linear time. The resulting worst-case time is O(n log n)."
     },
     {
       "type": "ox",
-      "prompt": "Quicksort's worst-case time complexity is O(n log n).",
+      "prompt": "Standard quicksort that always chooses the first element as pivot has worst-case O(n log n) time for distinct elements.",
       "answer": false,
-      "explanation": "Quicksort averages O(n log n), but with consistently bad pivots (e.g. an already sorted array) it degrades to O(n²)."
+      "explanation": "With this pivot rule, an already sorted input repeatedly produces an empty partition and a partition of size n−1. With constant-time comparisons, the worst-case time is O(n²), not O(n log n)."
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
       "type": "ox",
       "prompt": "DNS translates IP addresses into MAC addresses.",
       "answer": false,
-      "explanation": "DNS resolves human-readable domain names into IP addresses; mapping IPs to MAC addresses is done by ARP."
+      "explanation": "DNS resolves domain names to information such as IP addresses. On IPv4 Ethernet networks, ARP resolves a neighbor’s IPv4 address to a MAC address; IPv6 uses Neighbor Discovery for link-layer address resolution."
     },
     {
       "type": "text",
@@ -147,7 +147,7 @@
       "type": "ox",
       "prompt": "TCP provides reliable, ordered delivery of data, while UDP does not guarantee delivery.",
       "answer": true,
-      "explanation": "TCP uses acknowledgments and retransmission for reliable, in-order delivery; UDP is faster but offers no such guarantees."
+      "explanation": "TCP uses acknowledgments and retransmission to provide a reliable, ordered byte stream. UDP itself does not guarantee delivery or ordering; actual performance depends on the application and network."
     },
     {
       "type": "ox",
@@ -191,9 +191,9 @@
     },
     {
       "type": "ox",
-      "prompt": "A linked list allows O(1) insertion at its head, unlike inserting at the front of an array.",
+      "prompt": "Given an existing head pointer and a preallocated node, insertion at a linked list’s head takes O(1) pointer updates, while front insertion into a packed array requires shifting its n elements.",
       "answer": true,
-      "explanation": "Inserting at a linked list's head only rewires pointers (O(1)); an array must shift every element, costing O(n)."
+      "explanation": "Head insertion updates a fixed number of pointers. In a packed array whose first element occupies the start of its storage, front insertion shifts the existing elements, taking O(n) element moves."
     },
     {
       "type": "ox",
@@ -221,9 +221,9 @@
     },
     {
       "type": "ox",
-      "prompt": "An operating system's kernel runs in user mode.",
+      "prompt": "The Windows operating system kernel runs in user mode.",
       "answer": false,
-      "explanation": "The kernel runs in privileged kernel mode with full hardware access; applications run in restricted user mode."
+      "explanation": "Core Windows operating system components run in kernel mode, while ordinary application code runs in user mode."
     },
     {
       "type": "text",
@@ -237,9 +237,9 @@
     },
     {
       "type": "ox",
-      "prompt": "Two's complement is the standard way modern computers represent signed integers.",
+      "prompt": "Java’s int type represents 32-bit signed integers using two’s complement.",
       "answer": true,
-      "explanation": "Two's complement lets the same addition circuitry handle positive and negative numbers, so it is the universal choice."
+      "explanation": "The Java Language Specification defines int as a 32-bit signed two’s-complement type. This does not mean every integer representation in every language uses that format."
     },
     {
       "type": "ox",
