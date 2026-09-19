@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>패러다임 분류의 사회문화성 — Swiq</title>
-<meta name="description" content="어떤 형식 정의를 세워도 메모리 모델이 조건을 충족해 C++·Rust·Java가 선언형이 되어버린다 — 그래서 패러다임 분류는 결국 사회문화적 합의라는 결론.">
+<meta name="description" content="패러다임 분류의 기준과 한계를 검토하고, 언어의 계산 방식과 메모리 모델의 명세 방식을 구별합니다.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F7F7F4">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#11110F">
 <link rel="canonical" href="https://swiq.jiun.dev/set/seed.ko.cs-theory.classification/">
@@ -14,12 +14,12 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Swiq">
 <meta property="og:title" content="패러다임 분류의 사회문화성 — Swiq">
-<meta property="og:description" content="어떤 형식 정의를 세워도 메모리 모델이 조건을 충족해 C++·Rust·Java가 선언형이 되어버린다 — 그래서 패러다임 분류는 결국 사회문화적 합의라는 결론.">
+<meta property="og:description" content="패러다임 분류의 기준과 한계를 검토하고, 언어의 계산 방식과 메모리 모델의 명세 방식을 구별합니다.">
 <meta property="og:url" content="https://swiq.jiun.dev/set/seed.ko.cs-theory.classification/">
 <meta property="og:image" content="https://swiq.jiun.dev/og.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="패러다임 분류의 사회문화성 — Swiq">
-<meta name="twitter:description" content="어떤 형식 정의를 세워도 메모리 모델이 조건을 충족해 C++·Rust·Java가 선언형이 되어버린다 — 그래서 패러다임 분류는 결국 사회문화적 합의라는 결론.">
+<meta name="twitter:description" content="패러다임 분류의 기준과 한계를 검토하고, 언어의 계산 방식과 메모리 모델의 명세 방식을 구별합니다.">
 <meta name="twitter:image" content="https://swiq.jiun.dev/og.png">
 <style>
 *,*::before,*::after{box-sizing:border-box}
@@ -318,7 +318,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <a class="back" href="/">← 모든 세트</a>
   <span class="cat-badge">CS 이론</span>
   <h1>패러다임 분류의 사회문화성</h1>
-  <p class="lead">어떤 형식 정의를 세워도 메모리 모델이 조건을 충족해 C++·Rust·Java가 선언형이 되어버린다 — 그래서 패러다임 분류는 결국 사회문화적 합의라는 결론.</p>
+  <p class="lead">패러다임 분류의 기준과 한계를 검토하고, 언어의 계산 방식과 메모리 모델의 명세 방식을 구별합니다.</p>
   <div class="stats">
     <span class="chip hl">36문항</span>
     <span class="chip">한국어</span>
@@ -363,12 +363,12 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     </div>
     <div class="qcard">
       <span class="n">2</span>
-      <p class="q">선언형을 &#x27;실행 의미론에 비자명한 ∃를 갖는 언어&#x27;로 엄격히 정의하더라도, 메모리 모델 때문에 C++이 선언형에 포함되는 것을 막기 어렵다.</p>
+      <p class="q">&#x27;제약을 만족하는 실행 관계의 존재를 명세한다&#x27;는 사실만을 선언형의 기준으로 삼으면, C++의 원자 접근 규칙도 그 기준에 포함될 수 있다.</p>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
     <div class="qcard">
       <span class="n">3</span>
-      <p class="q">어떤 정의를 채택하든 메모리 모델이 그 조건을 거의 항상 충족하므로, C++·Rust·Java가 선언형이 되는 것을 형식적으로 배제하기 어렵다.</p>
+      <p class="q">메모리 모델이 어떤 분류 기준을 만족한다는 사실만으로, 그 언어가 다른 모든 선언형 정의도 만족한다고 결론 낼 수는 없다.</p>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
     <div class="qcard">
@@ -378,7 +378,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     </div>
     <div class="qcard">
       <span class="n">5</span>
-      <p class="q">C++·Rust·Java는 통상 &#x27;명령형 언어&#x27;로 분류되지만, 동시에 정교한 메모리 모델(실행 의미론)을 가진다.</p>
+      <p class="q">C++·Java는 공유 메모리 접근의 허용 동작을 규격으로 설명하며, Rust 표준 라이브러리도 원자 접근의 메모리 모델을 명시한다.</p>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
     </div>
