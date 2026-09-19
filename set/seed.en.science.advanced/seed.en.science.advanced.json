@@ -65,7 +65,7 @@
     },
     {
       "type": "choice",
-      "prompt": "How many chromosomes are in a normal human body (somatic) cell?",
+      "prompt": "How many chromosomes are normally present in the nucleus of a diploid human body cell?",
       "choices": [
         "23",
         "48",
@@ -73,7 +73,7 @@
         "46"
       ],
       "answer": 4,
-      "explanation": "Human somatic cells have 23 pairs, for a total of 46 chromosomes."
+      "explanation": "A typical diploid human cell has 23 pairs of chromosomes, for a total of 46."
     },
     {
       "type": "text",
@@ -104,7 +104,7 @@
       "type": "ox",
       "prompt": "The pH scale ranges from 0 to 7, with 7 being the most acidic value.",
       "answer": false,
-      "explanation": "The pH scale runs from 0 to 14; 7 is neutral, and lower numbers (toward 0) are more acidic."
+      "explanation": "pH is often shown on a scale from 0 to 14, but this is not an absolute limit. At 25°C, neutral water has a pH of 7; lower pH values are more acidic."
     },
     {
       "type": "choice",
@@ -145,7 +145,7 @@
       "type": "ox",
       "prompt": "The second law of thermodynamics says the entropy of an isolated system tends to increase over time.",
       "answer": true,
-      "explanation": "In an isolated system, disorder (entropy) tends to rise, setting a direction for spontaneous processes."
+      "explanation": "The total entropy of an isolated system does not decrease. It increases in irreversible processes and stays constant in an ideal reversible process."
     },
     {
       "type": "choice",
@@ -157,7 +157,7 @@
         "Oxygen"
       ],
       "answer": 2,
-      "explanation": "Nitrogen makes up about 78 percent of Earth's atmosphere, far more than oxygen."
+      "explanation": "Nitrogen makes up about 78 percent of Earth's dry atmosphere, far more than oxygen."
     },
     {
       "type": "ox",
@@ -169,24 +169,24 @@
       "type": "ox",
       "prompt": "Ohm's law states that voltage equals current multiplied by resistance.",
       "answer": true,
-      "explanation": "Ohm's law is written V = I × R, relating voltage, current, and resistance in a circuit."
+      "explanation": "For an ohmic component under fixed conditions, including temperature, V = I × R: voltage is proportional to current. Not all components obey Ohm's law."
     },
     {
       "type": "text",
-      "prompt": "What is the process by which a liquid changes into a gas called? (single word)",
+      "prompt": "What is the liquid-to-gas change that makes a puddle shrink without boiling called?",
       "answers": [
         "evaporation",
         "vaporization",
         "vaporisation"
       ],
-      "explanation": "Vaporization, commonly called evaporation at a surface, is the change of a liquid into a gas.",
+      "explanation": "Evaporation is vaporization at a liquid's surface and can occur below the boiling point.",
       "hint": "Puddles disappear this way."
     },
     {
       "type": "ox",
       "prompt": "Ribosomes are the organelles chiefly responsible for producing the cell's ATP.",
       "answer": false,
-      "explanation": "Ribosomes build proteins; ATP is mainly produced by the mitochondria."
+      "explanation": "Ribosomes make proteins. Mitochondria produce much of the ATP in many eukaryotic cells."
     },
     {
       "type": "ox",
@@ -196,7 +196,7 @@
     },
     {
       "type": "choice",
-      "prompt": "Which type of electromagnetic radiation carries the highest energy?",
+      "prompt": "Which of these types of electromagnetic radiation has the highest energy per photon?",
       "choices": [
         "Microwaves",
         "Radio waves",
@@ -204,7 +204,7 @@
         "Visible light"
       ],
       "answer": 3,
-      "explanation": "Gamma rays have the shortest wavelength and highest frequency, so they carry the most energy."
+      "explanation": "Among these choices, gamma rays have the highest frequency and shortest wavelength. Photon energy increases with frequency, according to E = hf."
     },
     {
       "type": "ox",
@@ -214,9 +214,9 @@
     },
     {
       "type": "ox",
-      "prompt": "Water expands when it freezes, so ice is less dense than liquid water.",
+      "prompt": "At ordinary atmospheric pressure, water expands when it freezes into ordinary ice, making the ice less dense than liquid water.",
       "answer": true,
-      "explanation": "Ice's crystal structure spreads molecules farther apart, making it less dense so it floats."
+      "explanation": "Ordinary ice has a more open molecular structure than liquid water, so it is less dense and floats."
     },
     {
       "type": "text",
@@ -231,7 +231,7 @@
       "type": "ox",
       "prompt": "In a covalent bond, electrons are transferred completely from one atom to another.",
       "answer": false,
-      "explanation": "Covalent bonds involve shared electrons; complete electron transfer describes ionic bonds."
+      "explanation": "Covalent bonds involve shared electron pairs. Ionic bonds are the electrostatic attraction between oppositely charged ions."
     },
     {
       "type": "ox",
@@ -255,22 +255,22 @@
       "type": "ox",
       "prompt": "Mitosis produces four genetically unique daughter cells from one parent cell.",
       "answer": false,
-      "explanation": "Mitosis yields two genetically identical daughter cells; four genetically varied cells come from meiosis."
+      "explanation": "Mitosis produces two genetically identical nuclei and is usually followed by cell division. Meiosis involves two divisions that produce four haploid cells."
     },
     {
       "type": "ox",
       "prompt": "Kinetic energy is the energy an object possesses because of its motion.",
       "answer": true,
-      "explanation": "A moving object carries kinetic energy that increases with its mass and the square of its speed."
+      "explanation": "In classical mechanics, at speeds much lower than the speed of light, kinetic energy is KE = ½mv²: it depends on mass and the square of speed."
     },
     {
       "type": "text",
-      "prompt": "What term describes an animal that eats only plants?",
+      "prompt": "What term describes an animal whose main food source is plants?",
       "answers": [
         "herbivore",
         "herbivorous"
       ],
-      "explanation": "A herbivore is an animal whose diet consists mainly or entirely of plants.",
+      "explanation": "A herbivore mainly eats plants; herbivorous means plant-eating.",
       "hint": "Opposite of a carnivore."
     },
     {
