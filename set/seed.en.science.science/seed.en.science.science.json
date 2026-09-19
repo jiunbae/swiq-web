@@ -23,9 +23,9 @@
     },
     {
       "type": "ox",
-      "prompt": "Plants make their own food through photosynthesis.",
+      "prompt": "Most plants make their own food through photosynthesis.",
       "answer": true,
-      "explanation": "Plants use sunlight, water, and carbon dioxide to make food through photosynthesis."
+      "explanation": "Most plants use sunlight, water, and carbon dioxide to make sugars through photosynthesis. Some plants obtain food from other organisms instead."
     },
     {
       "type": "ox",
@@ -85,7 +85,7 @@
       "type": "ox",
       "prompt": "Humans use only 10 percent of their brains.",
       "answer": false,
-      "explanation": "This is a popular myth. Brain scans show that virtually all parts of the brain are active, and we use the whole brain over the course of a day."
+      "explanation": "The 10-percent claim is a myth. Brain imaging shows that many regions contribute to different activities; we use the whole brain over time, rather than every part being equally active at once."
     },
     {
       "type": "ox",
@@ -103,7 +103,7 @@
       "type": "ox",
       "prompt": "Sound cannot travel through a vacuum.",
       "answer": true,
-      "explanation": "Sound needs a medium like air, water, or solids to travel. In the empty vacuum of space there is nothing to carry the vibrations."
+      "explanation": "Sound needs a material medium, such as air, water, or a solid, to carry vibrations. An ideal vacuum contains no matter to carry sound."
     },
     {
       "type": "ox",
