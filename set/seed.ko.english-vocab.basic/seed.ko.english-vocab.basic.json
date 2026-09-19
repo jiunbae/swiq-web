@@ -1,6 +1,6 @@
 {
-  "title": "영단어 뜻 기초 O/X",
-  "description": "기초 영단어의 뜻을 O/X로 확인",
+  "title": "영단어 뜻 기초",
+  "description": "기초 영단어의 뜻을 O/X·주관식·4지선다로 확인",
   "languageCode": "ko",
   "cards": [
     {
@@ -13,7 +13,8 @@
       "type": "ox",
       "prompt": "'happy'는 '슬픈'이라는 뜻이다.",
       "answer": false,
-      "explanation": "happy는 '행복한, 기쁜'이라는 뜻입니다. '슬픈'은 sad입니다."
+      "explanation": "happy는 '행복한, 기쁜'이라는 뜻입니다. '슬픈'은 sad입니다.",
+      "hint": "웃는 표정을 떠올리세요."
     },
     {
       "type": "ox",
@@ -25,7 +26,8 @@
       "type": "ox",
       "prompt": "'big'은 '작은'이라는 뜻이다.",
       "answer": false,
-      "explanation": "big은 '큰'이라는 뜻입니다. '작은'은 small입니다."
+      "explanation": "big은 '큰'이라는 뜻입니다. '작은'은 small입니다.",
+      "hint": "반대말과 헷갈리지 마세요."
     },
     {
       "type": "ox",
@@ -37,7 +39,8 @@
       "type": "ox",
       "prompt": "'fast'는 '느린'이라는 뜻이다.",
       "answer": false,
-      "explanation": "fast는 '빠른'이라는 뜻입니다. '느린'은 slow입니다."
+      "explanation": "fast는 '빠른'이라는 뜻입니다. '느린'은 slow입니다.",
+      "hint": "속도가 빠른 것입니다."
     },
     {
       "type": "ox",
@@ -49,7 +52,8 @@
       "type": "ox",
       "prompt": "'open'은 '닫다'라는 뜻이다.",
       "answer": false,
-      "explanation": "open은 '열다, 열린'이라는 뜻입니다. '닫다'는 close입니다."
+      "explanation": "open은 '열다, 열린'이라는 뜻입니다. '닫다'는 close입니다.",
+      "hint": "문을 여는 모습입니다."
     },
     {
       "type": "ox",
@@ -61,7 +65,8 @@
       "type": "ox",
       "prompt": "'hot'은 '차가운'이라는 뜻이다.",
       "answer": false,
-      "explanation": "hot은 '뜨거운, 더운'이라는 뜻입니다. '차가운'은 cold입니다."
+      "explanation": "hot은 '뜨거운, 더운'이라는 뜻입니다. '차가운'은 cold입니다.",
+      "hint": "온도가 높은 것입니다."
     },
     {
       "type": "ox",
@@ -73,7 +78,8 @@
       "type": "ox",
       "prompt": "'buy'는 '팔다'라는 뜻이다.",
       "answer": false,
-      "explanation": "buy는 '사다'라는 뜻입니다. '팔다'는 sell입니다."
+      "explanation": "buy는 '사다'라는 뜻입니다. '팔다'는 sell입니다.",
+      "hint": "돈을 내고 얻는 쪽입니다."
     },
     {
       "type": "ox",
@@ -85,7 +91,8 @@
       "type": "ox",
       "prompt": "'house'는 '자동차'라는 뜻이다.",
       "answer": false,
-      "explanation": "house는 '집'이라는 뜻입니다. '자동차'는 car입니다."
+      "explanation": "house는 '집'이라는 뜻입니다. '자동차'는 car입니다.",
+      "hint": "사람이 사는 곳입니다."
     },
     {
       "type": "ox",
@@ -97,7 +104,8 @@
       "type": "ox",
       "prompt": "'night'는 '낮'이라는 뜻이다.",
       "answer": false,
-      "explanation": "night는 '밤'이라는 뜻입니다. '낮'은 day입니다."
+      "explanation": "night는 '밤'이라는 뜻입니다. '낮'은 day입니다.",
+      "hint": "해가 진 뒤의 시간입니다."
     },
     {
       "type": "ox",
@@ -109,7 +117,8 @@
       "type": "ox",
       "prompt": "'old'는 '새로운'이라는 뜻이다.",
       "answer": false,
-      "explanation": "old는 '늙은, 오래된'이라는 뜻입니다. '새로운'은 new입니다."
+      "explanation": "old는 '늙은, 오래된'이라는 뜻입니다. '새로운'은 new입니다.",
+      "hint": "오래된 물건을 떠올리세요."
     },
     {
       "type": "ox",
@@ -121,7 +130,8 @@
       "type": "ox",
       "prompt": "'run'은 '걷다'라는 뜻이다.",
       "answer": false,
-      "explanation": "run은 '달리다'라는 뜻입니다. '걷다'는 walk입니다."
+      "explanation": "run은 '달리다'라는 뜻입니다. '걷다'는 walk입니다.",
+      "hint": "걷기보다 빠른 동작입니다."
     },
     {
       "type": "ox",
@@ -133,7 +143,8 @@
       "type": "ox",
       "prompt": "'easy'는 '어려운'이라는 뜻이다.",
       "answer": false,
-      "explanation": "easy는 '쉬운'이라는 뜻입니다. '어려운'은 difficult입니다."
+      "explanation": "easy는 '쉬운'이라는 뜻입니다. '어려운'은 difficult입니다.",
+      "hint": "어렵지 않은 쪽입니다."
     },
     {
       "type": "ox",
@@ -145,7 +156,8 @@
       "type": "ox",
       "prompt": "'clean'은 '더러운'이라는 뜻이다.",
       "answer": false,
-      "explanation": "clean은 '깨끗한'이라는 뜻입니다. '더러운'은 dirty입니다."
+      "explanation": "clean은 '깨끗한'이라는 뜻입니다. '더러운'은 dirty입니다.",
+      "hint": "방금 청소한 상태입니다."
     },
     {
       "type": "ox",
@@ -157,7 +169,8 @@
       "type": "ox",
       "prompt": "'winter'는 '여름'이라는 뜻이다.",
       "answer": false,
-      "explanation": "winter는 '겨울'이라는 뜻입니다. '여름'은 summer입니다."
+      "explanation": "winter는 '겨울'이라는 뜻입니다. '여름'은 summer입니다.",
+      "hint": "눈이 오는 계절입니다."
     },
     {
       "type": "ox",
@@ -169,7 +182,8 @@
       "type": "ox",
       "prompt": "'strong'은 '약한'이라는 뜻이다.",
       "answer": false,
-      "explanation": "strong은 '강한, 힘센'이라는 뜻입니다. '약한'은 weak입니다."
+      "explanation": "strong은 '강한, 힘센'이라는 뜻입니다. '약한'은 weak입니다.",
+      "hint": "힘이 센 쪽입니다."
     },
     {
       "type": "ox",
@@ -181,7 +195,8 @@
       "type": "ox",
       "prompt": "'cry'는 '웃다'라는 뜻이다.",
       "answer": false,
-      "explanation": "cry는 '울다'라는 뜻입니다. '웃다'는 laugh입니다."
+      "explanation": "cry는 '울다'라는 뜻입니다. '웃다'는 laugh입니다.",
+      "hint": "눈물을 흘리는 동작입니다."
     },
     {
       "type": "ox",
@@ -193,7 +208,8 @@
       "type": "ox",
       "prompt": "'tall'은 '키가 작은'이라는 뜻이다.",
       "answer": false,
-      "explanation": "tall은 '키가 큰'이라는 뜻입니다. '키가 작은'은 short입니다."
+      "explanation": "tall은 '키가 큰'이라는 뜻입니다. '키가 작은'은 short입니다.",
+      "hint": "키가 큰 쪽입니다."
     },
     {
       "type": "ox",
@@ -205,7 +221,8 @@
       "type": "ox",
       "prompt": "'window'는 '벽'이라는 뜻이다.",
       "answer": false,
-      "explanation": "window는 '창문'이라는 뜻입니다. '벽'은 wall입니다."
+      "explanation": "window는 '창문'이라는 뜻입니다. '벽'은 wall입니다.",
+      "hint": "유리로 되어 밖이 보입니다."
     },
     {
       "type": "ox",
@@ -217,7 +234,129 @@
       "type": "ox",
       "prompt": "'give'는 '받다'라는 뜻이다.",
       "answer": false,
-      "explanation": "give는 '주다'라는 뜻입니다. '받다'는 receive입니다."
+      "explanation": "give는 '주다'라는 뜻입니다. '받다'는 receive입니다.",
+      "hint": "건네주는 쪽입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "'책'을 뜻하는 영단어는?",
+      "choices": [
+        "look",
+        "hook",
+        "book",
+        "cook"
+      ],
+      "answer": 3,
+      "explanation": "book이 책입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "'학교'를 뜻하는 영단어는?",
+      "choices": [
+        "scale",
+        "shell",
+        "skull",
+        "school"
+      ],
+      "answer": 4,
+      "explanation": "school이 학교입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "'친구'를 뜻하는 영단어는?",
+      "choices": [
+        "friend",
+        "front",
+        "france",
+        "fringe"
+      ],
+      "answer": 1,
+      "explanation": "friend가 친구입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "'water'의 뜻은?",
+      "choices": [
+        "흙",
+        "물",
+        "불",
+        "바람"
+      ],
+      "answer": 2,
+      "explanation": "water는 물입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "'happy'의 반대말로 알맞은 것은?",
+      "choices": [
+        "kind",
+        "calm",
+        "sad",
+        "glad"
+      ],
+      "answer": 3,
+      "explanation": "happy(행복한)의 반대는 sad(슬픈)입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "'teacher'의 뜻은?",
+      "choices": [
+        "학생",
+        "교실",
+        "교과서",
+        "선생님"
+      ],
+      "answer": 4,
+      "explanation": "teacher는 가르치는 사람, 곧 선생님입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'사과(과일)'를 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "apple"
+      ],
+      "explanation": "apple입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'고양이'를 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "cat"
+      ],
+      "explanation": "cat입니다. 개는 dog입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'집'을 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "house",
+        "home"
+      ],
+      "explanation": "house 또는 home입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'빨간색'을 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "red"
+      ],
+      "explanation": "red입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'먹다'를 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "eat"
+      ],
+      "explanation": "eat입니다. 과거형은 ate입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'책상'을 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "desk"
+      ],
+      "explanation": "desk입니다. table은 탁자입니다."
     }
   ]
 }

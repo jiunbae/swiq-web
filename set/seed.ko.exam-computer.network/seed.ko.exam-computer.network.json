@@ -1,5 +1,5 @@
 {
-  "title": "네트워크·인터넷 O/X",
+  "title": "네트워크·인터넷",
   "description": "인터넷 통신과 웹의 기본 원리",
   "languageCode": "ko",
   "cards": [
@@ -13,7 +13,8 @@
       "type": "ox",
       "prompt": "HTTPS는 HTTP보다 보안이 약한 방식이다.",
       "answer": false,
-      "explanation": "HTTPS는 통신을 암호화해 HTTP보다 보안이 강합니다."
+      "explanation": "HTTPS는 통신을 암호화해 HTTP보다 보안이 강합니다.",
+      "hint": "S는 Secure(보안)입니다."
     },
     {
       "type": "ox",
@@ -25,7 +26,8 @@
       "type": "ox",
       "prompt": "Wi-Fi는 유선으로만 연결할 수 있는 기술이다.",
       "answer": false,
-      "explanation": "Wi-Fi는 케이블 없이 연결하는 무선 통신 기술입니다."
+      "explanation": "Wi-Fi는 케이블 없이 연결하는 무선 통신 기술입니다.",
+      "hint": "무선 인터넷을 떠올리세요."
     },
     {
       "type": "ox",
@@ -37,7 +39,8 @@
       "type": "ox",
       "prompt": "이메일 주소는 @ 기호 없이 작성하는 것이 표준이다.",
       "answer": false,
-      "explanation": "이메일 주소에는 사용자명과 도메인을 잇는 @ 기호가 반드시 들어갑니다."
+      "explanation": "이메일 주소에는 사용자명과 도메인을 잇는 @ 기호가 반드시 들어갑니다.",
+      "hint": "골뱅이 기호가 꼭 필요합니다."
     },
     {
       "type": "ox",
@@ -49,7 +52,8 @@
       "type": "ox",
       "prompt": "쿠키(cookie)는 웹 서버가 아니라 프린터에 저장되는 정보다.",
       "answer": false,
-      "explanation": "쿠키는 사용자 정보를 담아 웹 브라우저에 저장되는 데이터입니다."
+      "explanation": "쿠키는 사용자 정보를 담아 웹 브라우저에 저장되는 데이터입니다.",
+      "hint": "브라우저에 남습니다."
     },
     {
       "type": "ox",
@@ -61,7 +65,8 @@
       "type": "ox",
       "prompt": "LAN은 광역 통신망을 의미한다.",
       "answer": false,
-      "explanation": "LAN은 근거리 통신망입니다. 광역 통신망은 WAN입니다."
+      "explanation": "LAN은 근거리 통신망입니다. 광역 통신망은 WAN입니다.",
+      "hint": "L은 Local(근거리)입니다."
     },
     {
       "type": "ox",
@@ -73,7 +78,8 @@
       "type": "ox",
       "prompt": "스팸 메일은 사용자가 요청한 유익한 정보성 메일을 뜻한다.",
       "answer": false,
-      "explanation": "스팸 메일은 원하지 않는데 대량으로 오는 광고성 메일을 말합니다."
+      "explanation": "스팸 메일은 원하지 않는데 대량으로 오는 광고성 메일을 말합니다.",
+      "hint": "원치 않는 메일입니다."
     },
     {
       "type": "ox",
@@ -85,7 +91,8 @@
       "type": "ox",
       "prompt": "FTP는 화상 통화를 위해 만들어진 프로토콜이다.",
       "answer": false,
-      "explanation": "FTP(File Transfer Protocol)는 컴퓨터 사이에서 파일을 주고받기 위한 프로토콜입니다."
+      "explanation": "FTP(File Transfer Protocol)는 컴퓨터 사이에서 파일을 주고받기 위한 프로토콜입니다.",
+      "hint": "F는 File(파일)입니다."
     },
     {
       "type": "ox",
@@ -97,13 +104,15 @@
       "type": "ox",
       "prompt": "웹에서 사용하는 HTTP의 기본 포트 번호는 21번이다.",
       "answer": false,
-      "explanation": "HTTP의 기본 포트는 80번입니다. 21번은 FTP가 사용하는 포트입니다."
+      "explanation": "HTTP의 기본 포트는 80번입니다. 21번은 FTP가 사용하는 포트입니다.",
+      "hint": "웹의 기본 포트는 두 자리 수입니다."
     },
     {
       "type": "ox",
       "prompt": "UDP는 TCP보다 전송 신뢰성이 높은 프로토콜이다.",
       "answer": false,
-      "explanation": "UDP는 신뢰성 확인 절차를 줄여 속도를 우선한 방식이고, 신뢰성은 TCP가 더 높습니다."
+      "explanation": "UDP는 신뢰성 확인 절차를 줄여 속도를 우선한 방식이고, 신뢰성은 TCP가 더 높습니다.",
+      "hint": "UDP는 속도, TCP는 신뢰성입니다."
     },
     {
       "type": "ox",
@@ -121,7 +130,8 @@
       "type": "ox",
       "prompt": "모뎀은 데이터를 영구 저장하는 보조기억장치다.",
       "answer": false,
-      "explanation": "모뎀은 디지털 신호와 아날로그 신호를 변환해 통신을 가능하게 하는 장치입니다."
+      "explanation": "모뎀은 디지털 신호와 아날로그 신호를 변환해 통신을 가능하게 하는 장치입니다.",
+      "hint": "신호를 '변환'하는 장치입니다."
     },
     {
       "type": "ox",
@@ -133,13 +143,15 @@
       "type": "ox",
       "prompt": "핑(ping)은 프린터의 잉크 잔량을 확인하는 명령이다.",
       "answer": false,
-      "explanation": "ping은 상대 컴퓨터에 신호를 보내 네트워크 연결 상태와 응답 속도를 확인하는 명령입니다."
+      "explanation": "ping은 상대 컴퓨터에 신호를 보내 네트워크 연결 상태와 응답 속도를 확인하는 명령입니다.",
+      "hint": "네트워크가 살아 있는지 '노크'합니다."
     },
     {
       "type": "ox",
       "prompt": "도메인 'www.example.com'에서 'com'은 국가를 나타내는 코드다.",
       "answer": false,
-      "explanation": "com은 회사 등을 위한 일반 최상위 도메인입니다. 국가 코드는 kr, jp처럼 따로 있습니다."
+      "explanation": "com은 회사 등을 위한 일반 최상위 도메인입니다. 국가 코드는 kr, jp처럼 따로 있습니다.",
+      "hint": "우리나라 도메인은 kr입니다."
     },
     {
       "type": "ox",
@@ -157,7 +169,8 @@
       "type": "ox",
       "prompt": "업로드는 서버에 있는 파일을 내 컴퓨터로 가져오는 것을 말한다.",
       "answer": false,
-      "explanation": "업로드는 내 컴퓨터의 파일을 서버로 올리는 것이고, 서버에서 받아오는 것은 다운로드입니다."
+      "explanation": "업로드는 내 컴퓨터의 파일을 서버로 올리는 것이고, 서버에서 받아오는 것은 다운로드입니다.",
+      "hint": "up은 '올리다'입니다."
     },
     {
       "type": "ox",
@@ -169,7 +182,8 @@
       "type": "ox",
       "prompt": "SMTP는 웹 페이지를 화면에 그려 주는 프로토콜이다.",
       "answer": false,
-      "explanation": "SMTP는 이메일을 보내는 데 사용하는 프로토콜입니다. 웹 페이지 전송은 HTTP가 담당합니다."
+      "explanation": "SMTP는 이메일을 보내는 데 사용하는 프로토콜입니다. 웹 페이지 전송은 HTTP가 담당합니다.",
+      "hint": "M은 Mail(메일)입니다."
     },
     {
       "type": "ox",
@@ -181,7 +195,8 @@
       "type": "ox",
       "prompt": "팝업 차단 기능은 웹사이트 접속 자체를 금지하는 기능이다.",
       "answer": false,
-      "explanation": "팝업 차단은 사이트 접속은 그대로 두고, 자동으로 뜨는 새 창(팝업)만 막는 기능입니다."
+      "explanation": "팝업 차단은 사이트 접속은 그대로 두고, 자동으로 뜨는 새 창(팝업)만 막는 기능입니다.",
+      "hint": "'튀어나오는 창'만 막습니다."
     },
     {
       "type": "ox",
@@ -193,7 +208,8 @@
       "type": "ox",
       "prompt": "이동통신에서 4G, 5G의 'G'는 기가바이트를 의미한다.",
       "answer": false,
-      "explanation": "여기서 G는 세대(Generation)를 뜻하며, 5G는 5세대 이동통신이라는 의미입니다."
+      "explanation": "여기서 G는 세대(Generation)를 뜻하며, 5G는 5세대 이동통신이라는 의미입니다.",
+      "hint": "'몇 세대' 기술인지 나타냅니다."
     },
     {
       "type": "ox",
@@ -205,7 +221,8 @@
       "type": "ox",
       "prompt": "브라우저의 시크릿 모드를 쓰면 웹사이트와 통신사도 나의 방문 기록을 전혀 알 수 없다.",
       "answer": false,
-      "explanation": "시크릿 모드는 내 기기에 방문 기록·쿠키를 남기지 않을 뿐, 웹사이트나 통신사에는 접속 사실이 전달될 수 있습니다."
+      "explanation": "시크릿 모드는 내 기기에 방문 기록·쿠키를 남기지 않을 뿐, 웹사이트나 통신사에는 접속 사실이 전달될 수 있습니다.",
+      "hint": "'내 기기'에만 기록이 안 남습니다."
     },
     {
       "type": "ox",
@@ -217,7 +234,132 @@
       "type": "ox",
       "prompt": "웹 페이지의 하이퍼링크는 클릭해도 다른 페이지로 이동할 수 없다.",
       "answer": false,
-      "explanation": "하이퍼링크는 문서와 문서를 잇는 연결 고리로, 클릭하면 연결된 페이지로 이동합니다."
+      "explanation": "하이퍼링크는 문서와 문서를 잇는 연결 고리로, 클릭하면 연결된 페이지로 이동합니다.",
+      "hint": "링크는 '연결'을 뜻합니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "웹 페이지를 주고받을 때 쓰는 프로토콜은?",
+      "choices": [
+        "HTTP",
+        "SMTP",
+        "FTP",
+        "SSH"
+      ],
+      "answer": 1,
+      "explanation": "HTTP는 하이퍼텍스트 전송 프로토콜입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "IP 주소를 자동으로 할당해 주는 프로토콜은?",
+      "choices": [
+        "ICMP",
+        "DHCP",
+        "DNS",
+        "ARP"
+      ],
+      "answer": 2,
+      "explanation": "DHCP는 동적 호스트 구성 프로토콜입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "도메인 이름을 IP 주소로 바꿔 주는 시스템은?",
+      "choices": [
+        "NAT",
+        "VPN",
+        "DNS",
+        "DHCP"
+      ],
+      "answer": 3,
+      "explanation": "DNS는 이름과 주소를 연결하는 전화번호부 역할을 합니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "TCP와 UDP의 가장 큰 차이는?",
+      "choices": [
+        "UDP가 더 느리다",
+        "TCP는 암호화를 한다",
+        "UDP만 포트를 쓴다",
+        "TCP는 연결을 맺고 전송을 보장한다"
+      ],
+      "answer": 4,
+      "explanation": "TCP는 연결 지향·신뢰성 보장, UDP는 비연결·빠른 전송입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "OSI 7계층에서 IP가 동작하는 계층은?",
+      "choices": [
+        "네트워크 계층",
+        "전송 계층",
+        "데이터 링크 계층",
+        "응용 계층"
+      ],
+      "answer": 1,
+      "explanation": "IP는 3계층인 네트워크 계층 프로토콜입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "HTTPS가 HTTP와 다른 점은?",
+      "choices": [
+        "속도가 항상 느리다",
+        "암호화된 통신을 한다",
+        "더 많은 포트를 쓴다",
+        "이미지를 압축한다"
+      ],
+      "answer": 2,
+      "explanation": "HTTPS는 TLS로 통신 구간을 암호화합니다."
+    },
+    {
+      "type": "text",
+      "prompt": "HTTPS가 기본으로 사용하는 포트 번호는? (숫자만)",
+      "answers": [
+        "443"
+      ],
+      "explanation": "HTTP는 80, HTTPS는 443번을 씁니다."
+    },
+    {
+      "type": "text",
+      "prompt": "자기 컴퓨터를 가리키는 IP 주소를 쓰세요.",
+      "answers": [
+        "127.0.0.1",
+        "localhost"
+      ],
+      "explanation": "루프백 주소 127.0.0.1이며 이름으로는 localhost입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "IPv4 주소는 몇 비트일까요? (숫자만)",
+      "answers": [
+        "32",
+        "32비트"
+      ],
+      "explanation": "IPv4는 32비트, IPv6는 128비트입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "사설 IP를 공인 IP로 바꿔 주는 기술의 이름은?",
+      "answers": [
+        "NAT"
+      ],
+      "explanation": "Network Address Translation입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "네트워크 연결 상태를 확인할 때 쓰는 대표적인 명령어는?",
+      "answers": [
+        "ping",
+        "핑"
+      ],
+      "explanation": "ping은 ICMP로 응답 여부와 지연을 확인합니다."
+    },
+    {
+      "type": "text",
+      "prompt": "무선 랜을 뜻하는 표준 규격 번호는? (IEEE 뒤 숫자)",
+      "answers": [
+        "802.11",
+        "IEEE 802.11"
+      ],
+      "explanation": "IEEE 802.11이 무선 랜 표준입니다."
     }
   ]
 }

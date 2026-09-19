@@ -1,5 +1,5 @@
 {
-  "title": "Advanced World History O/X",
+  "title": "Advanced World History",
   "description": "Key turning points in world history",
   "languageCode": "en",
   "cards": [
@@ -67,12 +67,12 @@
       "type": "choice",
       "prompt": "The storming of which fortress-prison symbolized the start of the French Revolution in 1789?",
       "choices": [
+        "Versailles",
         "The Bastille",
         "The Tower of London",
-        "The Louvre",
-        "Versailles"
+        "The Louvre"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "The storming of the Bastille on 14 July 1789 symbolized the revolution's beginning."
     },
     {
@@ -82,7 +82,8 @@
         "berlin wall",
         "the berlin wall"
       ],
-      "explanation": "The Berlin Wall divided the city from 1961 and fell in 1989, symbolizing the Cold War's end."
+      "explanation": "The Berlin Wall divided the city from 1961 and fell in 1989, symbolizing the Cold War's end.",
+      "hint": "Named after a German city."
     },
     {
       "type": "text",
@@ -94,7 +95,8 @@
         "the egyptians",
         "egyptians"
       ],
-      "explanation": "The ancient Egyptians built the pyramids at Giza as royal tombs."
+      "explanation": "The ancient Egyptians built the pyramids at Giza as royal tombs.",
+      "hint": "Along the Nile River."
     },
     {
       "type": "ox",
@@ -141,7 +143,8 @@
         "silk route",
         "the silk route"
       ],
-      "explanation": "The Silk Road linked China with Central Asia, the Middle East, and Europe, carrying silk, goods, and ideas for centuries."
+      "explanation": "The Silk Road linked China with Central Asia, the Middle East, and Europe, carrying silk, goods, and ideas for centuries.",
+      "hint": "The fabric was produced from silkworm cocoons."
     },
     {
       "type": "ox",
@@ -159,12 +162,12 @@
       "type": "choice",
       "prompt": "Which 1919 treaty formally ended World War I between Germany and the Allied Powers?",
       "choices": [
-        "The Treaty of Tordesillas",
-        "The Treaty of Versailles",
         "The Treaty of Utrecht",
-        "The Treaty of Ghent"
+        "The Treaty of Ghent",
+        "The Treaty of Tordesillas",
+        "The Treaty of Versailles"
       ],
-      "answer": 2,
+      "answer": 4,
       "explanation": "The Treaty of Versailles, signed in 1919, ended the war with Germany and imposed heavy reparations on it."
     },
     {
@@ -187,7 +190,8 @@
         "the magna carta",
         "magna charta"
       ],
-      "explanation": "Magna Carta, sealed by King John in 1215, restricted royal power and became a foundation for constitutional government."
+      "explanation": "Magna Carta, sealed by King John in 1215, restricted royal power and became a foundation for constitutional government.",
+      "hint": "Its Latin name means 'Great Charter'."
     },
     {
       "type": "ox",
@@ -205,12 +209,12 @@
       "type": "choice",
       "prompt": "Who became the first emperor of a unified China in 221 BC?",
       "choices": [
+        "Qin Shi Huang",
         "Kublai Khan",
         "Sun Yat-sen",
-        "Wu Zetian",
-        "Qin Shi Huang"
+        "Wu Zetian"
       ],
-      "answer": 4,
+      "answer": 1,
       "explanation": "Qin Shi Huang unified China in 221 BC, founding the Qin dynasty and taking the title of first emperor."
     },
     {
@@ -233,7 +237,8 @@
         "winston churchill",
         "sir winston churchill"
       ],
-      "explanation": "Winston Churchill led Britain as prime minister from 1940 to 1945, through most of World War II."
+      "explanation": "Winston Churchill led Britain as prime minister from 1940 to 1945, through most of World War II.",
+      "hint": "Famous for the phrase 'blood, toil, tears and sweat'."
     },
     {
       "type": "ox",
@@ -278,7 +283,8 @@
         "constantinople",
         "byzantium"
       ],
-      "explanation": "Constantinople fell to the Ottomans under Mehmed II in 1453, ending the Byzantine Empire; the city is today's Istanbul."
+      "explanation": "Constantinople fell to the Ottomans under Mehmed II in 1453, ending the Byzantine Empire; the city is today's Istanbul.",
+      "hint": "It was named after a Roman emperor."
     }
   ]
 }

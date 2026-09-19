@@ -1,5 +1,5 @@
 {
-  "title": "General Knowledge O/X",
+  "title": "General Knowledge",
   "description": "Everyday facts and simple trivia",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,133 @@
       "prompt": "Antarctica is the hottest continent on Earth.",
       "answer": false,
       "explanation": "Antarctica is the coldest continent; the hottest average temperatures are found in Africa."
+    },
+    {
+      "type": "choice",
+      "prompt": "How many continents are there?",
+      "choices": [
+        "Six",
+        "Eight",
+        "Seven",
+        "Five"
+      ],
+      "answer": 3,
+      "explanation": "The common model counts seven: Africa, Antarctica, Asia, Europe, North America, Oceania and South America."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which instrument has 88 keys?",
+      "choices": [
+        "The organ",
+        "The harpsichord",
+        "The accordion",
+        "The piano"
+      ],
+      "answer": 4,
+      "explanation": "A standard modern piano has 88 keys: 52 white and 36 black."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the largest mammal on Earth?",
+      "choices": [
+        "The blue whale",
+        "The African elephant",
+        "The giraffe",
+        "The polar bear"
+      ],
+      "answer": 1,
+      "explanation": "The blue whale reaches about 30 metres and 150 tonnes."
+    },
+    {
+      "type": "choice",
+      "prompt": "How many players are on a football (soccer) team on the pitch?",
+      "choices": [
+        "Twelve",
+        "Eleven",
+        "Nine",
+        "Ten"
+      ],
+      "answer": 2,
+      "explanation": "Each side fields eleven players including the goalkeeper."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which colour is made by mixing blue and yellow paint?",
+      "choices": [
+        "Orange",
+        "Brown",
+        "Green",
+        "Purple"
+      ],
+      "answer": 3,
+      "explanation": "Blue and yellow pigments together reflect green light."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'www' stand for in a web address?",
+      "choices": [
+        "Web Wide World",
+        "World Web Wide",
+        "Wide World Web",
+        "World Wide Web"
+      ],
+      "answer": 4,
+      "explanation": "The World Wide Web was proposed by Tim Berners-Lee in 1989."
+    },
+    {
+      "type": "text",
+      "prompt": "How many days are there in a leap year?",
+      "answers": [
+        "366"
+      ],
+      "explanation": "A leap year adds 29 February, making 366 days."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the freezing point of water in degrees Celsius?",
+      "answers": [
+        "0",
+        "0 degrees",
+        "zero"
+      ],
+      "explanation": "Water freezes at 0 °C at standard atmospheric pressure."
+    },
+    {
+      "type": "text",
+      "prompt": "How many sides does a hexagon have?",
+      "answers": [
+        "6",
+        "six"
+      ],
+      "explanation": "Hexa- means six."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the currency of Japan?",
+      "answers": [
+        "yen",
+        "the yen",
+        "Japanese yen"
+      ],
+      "explanation": "The yen has been Japan's currency since 1871."
+    },
+    {
+      "type": "text",
+      "prompt": "How many minutes are there in a full day?",
+      "answers": [
+        "1440",
+        "1,440"
+      ],
+      "explanation": "24 hours × 60 minutes = 1,440."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the tallest land animal?",
+      "answers": [
+        "giraffe",
+        "the giraffe"
+      ],
+      "explanation": "Giraffes reach about 5.5 metres."
     }
   ]
 }

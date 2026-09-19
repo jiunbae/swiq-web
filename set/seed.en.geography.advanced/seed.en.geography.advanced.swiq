@@ -1,4 +1,4 @@
-# Advanced Geography O/X
+# Advanced Geography
 > Landforms, capitals, and geopolitics
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.geography.advanced/
@@ -11,31 +11,31 @@ The Sahara, in North Africa, is the world's largest hot desert. | O | The Sahara
 Russia is the country with the largest land area in the world. | O | Russia has the largest land area of any country, spanning Europe and Asia.
 The Amazon rainforest is located in Antarctica. | X | The Amazon rainforest is in South America, mainly Brazil, not Antarctica.
 The Nile and the Amazon are both often cited as the world's longest river, each over 6,000 km. | O | Depending on how they're measured, the Nile and Amazon are cited as the longest, both exceeding 6,000 km.
-Which canal connects the Atlantic and Pacific Oceans? | 1)The Panama Canal 2)The Suez Canal 3)The Kiel Canal 4)The Grand Canal | 1 | The Panama Canal links the Atlantic and Pacific; the Suez links the Mediterranean and Red Seas.
-What is the capital of Australia? | 1)Canberra 2)Sydney 3)Melbourne 4)Perth | 1 | Canberra is the capital of Australia, not Sydney or Melbourne.
+Which canal connects the Atlantic and Pacific Oceans? | 1)The Kiel Canal 2)The Grand Canal 3)The Panama Canal 4)The Suez Canal | 3 | The Panama Canal links the Atlantic and Pacific; the Suez links the Mediterranean and Red Seas.
+What is the capital of Australia? | 1)Sydney 2)Melbourne 3)Perth 4)Canberra | 4 | Canberra is the capital of Australia, not Sydney or Melbourne.
 Q: What is the largest ocean on Earth? | A: pacific;pacific ocean;the pacific ocean;the pacific | The Pacific Ocean is the largest and deepest of Earth's oceans.
 Q: What is the longest river on the continent of South America? | A: amazon;amazon river;the amazon;the amazon river | The Amazon River is the longest river in South America and carries the most water of any river.
 The Strait of Gibraltar separates Spain in Europe from Morocco in Africa. | O | The Strait of Gibraltar, only about 13 km wide at its narrowest, links the Atlantic to the Mediterranean and separates Europe from Africa.
 The Caspian Sea, the world's largest inland body of water, is a freshwater lake. | X | The Caspian Sea is salty; the largest freshwater lake by surface area is Lake Superior in North America.
-Nairobi is the capital city of which African country? | 1)Tanzania 2)Kenya 3)Uganda 4)Ethiopia | 2 | Nairobi is the capital and largest city of Kenya in East Africa.
+Nairobi is the capital city of which African country? | 1)Kenya 2)Uganda 3)Ethiopia 4)Tanzania | 1 | Nairobi is the capital and largest city of Kenya in East Africa.
 The Ring of Fire, a belt of volcanoes and frequent earthquakes, encircles much of the Pacific Ocean. | O | The Pacific Ring of Fire follows tectonic plate boundaries and hosts most of the world's active volcanoes and earthquakes.
 Kathmandu is the capital of Bhutan. | X | Kathmandu is the capital of Nepal; Bhutan's capital is Thimphu.
 Q: What is the capital city of Canada? | A: ottawa;ottawa, ontario | Ottawa, in Ontario, is Canada's capital — not the larger cities of Toronto, Montreal, or Vancouver.
 The shoreline of the Dead Sea is the lowest land elevation on Earth, more than 400 meters below sea level. | O | The Dead Sea shore lies over 400 m below sea level, the lowest dry land on Earth, and its water is famously hypersaline.
 Angel Falls, the world's tallest waterfall, is located in Zimbabwe. | X | Angel Falls (about 979 m) is in Venezuela; Zimbabwe shares Victoria Falls with Zambia.
-Which strait separates Asia from North America? | 1)Strait of Malacca 2)Strait of Hormuz 3)Bering Strait 4)Strait of Dover | 3 | The Bering Strait, between Russia and Alaska, separates Asia from North America by only about 85 km.
+Which strait separates Asia from North America? | 1)Strait of Hormuz 2)Bering Strait 3)Strait of Dover 4)Strait of Malacca | 2 | The Bering Strait, between Russia and Alaska, separates Asia from North America by only about 85 km.
 Istanbul straddles two continents, with districts in both Europe and Asia across the Bosporus. | O | The Bosporus strait runs through Istanbul, making it a transcontinental city spanning Europe and Asia.
 The Atacama Desert, one of the driest places on Earth, is located in Australia. | X | The Atacama Desert is in northern Chile, South America; some of its weather stations have never recorded rain.
 Q: Which river flows through the Grand Canyon in the United States? | A: colorado;colorado river;the colorado;the colorado river | The Colorado River carved the Grand Canyon in Arizona over millions of years.
 Lake Baikal in Siberia is the deepest lake in the world. | O | Lake Baikal reaches about 1,642 m deep, making it Earth's deepest lake and its largest by freshwater volume.
 The Volga, Europe's longest river, empties into the Black Sea. | X | The Volga flows into the Caspian Sea; rivers like the Danube and Dnieper empty into the Black Sea.
-Which country has the longest coastline in the world? | 1)Russia 2)Australia 3)Indonesia 4)Canada | 4 | Canada's coastline, at over 200,000 km including its many islands, is by far the longest of any country.
+Which country has the longest coastline in the world? | 1)Australia 2)Indonesia 3)Canada 4)Russia | 3 | Canada's coastline, at over 200,000 km including its many islands, is by far the longest of any country.
 Indonesia is an archipelago made up of more than 17,000 islands. | O | Indonesia is the world's largest archipelagic state, comprising over 17,000 islands including Java, Sumatra, and Borneo's Kalimantan.
 Greenland is an autonomous territory of Norway. | X | Greenland is an autonomous territory of Denmark, not Norway, despite its geographic position in North America.
 Q: What imaginary line near 180 degrees longitude do travelers cross to move from one calendar day to another? | A: international date line;the international date line;date line;dateline | The International Date Line roughly follows 180° longitude; crossing it shifts the calendar date by one day.
 The Andes are the longest continental mountain range in the world. | O | The Andes stretch about 7,000 km along South America's western edge, the longest continental mountain range on Earth.
 The Tropic of Capricorn lies in the Northern Hemisphere. | X | The Tropic of Capricorn is in the Southern Hemisphere at about 23.5°S; the Tropic of Cancer is its northern counterpart.
-The ancient Inca site of Machu Picchu is located in which country? | 1)Peru 2)Bolivia 3)Ecuador 4)Chile | 1 | Machu Picchu, the 15th-century Inca citadel, sits high in the Andes of Peru near Cusco.
+The ancient Inca site of Machu Picchu is located in which country? | 1)Bolivia 2)Ecuador 3)Chile 4)Peru | 4 | Machu Picchu, the 15th-century Inca citadel, sits high in the Andes of Peru near Cusco.
 Africa is the only continent crossed by the equator, the Tropic of Cancer, and the Tropic of Capricorn. | O | All three major latitude lines pass through Africa, the only continent spanning both tropics and the equator.
 The Great Barrier Reef lies off the coast of Brazil. | X | The Great Barrier Reef, the world's largest coral reef system, lies off the northeast coast of Australia.
 Q: Which mountain range in Russia is traditionally considered the boundary between Europe and Asia? | A: urals;the urals;ural mountains;the ural mountains;ural | The Ural Mountains, running north–south through Russia, mark the conventional land boundary between Europe and Asia.

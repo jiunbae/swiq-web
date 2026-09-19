@@ -1,5 +1,5 @@
 {
-  "title": "IT·기술 상식 O/X",
+  "title": "IT·기술 상식",
   "description": "컴퓨터와 인터넷 기초 상식",
   "languageCode": "ko",
   "cards": [
@@ -218,6 +218,129 @@
       "prompt": "컴퓨터를 재부팅하면 하드디스크에 저장된 모든 파일이 삭제된다.",
       "answer": false,
       "explanation": "재부팅해도 하드디스크나 SSD에 저장된 파일은 그대로 남습니다. 사라지는 것은 RAM의 임시 데이터입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "CPU는 무엇의 약자일까요?",
+      "choices": [
+        "중앙처리장치",
+        "중앙저장장치",
+        "고속연산기",
+        "제어전송장치"
+      ],
+      "answer": 1,
+      "explanation": "Central Processing Unit, 곧 중앙처리장치입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "안드로이드 운영체제를 만든 회사는?",
+      "choices": [
+        "삼성",
+        "구글",
+        "애플",
+        "마이크로소프트"
+      ],
+      "answer": 2,
+      "explanation": "구글이 2005년 안드로이드를 인수해 개발하고 있습니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 중 저장 용량이 가장 큰 단위는?",
+      "choices": [
+        "메가바이트",
+        "킬로바이트",
+        "테라바이트",
+        "기가바이트"
+      ],
+      "answer": 3,
+      "explanation": "KB < MB < GB < TB 순입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "소스 코드가 공개되어 누구나 살펴보고 고칠 수 있는 소프트웨어를?",
+      "choices": [
+        "프리웨어",
+        "셰어웨어",
+        "번들웨어",
+        "오픈소스"
+      ],
+      "answer": 4,
+      "explanation": "오픈소스는 소스 공개와 재사용 허용이 핵심입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "여러 사람이 코드 변경 이력을 관리할 때 쓰는 도구는?",
+      "choices": [
+        "깃(Git)",
+        "도커",
+        "엔진엑스",
+        "레디스"
+      ],
+      "answer": 1,
+      "explanation": "Git은 분산 버전 관리 시스템입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "컴퓨터가 켜져 있을 때만 내용이 유지되는 기억장치는?",
+      "choices": [
+        "USB 메모리",
+        "RAM",
+        "SSD",
+        "HDD"
+      ],
+      "answer": 2,
+      "explanation": "RAM은 휘발성이라 전원이 꺼지면 내용이 사라집니다."
+    },
+    {
+      "type": "text",
+      "prompt": "웹 페이지의 주소를 뜻하는 세 글자 영어 약자는?",
+      "answers": [
+        "URL"
+      ],
+      "explanation": "Uniform Resource Locator입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "웹 페이지의 모양과 색을 꾸미는 데 쓰는 언어는?",
+      "answers": [
+        "CSS"
+      ],
+      "explanation": "Cascading Style Sheets입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "인공지능을 뜻하는 두 글자 영어 약자는?",
+      "answers": [
+        "AI"
+      ],
+      "explanation": "Artificial Intelligence입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "아이폰을 만드는 회사는?",
+      "answers": [
+        "애플",
+        "Apple"
+      ],
+      "explanation": "2007년 첫 아이폰을 출시했습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "1바이트는 몇 비트일까요? (숫자만)",
+      "answers": [
+        "8",
+        "여덟",
+        "8비트"
+      ],
+      "explanation": "1바이트 = 8비트입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "프로그램끼리 주고받는 규약을 뜻하는 세 글자 영어 약자는?",
+      "answers": [
+        "API"
+      ],
+      "explanation": "Application Programming Interface입니다."
     }
   ]
 }

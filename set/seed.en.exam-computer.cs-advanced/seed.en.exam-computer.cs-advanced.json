@@ -1,5 +1,5 @@
 {
-  "title": "Advanced Computer Science O/X",
+  "title": "Advanced Computer Science",
   "description": "Data structures, algorithms, and systems",
   "languageCode": "en",
   "cards": [
@@ -67,12 +67,12 @@
       "type": "choice",
       "prompt": "Which data structure is best suited for Last-In-First-Out behavior?",
       "choices": [
+        "Graph",
         "Stack",
         "Queue",
-        "Array",
-        "Graph"
+        "Array"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "A stack provides LIFO behavior; a queue is FIFO."
     },
     {
@@ -82,7 +82,8 @@
         "10",
         "ten"
       ],
-      "explanation": "1010 in binary equals 8 + 0 + 2 + 0 = 10 in decimal."
+      "explanation": "1010 in binary equals 8 + 0 + 2 + 0 = 10 in decimal.",
+      "hint": "Place values are 8, 4, 2, 1."
     },
     {
       "type": "text",
@@ -92,7 +93,8 @@
         "a bug",
         "software bug"
       ],
-      "explanation": "A bug is an error in a program; fixing bugs is called debugging."
+      "explanation": "A bug is an error in a program; fixing bugs is called debugging.",
+      "hint": "It means 'insect' in everyday English."
     },
     {
       "type": "ox",
@@ -110,12 +112,12 @@
       "type": "choice",
       "prompt": "Which tree traversal visits the root before its left and right subtrees?",
       "choices": [
+        "Level-order",
         "In-order",
         "Pre-order",
-        "Post-order",
-        "Level-order"
+        "Post-order"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Pre-order traversal visits root, then left subtree, then right subtree; in-order visits the root between the subtrees."
     },
     {
@@ -138,7 +140,8 @@
         "two hundred fifty-five",
         "two hundred and fifty-five"
       ],
-      "explanation": "FF in hexadecimal is 15×16 + 15 = 255, the largest value of an unsigned 8-bit byte."
+      "explanation": "FF in hexadecimal is 15×16 + 15 = 255, the largest value of an unsigned 8-bit byte.",
+      "hint": "It is the maximum value of one unsigned byte."
     },
     {
       "type": "ox",
@@ -156,12 +159,12 @@
       "type": "choice",
       "prompt": "In the OSI model, which layer is responsible for routing packets between networks?",
       "choices": [
+        "Application layer",
         "Physical layer",
         "Transport layer",
-        "Network layer",
-        "Application layer"
+        "Network layer"
       ],
-      "answer": 3,
+      "answer": 4,
       "explanation": "The network layer (layer 3) handles logical addressing and routing of packets across networks; IP operates at this layer."
     },
     {
@@ -183,7 +186,8 @@
         "central processing unit",
         "the central processing unit"
       ],
-      "explanation": "The Central Processing Unit executes instructions and is often called the 'brain' of the computer."
+      "explanation": "The Central Processing Unit executes instructions and is often called the 'brain' of the computer.",
+      "hint": "It is the part that executes instructions."
     },
     {
       "type": "ox",
@@ -201,12 +205,12 @@
       "type": "choice",
       "prompt": "Which data structure does breadth-first search (BFS) typically use to track the next nodes to visit?",
       "choices": [
+        "Queue",
         "Stack",
         "Heap",
-        "Tree",
-        "Queue"
+        "Tree"
       ],
-      "answer": 4,
+      "answer": 1,
       "explanation": "BFS explores level by level using a queue; depth-first search uses a stack or recursion instead."
     },
     {
@@ -247,12 +251,12 @@
       "type": "choice",
       "prompt": "What does SQL stand for?",
       "choices": [
+        "System Quality Language",
         "Structured Query Language",
         "Standard Query Logic",
-        "Sequential Question Language",
-        "System Quality Language"
+        "Sequential Question Language"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "SQL, Structured Query Language, is the standard language for querying and managing relational databases."
     },
     {
@@ -275,7 +279,8 @@
         "read only memory",
         "read-only memory"
       ],
-      "explanation": "ROM (Read-Only Memory) is non-volatile and traditionally holds firmware such as a computer's boot code."
+      "explanation": "ROM (Read-Only Memory) is non-volatile and traditionally holds firmware such as a computer's boot code.",
+      "hint": "Its first word is 'read'."
     }
   ]
 }

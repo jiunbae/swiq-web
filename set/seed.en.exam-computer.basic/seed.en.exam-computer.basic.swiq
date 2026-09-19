@@ -1,4 +1,4 @@
-# Computer Science Basics O/X
+# Computer Science Basics
 > Fundamental computing concepts
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.exam-computer.basic/
@@ -39,3 +39,15 @@ Backing up data helps protect against data loss. | O | Keeping backups means you
 Solid-state drives (SSDs) store data on spinning magnetic disks. | X | SSDs use flash memory with no moving parts; spinning magnetic disks are used by HDDs.
 A database is an organized collection of data. | O | A database stores data in a structured way so it can be searched and managed efficiently.
 A single bit can represent four different values. | X | A single bit has only two possible values, 0 or 1.
+Which data structure works on a Last In, First Out basis? | 1)Linked list 2)Binary tree 3)Stack 4)Queue | 3 | A stack pushes and pops from the same end; a queue is First In, First Out.
+What is the time complexity of binary search on a sorted array? | 1)O(n) 2)O(n log n) 3)O(1) 4)O(log n) | 4 | Each comparison halves the search space.
+Which of these converts source code into machine code before execution? | 1)A compiler 2)An interpreter 3)A linker only 4)A debugger | 1 | A compiler translates ahead of time; an interpreter executes directly.
+In binary, what is the decimal number 8? | 1)0010 2)1000 3)0100 4)1100 | 2 | 8 = 2³, so the fourth bit is set: 1000.
+Which SQL statement retrieves rows from a table? | 1)UPDATE 2)DELETE 3)SELECT 4)INSERT | 3 | SELECT reads; the others write.
+What does an operating system's scheduler decide? | 1)How files are named 2)Which fonts to load 3)How pixels are drawn 4)Which process runs next | 4 | The scheduler allocates CPU time among runnable processes.
+Q: What does 'API' stand for? | A: Application Programming Interface | An API is the contract through which programs talk to one another.
+Q: What data structure works on a First In, First Out basis? | A: queue;a queue | A queue removes elements in the order they were added.
+Q: In Big-O notation, what is the worst-case complexity of bubble sort? | A: O(n^2);O(n²);n^2;n² | Bubble sort compares every pair in the worst case.
+Q: What does 'SQL' stand for? | A: Structured Query Language | SQL is the standard language for relational databases.
+Q: How many bits are in one byte? | A: 8;eight | One byte is eight bits.
+Q: What is the name for a function that calls itself? | A: recursion;a recursive function;recursive function | Recursion solves a problem by reducing it to smaller instances of itself.

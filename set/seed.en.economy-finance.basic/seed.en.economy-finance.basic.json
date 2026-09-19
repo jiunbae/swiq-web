@@ -1,5 +1,5 @@
 {
-  "title": "Economy Basics O/X",
+  "title": "Economy Basics",
   "description": "Core ideas about money and the economy",
   "languageCode": "en",
   "cards": [
@@ -13,7 +13,8 @@
       "type": "ox",
       "prompt": "When demand rises and supply stays the same, prices usually fall.",
       "answer": false,
-      "explanation": "When demand rises with fixed supply, prices usually rise, not fall."
+      "explanation": "When demand rises with fixed supply, prices usually rise, not fall.",
+      "hint": "More buyers push prices up."
     },
     {
       "type": "ox",
@@ -25,7 +26,8 @@
       "type": "ox",
       "prompt": "GDP stands for the total population of a country.",
       "answer": false,
-      "explanation": "GDP means Gross Domestic Product, the value of goods and services produced."
+      "explanation": "GDP means Gross Domestic Product, the value of goods and services produced.",
+      "hint": "It measures output, not people."
     },
     {
       "type": "ox",
@@ -37,7 +39,8 @@
       "type": "ox",
       "prompt": "A budget deficit means income is greater than spending.",
       "answer": false,
-      "explanation": "A deficit means spending is greater than income."
+      "explanation": "A deficit means spending is greater than income.",
+      "hint": "Deficit = spending exceeds income."
     },
     {
       "type": "ox",
@@ -49,7 +52,8 @@
       "type": "ox",
       "prompt": "Buying a company's stock makes you a creditor who lent it money.",
       "answer": false,
-      "explanation": "Buying stock makes you a shareholder who owns part of the company."
+      "explanation": "Buying stock makes you a shareholder who owns part of the company.",
+      "hint": "Shareholders are part owners."
     },
     {
       "type": "ox",
@@ -61,7 +65,8 @@
       "type": "ox",
       "prompt": "Deflation means prices are continuously rising.",
       "answer": false,
-      "explanation": "Deflation means prices are continuously falling; rising prices are inflation."
+      "explanation": "Deflation means prices are continuously falling; rising prices are inflation.",
+      "hint": "Deflation = falling prices."
     },
     {
       "type": "ox",
@@ -73,7 +78,8 @@
       "type": "ox",
       "prompt": "Taxes are voluntary donations that citizens may choose not to pay.",
       "answer": false,
-      "explanation": "Taxes are compulsory payments required by law, not voluntary donations."
+      "explanation": "Taxes are compulsory payments required by law, not voluntary donations.",
+      "hint": "Taxes are mandatory."
     },
     {
       "type": "ox",
@@ -85,7 +91,8 @@
       "type": "ox",
       "prompt": "When a country's currency gains value, its imports become more expensive.",
       "answer": false,
-      "explanation": "A stronger currency buys more foreign goods, so imports actually become cheaper."
+      "explanation": "A stronger currency buys more foreign goods, so imports actually become cheaper.",
+      "hint": "A strong currency buys more abroad."
     },
     {
       "type": "ox",
@@ -97,7 +104,8 @@
       "type": "ox",
       "prompt": "A bond represents a share of ownership in a company.",
       "answer": false,
-      "explanation": "A bond is a loan to the issuer; stocks, not bonds, represent ownership."
+      "explanation": "A bond is a loan to the issuer; stocks, not bonds, represent ownership.",
+      "hint": "Bonds are debt, not ownership."
     },
     {
       "type": "ox",
@@ -109,7 +117,8 @@
       "type": "ox",
       "prompt": "Printing more money always makes a country wealthier.",
       "answer": false,
-      "explanation": "Printing money without more goods and services tends to cause inflation, not real wealth."
+      "explanation": "Printing money without more goods and services tends to cause inflation, not real wealth.",
+      "hint": "More money can just raise prices."
     },
     {
       "type": "ox",
@@ -121,7 +130,8 @@
       "type": "ox",
       "prompt": "The stock market only ever moves upward and never falls.",
       "answer": false,
-      "explanation": "Stock prices rise and fall; markets regularly experience declines as well as gains."
+      "explanation": "Stock prices rise and fall; markets regularly experience declines as well as gains.",
+      "hint": "Markets go down too."
     },
     {
       "type": "ox",
@@ -133,7 +143,8 @@
       "type": "ox",
       "prompt": "Money you deposit at a bank sits locked in a vault and is never lent out.",
       "answer": false,
-      "explanation": "Banks keep only part of deposits on hand and lend the rest out to earn interest."
+      "explanation": "Banks keep only part of deposits on hand and lend the rest out to earn interest.",
+      "hint": "Banks lend most deposits out."
     },
     {
       "type": "ox",
@@ -145,7 +156,8 @@
       "type": "ox",
       "prompt": "A higher credit score generally makes it more expensive to borrow money.",
       "answer": false,
-      "explanation": "A higher credit score usually earns lower interest rates, making borrowing cheaper."
+      "explanation": "A higher credit score usually earns lower interest rates, making borrowing cheaper.",
+      "hint": "Better scores get lower rates."
     },
     {
       "type": "ox",
@@ -157,7 +169,8 @@
       "type": "ox",
       "prompt": "Barter requires the use of money to trade goods.",
       "answer": false,
-      "explanation": "Barter is the direct exchange of goods or services without using money."
+      "explanation": "Barter is the direct exchange of goods or services without using money.",
+      "hint": "Barter swaps goods directly."
     },
     {
       "type": "ox",
@@ -169,7 +182,8 @@
       "type": "ox",
       "prompt": "Inflation increases the purchasing power of money.",
       "answer": false,
-      "explanation": "Inflation raises prices, so each unit of money buys less; its purchasing power falls."
+      "explanation": "Inflation raises prices, so each unit of money buys less; its purchasing power falls.",
+      "hint": "Rising prices weaken money."
     },
     {
       "type": "ox",
@@ -181,7 +195,8 @@
       "type": "ox",
       "prompt": "Gross profit is calculated after subtracting all of a company's operating expenses.",
       "answer": false,
-      "explanation": "Gross profit subtracts only the cost of goods sold; net profit accounts for all expenses."
+      "explanation": "Gross profit subtracts only the cost of goods sold; net profit accounts for all expenses.",
+      "hint": "That describes net profit."
     },
     {
       "type": "ox",
@@ -193,7 +208,8 @@
       "type": "ox",
       "prompt": "A progressive tax charges lower earners a higher percentage than higher earners.",
       "answer": false,
-      "explanation": "A progressive tax charges higher earners a higher percentage, not lower earners."
+      "explanation": "A progressive tax charges higher earners a higher percentage, not lower earners.",
+      "hint": "Higher incomes pay a higher rate."
     },
     {
       "type": "ox",
@@ -205,7 +221,8 @@
       "type": "ox",
       "prompt": "The law of demand says people buy more of a good as its price rises.",
       "answer": false,
-      "explanation": "The law of demand states that, all else equal, people buy less as the price rises."
+      "explanation": "The law of demand states that, all else equal, people buy less as the price rises.",
+      "hint": "Higher prices usually reduce demand."
     },
     {
       "type": "ox",
@@ -217,7 +234,135 @@
       "type": "ox",
       "prompt": "A trade surplus means a country imports more than it exports.",
       "answer": false,
-      "explanation": "A trade surplus means exports exceed imports; the opposite is a trade deficit."
+      "explanation": "A trade surplus means exports exceed imports; the opposite is a trade deficit.",
+      "hint": "Surplus means exports exceed imports."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'inflation' describe?",
+      "choices": [
+        "A general rise in prices",
+        "A fall in unemployment",
+        "A rise in exports",
+        "A drop in interest rates"
+      ],
+      "answer": 1,
+      "explanation": "Inflation is a sustained increase in the general price level, so money buys less."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the term for the total value of goods and services produced in a country?",
+      "choices": [
+        "National Debt",
+        "Gross Domestic Product",
+        "Consumer Price Index",
+        "Balance of Trade"
+      ],
+      "answer": 2,
+      "explanation": "GDP measures a country's total output over a period."
+    },
+    {
+      "type": "choice",
+      "prompt": "If demand rises while supply stays fixed, price usually…",
+      "choices": [
+        "Stays the same",
+        "Becomes zero",
+        "Rises",
+        "Falls"
+      ],
+      "answer": 3,
+      "explanation": "Excess demand at the old price bids the price upward."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does a central bank usually raise to slow inflation?",
+      "choices": [
+        "Tax rates",
+        "Tariffs",
+        "The minimum wage",
+        "Interest rates"
+      ],
+      "answer": 4,
+      "explanation": "Higher policy rates make borrowing costlier, cooling demand."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is a 'bond'?",
+      "choices": [
+        "A loan to a government or company",
+        "A share of ownership in a company",
+        "A type of bank account",
+        "An insurance contract"
+      ],
+      "answer": 1,
+      "explanation": "A bondholder lends money and receives interest plus repayment of principal."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'diversification' reduce in an investment portfolio?",
+      "choices": [
+        "Tax",
+        "Risk",
+        "Return",
+        "Liquidity"
+      ],
+      "answer": 2,
+      "explanation": "Spreading holdings reduces exposure to any single asset's failure."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'GDP' stand for?",
+      "answers": [
+        "Gross Domestic Product"
+      ],
+      "explanation": "GDP is the total market value of final goods and services produced."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the term for a sustained fall in the general price level?",
+      "answers": [
+        "deflation"
+      ],
+      "explanation": "Deflation is the opposite of inflation and can depress spending."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the currency of the United Kingdom?",
+      "answers": [
+        "pound",
+        "pound sterling",
+        "sterling",
+        "British pound",
+        "GBP"
+      ],
+      "explanation": "The pound sterling, symbol £."
+    },
+    {
+      "type": "text",
+      "prompt": "What do you call the study of individual markets and consumer choice?",
+      "answers": [
+        "microeconomics"
+      ],
+      "explanation": "Microeconomics studies individual agents; macroeconomics studies the whole economy."
+    },
+    {
+      "type": "text",
+      "prompt": "What term describes owning a share of a company?",
+      "answers": [
+        "equity",
+        "stock",
+        "shares",
+        "share"
+      ],
+      "explanation": "Equity, or stock, represents ownership."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'IPO' stand for?",
+      "answers": [
+        "Initial Public Offering"
+      ],
+      "explanation": "An IPO is a company's first sale of shares to the public."
     }
   ]
 }

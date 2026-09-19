@@ -1,4 +1,4 @@
-# Sports O/X
+# Sports
 > Rules and facts about popular sports
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.sports.sports/
@@ -39,3 +39,15 @@ In soccer, the goalkeeper is the only player allowed to handle the ball during o
 In tennis, the ball may bounce twice before a player returns it. | X | A player loses the point if the ball bounces twice on their side; it must be returned after at most one bounce.
 Fencing is a sport of sword fighting. | O | Fencing is an Olympic combat sport in which athletes duel with blunted swords such as the foil, épée, and sabre.
 The 100-metre sprint is a long-distance running event. | X | The 100-metre race is the shortest outdoor sprint; long-distance events include the 5,000 metres and beyond.
+How often are the Summer Olympic Games held? | 1)Every three years 2)Every five years 3)Every four years 4)Every two years | 3 | The Summer Games follow a four-year Olympiad.
+In which sport would you perform a slam dunk? | 1)Volleyball 2)Handball 3)Tennis 4)Basketball | 4 | A dunk is scored by pushing the ball down through the basketball hoop.
+How many players are on a volleyball team on court? | 1)Six 2)Five 3)Seven 4)Nine | 1 | Each side fields six players.
+Which country has won the most FIFA World Cups? | 1)Argentina 2)Brazil 3)Germany 4)Italy | 2 | Brazil has won five times: 1958, 1962, 1970, 1994 and 2002.
+In tennis, what is a score of zero called? | 1)Duck 2)Blank 3)Love 4)Nil | 3 | Zero is called love in tennis scoring.
+Which sport is played at Wimbledon? | 1)Golf 2)Cricket 3)Rugby 4)Tennis | 4 | Wimbledon is the oldest tennis tournament in the world.
+Q: How many players are on a basketball team on court? | A: 5;five | Each side fields five players.
+Q: In which sport is the Tour de France contested? | A: cycling;road cycling;bicycle racing | The Tour de France is a three-week road cycling race.
+Q: How many rings are on the Olympic flag? | A: 5;five | Five interlocking rings represent the five inhabited continents.
+Q: What is the maximum break in snooker? | A: 147 | A 147 comes from fifteen reds each followed by a black, then all the colours.
+Q: In which country did judo originate? | A: Japan | Jigoro Kano founded judo in Japan in 1882.
+Q: How many holes are played in a standard round of golf? | A: 18;eighteen | A full round is 18 holes.

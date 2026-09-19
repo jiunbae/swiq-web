@@ -9,7 +9,8 @@
       "answers": [
         "apple"
       ],
-      "explanation": "apple — 대표적인 기초 과일 어휘입니다."
+      "explanation": "apple — 대표적인 기초 과일 어휘입니다.",
+      "hint": "a로 시작하는 5글자 단어예요."
     },
     {
       "type": "text",
@@ -17,7 +18,8 @@
       "answers": [
         "book"
       ],
-      "explanation": "book — '예약하다'라는 동사 의미도 있습니다."
+      "explanation": "book — '예약하다'라는 동사 의미도 있습니다.",
+      "hint": "b로 시작해요."
     },
     {
       "type": "text",
@@ -25,7 +27,8 @@
       "answers": [
         "water"
       ],
-      "explanation": "water — 불가산 명사로 관사 없이 씁니다."
+      "explanation": "water — 불가산 명사로 관사 없이 씁니다.",
+      "hint": "w로 시작해요."
     },
     {
       "type": "text",
@@ -33,7 +36,8 @@
       "answers": [
         "school"
       ],
-      "explanation": "school — '학파', '(물고기) 떼'라는 뜻도 있습니다."
+      "explanation": "school — '학파', '(물고기) 떼'라는 뜻도 있습니다.",
+      "hint": "s로 시작하는 6글자예요."
     },
     {
       "type": "text",
@@ -41,7 +45,8 @@
       "answers": [
         "happy"
       ],
-      "explanation": "happy — 명사형은 happiness입니다."
+      "explanation": "happy — 명사형은 happiness입니다.",
+      "hint": "h로 시작해요."
     },
     {
       "type": "text",
@@ -49,7 +54,8 @@
       "answers": [
         "breakfast"
       ],
-      "explanation": "breakfast — break(깨다) + fast(단식)에서 온 단어입니다."
+      "explanation": "breakfast — break(깨다) + fast(단식)에서 온 단어입니다.",
+      "hint": "밤사이 단식을 '깨는' 식사예요."
     },
     {
       "type": "text",
@@ -57,7 +63,8 @@
       "answers": [
         "library"
       ],
-      "explanation": "library — 서점(bookstore)과 혼동하지 마세요."
+      "explanation": "library — 서점(bookstore)과 혼동하지 마세요.",
+      "hint": "l로 시작해요."
     },
     {
       "type": "text",
@@ -65,23 +72,31 @@
       "answers": [
         "umbrella"
       ],
-      "explanation": "umbrella — 라틴어 umbra(그늘)에서 왔습니다."
+      "explanation": "umbrella — 라틴어 umbra(그늘)에서 왔습니다.",
+      "hint": "u로 시작해요."
     },
     {
       "type": "text",
       "prompt": "'기억하다'를 뜻하는 영단어를 입력하세요.",
       "answers": [
-        "remember"
+        "remember",
+        "recall"
       ],
-      "explanation": "remember — 반의어는 forget입니다."
+      "explanation": "remember — 반의어는 forget입니다. recall도 정답으로 인정됩니다.",
+      "hint": "re-로 시작해요."
     },
     {
       "type": "text",
       "prompt": "'중요한'을 뜻하는 영단어를 입력하세요.",
       "answers": [
-        "important"
+        "important",
+        "crucial",
+        "significant",
+        "essential",
+        "vital"
       ],
-      "explanation": "important — 명사형은 importance입니다."
+      "explanation": "important — 명사형은 importance입니다. crucial, significant, essential, vital도 정답으로 인정됩니다.",
+      "hint": "im-으로 시작해요."
     },
     {
       "type": "text",
@@ -90,7 +105,8 @@
         "answer",
         "reply"
       ],
-      "explanation": "answer 또는 reply — 둘 다 정답으로 인정됩니다."
+      "explanation": "answer 또는 reply — 둘 다 정답으로 인정됩니다.",
+      "hint": "질문(question)의 짝이에요."
     },
     {
       "type": "text",
@@ -99,7 +115,8 @@
         "travel",
         "trip"
       ],
-      "explanation": "travel(여행하다/여행) 또는 trip(짧은 여행) — 둘 다 정답입니다."
+      "explanation": "travel(여행하다/여행) 또는 trip(짧은 여행) — 둘 다 정답입니다.",
+      "hint": "t로 시작해요."
     },
     {
       "type": "text",
@@ -107,7 +124,8 @@
       "answers": [
         "cat"
       ],
-      "explanation": "cat — 대표적인 반려동물 어휘입니다."
+      "explanation": "cat — 대표적인 반려동물 어휘입니다.",
+      "hint": "c로 시작하는 3글자 단어예요."
     },
     {
       "type": "text",
@@ -115,15 +133,18 @@
       "answers": [
         "song"
       ],
-      "explanation": "song — '노래하다'라는 동사는 sing입니다."
+      "explanation": "song — '노래하다'라는 동사는 sing입니다.",
+      "hint": "s로 시작하는 4글자 단어예요."
     },
     {
       "type": "text",
       "prompt": "'의사'를 뜻하는 영단어를 입력하세요.",
       "answers": [
-        "doctor"
+        "doctor",
+        "physician"
       ],
-      "explanation": "doctor — 병원(hospital)에서 환자를 진료하는 사람입니다."
+      "explanation": "doctor — 병원(hospital)에서 환자를 진료하는 사람입니다. physician도 정답으로 인정됩니다.",
+      "hint": "d로 시작해요."
     },
     {
       "type": "text",
@@ -131,7 +152,8 @@
       "answers": [
         "kitchen"
       ],
-      "explanation": "kitchen — 요리하는 공간을 뜻합니다."
+      "explanation": "kitchen — 요리하는 공간을 뜻합니다.",
+      "hint": "k로 시작해요."
     },
     {
       "type": "text",
@@ -139,7 +161,8 @@
       "answers": [
         "spring"
       ],
-      "explanation": "spring — '용수철', '샘'이라는 뜻도 있습니다."
+      "explanation": "spring — '용수철', '샘'이라는 뜻도 있습니다.",
+      "hint": "s로 시작하는 6글자 단어예요."
     },
     {
       "type": "text",
@@ -147,7 +170,8 @@
       "answers": [
         "number"
       ],
-      "explanation": "number — 축약형 No.로도 자주 씁니다."
+      "explanation": "number — 축약형 No.로도 자주 씁니다.",
+      "hint": "n으로 시작해요."
     },
     {
       "type": "text",
@@ -155,7 +179,8 @@
       "answers": [
         "family"
       ],
-      "explanation": "family — 가족 구성원은 family member라고 합니다."
+      "explanation": "family — 가족 구성원은 family member라고 합니다.",
+      "hint": "f로 시작해요."
     },
     {
       "type": "text",
@@ -163,7 +188,8 @@
       "answers": [
         "hospital"
       ],
-      "explanation": "hospital — 의사(doctor)와 간호사(nurse)가 일하는 곳입니다."
+      "explanation": "hospital — 의사(doctor)와 간호사(nurse)가 일하는 곳입니다.",
+      "hint": "h로 시작해요."
     },
     {
       "type": "text",
@@ -171,7 +197,8 @@
       "answers": [
         "airport"
       ],
-      "explanation": "airport — air(항공) + port(항구)가 합쳐진 단어입니다."
+      "explanation": "airport — air(항공) + port(항구)가 합쳐진 단어입니다.",
+      "hint": "air로 시작해요."
     },
     {
       "type": "text",
@@ -180,7 +207,8 @@
         "dinner",
         "supper"
       ],
-      "explanation": "dinner — supper도 저녁 식사를 뜻해 정답으로 인정됩니다."
+      "explanation": "dinner — supper도 저녁 식사를 뜻해 정답으로 인정됩니다.",
+      "hint": "d로 시작해요."
     },
     {
       "type": "text",
@@ -188,7 +216,8 @@
       "answers": [
         "yellow"
       ],
-      "explanation": "yellow — 바나나나 병아리의 색을 떠올리면 쉬운 색깔 어휘입니다."
+      "explanation": "yellow — 바나나나 병아리의 색을 떠올리면 쉬운 색깔 어휘입니다.",
+      "hint": "y로 시작해요."
     },
     {
       "type": "text",
@@ -196,7 +225,8 @@
       "answers": [
         "bridge"
       ],
-      "explanation": "bridge — 신체의 다리는 leg입니다."
+      "explanation": "bridge — 신체의 다리는 leg입니다.",
+      "hint": "b로 시작하는 6글자 단어예요."
     },
     {
       "type": "text",
@@ -204,15 +234,18 @@
       "answers": [
         "letter"
       ],
-      "explanation": "letter — '글자, 문자'라는 뜻도 있습니다."
+      "explanation": "letter — '글자, 문자'라는 뜻도 있습니다.",
+      "hint": "l로 시작해요."
     },
     {
       "type": "text",
       "prompt": "'시장(물건을 사고파는 곳)'을 뜻하는 영단어를 입력하세요.",
       "answers": [
-        "market"
+        "market",
+        "marketplace"
       ],
-      "explanation": "market — 물건을 사고파는 곳이며, 경제의 '시장'이라는 뜻도 있습니다."
+      "explanation": "market — 물건을 사고파는 곳이며, 경제의 '시장'이라는 뜻도 있습니다. marketplace도 정답으로 인정됩니다.",
+      "hint": "m으로 시작해요."
     },
     {
       "type": "text",
@@ -221,7 +254,8 @@
         "beautiful",
         "pretty"
       ],
-      "explanation": "beautiful — pretty(예쁜)도 정답으로 인정됩니다."
+      "explanation": "beautiful — pretty(예쁜)도 정답으로 인정됩니다.",
+      "hint": "b로 시작해요."
     },
     {
       "type": "text",
@@ -230,15 +264,19 @@
         "begin",
         "start"
       ],
-      "explanation": "begin 또는 start — 둘 다 '시작하다'라는 뜻으로 정답입니다."
+      "explanation": "begin 또는 start — 둘 다 '시작하다'라는 뜻으로 정답입니다.",
+      "hint": "b 또는 s로 시작해요."
     },
     {
       "type": "text",
       "prompt": "'돕다, 도와주다'를 뜻하는 영단어를 입력하세요.",
       "answers": [
-        "help"
+        "help",
+        "assist",
+        "aid"
       ],
-      "explanation": "help — 명사로 '도움'이라는 뜻도 있습니다."
+      "explanation": "help — 명사로 '도움'이라는 뜻도 있습니다. assist, aid도 정답으로 인정됩니다.",
+      "hint": "h로 시작하는 4글자 단어예요."
     },
     {
       "type": "text",
@@ -246,7 +284,8 @@
       "answers": [
         "question"
       ],
-      "explanation": "question — 대답은 answer입니다."
+      "explanation": "question — 대답은 answer입니다.",
+      "hint": "q로 시작해요."
     },
     {
       "type": "text",
@@ -254,7 +293,8 @@
       "answers": [
         "key"
       ],
-      "explanation": "key — '핵심적인'이라는 형용사 뜻도 있습니다."
+      "explanation": "key — '핵심적인'이라는 형용사 뜻도 있습니다.",
+      "hint": "k로 시작하는 3글자 단어예요."
     },
     {
       "type": "text",
@@ -262,7 +302,8 @@
       "answers": [
         "voice"
       ],
-      "explanation": "voice — 말하거나 노래할 때 내는 '목소리'입니다."
+      "explanation": "voice — 말하거나 노래할 때 내는 '목소리'입니다.",
+      "hint": "v로 시작해요."
     },
     {
       "type": "text",
@@ -270,7 +311,8 @@
       "answers": [
         "map"
       ],
-      "explanation": "map — 길을 찾을 때 보는 '지도'입니다."
+      "explanation": "map — 길을 찾을 때 보는 '지도'입니다.",
+      "hint": "m으로 시작하는 3글자 단어예요."
     },
     {
       "type": "text",
@@ -278,7 +320,8 @@
       "answers": [
         "hungry"
       ],
-      "explanation": "hungry — 명사형은 hunger(배고픔)입니다."
+      "explanation": "hungry — 명사형은 hunger(배고픔)입니다.",
+      "hint": "h로 시작해요."
     },
     {
       "type": "text",
@@ -286,7 +329,8 @@
       "answers": [
         "dance"
       ],
-      "explanation": "dance — 명사 '춤'으로도 씁니다."
+      "explanation": "dance — 명사 '춤'으로도 씁니다.",
+      "hint": "d로 시작하는 5글자 단어예요."
     },
     {
       "type": "text",
@@ -295,7 +339,8 @@
         "shoes",
         "shoe"
       ],
-      "explanation": "shoe(s) — 보통 두 짝을 함께 신어 복수형 shoes로 자주 씁니다."
+      "explanation": "shoe(s) — 보통 두 짝을 함께 신어 복수형 shoes로 자주 씁니다.",
+      "hint": "s로 시작해요."
     }
   ]
 }

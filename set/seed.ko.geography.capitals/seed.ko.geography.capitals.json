@@ -1,5 +1,5 @@
 {
-  "title": "세계의 수도 O/X",
+  "title": "세계의 수도",
   "description": "여러 나라의 수도 맞히기",
   "languageCode": "ko",
   "cards": [
@@ -218,6 +218,128 @@
       "prompt": "핀란드의 수도는 스톡홀름이다.",
       "answer": false,
       "explanation": "핀란드의 수도는 헬싱키입니다. 스톡홀름은 이웃 나라 스웨덴의 수도입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "프랑스의 수도는?",
+      "choices": [
+        "파리",
+        "리옹",
+        "마르세유",
+        "니스"
+      ],
+      "answer": 1,
+      "explanation": "파리는 센강을 끼고 있는 프랑스의 수도입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "터키(튀르키예)의 수도는?",
+      "choices": [
+        "안탈리아",
+        "앙카라",
+        "이스탄불",
+        "이즈미르"
+      ],
+      "answer": 2,
+      "explanation": "가장 큰 도시는 이스탄불이지만 수도는 앙카라입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "미국의 수도는?",
+      "choices": [
+        "로스앤젤레스",
+        "시카고",
+        "워싱턴 D.C.",
+        "뉴욕"
+      ],
+      "answer": 3,
+      "explanation": "워싱턴 D.C.는 어느 주에도 속하지 않는 특별구입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "스위스의 수도는?",
+      "choices": [
+        "취리히",
+        "제네바",
+        "바젤",
+        "베른"
+      ],
+      "answer": 4,
+      "explanation": "취리히가 가장 크지만 실질적 수도는 베른입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "베트남의 수도는?",
+      "choices": [
+        "하노이",
+        "호찌민",
+        "다낭",
+        "후에"
+      ],
+      "answer": 1,
+      "explanation": "가장 큰 도시는 호찌민이지만 수도는 하노이입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "뉴질랜드의 수도는?",
+      "choices": [
+        "더니든",
+        "웰링턴",
+        "오클랜드",
+        "크라이스트처치"
+      ],
+      "answer": 2,
+      "explanation": "가장 큰 도시는 오클랜드지만 수도는 웰링턴입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "일본의 수도는?",
+      "answers": [
+        "도쿄",
+        "동경"
+      ],
+      "explanation": "1868년 교토에서 도쿄로 옮겼습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "영국의 수도는?",
+      "answers": [
+        "런던"
+      ],
+      "explanation": "템스강을 끼고 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "독일의 수도는?",
+      "answers": [
+        "베를린"
+      ],
+      "explanation": "1990년 통일 후 다시 수도가 되었습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "중국의 수도는?",
+      "answers": [
+        "베이징",
+        "북경"
+      ],
+      "explanation": "가장 큰 경제 도시는 상하이입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "이집트의 수도는?",
+      "answers": [
+        "카이로"
+      ],
+      "explanation": "나일강 하류에 있습니다."
+    },
+    {
+      "type": "text",
+      "prompt": "호주의 수도는?",
+      "answers": [
+        "캔버라"
+      ],
+      "explanation": "시드니가 아니라 캔버라입니다."
     }
   ]
 }

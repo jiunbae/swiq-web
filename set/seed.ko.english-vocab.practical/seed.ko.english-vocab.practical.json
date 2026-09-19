@@ -1,5 +1,5 @@
 {
-  "title": "실용 영단어 O/X",
+  "title": "실용 영단어",
   "description": "업무·생활에서 자주 쓰는 영단어",
   "languageCode": "ko",
   "cards": [
@@ -13,7 +13,8 @@
       "type": "ox",
       "prompt": "'refund'는 '추가 요금'이라는 뜻이다.",
       "answer": false,
-      "explanation": "refund는 '환불'이라는 뜻입니다. 돈을 돌려받는 것입니다."
+      "explanation": "refund는 '환불'이라는 뜻입니다. 돈을 돌려받는 것입니다.",
+      "hint": "re-는 '되돌림'을 뜻합니다."
     },
     {
       "type": "ox",
@@ -25,7 +26,8 @@
       "type": "ox",
       "prompt": "'discount'는 '가격 인상'이라는 뜻이다.",
       "answer": false,
-      "explanation": "discount는 '할인'이라는 뜻으로 값을 깎아 주는 것입니다."
+      "explanation": "discount는 '할인'이라는 뜻으로 값을 깎아 주는 것입니다.",
+      "hint": "값을 내려 줍니다."
     },
     {
       "type": "ox",
@@ -37,7 +39,8 @@
       "type": "ox",
       "prompt": "'colleague'는 '경쟁자'라는 뜻이다.",
       "answer": false,
-      "explanation": "colleague는 같이 일하는 '동료'를 뜻합니다. '경쟁자'는 rival입니다."
+      "explanation": "colleague는 같이 일하는 '동료'를 뜻합니다. '경쟁자'는 rival입니다.",
+      "hint": "함께 일하는 사람입니다."
     },
     {
       "type": "ox",
@@ -49,7 +52,8 @@
       "type": "ox",
       "prompt": "'expense'는 '수입'이라는 뜻이다.",
       "answer": false,
-      "explanation": "expense는 '비용, 지출'이라는 뜻입니다. '수입'은 income입니다."
+      "explanation": "expense는 '비용, 지출'이라는 뜻입니다. '수입'은 income입니다.",
+      "hint": "돈이 나가는 쪽입니다."
     },
     {
       "type": "ox",
@@ -61,7 +65,8 @@
       "type": "ox",
       "prompt": "'available'은 '이용할 수 없는'이라는 뜻이다.",
       "answer": false,
-      "explanation": "available은 '이용 가능한, 구할 수 있는'이라는 뜻입니다."
+      "explanation": "available은 '이용 가능한, 구할 수 있는'이라는 뜻입니다.",
+      "hint": "쓸 수 있는 상태입니다."
     },
     {
       "type": "ox",
@@ -73,7 +78,8 @@
       "type": "ox",
       "prompt": "'purchase'는 '판매'라는 뜻이다.",
       "answer": false,
-      "explanation": "purchase는 '구매, 구입'이라는 뜻입니다. '판매'는 sale입니다."
+      "explanation": "purchase는 '구매, 구입'이라는 뜻입니다. '판매'는 sale입니다.",
+      "hint": "돈을 내고 사는 쪽입니다."
     },
     {
       "type": "ox",
@@ -85,7 +91,8 @@
       "type": "ox",
       "prompt": "'departure'는 '도착'이라는 뜻이다.",
       "answer": false,
-      "explanation": "departure는 '출발'이라는 뜻입니다. '도착'은 arrival입니다."
+      "explanation": "departure는 '출발'이라는 뜻입니다. '도착'은 arrival입니다.",
+      "hint": "떠나는 쪽입니다."
     },
     {
       "type": "ox",
@@ -97,7 +104,8 @@
       "type": "ox",
       "prompt": "'cancel'은 '확정하다'라는 뜻이다.",
       "answer": false,
-      "explanation": "cancel은 '취소하다'라는 뜻입니다. '확정하다'는 confirm입니다."
+      "explanation": "cancel은 '취소하다'라는 뜻입니다. '확정하다'는 confirm입니다.",
+      "hint": "예약을 없던 일로 만드는 것입니다."
     },
     {
       "type": "ox",
@@ -109,7 +117,8 @@
       "type": "ox",
       "prompt": "'hire'는 '해고하다'라는 뜻이다.",
       "answer": false,
-      "explanation": "hire는 '고용하다'라는 뜻입니다. '해고하다'는 fire, dismiss입니다."
+      "explanation": "hire는 '고용하다'라는 뜻입니다. '해고하다'는 fire, dismiss입니다.",
+      "hint": "사람을 새로 뽑는 쪽입니다."
     },
     {
       "type": "ox",
@@ -121,7 +130,8 @@
       "type": "ox",
       "prompt": "'urgent'는 '사소한'이라는 뜻이다.",
       "answer": false,
-      "explanation": "urgent는 '긴급한'이라는 뜻입니다. '사소한'은 trivial입니다."
+      "explanation": "urgent는 '긴급한'이라는 뜻입니다. '사소한'은 trivial입니다.",
+      "hint": "빨리 처리해야 하는 일입니다."
     },
     {
       "type": "ox",
@@ -133,7 +143,8 @@
       "type": "ox",
       "prompt": "'borrow'는 '빌려주다'라는 뜻이다.",
       "answer": false,
-      "explanation": "borrow는 '빌리다'라는 뜻입니다. '빌려주다'는 lend입니다."
+      "explanation": "borrow는 '빌리다'라는 뜻입니다. '빌려주다'는 lend입니다.",
+      "hint": "내가 남의 것을 가져다 쓰는 쪽입니다."
     },
     {
       "type": "ox",
@@ -145,7 +156,8 @@
       "type": "ox",
       "prompt": "'attach'는 '삭제하다'라는 뜻이다.",
       "answer": false,
-      "explanation": "attach는 '붙이다, 첨부하다'라는 뜻입니다. '삭제하다'는 delete입니다."
+      "explanation": "attach는 '붙이다, 첨부하다'라는 뜻입니다. '삭제하다'는 delete입니다.",
+      "hint": "파일을 이메일에 붙이는 동작입니다."
     },
     {
       "type": "ox",
@@ -157,7 +169,8 @@
       "type": "ox",
       "prompt": "'postpone'은 '앞당기다'라는 뜻이다.",
       "answer": false,
-      "explanation": "postpone은 '연기하다, 미루다'라는 뜻입니다. '앞당기다'는 move up입니다."
+      "explanation": "postpone은 '연기하다, 미루다'라는 뜻입니다. '앞당기다'는 move up입니다.",
+      "hint": "뒤로 미루는 쪽입니다."
     },
     {
       "type": "ox",
@@ -169,7 +182,8 @@
       "type": "ox",
       "prompt": "'vacant'는 '사용 중인'이라는 뜻이다.",
       "answer": false,
-      "explanation": "vacant는 '비어 있는'이라는 뜻입니다. '사용 중인'은 occupied입니다."
+      "explanation": "vacant는 '비어 있는'이라는 뜻입니다. '사용 중인'은 occupied입니다.",
+      "hint": "빈자리를 떠올리세요."
     },
     {
       "type": "ox",
@@ -181,7 +195,8 @@
       "type": "ox",
       "prompt": "'profit'은 '손실'이라는 뜻이다.",
       "answer": false,
-      "explanation": "profit은 '이익, 수익'이라는 뜻입니다. '손실'은 loss입니다."
+      "explanation": "profit은 '이익, 수익'이라는 뜻입니다. '손실'은 loss입니다.",
+      "hint": "돈이 남는 쪽입니다."
     },
     {
       "type": "ox",
@@ -193,7 +208,8 @@
       "type": "ox",
       "prompt": "'domestic'은 '해외의'라는 뜻이다.",
       "answer": false,
-      "explanation": "domestic은 '국내의'라는 뜻입니다. '해외의'는 international, overseas입니다."
+      "explanation": "domestic은 '국내의'라는 뜻입니다. '해외의'는 international, overseas입니다.",
+      "hint": "국내선(domestic flight)을 떠올리세요."
     },
     {
       "type": "ox",
@@ -205,7 +221,8 @@
       "type": "ox",
       "prompt": "'complaint'는 '칭찬'이라는 뜻이다.",
       "answer": false,
-      "explanation": "complaint는 '불만, 항의'라는 뜻입니다. '칭찬'은 compliment로 철자가 비슷해 헷갈리기 쉽습니다."
+      "explanation": "complaint는 '불만, 항의'라는 뜻입니다. '칭찬'은 compliment로 철자가 비슷해 헷갈리기 쉽습니다.",
+      "hint": "불만을 제기하는 것입니다."
     },
     {
       "type": "ox",
@@ -217,7 +234,134 @@
       "type": "ox",
       "prompt": "'retail'은 '도매'라는 뜻이다.",
       "answer": false,
-      "explanation": "retail은 소비자에게 직접 파는 '소매'라는 뜻입니다. '도매'는 wholesale입니다."
+      "explanation": "retail은 소비자에게 직접 파는 '소매'라는 뜻입니다. '도매'는 wholesale입니다.",
+      "hint": "소비자에게 직접 파는 방식입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "공항에서 'boarding pass'는 무엇일까요?",
+      "choices": [
+        "수하물표",
+        "출입국 신고서",
+        "탑승권",
+        "여권"
+      ],
+      "answer": 3,
+      "explanation": "boarding pass는 비행기 탑승권입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "식당에서 'bill' 또는 'check'를 달라는 말은 무슨 뜻일까요?",
+      "choices": [
+        "물을 달라",
+        "메뉴를 달라",
+        "포장해 달라",
+        "계산서를 달라"
+      ],
+      "answer": 4,
+      "explanation": "미국은 check, 영국은 bill을 주로 씁니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "호텔에서 'check-out'은 언제 하는 것일까요?",
+      "choices": [
+        "떠날 때",
+        "도착할 때",
+        "식사할 때",
+        "예약할 때"
+      ],
+      "answer": 1,
+      "explanation": "도착 시 check-in, 떠날 때 check-out입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "이메일에서 'attachment'는 무엇일까요?",
+      "choices": [
+        "서명",
+        "첨부 파일",
+        "제목",
+        "받는 사람"
+      ],
+      "answer": 2,
+      "explanation": "attachment는 첨부 파일입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "'deadline'의 뜻은?",
+      "choices": [
+        "휴가",
+        "출장",
+        "마감 기한",
+        "회의 시간"
+      ],
+      "answer": 3,
+      "explanation": "deadline은 마감 기한입니다."
+    },
+    {
+      "type": "choice",
+      "prompt": "가게에서 'refund'는 무엇일까요?",
+      "choices": [
+        "할인",
+        "교환",
+        "적립",
+        "환불"
+      ],
+      "answer": 4,
+      "explanation": "refund는 돈을 돌려받는 환불입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'예약'을 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "reservation",
+        "booking"
+      ],
+      "explanation": "식당·호텔은 reservation, 항공권은 booking을 자주 씁니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'영수증'을 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "receipt"
+      ],
+      "explanation": "receipt는 p가 묵음입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'회의'를 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "meeting",
+        "conference"
+      ],
+      "explanation": "일상적인 회의는 meeting입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'수하물'을 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "baggage",
+        "luggage"
+      ],
+      "explanation": "미국은 baggage, 영국은 luggage를 주로 씁니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'할인'을 뜻하는 영단어를 쓰세요.",
+      "answers": [
+        "discount",
+        "sale"
+      ],
+      "explanation": "discount가 할인입니다."
+    },
+    {
+      "type": "text",
+      "prompt": "'응급실'을 뜻하는 영어 표현을 쓰세요.",
+      "answers": [
+        "emergency room",
+        "ER",
+        "emergency"
+      ],
+      "explanation": "emergency room, 줄여서 ER입니다."
     }
   ]
 }

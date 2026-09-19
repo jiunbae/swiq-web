@@ -1,4 +1,4 @@
-# 실용 영단어 O/X
+# 실용 영단어
 > 업무·생활에서 자주 쓰는 영단어
 @languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.practical/
@@ -39,3 +39,15 @@
 'complaint'는 '칭찬'이라는 뜻이다. | X | complaint는 '불만, 항의'라는 뜻입니다. '칭찬'은 compliment로 철자가 비슷해 헷갈리기 쉽습니다.
 'negotiate'는 '협상하다'라는 뜻이다. | O | negotiate는 조건을 조율하며 '협상하다'라는 뜻입니다.
 'retail'은 '도매'라는 뜻이다. | X | retail은 소비자에게 직접 파는 '소매'라는 뜻입니다. '도매'는 wholesale입니다.
+공항에서 'boarding pass'는 무엇일까요? | 1)수하물표 2)출입국 신고서 3)탑승권 4)여권 | 3 | boarding pass는 비행기 탑승권입니다.
+식당에서 'bill' 또는 'check'를 달라는 말은 무슨 뜻일까요? | 1)물을 달라 2)메뉴를 달라 3)포장해 달라 4)계산서를 달라 | 4 | 미국은 check, 영국은 bill을 주로 씁니다.
+호텔에서 'check-out'은 언제 하는 것일까요? | 1)떠날 때 2)도착할 때 3)식사할 때 4)예약할 때 | 1 | 도착 시 check-in, 떠날 때 check-out입니다.
+이메일에서 'attachment'는 무엇일까요? | 1)서명 2)첨부 파일 3)제목 4)받는 사람 | 2 | attachment는 첨부 파일입니다.
+'deadline'의 뜻은? | 1)휴가 2)출장 3)마감 기한 4)회의 시간 | 3 | deadline은 마감 기한입니다.
+가게에서 'refund'는 무엇일까요? | 1)할인 2)교환 3)적립 4)환불 | 4 | refund는 돈을 돌려받는 환불입니다.
+Q: '예약'을 뜻하는 영단어를 쓰세요. | A: reservation;booking | 식당·호텔은 reservation, 항공권은 booking을 자주 씁니다.
+Q: '영수증'을 뜻하는 영단어를 쓰세요. | A: receipt | receipt는 p가 묵음입니다.
+Q: '회의'를 뜻하는 영단어를 쓰세요. | A: meeting;conference | 일상적인 회의는 meeting입니다.
+Q: '수하물'을 뜻하는 영단어를 쓰세요. | A: baggage;luggage | 미국은 baggage, 영국은 luggage를 주로 씁니다.
+Q: '할인'을 뜻하는 영단어를 쓰세요. | A: discount;sale | discount가 할인입니다.
+Q: '응급실'을 뜻하는 영어 표현을 쓰세요. | A: emergency room;ER;emergency | emergency room, 줄여서 ER입니다.

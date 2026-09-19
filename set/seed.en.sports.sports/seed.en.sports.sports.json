@@ -1,5 +1,5 @@
 {
-  "title": "Sports O/X",
+  "title": "Sports",
   "description": "Rules and facts about popular sports",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,131 @@
       "prompt": "The 100-metre sprint is a long-distance running event.",
       "answer": false,
       "explanation": "The 100-metre race is the shortest outdoor sprint; long-distance events include the 5,000 metres and beyond."
+    },
+    {
+      "type": "choice",
+      "prompt": "How often are the Summer Olympic Games held?",
+      "choices": [
+        "Every three years",
+        "Every five years",
+        "Every four years",
+        "Every two years"
+      ],
+      "answer": 3,
+      "explanation": "The Summer Games follow a four-year Olympiad."
+    },
+    {
+      "type": "choice",
+      "prompt": "In which sport would you perform a slam dunk?",
+      "choices": [
+        "Volleyball",
+        "Handball",
+        "Tennis",
+        "Basketball"
+      ],
+      "answer": 4,
+      "explanation": "A dunk is scored by pushing the ball down through the basketball hoop."
+    },
+    {
+      "type": "choice",
+      "prompt": "How many players are on a volleyball team on court?",
+      "choices": [
+        "Six",
+        "Five",
+        "Seven",
+        "Nine"
+      ],
+      "answer": 1,
+      "explanation": "Each side fields six players."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which country has won the most FIFA World Cups?",
+      "choices": [
+        "Argentina",
+        "Brazil",
+        "Germany",
+        "Italy"
+      ],
+      "answer": 2,
+      "explanation": "Brazil has won five times: 1958, 1962, 1970, 1994 and 2002."
+    },
+    {
+      "type": "choice",
+      "prompt": "In tennis, what is a score of zero called?",
+      "choices": [
+        "Duck",
+        "Blank",
+        "Love",
+        "Nil"
+      ],
+      "answer": 3,
+      "explanation": "Zero is called love in tennis scoring."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sport is played at Wimbledon?",
+      "choices": [
+        "Golf",
+        "Cricket",
+        "Rugby",
+        "Tennis"
+      ],
+      "answer": 4,
+      "explanation": "Wimbledon is the oldest tennis tournament in the world."
+    },
+    {
+      "type": "text",
+      "prompt": "How many players are on a basketball team on court?",
+      "answers": [
+        "5",
+        "five"
+      ],
+      "explanation": "Each side fields five players."
+    },
+    {
+      "type": "text",
+      "prompt": "In which sport is the Tour de France contested?",
+      "answers": [
+        "cycling",
+        "road cycling",
+        "bicycle racing"
+      ],
+      "explanation": "The Tour de France is a three-week road cycling race."
+    },
+    {
+      "type": "text",
+      "prompt": "How many rings are on the Olympic flag?",
+      "answers": [
+        "5",
+        "five"
+      ],
+      "explanation": "Five interlocking rings represent the five inhabited continents."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the maximum break in snooker?",
+      "answers": [
+        "147"
+      ],
+      "explanation": "A 147 comes from fifteen reds each followed by a black, then all the colours."
+    },
+    {
+      "type": "text",
+      "prompt": "In which country did judo originate?",
+      "answers": [
+        "Japan"
+      ],
+      "explanation": "Jigoro Kano founded judo in Japan in 1882."
+    },
+    {
+      "type": "text",
+      "prompt": "How many holes are played in a standard round of golf?",
+      "answers": [
+        "18",
+        "eighteen"
+      ],
+      "explanation": "A full round is 18 holes."
     }
   ]
 }

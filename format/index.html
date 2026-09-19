@@ -313,7 +313,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/ranking/">순위</a><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://testflight.apple.com/join/rM2Q3shQ">TestFlight</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/ranking/">순위</a><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://apps.apple.com/app/id6790717022">App Store</a></nav></div></header>
 <main class="wrap doc">
   <a class="back" href="/">← 홈으로</a>
   <h1>.swiq 파일 포맷</h1>
@@ -391,7 +391,7 @@ Q: 물의 화학식은? | A: H2O;h2o
 대한민국의 수도는? | 1)서울 2)부산 3)인천 4)대전 | 1 | 수도는 서울특별시입니다.
 </code></pre>
   <a class="dl" href="/set/seed.ko.general.science-basic/seed.ko.general.science-basic.swiq" download="seed.ko.general.science-basic.swiq">
-    ⬇ 예시 파일 다운로드 — 기초 과학 O/X (.swiq)</a>
+    ⬇ 예시 파일 다운로드 — 기초 과학 (.swiq)</a>
   <p class="en-sub">모든 세트 페이지에서도 각 세트를 .swiq 파일로 내려받을 수 있어요.</p>
 
   <h2>JSON으로도 작성할 수 있어요</h2>
@@ -416,7 +416,9 @@ Q: 물의 화학식은? | A: H2O;h2o
     <li><b>text</b>: <code class="inline">prompt</code> + <code class="inline">answers</code>(정답 문자열 배열, 아무거나 맞으면 정답)</li>
     <li><b>choice</b>: <code class="inline">prompt</code> + <code class="inline">choices</code>(보기 배열) +
       <code class="inline">answer</code>(정답 보기 번호, <b>1부터 시작</b>)</li>
-    <li>모든 카드에 <code class="inline">explanation</code>(설명)을 선택적으로 넣을 수 있어요</li>
+    <li>모든 카드에 <code class="inline">explanation</code>(설명)과
+      <code class="inline">hint</code>(힌트, 300자 이내)를 선택적으로 넣을 수 있어요.
+      힌트는 JSON에만 있고 줄 형식에는 없습니다.</li>
   </ul>
 
   <div class="syntax">
@@ -483,7 +485,7 @@ Q: 물의 화학식은? | A: H2O;h2o
   ]
 }</code></pre>
   <a class="dl" href="/set/seed.ko.general.science-basic/seed.ko.general.science-basic.json" download="seed.ko.general.science-basic.json">
-    ⬇ JSON 예시 다운로드 — 기초 과학 O/X (.json)</a>
+    ⬇ JSON 예시 다운로드 — 기초 과학 (.json)</a>
   <p class="en-sub">각 세트 페이지의 “.json 다운로드”로 세트를 이 스키마 그대로 내려받을 수 있어요.</p>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>

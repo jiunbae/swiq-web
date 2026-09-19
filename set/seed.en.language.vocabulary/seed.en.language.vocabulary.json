@@ -1,5 +1,5 @@
 {
-  "title": "English Vocabulary O/X",
+  "title": "English Vocabulary",
   "description": "Common word meanings",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,135 @@
       "prompt": "'Identical' means exactly the same.",
       "answer": true,
       "explanation": "'Identical' describes things that are exactly alike, such as identical twins."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word means 'happening every year'?",
+      "choices": [
+        "Annual",
+        "Monthly",
+        "Perpetual",
+        "Seasonal"
+      ],
+      "answer": 1,
+      "explanation": "Annual comes from the Latin annus, meaning year."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the opposite of 'scarce'?",
+      "choices": [
+        "Sparse",
+        "Abundant",
+        "Rare",
+        "Limited"
+      ],
+      "answer": 2,
+      "explanation": "Abundant means present in large quantity; the others are near-synonyms of scarce."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word means 'to make something less severe'?",
+      "choices": [
+        "Escalate",
+        "Provoke",
+        "Alleviate",
+        "Aggravate"
+      ],
+      "answer": 3,
+      "explanation": "To alleviate is to ease or relieve; the others intensify."
+    },
+    {
+      "type": "choice",
+      "prompt": "A 'meticulous' person is best described as…",
+      "choices": [
+        "Easily annoyed",
+        "Extremely generous",
+        "Quick to decide",
+        "Very careful about details"
+      ],
+      "answer": 4,
+      "explanation": "Meticulous means showing great attention to detail."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word means 'a short summary'?",
+      "choices": [
+        "Synopsis",
+        "Prologue",
+        "Appendix",
+        "Footnote"
+      ],
+      "answer": 1,
+      "explanation": "A synopsis is a brief outline of a longer work."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'inevitable' mean?",
+      "choices": [
+        "Hard to believe",
+        "Certain to happen",
+        "Easy to avoid",
+        "Rarely seen"
+      ],
+      "answer": 2,
+      "explanation": "Something inevitable cannot be prevented."
+    },
+    {
+      "type": "text",
+      "prompt": "What word means a person who writes books?",
+      "answers": [
+        "author",
+        "writer",
+        "an author",
+        "a writer"
+      ],
+      "explanation": "An author or writer is someone who writes."
+    },
+    {
+      "type": "text",
+      "prompt": "Give one word meaning 'extremely large'.",
+      "answers": [
+        "enormous",
+        "huge",
+        "gigantic",
+        "immense",
+        "massive",
+        "vast"
+      ],
+      "explanation": "Enormous, huge, gigantic, immense, massive and vast all work."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the past tense of 'go'?",
+      "answers": [
+        "went"
+      ],
+      "explanation": "Go is irregular: go / went / gone."
+    },
+    {
+      "type": "text",
+      "prompt": "What word describes something that can be eaten safely?",
+      "answers": [
+        "edible"
+      ],
+      "explanation": "Edible means fit to be eaten."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the plural of 'child'?",
+      "answers": [
+        "children"
+      ],
+      "explanation": "Child is irregular: one child, two children."
+    },
+    {
+      "type": "text",
+      "prompt": "What word means 'to look forward to something with pleasure'?",
+      "answers": [
+        "anticipate",
+        "to anticipate"
+      ],
+      "explanation": "Anticipate means to expect, often with pleasure."
     }
   ]
 }

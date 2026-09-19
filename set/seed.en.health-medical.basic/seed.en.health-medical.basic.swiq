@@ -1,4 +1,4 @@
-# Health Basics O/X
+# Health Basics
 > Everyday facts about the human body and health
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.health-medical.basic/
@@ -39,3 +39,15 @@ Too much salt in the diet can raise blood pressure. | O | High salt intake can i
 Sitting too close to a television causes permanent blindness. | X | Sitting close may tire the eyes but does not cause lasting damage or blindness.
 Sunscreen helps protect skin from ultraviolet damage. | O | Sunscreen blocks or absorbs UV rays, reducing sunburn and long-term skin damage.
 The heart sits entirely on the left side of the chest. | X | The heart lies near the center of the chest, tilted slightly to the left, not entirely on the left.
+Which organ filters waste from the blood to make urine? | 1)The pancreas 2)The spleen 3)The kidneys 4)The liver | 3 | The kidneys filter blood and produce urine.
+Which vitamin does the body make when skin is exposed to sunlight? | 1)Vitamin C 2)Vitamin A 3)Vitamin K 4)Vitamin D | 4 | Ultraviolet B light triggers vitamin D synthesis in the skin.
+What is the normal resting heart rate range for a healthy adult? | 1)60–100 beats per minute 2)30–50 beats per minute 3)110–140 beats per minute 4)150–180 beats per minute | 1 | A typical adult resting rate is 60 to 100 beats per minute.
+Which nutrient group is the body's main source of quick energy? | 1)Vitamins 2)Carbohydrates 3)Proteins 4)Fats | 2 | Carbohydrates break down into glucose, the body's readiest fuel.
+Antibiotics are effective against which type of infection? | 1)Fungal 2)Parasitic worm 3)Bacterial 4)Viral | 3 | Antibiotics target bacteria; they do nothing against viruses such as the common cold.
+Which organ produces insulin? | 1)The liver 2)The thyroid 3)The adrenal gland 4)The pancreas | 4 | Beta cells in the pancreas produce insulin.
+Q: What is the largest organ of the human body? | A: skin;the skin | Skin is the largest organ by surface area and weight.
+Q: How many bones are in the adult human body? | A: 206 | An adult skeleton has 206 bones; newborns have around 270 that later fuse.
+Q: What is the medical term for high blood pressure? | A: hypertension | Hypertension is persistently raised arterial blood pressure.
+Q: Which vitamin is found in high amounts in citrus fruit and prevents scurvy? | A: vitamin C;C;ascorbic acid | Vitamin C, ascorbic acid, is needed for collagen synthesis.
+Q: How many chambers does the human heart have? | A: 4;four | Two atria and two ventricles.
+Q: What does 'BMI' stand for? | A: Body Mass Index | BMI relates weight to the square of height.

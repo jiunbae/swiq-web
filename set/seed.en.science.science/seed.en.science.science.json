@@ -1,5 +1,5 @@
 {
-  "title": "Science Basics O/X",
+  "title": "Science Basics",
   "description": "Everyday facts about the natural world",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,128 @@
       "prompt": "Early humans lived at the same time as dinosaurs like Tyrannosaurus rex.",
       "answer": false,
       "explanation": "Non-bird dinosaurs died out about 66 million years ago, tens of millions of years before the first humans appeared."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which gas do plants absorb from the air for photosynthesis?",
+      "choices": [
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Oxygen"
+      ],
+      "answer": 3,
+      "explanation": "Plants take in carbon dioxide and release oxygen as a by-product of photosynthesis."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the closest planet to the Sun?",
+      "choices": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Mercury"
+      ],
+      "answer": 4,
+      "explanation": "Mercury orbits nearest the Sun, at about 58 million kilometres."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which blood cells carry oxygen around the body?",
+      "choices": [
+        "Red blood cells",
+        "White blood cells",
+        "Platelets",
+        "Plasma cells"
+      ],
+      "answer": 1,
+      "explanation": "Red blood cells contain haemoglobin, the protein that binds oxygen."
+    },
+    {
+      "type": "choice",
+      "prompt": "What force keeps the planets in orbit around the Sun?",
+      "choices": [
+        "Air pressure",
+        "Gravity",
+        "Magnetism",
+        "Friction"
+      ],
+      "answer": 2,
+      "explanation": "Gravity is the mutual attraction between masses; it curves each planet's path into an orbit."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which part of the plant cell carries out photosynthesis?",
+      "choices": [
+        "Mitochondrion",
+        "Ribosome",
+        "Chloroplast",
+        "Nucleus"
+      ],
+      "answer": 3,
+      "explanation": "Chloroplasts hold chlorophyll, the pigment that captures light energy."
+    },
+    {
+      "type": "choice",
+      "prompt": "What state of matter has a fixed volume but no fixed shape?",
+      "choices": [
+        "Solid",
+        "Gas",
+        "Plasma",
+        "Liquid"
+      ],
+      "answer": 4,
+      "explanation": "A liquid keeps its volume but takes the shape of its container."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the chemical symbol for gold?",
+      "answers": [
+        "Au"
+      ],
+      "explanation": "Au, from the Latin aurum."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the chemical formula for water?",
+      "answers": [
+        "H2O"
+      ],
+      "explanation": "Two hydrogen atoms bonded to one oxygen atom."
+    },
+    {
+      "type": "text",
+      "prompt": "Name the process by which plants make food using sunlight.",
+      "answers": [
+        "photosynthesis"
+      ],
+      "explanation": "Photosynthesis converts light energy, water and carbon dioxide into glucose."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the largest planet in our solar system?",
+      "answers": [
+        "Jupiter"
+      ],
+      "explanation": "Jupiter's mass is more than twice that of all other planets combined."
+    },
+    {
+      "type": "text",
+      "prompt": "What organ pumps blood around the human body?",
+      "answers": [
+        "heart",
+        "the heart"
+      ],
+      "explanation": "The heart is a muscular pump with four chambers."
+    },
+    {
+      "type": "text",
+      "prompt": "What gas makes up about 78 percent of Earth's atmosphere?",
+      "answers": [
+        "nitrogen",
+        "N2"
+      ],
+      "explanation": "Nitrogen dominates the atmosphere; oxygen is about 21 percent."
     }
   ]
 }

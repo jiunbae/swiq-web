@@ -1,4 +1,4 @@
-# Arts and Culture O/X
+# Arts and Culture
 > Basics of art, music, and theatre
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.arts-culture.arts/
@@ -39,3 +39,15 @@ Frida Kahlo was a Mexican painter. | O | Frida Kahlo was a Mexican artist famous
 An acoustic guitar needs electricity to make sound. | X | An acoustic guitar produces sound naturally through its hollow body; only electric guitars need amplification.
 Andy Warhol was a leading figure of Pop Art. | O | Andy Warhol led the Pop Art movement, famous for works based on everyday objects like soup cans.
 Sculptures can only be made of wood. | X | Sculptures are made from many materials, including stone, metal, clay, and wood.
+Who painted the Mona Lisa? | 1)Leonardo da Vinci 2)Michelangelo 3)Raphael 4)Donatello | 1 | Leonardo painted it in the early 16th century; it hangs in the Louvre.
+Which artist cut off part of his own ear? | 1)Edvard Munch 2)Vincent van Gogh 3)Claude Monet 4)Paul Gauguin | 2 | Van Gogh injured his ear in Arles in 1888.
+Which playwright wrote Hamlet? | 1)Ben Jonson 2)John Webster 3)William Shakespeare 4)Christopher Marlowe | 3 | Hamlet was written around 1600.
+Which art movement is Pablo Picasso most associated with? | 1)Impressionism 2)Surrealism 3)Baroque 4)Cubism | 4 | Picasso co-founded Cubism with Georges Braque.
+Which composer wrote the Ninth Symphony containing 'Ode to Joy'? | 1)Ludwig van Beethoven 2)Wolfgang Amadeus Mozart 3)Johann Sebastian Bach 4)Franz Schubert | 1 | Beethoven completed the Ninth in 1824, already deaf.
+Where is the Louvre museum? | 1)Vienna 2)Paris 3)Rome 4)Madrid | 2 | The Louvre is in Paris and is the most visited museum in the world.
+Q: Who sculpted the statue of David in Florence? | A: Michelangelo | Michelangelo completed David in 1504.
+Q: Who painted The Starry Night? | A: Van Gogh;Vincent van Gogh | Van Gogh painted it in 1889 from his asylum room in Saint-Rémy.
+Q: Which Italian city is considered the birthplace of the Renaissance? | A: Florence;Firenze | Florence, under Medici patronage, led the early Renaissance.
+Q: Who wrote the novel Pride and Prejudice? | A: Jane Austen;Austen | Austen published it in 1813.
+Q: What art movement did Claude Monet help found? | A: Impressionism | The movement took its name from Monet's painting Impression, Sunrise.
+Q: Which ceiling did Michelangelo paint in the Vatican? | A: Sistine Chapel;the Sistine Chapel;Sistine Chapel ceiling | He painted it between 1508 and 1512.

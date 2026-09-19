@@ -1,4 +1,4 @@
-# World Geography O/X
+# World Geography
 > Countries, oceans, and landmarks
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.geography.world-geo/
@@ -39,3 +39,15 @@ The shore of the Dead Sea is the highest point on Earth's land surface. | X | Th
 The Mediterranean Sea lies between Europe and Africa. | O | The Mediterranean separates southern Europe from northern Africa and connects to the Atlantic through the Strait of Gibraltar.
 New Zealand is part of the continent of Asia. | X | New Zealand is an island country in Oceania, in the south-western Pacific Ocean.
 The Great Barrier Reef is located off the coast of Australia. | O | The Great Barrier Reef, the world's largest coral reef system, lies off the north-east coast of Australia.
+Which is the longest river in the world? | 1)The Nile 2)The Amazon 3)The Yangtze 4)The Mississippi | 1 | The Nile runs roughly 6,650 km through north-east Africa. The Amazon is longer by volume, not length.
+Which continent contains the Sahara Desert? | 1)South America 2)Africa 3)Asia 4)Australia | 2 | The Sahara spans northern Africa and is the largest hot desert on Earth.
+Which ocean lies between Africa and Australia? | 1)The Pacific Ocean 2)The Arctic Ocean 3)The Indian Ocean 4)The Atlantic Ocean | 3 | The Indian Ocean is bounded by Africa to the west and Australia to the east.
+Which country has the largest population in the world? | 1)China 2)The United States 3)Indonesia 4)India | 4 | India overtook China in 2023 and now has the largest population.
+Mount Everest sits on the border between which two countries? | 1)Nepal and China 2)India and Nepal 3)China and Bhutan 4)India and Bhutan | 1 | Everest straddles the Nepal–Tibet (China) border in the Himalaya.
+Which is the smallest country in the world by area? | 1)Liechtenstein 2)Vatican City 3)Monaco 4)San Marino | 2 | Vatican City covers about 0.49 square kilometres.
+Q: What is the capital of New Zealand? | A: Wellington | Auckland is the largest city, but Wellington is the capital.
+Q: Which ocean is the smallest? | A: Arctic;the Arctic;Arctic Ocean;the Arctic Ocean | The Arctic Ocean is the smallest and shallowest of the five.
+Q: Which desert is the largest hot desert in the world? | A: Sahara;the Sahara;Sahara Desert;the Sahara Desert | The Sahara spans about 9.2 million square kilometres.
+Q: What is the capital of Canada? | A: Ottawa | Ottawa is the capital; Toronto is the largest city.
+Q: Name the highest mountain in the world. | A: Everest;Mount Everest;Mt Everest | Everest reaches 8,849 metres above sea level.
+Q: What is the capital of Brazil? | A: Brasilia;Brasília | Brasília was built inland and became the capital in 1960.

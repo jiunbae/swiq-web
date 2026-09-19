@@ -43,12 +43,12 @@
       "type": "choice",
       "prompt": "다음 중 '정적 의미론에서의 비자명한 ∃'로 보기 어려운 것은?",
       "choices": [
+        "트레잇 구현을 규칙에 따라 탐색",
         "지역 변수의 이름이 존재한다는 사실",
         "여러 후보 중 맞는 타입을 찾아야 하는 타입 추론",
-        "라이프타임 제약을 만족하는 해가 존재하는지 판정",
-        "트레잇 구현을 규칙에 따라 탐색"
+        "라이프타임 제약을 만족하는 해가 존재하는지 판정"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "이름의 존재는 자명한 ∃입니다. 나머지는 탐색·추론이 필요한 비자명한 ∃입니다."
     },
     {
@@ -161,12 +161,12 @@
       "type": "choice",
       "prompt": "부분타입이 있는 언어에서 함수 타입 A → B의 변성(variance)으로 옳은 것은?",
       "choices": [
-        "인자 위치는 반변(contravariant), 결과 위치는 공변(covariant)",
         "인자 위치는 공변, 결과 위치는 반변",
         "두 위치 모두 공변",
-        "두 위치 모두 불변(invariant)"
+        "두 위치 모두 불변(invariant)",
+        "인자 위치는 반변(contravariant), 결과 위치는 공변(covariant)"
       ],
-      "answer": 1,
+      "answer": 4,
       "explanation": "인자 위치는 반변, 결과 위치는 공변입니다. 더 넓은 입력을 받고 더 좁은 출력을 내는 함수는 언제든 원래 함수 자리에 안전하게 들어갈 수 있기 때문입니다."
     },
     {
@@ -203,12 +203,12 @@
       "type": "choice",
       "prompt": "양방향 타입 검사(bidirectional typing)가 나누는 두 가지 판단은?",
       "choices": [
+        "검사(checking)와 합성(synthesis)",
         "파싱(parsing)과 링킹(linking)",
         "일반화(generalization)와 인스턴스화(instantiation)",
-        "공변(covariance)과 반변(contravariance)",
-        "검사(checking)와 합성(synthesis)"
+        "공변(covariance)과 반변(contravariance)"
       ],
-      "answer": 4,
+      "answer": 1,
       "explanation": "기대 타입을 받아 맞는지 보는 검사(checking)와, 식에서 타입을 뽑아내는 합성(synthesis)으로 규칙을 나눕니다. 이 분리 덕분에 표기를 조금만 붙여도 강력한 타입 시스템을 다룰 수 있습니다."
     },
     {
@@ -233,7 +233,8 @@
         "most general unifier",
         "mgu"
       ],
-      "explanation": "최일반 단일자(most general unifier, mgu)입니다. 단일화 알고리즘은 해가 있을 때 반드시 mgu를 돌려줍니다."
+      "explanation": "최일반 단일자(most general unifier, mgu)입니다. 단일화 알고리즘은 해가 있을 때 반드시 mgu를 돌려줍니다.",
+      "hint": "most general …"
     },
     {
       "type": "ox",

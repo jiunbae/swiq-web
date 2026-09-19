@@ -1,5 +1,5 @@
-# 영단어 뜻 기초 O/X
-> 기초 영단어의 뜻을 O/X로 확인
+# 영단어 뜻 기초
+> 기초 영단어의 뜻을 O/X·주관식·4지선다로 확인
 @languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.basic/
 
@@ -39,3 +39,15 @@
 'window'는 '벽'이라는 뜻이다. | X | window는 '창문'이라는 뜻입니다. '벽'은 wall입니다.
 'bird'는 '새'라는 뜻이다. | O | bird는 하늘을 나는 '새'를 뜻합니다.
 'give'는 '받다'라는 뜻이다. | X | give는 '주다'라는 뜻입니다. '받다'는 receive입니다.
+'책'을 뜻하는 영단어는? | 1)look 2)hook 3)book 4)cook | 3 | book이 책입니다.
+'학교'를 뜻하는 영단어는? | 1)scale 2)shell 3)skull 4)school | 4 | school이 학교입니다.
+'친구'를 뜻하는 영단어는? | 1)friend 2)front 3)france 4)fringe | 1 | friend가 친구입니다.
+'water'의 뜻은? | 1)흙 2)물 3)불 4)바람 | 2 | water는 물입니다.
+'happy'의 반대말로 알맞은 것은? | 1)kind 2)calm 3)sad 4)glad | 3 | happy(행복한)의 반대는 sad(슬픈)입니다.
+'teacher'의 뜻은? | 1)학생 2)교실 3)교과서 4)선생님 | 4 | teacher는 가르치는 사람, 곧 선생님입니다.
+Q: '사과(과일)'를 뜻하는 영단어를 쓰세요. | A: apple | apple입니다.
+Q: '고양이'를 뜻하는 영단어를 쓰세요. | A: cat | cat입니다. 개는 dog입니다.
+Q: '집'을 뜻하는 영단어를 쓰세요. | A: house;home | house 또는 home입니다.
+Q: '빨간색'을 뜻하는 영단어를 쓰세요. | A: red | red입니다.
+Q: '먹다'를 뜻하는 영단어를 쓰세요. | A: eat | eat입니다. 과거형은 ate입니다.
+Q: '책상'을 뜻하는 영단어를 쓰세요. | A: desk | desk입니다. table은 탁자입니다.

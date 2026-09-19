@@ -1,5 +1,5 @@
 {
-  "title": "Advanced Geography O/X",
+  "title": "Advanced Geography",
   "description": "Landforms, capitals, and geopolitics",
   "languageCode": "en",
   "cards": [
@@ -55,24 +55,24 @@
       "type": "choice",
       "prompt": "Which canal connects the Atlantic and Pacific Oceans?",
       "choices": [
-        "The Panama Canal",
-        "The Suez Canal",
         "The Kiel Canal",
-        "The Grand Canal"
+        "The Grand Canal",
+        "The Panama Canal",
+        "The Suez Canal"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "The Panama Canal links the Atlantic and Pacific; the Suez links the Mediterranean and Red Seas."
     },
     {
       "type": "choice",
       "prompt": "What is the capital of Australia?",
       "choices": [
-        "Canberra",
         "Sydney",
         "Melbourne",
-        "Perth"
+        "Perth",
+        "Canberra"
       ],
-      "answer": 1,
+      "answer": 4,
       "explanation": "Canberra is the capital of Australia, not Sydney or Melbourne."
     },
     {
@@ -84,7 +84,8 @@
         "the pacific ocean",
         "the pacific"
       ],
-      "explanation": "The Pacific Ocean is the largest and deepest of Earth's oceans."
+      "explanation": "The Pacific Ocean is the largest and deepest of Earth's oceans.",
+      "hint": "It borders both Asia and the Americas."
     },
     {
       "type": "text",
@@ -95,7 +96,8 @@
         "the amazon",
         "the amazon river"
       ],
-      "explanation": "The Amazon River is the longest river in South America and carries the most water of any river."
+      "explanation": "The Amazon River is the longest river in South America and carries the most water of any river.",
+      "hint": "It shares its name with a rainforest."
     },
     {
       "type": "ox",
@@ -113,12 +115,12 @@
       "type": "choice",
       "prompt": "Nairobi is the capital city of which African country?",
       "choices": [
-        "Tanzania",
         "Kenya",
         "Uganda",
-        "Ethiopia"
+        "Ethiopia",
+        "Tanzania"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Nairobi is the capital and largest city of Kenya in East Africa."
     },
     {
@@ -140,7 +142,8 @@
         "ottawa",
         "ottawa, ontario"
       ],
-      "explanation": "Ottawa, in Ontario, is Canada's capital — not the larger cities of Toronto, Montreal, or Vancouver."
+      "explanation": "Ottawa, in Ontario, is Canada's capital — not the larger cities of Toronto, Montreal, or Vancouver.",
+      "hint": "It is not the country's largest city."
     },
     {
       "type": "ox",
@@ -158,12 +161,12 @@
       "type": "choice",
       "prompt": "Which strait separates Asia from North America?",
       "choices": [
-        "Strait of Malacca",
         "Strait of Hormuz",
         "Bering Strait",
-        "Strait of Dover"
+        "Strait of Dover",
+        "Strait of Malacca"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "The Bering Strait, between Russia and Alaska, separates Asia from North America by only about 85 km."
     },
     {
@@ -187,7 +190,8 @@
         "the colorado",
         "the colorado river"
       ],
-      "explanation": "The Colorado River carved the Grand Canyon in Arizona over millions of years."
+      "explanation": "The Colorado River carved the Grand Canyon in Arizona over millions of years.",
+      "hint": "It shares its name with a U.S. state."
     },
     {
       "type": "ox",
@@ -205,12 +209,12 @@
       "type": "choice",
       "prompt": "Which country has the longest coastline in the world?",
       "choices": [
-        "Russia",
         "Australia",
         "Indonesia",
-        "Canada"
+        "Canada",
+        "Russia"
       ],
-      "answer": 4,
+      "answer": 3,
       "explanation": "Canada's coastline, at over 200,000 km including its many islands, is by far the longest of any country."
     },
     {
@@ -234,7 +238,8 @@
         "date line",
         "dateline"
       ],
-      "explanation": "The International Date Line roughly follows 180° longitude; crossing it shifts the calendar date by one day."
+      "explanation": "The International Date Line roughly follows 180° longitude; crossing it shifts the calendar date by one day.",
+      "hint": "It zigzags through the Pacific Ocean."
     },
     {
       "type": "ox",
@@ -252,12 +257,12 @@
       "type": "choice",
       "prompt": "The ancient Inca site of Machu Picchu is located in which country?",
       "choices": [
-        "Peru",
         "Bolivia",
         "Ecuador",
-        "Chile"
+        "Chile",
+        "Peru"
       ],
-      "answer": 1,
+      "answer": 4,
       "explanation": "Machu Picchu, the 15th-century Inca citadel, sits high in the Andes of Peru near Cusco."
     },
     {
@@ -282,7 +287,8 @@
         "the ural mountains",
         "ural"
       ],
-      "explanation": "The Ural Mountains, running north–south through Russia, mark the conventional land boundary between Europe and Asia."
+      "explanation": "The Ural Mountains, running north–south through Russia, mark the conventional land boundary between Europe and Asia.",
+      "hint": "They share their name with a Russian river."
     }
   ]
 }

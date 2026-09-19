@@ -1,5 +1,5 @@
 {
-  "title": "Health Basics O/X",
+  "title": "Health Basics",
   "description": "Everyday facts about the human body and health",
   "languageCode": "en",
   "cards": [
@@ -13,7 +13,8 @@
       "type": "ox",
       "prompt": "Antibiotics are effective at killing the virus that causes the common cold.",
       "answer": false,
-      "explanation": "Antibiotics work on bacteria, not viruses like the common cold."
+      "explanation": "Antibiotics work on bacteria, not viruses like the common cold.",
+      "hint": "Colds are caused by viruses."
     },
     {
       "type": "ox",
@@ -25,7 +26,8 @@
       "type": "ox",
       "prompt": "Humans have only one lung, located on the right side of the body.",
       "answer": false,
-      "explanation": "Humans have two lungs, one on each side of the chest."
+      "explanation": "Humans have two lungs, one on each side of the chest.",
+      "hint": "There is one on each side."
     },
     {
       "type": "ox",
@@ -37,7 +39,8 @@
       "type": "ox",
       "prompt": "Vitamin C is a fat-soluble vitamin that builds up heavily in body fat.",
       "answer": false,
-      "explanation": "Vitamin C is water-soluble, so excess amounts leave the body in urine."
+      "explanation": "Vitamin C is water-soluble, so excess amounts leave the body in urine.",
+      "hint": "It dissolves in water."
     },
     {
       "type": "ox",
@@ -49,7 +52,8 @@
       "type": "ox",
       "prompt": "Normal adult body temperature is around 42 degrees Celsius.",
       "answer": false,
-      "explanation": "Normal body temperature is about 37 degrees Celsius; 42 would be dangerous."
+      "explanation": "Normal body temperature is about 37 degrees Celsius; 42 would be dangerous.",
+      "hint": "Around 37, not 42."
     },
     {
       "type": "ox",
@@ -61,7 +65,8 @@
       "type": "ox",
       "prompt": "Smoking has no connection to lung cancer.",
       "answer": false,
-      "explanation": "Smoking is strongly linked to lung cancer and many other diseases."
+      "explanation": "Smoking is strongly linked to lung cancer and many other diseases.",
+      "hint": "Tobacco smoke has carcinogens."
     },
     {
       "type": "ox",
@@ -73,7 +78,8 @@
       "type": "ox",
       "prompt": "The brain can function normally for hours without any oxygen.",
       "answer": false,
-      "explanation": "The brain is very sensitive to a lack of oxygen and is harmed within minutes."
+      "explanation": "The brain is very sensitive to a lack of oxygen and is harmed within minutes.",
+      "hint": "It needs oxygen constantly."
     },
     {
       "type": "ox",
@@ -85,7 +91,8 @@
       "type": "ox",
       "prompt": "Cracking your knuckles causes arthritis.",
       "answer": false,
-      "explanation": "The popping sound comes from gas bubbles in the joint fluid, and studies have not linked it to arthritis."
+      "explanation": "The popping sound comes from gas bubbles in the joint fluid, and studies have not linked it to arthritis.",
+      "hint": "It is the sound of gas bubbles."
     },
     {
       "type": "ox",
@@ -97,7 +104,8 @@
       "type": "ox",
       "prompt": "Humans only use 10 percent of their brains.",
       "answer": false,
-      "explanation": "This is a myth; brain scans show that virtually all parts of the brain are active at some point."
+      "explanation": "This is a myth; brain scans show that virtually all parts of the brain are active at some point.",
+      "hint": "Brain scans show widespread activity."
     },
     {
       "type": "ox",
@@ -109,7 +117,8 @@
       "type": "ox",
       "prompt": "Eating lots of carrots gives you dramatically better than normal night vision.",
       "answer": false,
-      "explanation": "Carrots supply vitamin A needed for healthy eyes, but they do not push vision beyond normal levels."
+      "explanation": "Carrots supply vitamin A needed for healthy eyes, but they do not push vision beyond normal levels.",
+      "hint": "They support normal eye health only."
     },
     {
       "type": "ox",
@@ -121,7 +130,8 @@
       "type": "ox",
       "prompt": "Shaving hair makes it grow back thicker and darker.",
       "answer": false,
-      "explanation": "Shaving cuts hair at the surface and does not change its thickness or color; regrowth only feels coarse at first."
+      "explanation": "Shaving cuts hair at the surface and does not change its thickness or color; regrowth only feels coarse at first.",
+      "hint": "Shaving does not change the root."
     },
     {
       "type": "ox",
@@ -133,7 +143,8 @@
       "type": "ox",
       "prompt": "Reading in dim light permanently damages your eyes.",
       "answer": false,
-      "explanation": "Reading in dim light can cause temporary eye strain but does not cause lasting damage."
+      "explanation": "Reading in dim light can cause temporary eye strain but does not cause lasting damage.",
+      "hint": "It causes strain, not damage."
     },
     {
       "type": "ox",
@@ -145,7 +156,8 @@
       "type": "ox",
       "prompt": "Humans can go for weeks with no sleep at all and stay perfectly healthy.",
       "answer": false,
-      "explanation": "Sleep is essential; going without it for long causes serious impairment and can be dangerous."
+      "explanation": "Sleep is essential; going without it for long causes serious impairment and can be dangerous.",
+      "hint": "Sleep is essential."
     },
     {
       "type": "ox",
@@ -157,7 +169,8 @@
       "type": "ox",
       "prompt": "Cold weather by itself is what causes the common cold.",
       "answer": false,
-      "explanation": "Colds are caused by viruses, not by cold temperatures, though people gather indoors more in winter."
+      "explanation": "Colds are caused by viruses, not by cold temperatures, though people gather indoors more in winter.",
+      "hint": "Viruses cause colds."
     },
     {
       "type": "ox",
@@ -169,7 +182,8 @@
       "type": "ox",
       "prompt": "Drinking alcohol raises your body's core temperature to keep you warm.",
       "answer": false,
-      "explanation": "Alcohol widens skin blood vessels so you feel warm, but it actually lowers core body temperature."
+      "explanation": "Alcohol widens skin blood vessels so you feel warm, but it actually lowers core body temperature.",
+      "hint": "It only makes the skin feel warm."
     },
     {
       "type": "ox",
@@ -181,7 +195,8 @@
       "type": "ox",
       "prompt": "Muscle turns into fat when you stop exercising.",
       "answer": false,
-      "explanation": "Muscle and fat are different tissues; muscle can shrink and fat can grow, but one does not convert into the other."
+      "explanation": "Muscle and fat are different tissues; muscle can shrink and fat can grow, but one does not convert into the other.",
+      "hint": "They are separate tissues."
     },
     {
       "type": "ox",
@@ -193,7 +208,8 @@
       "type": "ox",
       "prompt": "Type O negative blood cannot be given to anyone else.",
       "answer": false,
-      "explanation": "O negative is the universal donor type and can be given to patients of any blood type in emergencies."
+      "explanation": "O negative is the universal donor type and can be given to patients of any blood type in emergencies.",
+      "hint": "It is the universal donor."
     },
     {
       "type": "ox",
@@ -205,7 +221,8 @@
       "type": "ox",
       "prompt": "Sitting too close to a television causes permanent blindness.",
       "answer": false,
-      "explanation": "Sitting close may tire the eyes but does not cause lasting damage or blindness."
+      "explanation": "Sitting close may tire the eyes but does not cause lasting damage or blindness.",
+      "hint": "It only causes eye strain."
     },
     {
       "type": "ox",
@@ -217,7 +234,132 @@
       "type": "ox",
       "prompt": "The heart sits entirely on the left side of the chest.",
       "answer": false,
-      "explanation": "The heart lies near the center of the chest, tilted slightly to the left, not entirely on the left."
+      "explanation": "The heart lies near the center of the chest, tilted slightly to the left, not entirely on the left.",
+      "hint": "It is mostly centered."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which organ filters waste from the blood to make urine?",
+      "choices": [
+        "The pancreas",
+        "The spleen",
+        "The kidneys",
+        "The liver"
+      ],
+      "answer": 3,
+      "explanation": "The kidneys filter blood and produce urine."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which vitamin does the body make when skin is exposed to sunlight?",
+      "choices": [
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin K",
+        "Vitamin D"
+      ],
+      "answer": 4,
+      "explanation": "Ultraviolet B light triggers vitamin D synthesis in the skin."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the normal resting heart rate range for a healthy adult?",
+      "choices": [
+        "60–100 beats per minute",
+        "30–50 beats per minute",
+        "110–140 beats per minute",
+        "150–180 beats per minute"
+      ],
+      "answer": 1,
+      "explanation": "A typical adult resting rate is 60 to 100 beats per minute."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which nutrient group is the body's main source of quick energy?",
+      "choices": [
+        "Vitamins",
+        "Carbohydrates",
+        "Proteins",
+        "Fats"
+      ],
+      "answer": 2,
+      "explanation": "Carbohydrates break down into glucose, the body's readiest fuel."
+    },
+    {
+      "type": "choice",
+      "prompt": "Antibiotics are effective against which type of infection?",
+      "choices": [
+        "Fungal",
+        "Parasitic worm",
+        "Bacterial",
+        "Viral"
+      ],
+      "answer": 3,
+      "explanation": "Antibiotics target bacteria; they do nothing against viruses such as the common cold."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which organ produces insulin?",
+      "choices": [
+        "The liver",
+        "The thyroid",
+        "The adrenal gland",
+        "The pancreas"
+      ],
+      "answer": 4,
+      "explanation": "Beta cells in the pancreas produce insulin."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the largest organ of the human body?",
+      "answers": [
+        "skin",
+        "the skin"
+      ],
+      "explanation": "Skin is the largest organ by surface area and weight."
+    },
+    {
+      "type": "text",
+      "prompt": "How many bones are in the adult human body?",
+      "answers": [
+        "206"
+      ],
+      "explanation": "An adult skeleton has 206 bones; newborns have around 270 that later fuse."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the medical term for high blood pressure?",
+      "answers": [
+        "hypertension"
+      ],
+      "explanation": "Hypertension is persistently raised arterial blood pressure."
+    },
+    {
+      "type": "text",
+      "prompt": "Which vitamin is found in high amounts in citrus fruit and prevents scurvy?",
+      "answers": [
+        "vitamin C",
+        "C",
+        "ascorbic acid"
+      ],
+      "explanation": "Vitamin C, ascorbic acid, is needed for collagen synthesis."
+    },
+    {
+      "type": "text",
+      "prompt": "How many chambers does the human heart have?",
+      "answers": [
+        "4",
+        "four"
+      ],
+      "explanation": "Two atria and two ventricles."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'BMI' stand for?",
+      "answers": [
+        "Body Mass Index"
+      ],
+      "explanation": "BMI relates weight to the square of height."
     }
   ]
 }

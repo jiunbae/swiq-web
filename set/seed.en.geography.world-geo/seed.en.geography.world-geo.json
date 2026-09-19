@@ -1,5 +1,5 @@
 {
-  "title": "World Geography O/X",
+  "title": "World Geography",
   "description": "Countries, oceans, and landmarks",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,135 @@
       "prompt": "The Great Barrier Reef is located off the coast of Australia.",
       "answer": true,
       "explanation": "The Great Barrier Reef, the world's largest coral reef system, lies off the north-east coast of Australia."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is the longest river in the world?",
+      "choices": [
+        "The Nile",
+        "The Amazon",
+        "The Yangtze",
+        "The Mississippi"
+      ],
+      "answer": 1,
+      "explanation": "The Nile runs roughly 6,650 km through north-east Africa. The Amazon is longer by volume, not length."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which continent contains the Sahara Desert?",
+      "choices": [
+        "South America",
+        "Africa",
+        "Asia",
+        "Australia"
+      ],
+      "answer": 2,
+      "explanation": "The Sahara spans northern Africa and is the largest hot desert on Earth."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which ocean lies between Africa and Australia?",
+      "choices": [
+        "The Pacific Ocean",
+        "The Arctic Ocean",
+        "The Indian Ocean",
+        "The Atlantic Ocean"
+      ],
+      "answer": 3,
+      "explanation": "The Indian Ocean is bounded by Africa to the west and Australia to the east."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which country has the largest population in the world?",
+      "choices": [
+        "China",
+        "The United States",
+        "Indonesia",
+        "India"
+      ],
+      "answer": 4,
+      "explanation": "India overtook China in 2023 and now has the largest population."
+    },
+    {
+      "type": "choice",
+      "prompt": "Mount Everest sits on the border between which two countries?",
+      "choices": [
+        "Nepal and China",
+        "India and Nepal",
+        "China and Bhutan",
+        "India and Bhutan"
+      ],
+      "answer": 1,
+      "explanation": "Everest straddles the Nepal–Tibet (China) border in the Himalaya."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is the smallest country in the world by area?",
+      "choices": [
+        "Liechtenstein",
+        "Vatican City",
+        "Monaco",
+        "San Marino"
+      ],
+      "answer": 2,
+      "explanation": "Vatican City covers about 0.49 square kilometres."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the capital of New Zealand?",
+      "answers": [
+        "Wellington"
+      ],
+      "explanation": "Auckland is the largest city, but Wellington is the capital."
+    },
+    {
+      "type": "text",
+      "prompt": "Which ocean is the smallest?",
+      "answers": [
+        "Arctic",
+        "the Arctic",
+        "Arctic Ocean",
+        "the Arctic Ocean"
+      ],
+      "explanation": "The Arctic Ocean is the smallest and shallowest of the five."
+    },
+    {
+      "type": "text",
+      "prompt": "Which desert is the largest hot desert in the world?",
+      "answers": [
+        "Sahara",
+        "the Sahara",
+        "Sahara Desert",
+        "the Sahara Desert"
+      ],
+      "explanation": "The Sahara spans about 9.2 million square kilometres."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the capital of Canada?",
+      "answers": [
+        "Ottawa"
+      ],
+      "explanation": "Ottawa is the capital; Toronto is the largest city."
+    },
+    {
+      "type": "text",
+      "prompt": "Name the highest mountain in the world.",
+      "answers": [
+        "Everest",
+        "Mount Everest",
+        "Mt Everest"
+      ],
+      "explanation": "Everest reaches 8,849 metres above sea level."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the capital of Brazil?",
+      "answers": [
+        "Brasilia",
+        "Brasília"
+      ],
+      "explanation": "Brasília was built inland and became the capital in 1960."
     }
   ]
 }

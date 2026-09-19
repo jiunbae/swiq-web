@@ -1,5 +1,5 @@
 {
-  "title": "World History O/X",
+  "title": "World History",
   "description": "Key events and figures in history",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,134 @@
       "prompt": "The samurai were warriors of ancient China.",
       "answer": false,
       "explanation": "The samurai were the warrior class of Japan, serving lords under a strict code of honor for centuries."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which ancient civilisation built the pyramids at Giza?",
+      "choices": [
+        "The Greeks",
+        "The Persians",
+        "The Egyptians",
+        "The Romans"
+      ],
+      "answer": 3,
+      "explanation": "The Giza pyramids were built as royal tombs during Egypt's Old Kingdom."
+    },
+    {
+      "type": "choice",
+      "prompt": "Who was the first President of the United States?",
+      "choices": [
+        "Thomas Jefferson",
+        "John Adams",
+        "Benjamin Franklin",
+        "George Washington"
+      ],
+      "answer": 4,
+      "explanation": "Washington took office in 1789 and served two terms."
+    },
+    {
+      "type": "choice",
+      "prompt": "The Berlin Wall divided which city?",
+      "choices": [
+        "Berlin",
+        "Vienna",
+        "Prague",
+        "Warsaw"
+      ],
+      "answer": 1,
+      "explanation": "The wall split Berlin from 1961 until it fell in 1989."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which empire was ruled from Constantinople?",
+      "choices": [
+        "The Persian Empire",
+        "The Byzantine Empire",
+        "The Roman Republic",
+        "The Mongol Empire"
+      ],
+      "answer": 2,
+      "explanation": "Constantinople was the capital of the Eastern Roman, or Byzantine, Empire."
+    },
+    {
+      "type": "choice",
+      "prompt": "Who led the non-violent independence movement in India?",
+      "choices": [
+        "Subhas Chandra Bose",
+        "B. R. Ambedkar",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru"
+      ],
+      "answer": 3,
+      "explanation": "Gandhi's campaigns of civil disobedience shaped the independence movement."
+    },
+    {
+      "type": "choice",
+      "prompt": "The Renaissance began in which country?",
+      "choices": [
+        "France",
+        "England",
+        "Spain",
+        "Italy"
+      ],
+      "answer": 4,
+      "explanation": "The Renaissance began in the Italian city-states in the 14th century."
+    },
+    {
+      "type": "text",
+      "prompt": "Which ship sank on its maiden voyage in 1912?",
+      "answers": [
+        "Titanic",
+        "the Titanic",
+        "RMS Titanic"
+      ],
+      "explanation": "The Titanic struck an iceberg in the North Atlantic."
+    },
+    {
+      "type": "text",
+      "prompt": "Who was the first person to walk on the Moon?",
+      "answers": [
+        "Neil Armstrong",
+        "Armstrong"
+      ],
+      "explanation": "Armstrong stepped onto the surface on 20 July 1969."
+    },
+    {
+      "type": "text",
+      "prompt": "Which wall fell in 1989, symbolising the end of the Cold War division of Europe?",
+      "answers": [
+        "Berlin Wall",
+        "the Berlin Wall"
+      ],
+      "explanation": "The Berlin Wall was opened on 9 November 1989."
+    },
+    {
+      "type": "text",
+      "prompt": "Who wrote the Communist Manifesto with Friedrich Engels?",
+      "answers": [
+        "Karl Marx",
+        "Marx"
+      ],
+      "explanation": "Marx and Engels published it in 1848."
+    },
+    {
+      "type": "text",
+      "prompt": "Which civilisation built Machu Picchu?",
+      "answers": [
+        "Inca",
+        "the Inca",
+        "Incas",
+        "the Incas"
+      ],
+      "explanation": "Machu Picchu was built by the Inca in the 15th century."
+    },
+    {
+      "type": "text",
+      "prompt": "Which country was ruled by the Tsars until 1917?",
+      "answers": [
+        "Russia"
+      ],
+      "explanation": "The Romanov Tsars ruled Russia until the 1917 revolution."
     }
   ]
 }

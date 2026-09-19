@@ -1,5 +1,5 @@
 {
-  "title": "Arts and Culture O/X",
+  "title": "Arts and Culture",
   "description": "Basics of art, music, and theatre",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,131 @@
       "prompt": "Sculptures can only be made of wood.",
       "answer": false,
       "explanation": "Sculptures are made from many materials, including stone, metal, clay, and wood."
+    },
+    {
+      "type": "choice",
+      "prompt": "Who painted the Mona Lisa?",
+      "choices": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Raphael",
+        "Donatello"
+      ],
+      "answer": 1,
+      "explanation": "Leonardo painted it in the early 16th century; it hangs in the Louvre."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which artist cut off part of his own ear?",
+      "choices": [
+        "Edvard Munch",
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Paul Gauguin"
+      ],
+      "answer": 2,
+      "explanation": "Van Gogh injured his ear in Arles in 1888."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which playwright wrote Hamlet?",
+      "choices": [
+        "Ben Jonson",
+        "John Webster",
+        "William Shakespeare",
+        "Christopher Marlowe"
+      ],
+      "answer": 3,
+      "explanation": "Hamlet was written around 1600."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which art movement is Pablo Picasso most associated with?",
+      "choices": [
+        "Impressionism",
+        "Surrealism",
+        "Baroque",
+        "Cubism"
+      ],
+      "answer": 4,
+      "explanation": "Picasso co-founded Cubism with Georges Braque."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which composer wrote the Ninth Symphony containing 'Ode to Joy'?",
+      "choices": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Franz Schubert"
+      ],
+      "answer": 1,
+      "explanation": "Beethoven completed the Ninth in 1824, already deaf."
+    },
+    {
+      "type": "choice",
+      "prompt": "Where is the Louvre museum?",
+      "choices": [
+        "Vienna",
+        "Paris",
+        "Rome",
+        "Madrid"
+      ],
+      "answer": 2,
+      "explanation": "The Louvre is in Paris and is the most visited museum in the world."
+    },
+    {
+      "type": "text",
+      "prompt": "Who sculpted the statue of David in Florence?",
+      "answers": [
+        "Michelangelo"
+      ],
+      "explanation": "Michelangelo completed David in 1504."
+    },
+    {
+      "type": "text",
+      "prompt": "Who painted The Starry Night?",
+      "answers": [
+        "Van Gogh",
+        "Vincent van Gogh"
+      ],
+      "explanation": "Van Gogh painted it in 1889 from his asylum room in Saint-Rémy."
+    },
+    {
+      "type": "text",
+      "prompt": "Which Italian city is considered the birthplace of the Renaissance?",
+      "answers": [
+        "Florence",
+        "Firenze"
+      ],
+      "explanation": "Florence, under Medici patronage, led the early Renaissance."
+    },
+    {
+      "type": "text",
+      "prompt": "Who wrote the novel Pride and Prejudice?",
+      "answers": [
+        "Jane Austen",
+        "Austen"
+      ],
+      "explanation": "Austen published it in 1813."
+    },
+    {
+      "type": "text",
+      "prompt": "What art movement did Claude Monet help found?",
+      "answers": [
+        "Impressionism"
+      ],
+      "explanation": "The movement took its name from Monet's painting Impression, Sunrise."
+    },
+    {
+      "type": "text",
+      "prompt": "Which ceiling did Michelangelo paint in the Vatican?",
+      "answers": [
+        "Sistine Chapel",
+        "the Sistine Chapel",
+        "Sistine Chapel ceiling"
+      ],
+      "explanation": "He painted it between 1508 and 1512."
     }
   ]
 }

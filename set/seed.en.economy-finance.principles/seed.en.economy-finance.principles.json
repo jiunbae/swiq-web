@@ -1,5 +1,5 @@
 {
-  "title": "Advanced Economics O/X",
+  "title": "Advanced Economics",
   "description": "Core principles of micro and macro economics",
   "languageCode": "en",
   "cards": [
@@ -55,24 +55,24 @@
       "type": "choice",
       "prompt": "What policy tool does a central bank use to manage inflation by adjusting interest rates and money supply?",
       "choices": [
-        "Monetary policy",
-        "Fiscal policy",
         "Trade policy",
-        "Industrial policy"
+        "Industrial policy",
+        "Monetary policy",
+        "Fiscal policy"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Monetary policy is run by a central bank to manage money supply, interest rates, and inflation."
     },
     {
       "type": "choice",
       "prompt": "Which term describes goods that tend to be bought less as consumer income rises?",
       "choices": [
-        "Inferior goods",
         "Luxury goods",
         "Normal goods",
-        "Public goods"
+        "Public goods",
+        "Inferior goods"
       ],
-      "answer": 1,
+      "answer": 4,
       "explanation": "Demand for inferior goods falls as income rises, unlike normal or luxury goods."
     },
     {
@@ -81,7 +81,8 @@
       "answers": [
         "fiscal policy"
       ],
-      "explanation": "Fiscal policy uses government taxing and spending to influence aggregate demand and the economy."
+      "explanation": "Fiscal policy uses government taxing and spending to influence aggregate demand and the economy.",
+      "hint": "It involves taxes and government spending."
     },
     {
       "type": "text",
@@ -89,7 +90,8 @@
       "answers": [
         "inflation"
       ],
-      "explanation": "Inflation is a sustained increase in the general price level that lowers purchasing power."
+      "explanation": "Inflation is a sustained increase in the general price level that lowers purchasing power.",
+      "hint": "Opposite of deflation."
     },
     {
       "type": "ox",
@@ -107,12 +109,12 @@
       "type": "choice",
       "prompt": "Which measure tracks the average change in prices of a fixed basket of consumer goods and services?",
       "choices": [
-        "GDP deflator",
-        "Producer Price Index",
         "Consumer Price Index",
-        "Gini coefficient"
+        "Gini coefficient",
+        "GDP deflator",
+        "Producer Price Index"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanation": "The Consumer Price Index (CPI) measures the average price change of a typical basket of consumer goods and services."
     },
     {
@@ -134,7 +136,8 @@
         "liquidity",
         "asset liquidity"
       ],
-      "explanation": "Liquidity is the ease with which an asset can be turned into cash; cash itself is the most liquid asset."
+      "explanation": "Liquidity is the ease with which an asset can be turned into cash; cash itself is the most liquid asset.",
+      "hint": "Cash is the most extreme example of it."
     },
     {
       "type": "ox",
@@ -181,7 +184,8 @@
         "currency exchange rate",
         "foreign exchange rate"
       ],
-      "explanation": "The exchange rate is the price of one currency in terms of another and shifts with supply and demand in currency markets."
+      "explanation": "The exchange rate is the price of one currency in terms of another and shifts with supply and demand in currency markets.",
+      "hint": "You check it before exchanging money for a trip abroad."
     },
     {
       "type": "ox",
@@ -199,12 +203,12 @@
       "type": "choice",
       "prompt": "Which economist wrote 'The Wealth of Nations' (1776) and described the 'invisible hand' of markets?",
       "choices": [
-        "John Maynard Keynes",
         "Karl Marx",
         "David Ricardo",
-        "Adam Smith"
+        "Adam Smith",
+        "John Maynard Keynes"
       ],
-      "answer": 4,
+      "answer": 3,
       "explanation": "Adam Smith's 'The Wealth of Nations' founded classical economics and used the invisible hand to describe self-regulating markets."
     },
     {
@@ -228,7 +232,8 @@
         "subsidies",
         "government subsidy"
       ],
-      "explanation": "A subsidy is a government payment or tax break that lowers production costs to encourage the supply of a good or service."
+      "explanation": "A subsidy is a government payment or tax break that lowers production costs to encourage the supply of a good or service.",
+      "hint": "The opposite of a tax on production."
     },
     {
       "type": "ox",
@@ -246,12 +251,12 @@
       "type": "choice",
       "prompt": "Which term is commonly defined informally as two consecutive quarters of falling real GDP?",
       "choices": [
+        "Stagnation",
         "Depression",
         "Hyperinflation",
-        "Recession",
-        "Stagnation"
+        "Recession"
       ],
-      "answer": 3,
+      "answer": 4,
       "explanation": "A recession is a broad economic downturn, often informally identified as two straight quarters of declining real GDP."
     },
     {
@@ -275,7 +280,8 @@
         "diversifying",
         "diversify"
       ],
-      "explanation": "Diversification spreads money across varied assets so that losses in one holding are offset by others, lowering overall risk."
+      "explanation": "Diversification spreads money across varied assets so that losses in one holding are offset by others, lowering overall risk.",
+      "hint": "Summed up as 'don't put all your eggs in one basket'."
     }
   ]
 }

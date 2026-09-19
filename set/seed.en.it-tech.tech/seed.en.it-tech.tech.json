@@ -1,5 +1,5 @@
 {
-  "title": "Technology O/X",
+  "title": "Technology",
   "description": "Computers and the internet basics",
   "languageCode": "en",
   "cards": [
@@ -218,6 +218,127 @@
       "prompt": "The first electronic computers were small enough to fit in a pocket.",
       "answer": false,
       "explanation": "Early computers like ENIAC filled entire rooms and weighed many tons; pocket-sized computing came decades later."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does CPU stand for?",
+      "choices": [
+        "Central Processing Unit",
+        "Computer Personal Unit",
+        "Central Program Utility",
+        "Control Processing Unit"
+      ],
+      "answer": 1,
+      "explanation": "The CPU executes a program's instructions."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which company created the Android operating system?",
+      "choices": [
+        "Samsung",
+        "Google",
+        "Apple",
+        "Microsoft"
+      ],
+      "answer": 2,
+      "explanation": "Google acquired Android Inc. in 2005 and now develops the OS."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'HTTP' transfer?",
+      "choices": [
+        "Encrypted keys",
+        "Radio signals",
+        "Hypertext",
+        "Hardware"
+      ],
+      "answer": 3,
+      "explanation": "HTTP is the Hypertext Transfer Protocol used by the web."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which of these is a version control system?",
+      "choices": [
+        "Docker",
+        "Nginx",
+        "Redis",
+        "Git"
+      ],
+      "answer": 4,
+      "explanation": "Git tracks changes to source code; the others solve different problems."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'open source' software mean?",
+      "choices": [
+        "Its source code is publicly available",
+        "It is always free of bugs",
+        "It runs only on Linux",
+        "It cannot be sold commercially"
+      ],
+      "answer": 1,
+      "explanation": "Open source means the source code is published under a licence allowing inspection and reuse."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which unit is largest?",
+      "choices": [
+        "Kilobyte",
+        "Terabyte",
+        "Gigabyte",
+        "Megabyte"
+      ],
+      "answer": 2,
+      "explanation": "Kilobyte < Megabyte < Gigabyte < Terabyte."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'RAM' stand for?",
+      "answers": [
+        "Random Access Memory"
+      ],
+      "explanation": "RAM is fast, volatile working memory."
+    },
+    {
+      "type": "text",
+      "prompt": "What programming language is primarily used to style web pages?",
+      "answers": [
+        "CSS"
+      ],
+      "explanation": "CSS, Cascading Style Sheets, controls presentation."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'URL' stand for?",
+      "answers": [
+        "Uniform Resource Locator"
+      ],
+      "explanation": "A URL is the address of a resource on the web."
+    },
+    {
+      "type": "text",
+      "prompt": "Which company makes the iPhone?",
+      "answers": [
+        "Apple",
+        "Apple Inc"
+      ],
+      "explanation": "Apple released the first iPhone in 2007."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'AI' stand for?",
+      "answers": [
+        "Artificial Intelligence"
+      ],
+      "explanation": "Artificial intelligence refers to systems performing tasks that normally require human intelligence."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the name of the network protocol that assigns IP addresses automatically?",
+      "answers": [
+        "DHCP"
+      ],
+      "explanation": "DHCP, the Dynamic Host Configuration Protocol."
     }
   ]
 }

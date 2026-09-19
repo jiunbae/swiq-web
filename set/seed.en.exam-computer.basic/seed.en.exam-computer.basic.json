@@ -1,5 +1,5 @@
 {
-  "title": "Computer Science Basics O/X",
+  "title": "Computer Science Basics",
   "description": "Fundamental computing concepts",
   "languageCode": "en",
   "cards": [
@@ -13,7 +13,8 @@
       "type": "ox",
       "prompt": "One byte consists of 16 bits.",
       "answer": false,
-      "explanation": "One byte is 8 bits, not 16."
+      "explanation": "One byte is 8 bits, not 16.",
+      "hint": "A byte is 8 bits."
     },
     {
       "type": "ox",
@@ -25,7 +26,8 @@
       "type": "ox",
       "prompt": "HTML is a programming language used to manage databases.",
       "answer": false,
-      "explanation": "HTML is a markup language for web pages; databases use languages like SQL."
+      "explanation": "HTML is a markup language for web pages; databases use languages like SQL.",
+      "hint": "HTML builds web pages."
     },
     {
       "type": "ox",
@@ -37,7 +39,8 @@
       "type": "ox",
       "prompt": "A monitor is a primary input device.",
       "answer": false,
-      "explanation": "A monitor is an output device that displays information."
+      "explanation": "A monitor is an output device that displays information.",
+      "hint": "A monitor shows output."
     },
     {
       "type": "ox",
@@ -49,7 +52,8 @@
       "type": "ox",
       "prompt": "HTTPS is less secure than HTTP.",
       "answer": false,
-      "explanation": "HTTPS encrypts data, making it more secure than HTTP."
+      "explanation": "HTTPS encrypts data, making it more secure than HTTP.",
+      "hint": "The S stands for Secure."
     },
     {
       "type": "ox",
@@ -61,7 +65,8 @@
       "type": "ox",
       "prompt": "Software refers to the physical components of a computer.",
       "answer": false,
-      "explanation": "Physical parts are hardware; software refers to programs and code."
+      "explanation": "Physical parts are hardware; software refers to programs and code.",
+      "hint": "Physical parts are hardware."
     },
     {
       "type": "ox",
@@ -73,7 +78,8 @@
       "type": "ox",
       "prompt": "DNS translates IP addresses into physical printer locations.",
       "answer": false,
-      "explanation": "DNS translates human-readable domain names into IP addresses."
+      "explanation": "DNS translates human-readable domain names into IP addresses.",
+      "hint": "DNS maps names to IP addresses."
     },
     {
       "type": "ox",
@@ -85,7 +91,8 @@
       "type": "ox",
       "prompt": "A GPU is mainly used for permanent long-term data storage.",
       "answer": false,
-      "explanation": "A GPU (Graphics Processing Unit) handles graphics and parallel computation, not storage."
+      "explanation": "A GPU (Graphics Processing Unit) handles graphics and parallel computation, not storage.",
+      "hint": "GPU handles graphics."
     },
     {
       "type": "ox",
@@ -97,7 +104,8 @@
       "type": "ox",
       "prompt": "Python is a type of computer hardware.",
       "answer": false,
-      "explanation": "Python is a programming language, which is software, not a physical hardware component."
+      "explanation": "Python is a programming language, which is software, not a physical hardware component.",
+      "hint": "Python is a language."
     },
     {
       "type": "ox",
@@ -109,7 +117,8 @@
       "type": "ox",
       "prompt": "Cache memory is slower than main memory (RAM).",
       "answer": false,
-      "explanation": "Cache is small, very fast memory placed close to the CPU, faster than main RAM."
+      "explanation": "Cache is small, very fast memory placed close to the CPU, faster than main RAM.",
+      "hint": "Cache is faster than RAM."
     },
     {
       "type": "ox",
@@ -121,7 +130,8 @@
       "type": "ox",
       "prompt": "Open-source software keeps its source code hidden from the public.",
       "answer": false,
-      "explanation": "Open-source software makes its source code publicly available to view and modify."
+      "explanation": "Open-source software makes its source code publicly available to view and modify.",
+      "hint": "Its code is public."
     },
     {
       "type": "ox",
@@ -133,7 +143,8 @@
       "type": "ox",
       "prompt": "Encryption makes data easier for anyone to read.",
       "answer": false,
-      "explanation": "Encryption scrambles data so only those with the correct key can read it."
+      "explanation": "Encryption scrambles data so only those with the correct key can read it.",
+      "hint": "Encryption hides data."
     },
     {
       "type": "ox",
@@ -145,7 +156,8 @@
       "type": "ox",
       "prompt": "A hard disk drive (HDD) loses all its data when the computer is turned off.",
       "answer": false,
-      "explanation": "An HDD is non-volatile storage, so it keeps data even without power."
+      "explanation": "An HDD is non-volatile storage, so it keeps data even without power.",
+      "hint": "HDDs keep data without power."
     },
     {
       "type": "ox",
@@ -157,7 +169,8 @@
       "type": "ox",
       "prompt": "The World Wide Web and the Internet are exactly the same thing.",
       "answer": false,
-      "explanation": "The Internet is the underlying network; the Web is one service of many that runs on top of it."
+      "explanation": "The Internet is the underlying network; the Web is one service of many that runs on top of it.",
+      "hint": "The Web runs on the Internet."
     },
     {
       "type": "ox",
@@ -169,7 +182,8 @@
       "type": "ox",
       "prompt": "Malware is software designed to protect your computer from threats.",
       "answer": false,
-      "explanation": "Malware is malicious software meant to harm or exploit systems; protective tools are antivirus or security software."
+      "explanation": "Malware is malicious software meant to harm or exploit systems; protective tools are antivirus or security software.",
+      "hint": "Malware is harmful."
     },
     {
       "type": "ox",
@@ -181,7 +195,8 @@
       "type": "ox",
       "prompt": "A router's only job is to print documents.",
       "answer": false,
-      "explanation": "A router forwards data between networks; printing is done by a printer."
+      "explanation": "A router forwards data between networks; printing is done by a printer.",
+      "hint": "Routers direct network traffic."
     },
     {
       "type": "ox",
@@ -193,7 +208,8 @@
       "type": "ox",
       "prompt": "A boolean value can hold any whole number.",
       "answer": false,
-      "explanation": "A boolean can hold only one of two values, true or false."
+      "explanation": "A boolean can hold only one of two values, true or false.",
+      "hint": "Booleans are true or false."
     },
     {
       "type": "ox",
@@ -205,7 +221,8 @@
       "type": "ox",
       "prompt": "Solid-state drives (SSDs) store data on spinning magnetic disks.",
       "answer": false,
-      "explanation": "SSDs use flash memory with no moving parts; spinning magnetic disks are used by HDDs."
+      "explanation": "SSDs use flash memory with no moving parts; spinning magnetic disks are used by HDDs.",
+      "hint": "SSDs have no moving parts."
     },
     {
       "type": "ox",
@@ -217,7 +234,135 @@
       "type": "ox",
       "prompt": "A single bit can represent four different values.",
       "answer": false,
-      "explanation": "A single bit has only two possible values, 0 or 1."
+      "explanation": "A single bit has only two possible values, 0 or 1.",
+      "hint": "A bit is 0 or 1."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which data structure works on a Last In, First Out basis?",
+      "choices": [
+        "Linked list",
+        "Binary tree",
+        "Stack",
+        "Queue"
+      ],
+      "answer": 3,
+      "explanation": "A stack pushes and pops from the same end; a queue is First In, First Out."
+    },
+    {
+      "type": "choice",
+      "prompt": "What is the time complexity of binary search on a sorted array?",
+      "choices": [
+        "O(n)",
+        "O(n log n)",
+        "O(1)",
+        "O(log n)"
+      ],
+      "answer": 4,
+      "explanation": "Each comparison halves the search space."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which of these converts source code into machine code before execution?",
+      "choices": [
+        "A compiler",
+        "An interpreter",
+        "A linker only",
+        "A debugger"
+      ],
+      "answer": 1,
+      "explanation": "A compiler translates ahead of time; an interpreter executes directly."
+    },
+    {
+      "type": "choice",
+      "prompt": "In binary, what is the decimal number 8?",
+      "choices": [
+        "0010",
+        "1000",
+        "0100",
+        "1100"
+      ],
+      "answer": 2,
+      "explanation": "8 = 2³, so the fourth bit is set: 1000."
+    },
+    {
+      "type": "choice",
+      "prompt": "Which SQL statement retrieves rows from a table?",
+      "choices": [
+        "UPDATE",
+        "DELETE",
+        "SELECT",
+        "INSERT"
+      ],
+      "answer": 3,
+      "explanation": "SELECT reads; the others write."
+    },
+    {
+      "type": "choice",
+      "prompt": "What does an operating system's scheduler decide?",
+      "choices": [
+        "How files are named",
+        "Which fonts to load",
+        "How pixels are drawn",
+        "Which process runs next"
+      ],
+      "answer": 4,
+      "explanation": "The scheduler allocates CPU time among runnable processes."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'API' stand for?",
+      "answers": [
+        "Application Programming Interface"
+      ],
+      "explanation": "An API is the contract through which programs talk to one another."
+    },
+    {
+      "type": "text",
+      "prompt": "What data structure works on a First In, First Out basis?",
+      "answers": [
+        "queue",
+        "a queue"
+      ],
+      "explanation": "A queue removes elements in the order they were added."
+    },
+    {
+      "type": "text",
+      "prompt": "In Big-O notation, what is the worst-case complexity of bubble sort?",
+      "answers": [
+        "O(n^2)",
+        "O(n²)",
+        "n^2",
+        "n²"
+      ],
+      "explanation": "Bubble sort compares every pair in the worst case."
+    },
+    {
+      "type": "text",
+      "prompt": "What does 'SQL' stand for?",
+      "answers": [
+        "Structured Query Language"
+      ],
+      "explanation": "SQL is the standard language for relational databases."
+    },
+    {
+      "type": "text",
+      "prompt": "How many bits are in one byte?",
+      "answers": [
+        "8",
+        "eight"
+      ],
+      "explanation": "One byte is eight bits."
+    },
+    {
+      "type": "text",
+      "prompt": "What is the name for a function that calls itself?",
+      "answers": [
+        "recursion",
+        "a recursive function",
+        "recursive function"
+      ],
+      "explanation": "Recursion solves a problem by reducing it to smaller instances of itself."
     }
   ]
 }

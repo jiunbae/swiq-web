@@ -1,5 +1,5 @@
 {
-  "title": "Advanced Science O/X",
+  "title": "Advanced Science",
   "description": "Deeper physics, chemistry, and biology",
   "languageCode": "en",
   "cards": [
@@ -55,24 +55,24 @@
       "type": "choice",
       "prompt": "Which subatomic particle carries a negative electric charge?",
       "choices": [
-        "Electron",
-        "Proton",
         "Neutron",
-        "Photon"
+        "Photon",
+        "Electron",
+        "Proton"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Electrons carry a negative charge; protons are positive and neutrons are neutral."
     },
     {
       "type": "choice",
       "prompt": "How many chromosomes are in a normal human body (somatic) cell?",
       "choices": [
-        "46",
         "23",
         "48",
-        "44"
+        "44",
+        "46"
       ],
-      "answer": 1,
+      "answer": 4,
       "explanation": "Human somatic cells have 23 pairs, for a total of 46 chromosomes."
     },
     {
@@ -80,19 +80,19 @@
       "prompt": "What gas do plants absorb from the air and use during photosynthesis? (name the gas)",
       "answers": [
         "carbon dioxide",
-        "co2",
-        "co₂"
+        "co2"
       ],
-      "explanation": "Plants absorb carbon dioxide and, using sunlight, produce glucose and release oxygen."
+      "explanation": "Plants absorb carbon dioxide and, using sunlight, produce glucose and release oxygen.",
+      "hint": "Humans exhale it."
     },
     {
       "type": "text",
-      "prompt": "What is the chemical symbol for water? (formula)",
+      "prompt": "What is the chemical formula for water?",
       "answers": [
-        "h2o",
-        "h₂o"
+        "h2o"
       ],
-      "explanation": "Water is made of two hydrogen atoms and one oxygen atom, written H2O."
+      "explanation": "Water is made of two hydrogen atoms and one oxygen atom, written H2O.",
+      "hint": "Two hydrogen, one oxygen."
     },
     {
       "type": "ox",
@@ -132,7 +132,8 @@
         "gravitation",
         "gravitational force"
       ],
-      "explanation": "Gravity is the attractive force that pulls masses toward one another, including toward Earth's center."
+      "explanation": "Gravity is the attractive force that pulls masses toward one another, including toward Earth's center.",
+      "hint": "It keeps us on the ground."
     },
     {
       "type": "ox",
@@ -150,12 +151,12 @@
       "type": "choice",
       "prompt": "What is the most abundant gas in Earth's atmosphere?",
       "choices": [
-        "Oxygen",
         "Carbon dioxide",
         "Nitrogen",
-        "Hydrogen"
+        "Hydrogen",
+        "Oxygen"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Nitrogen makes up about 78 percent of Earth's atmosphere, far more than oxygen."
     },
     {
@@ -178,7 +179,8 @@
         "vaporization",
         "vaporisation"
       ],
-      "explanation": "Vaporization, commonly called evaporation at a surface, is the change of a liquid into a gas."
+      "explanation": "Vaporization, commonly called evaporation at a surface, is the change of a liquid into a gas.",
+      "hint": "Puddles disappear this way."
     },
     {
       "type": "ox",
@@ -196,12 +198,12 @@
       "type": "choice",
       "prompt": "Which type of electromagnetic radiation carries the highest energy?",
       "choices": [
+        "Microwaves",
         "Radio waves",
         "Gamma rays",
-        "Visible light",
-        "Microwaves"
+        "Visible light"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "Gamma rays have the shortest wavelength and highest frequency, so they carry the most energy."
     },
     {
@@ -222,7 +224,8 @@
       "answers": [
         "au"
       ],
-      "explanation": "Gold's symbol is Au, from its Latin name aurum."
+      "explanation": "Gold's symbol is Au, from its Latin name aurum.",
+      "hint": "From the Latin aurum."
     },
     {
       "type": "ox",
@@ -267,7 +270,8 @@
         "herbivore",
         "herbivorous"
       ],
-      "explanation": "A herbivore is an animal whose diet consists mainly or entirely of plants."
+      "explanation": "A herbivore is an animal whose diet consists mainly or entirely of plants.",
+      "hint": "Opposite of a carnivore."
     },
     {
       "type": "ox",

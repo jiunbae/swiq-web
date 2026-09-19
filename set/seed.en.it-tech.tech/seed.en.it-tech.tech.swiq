@@ -1,4 +1,4 @@
-# Technology O/X
+# Technology
 > Computers and the internet basics
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.it-tech.tech/
@@ -39,3 +39,15 @@ A QR code can be scanned with a smartphone camera. | O | A QR code is a square b
 'AI' stands for 'Automatic Internet'. | X | AI stands for Artificial Intelligence, technology that lets computers perform tasks that normally require human intelligence.
 A strong password helps protect an account from unauthorized access. | O | Passwords verify a user's identity; long, unique passwords make accounts much harder to break into.
 The first electronic computers were small enough to fit in a pocket. | X | Early computers like ENIAC filled entire rooms and weighed many tons; pocket-sized computing came decades later.
+What does CPU stand for? | 1)Central Processing Unit 2)Computer Personal Unit 3)Central Program Utility 4)Control Processing Unit | 1 | The CPU executes a program's instructions.
+Which company created the Android operating system? | 1)Samsung 2)Google 3)Apple 4)Microsoft | 2 | Google acquired Android Inc. in 2005 and now develops the OS.
+What does 'HTTP' transfer? | 1)Encrypted keys 2)Radio signals 3)Hypertext 4)Hardware | 3 | HTTP is the Hypertext Transfer Protocol used by the web.
+Which of these is a version control system? | 1)Docker 2)Nginx 3)Redis 4)Git | 4 | Git tracks changes to source code; the others solve different problems.
+What does 'open source' software mean? | 1)Its source code is publicly available 2)It is always free of bugs 3)It runs only on Linux 4)It cannot be sold commercially | 1 | Open source means the source code is published under a licence allowing inspection and reuse.
+Which unit is largest? | 1)Kilobyte 2)Terabyte 3)Gigabyte 4)Megabyte | 2 | Kilobyte < Megabyte < Gigabyte < Terabyte.
+Q: What does 'RAM' stand for? | A: Random Access Memory | RAM is fast, volatile working memory.
+Q: What programming language is primarily used to style web pages? | A: CSS | CSS, Cascading Style Sheets, controls presentation.
+Q: What does 'URL' stand for? | A: Uniform Resource Locator | A URL is the address of a resource on the web.
+Q: Which company makes the iPhone? | A: Apple;Apple Inc | Apple released the first iPhone in 2007.
+Q: What does 'AI' stand for? | A: Artificial Intelligence | Artificial intelligence refers to systems performing tasks that normally require human intelligence.
+Q: What is the name of the network protocol that assigns IP addresses automatically? | A: DHCP | DHCP, the Dynamic Host Configuration Protocol.
