@@ -3,24 +3,24 @@
 @languageCode: en
 // Swiq — https://swiq.jiun.dev/set/seed.en.science.science/
 
-Water freezes at 0 degrees Celsius at standard atmospheric pressure. | O | At standard pressure, water turns to ice at 0 degrees Celsius (32 degrees Fahrenheit).
+Pure water has a freezing point of about 0 degrees Celsius at standard atmospheric pressure. | O | At standard atmospheric pressure, pure water has a freezing point of approximately 0 degrees Celsius (32 degrees Fahrenheit). Dissolved substances can change the freezing point.
 The Sun is a star. | O | The Sun is the star at the center of our Solar System, producing light and heat by nuclear fusion.
 Humans breathe in oxygen and breathe out carbon dioxide. | O | In respiration, we take in oxygen and release carbon dioxide as a waste product.
 Plants make their own food through photosynthesis. | O | Plants use sunlight, water, and carbon dioxide to make food through photosynthesis.
 The chemical formula for water is H2O. | O | Each water molecule is made of two hydrogen atoms and one oxygen atom, written as H2O.
-Sound travels slower than light. | O | Light travels far faster (about 300,000 km/s) than sound (about 340 m/s in air).
+In air, sound travels slower than light. | O | In air, light travels vastly faster than sound. Sound travels at about 340 metres per second near room temperature, with its speed changing as the temperature changes.
 The Earth is the largest planet in the Solar System. | X | Jupiter is the largest planet; the Earth is much smaller.
 A healthy human has two hearts. | X | A human normally has one heart that pumps blood around the body.
 The Sun revolves around the Earth. | X | The Earth and other planets orbit the Sun, not the other way around.
 Bats are a kind of bird. | X | Bats can fly, but they are mammals that feed milk to their young, not birds.
 Diamond is made of gold. | X | Diamond is made of carbon atoms, not gold.
 A year on Earth is exactly 100 days long. | X | A year on Earth is about 365 days, the time it takes to orbit the Sun once.
-A bolt of lightning is hotter than the surface of the Sun. | O | Lightning can heat the air to around 30,000 degrees Celsius, several times hotter than the Sun's surface, which is about 5,500 degrees Celsius.
+Lightning can heat air to a temperature higher than the Sun's surface. | O | Air heated by lightning can reach roughly 28,000 degrees Celsius, well above the temperature of the Sun's surface.
 Humans use only 10 percent of their brains. | X | This is a popular myth. Brain scans show that virtually all parts of the brain are active, and we use the whole brain over the course of a day.
 Goldfish can only remember things for three seconds. | X | Goldfish actually have memories lasting weeks or months; they can even be trained to respond to signals.
-More than half of the adult human body is water. | O | Water makes up roughly 60 percent of an adult's body weight, filling cells, blood, and other fluids.
+Water often makes up more than half of an adult's body weight. | O | Adults commonly have water fractions around 55 to 60 percent of body weight, but the proportion varies with age and body composition.
 Sound cannot travel through a vacuum. | O | Sound needs a medium like air, water, or solids to travel. In the empty vacuum of space there is nothing to carry the vibrations.
-Penguins live in the wild at the North Pole. | X | Wild penguins live only in the Southern Hemisphere, such as Antarctica; polar bears, not penguins, live in the Arctic.
+Penguins live in the wild at the North Pole. | X | Wild penguins do not live at the North Pole. The most northerly species is the Galapagos penguin, with some colonies just north of the Equator.
 An octopus has three hearts. | O | An octopus has one main heart that pumps blood around the body and two extra hearts that pump blood through the gills.
 Earth's seasons are caused by the planet being closer to the Sun in summer. | X | Seasons are caused by the tilt of Earth's axis, which changes how directly sunlight hits each hemisphere, not by the distance to the Sun.
 The blood inside your veins is blue. | X | Blood is always red; it is darker when low in oxygen. Veins only look bluish because of how light passes through skin.
@@ -30,17 +30,17 @@ Botanically, a tomato is a vegetable. | X | Botanically, a tomato is a fruit bec
 An adult human skeleton normally has 206 bones. | O | Babies are born with about 300 bones, but many fuse during growth, leaving an adult with 206 bones.
 Sharks are fish. | O | Sharks are fish with skeletons made of cartilage instead of bone, and they breathe through gills like other fish.
 Antibiotics can cure illnesses caused by viruses. | X | Antibiotics only work against bacteria. Viral illnesses like colds and flu are not cured by antibiotics.
-Sound travels faster in air than in water. | X | Sound travels about four times faster in water than in air, because water molecules are packed closer together.
+Sound travels faster in air than in water. | X | Under typical conditions, sound travels about four times faster in water than in air. Sound speed depends on a material's elasticity and density, not just how closely its particles are packed.
 Spiders have eight legs. | O | Spiders are arachnids with eight legs, which sets them apart from insects, which have six.
 Lightning never strikes the same place twice. | X | Lightning often strikes the same spot repeatedly; tall structures like skyscrapers are hit many times every year.
 Iron is attracted to magnets. | O | Iron is a ferromagnetic metal, which means magnets pull on it strongly; many other metals, like copper, are not attracted.
 Bulls charge because the color red makes them angry. | X | Cattle cannot see red the way humans do. Bulls react to the movement of the cape, not its color.
 Ostriches bury their heads in the sand when they are scared. | X | This is a myth. Ostriches may lower their heads to the ground or run away, but they do not bury their heads in sand.
-Earth's atmosphere is made up mostly of nitrogen. | O | Air is about 78 percent nitrogen and about 21 percent oxygen, with small amounts of other gases.
+Earth's atmosphere is made up mostly of nitrogen. | O | Dry air, excluding water vapour, is about 78 percent nitrogen and 21 percent oxygen, with small amounts of other gases.
 A rainbow forms when sunlight is bent and reflected by water droplets. | O | Raindrops refract and reflect sunlight, splitting it into its different colors and creating a rainbow.
 Early humans lived at the same time as dinosaurs like Tyrannosaurus rex. | X | Non-bird dinosaurs died out about 66 million years ago, tens of millions of years before the first humans appeared.
 Which gas do plants absorb from the air for photosynthesis? | 1)Nitrogen 2)Hydrogen 3)Carbon dioxide 4)Oxygen | 3 | Plants take in carbon dioxide and release oxygen as a by-product of photosynthesis.
-What is the closest planet to the Sun? | 1)Venus 2)Earth 3)Mars 4)Mercury | 4 | Mercury orbits nearest the Sun, at about 58 million kilometres.
+What is the closest planet to the Sun? | 1)Venus 2)Earth 3)Mars 4)Mercury | 4 | Mercury is the closest planet to the Sun. Its average distance from the Sun is about 58 million kilometres.
 Which blood cells carry oxygen around the body? | 1)Red blood cells 2)White blood cells 3)Platelets 4)Plasma cells | 1 | Red blood cells contain haemoglobin, the protein that binds oxygen.
 What force keeps the planets in orbit around the Sun? | 1)Air pressure 2)Gravity 3)Magnetism 4)Friction | 2 | Gravity is the mutual attraction between masses; it curves each planet's path into an orbit.
 Which part of the plant cell carries out photosynthesis? | 1)Mitochondrion 2)Ribosome 3)Chloroplast 4)Nucleus | 3 | Chloroplasts hold chlorophyll, the pigment that captures light energy.
@@ -50,4 +50,4 @@ Q: What is the chemical formula for water? | A: H2O | Two hydrogen atoms bonded 
 Q: Name the process by which plants make food using sunlight. | A: photosynthesis | Photosynthesis converts light energy, water and carbon dioxide into glucose.
 Q: What is the largest planet in our solar system? | A: Jupiter | Jupiter's mass is more than twice that of all other planets combined.
 Q: What organ pumps blood around the human body? | A: heart;the heart | The heart is a muscular pump with four chambers.
-Q: What gas makes up about 78 percent of Earth's atmosphere? | A: nitrogen;N2 | Nitrogen dominates the atmosphere; oxygen is about 21 percent.
+Q: What gas makes up about 78 percent of Earth's dry atmosphere, excluding water vapour? | A: nitrogen;N2 | Nitrogen makes up about 78 percent of dry air; oxygen accounts for about 21 percent.

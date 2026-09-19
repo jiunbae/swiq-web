@@ -5,9 +5,9 @@
   "cards": [
     {
       "type": "ox",
-      "prompt": "Water freezes at 0 degrees Celsius at standard atmospheric pressure.",
+      "prompt": "Pure water has a freezing point of about 0 degrees Celsius at standard atmospheric pressure.",
       "answer": true,
-      "explanation": "At standard pressure, water turns to ice at 0 degrees Celsius (32 degrees Fahrenheit)."
+      "explanation": "At standard atmospheric pressure, pure water has a freezing point of approximately 0 degrees Celsius (32 degrees Fahrenheit). Dissolved substances can change the freezing point."
     },
     {
       "type": "ox",
@@ -35,9 +35,9 @@
     },
     {
       "type": "ox",
-      "prompt": "Sound travels slower than light.",
+      "prompt": "In air, sound travels slower than light.",
       "answer": true,
-      "explanation": "Light travels far faster (about 300,000 km/s) than sound (about 340 m/s in air)."
+      "explanation": "In air, light travels vastly faster than sound. Sound travels at about 340 metres per second near room temperature, with its speed changing as the temperature changes."
     },
     {
       "type": "ox",
@@ -77,9 +77,9 @@
     },
     {
       "type": "ox",
-      "prompt": "A bolt of lightning is hotter than the surface of the Sun.",
+      "prompt": "Lightning can heat air to a temperature higher than the Sun's surface.",
       "answer": true,
-      "explanation": "Lightning can heat the air to around 30,000 degrees Celsius, several times hotter than the Sun's surface, which is about 5,500 degrees Celsius."
+      "explanation": "Air heated by lightning can reach roughly 28,000 degrees Celsius, well above the temperature of the Sun's surface."
     },
     {
       "type": "ox",
@@ -95,9 +95,9 @@
     },
     {
       "type": "ox",
-      "prompt": "More than half of the adult human body is water.",
+      "prompt": "Water often makes up more than half of an adult's body weight.",
       "answer": true,
-      "explanation": "Water makes up roughly 60 percent of an adult's body weight, filling cells, blood, and other fluids."
+      "explanation": "Adults commonly have water fractions around 55 to 60 percent of body weight, but the proportion varies with age and body composition."
     },
     {
       "type": "ox",
@@ -109,7 +109,7 @@
       "type": "ox",
       "prompt": "Penguins live in the wild at the North Pole.",
       "answer": false,
-      "explanation": "Wild penguins live only in the Southern Hemisphere, such as Antarctica; polar bears, not penguins, live in the Arctic."
+      "explanation": "Wild penguins do not live at the North Pole. The most northerly species is the Galapagos penguin, with some colonies just north of the Equator."
     },
     {
       "type": "ox",
@@ -169,7 +169,7 @@
       "type": "ox",
       "prompt": "Sound travels faster in air than in water.",
       "answer": false,
-      "explanation": "Sound travels about four times faster in water than in air, because water molecules are packed closer together."
+      "explanation": "Under typical conditions, sound travels about four times faster in water than in air. Sound speed depends on a material's elasticity and density, not just how closely its particles are packed."
     },
     {
       "type": "ox",
@@ -205,7 +205,7 @@
       "type": "ox",
       "prompt": "Earth's atmosphere is made up mostly of nitrogen.",
       "answer": true,
-      "explanation": "Air is about 78 percent nitrogen and about 21 percent oxygen, with small amounts of other gases."
+      "explanation": "Dry air, excluding water vapour, is about 78 percent nitrogen and 21 percent oxygen, with small amounts of other gases."
     },
     {
       "type": "ox",
@@ -241,7 +241,7 @@
         "Mercury"
       ],
       "answer": 4,
-      "explanation": "Mercury orbits nearest the Sun, at about 58 million kilometres."
+      "explanation": "Mercury is the closest planet to the Sun. Its average distance from the Sun is about 58 million kilometres."
     },
     {
       "type": "choice",
@@ -334,12 +334,12 @@
     },
     {
       "type": "text",
-      "prompt": "What gas makes up about 78 percent of Earth's atmosphere?",
+      "prompt": "What gas makes up about 78 percent of Earth's dry atmosphere, excluding water vapour?",
       "answers": [
         "nitrogen",
         "N2"
       ],
-      "explanation": "Nitrogen dominates the atmosphere; oxygen is about 21 percent."
+      "explanation": "Nitrogen makes up about 78 percent of dry air; oxygen accounts for about 21 percent."
     }
   ]
 }
