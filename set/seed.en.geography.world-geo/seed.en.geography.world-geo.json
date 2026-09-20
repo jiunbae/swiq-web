@@ -91,7 +91,7 @@
       "type": "ox",
       "prompt": "Brazil is the largest country in South America.",
       "answer": true,
-      "explanation": "Brazil covers nearly half of South America, making it the continent's largest country by area and population."
+      "explanation": "Brazil is the largest country in South America by both area and population. IBGE reports about 8.51 million square kilometres and a 2022 census population of about 203 million, well ahead of Argentina, the next-largest by reported area."
     },
     {
       "type": "ox",
@@ -137,9 +137,9 @@
     },
     {
       "type": "ox",
-      "prompt": "The Arctic Ocean is the warmest ocean on Earth.",
+      "prompt": "The Arctic Ocean contains the world's warmest surface waters.",
       "answer": false,
-      "explanation": "The Arctic is the coldest and smallest of the world's oceans, largely covered by sea ice."
+      "explanation": "The Arctic Ocean is cold and has extensive sea ice. NOAA identifies the Indo-Pacific warm pool as the warmest part of the global ocean. Arctic sea ice expands in winter and retreats in summer."
     },
     {
       "type": "ox",
@@ -308,7 +308,7 @@
         "Arctic Ocean",
         "the Arctic Ocean"
       ],
-      "explanation": "The Arctic Ocean is the smallest and shallowest of the five."
+      "explanation": "The Arctic Ocean is the smallest of the five oceans and the shallowest by average depth."
     },
     {
       "type": "text",

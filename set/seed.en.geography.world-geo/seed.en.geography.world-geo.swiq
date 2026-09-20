@@ -17,7 +17,7 @@ Russia is smaller in area than Italy. | X | Russia is the largest country in the
 The Atlantic Ocean is larger than the Pacific Ocean. | X | The Pacific Ocean is larger than the Atlantic Ocean.
 The capital of Japan is Tokyo. | O | Tokyo is Japan's capital and one of the most populous metropolitan areas in the world.
 The capital of Australia is Sydney. | X | Australia's national capital is Canberra. In the ABS population estimates for 30 June 2025, Greater Sydney had the largest population among Australia's Greater Capital City Statistical Areas.
-Brazil is the largest country in South America. | O | Brazil covers nearly half of South America, making it the continent's largest country by area and population.
+Brazil is the largest country in South America. | O | Brazil is the largest country in South America by both area and population. IBGE reports about 8.51 million square kilometres and a 2022 census population of about 203 million, well ahead of Argentina, the next-largest by reported area.
 The Statue of Liberty is located in London. | X | The Statue of Liberty stands in New York Harbor in the United States; it was a gift from France.
 The capital of Canada is Toronto. | X | Canada's capital is Ottawa; Toronto is the country's largest city.
 The equator divides the Earth into the Northern and Southern Hemispheres. | O | The equator is an imaginary line around the middle of the Earth that separates the Northern Hemisphere from the Southern Hemisphere.
@@ -25,7 +25,7 @@ Canada shares a land border with the United States. | O | Canada and the United 
 The capital of Brazil is Rio de Janeiro. | X | Brazil's capital is Brasília, a planned city that replaced Rio de Janeiro as capital in 1960.
 The capital of Italy is Rome. | O | Rome is Italy's capital and largest city, famous for its long history.
 Mount Kilimanjaro is located in Europe. | X | Kilimanjaro is in Tanzania and is the highest mountain in Africa.
-The Arctic Ocean is the warmest ocean on Earth. | X | The Arctic is the coldest and smallest of the world's oceans, largely covered by sea ice.
+The Arctic Ocean contains the world's warmest surface waters. | X | The Arctic Ocean is cold and has extensive sea ice. NOAA identifies the Indo-Pacific warm pool as the warmest part of the global ocean. Arctic sea ice expands in winter and retreats in summer.
 Antarctica is the coldest continent on Earth. | O | Antarctica is almost entirely covered by a thick ice sheet. Vostok Station holds the WMO record for the lowest air temperature measured at a weather station: -89.2°C on 21 July 1983.
 Switzerland has a long ocean coastline. | X | Switzerland is a landlocked country in the Alps with no coastline at all.
 Egypt is a country in Africa. | O | Egypt lies in the north-east corner of Africa, with a small part of its territory, the Sinai Peninsula, in Asia.
@@ -46,7 +46,7 @@ According to UN population estimates, which country became the world's most popu
 Mount Everest sits on the border between which two countries? | 1)Nepal and China 2)India and Nepal 3)China and Bhutan 4)India and Bhutan | 1 | Everest straddles the Nepal–Tibet (China) border in the Himalaya.
 Which is the smallest country in the world by area? | 1)Liechtenstein 2)Vatican City 3)Monaco 4)San Marino | 2 | Vatican City is the smallest independent state. Its official geography page gives its area as about 0.44 square kilometres.
 Q: What is the capital of New Zealand? | A: Wellington | Wellington is the capital of New Zealand. In the 2023 census figures reported by EHINZ, Auckland was the largest city by population.
-Q: Which ocean is the smallest? | A: Arctic;the Arctic;Arctic Ocean;the Arctic Ocean | The Arctic Ocean is the smallest and shallowest of the five.
+Q: Which ocean is the smallest? | A: Arctic;the Arctic;Arctic Ocean;the Arctic Ocean | The Arctic Ocean is the smallest of the five oceans and the shallowest by average depth.
 Q: Which desert is the largest hot desert in the world? | A: Sahara;the Sahara;Sahara Desert;the Sahara Desert | The Sahara is the world's largest hot desert. ESA describes its area as about 9 million square kilometres.
 Q: What is the capital of Canada? | A: Ottawa | Ottawa is the capital; Toronto is the largest city.
 Q: Name the highest mountain in the world above sea level. | A: Everest;Mount Everest;Mt Everest | Everest reaches 8,849 metres above sea level.
