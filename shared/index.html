@@ -29,6 +29,7 @@
   --bg:#f7f7f4;--surface:#fcfcfa;--surface-2:#ecece7;
   --text:#181816;--muted:#64645f;--faint:#6f6f68;
   --border:#deded7;--border-strong:#c7c7bd;--shadow:none;
+  --ok:#15803d;--bad:#b91c1c;
   --radius:10px;--radius-sm:7px;
   scroll-behavior:smooth;
   scroll-padding-top:170px;
@@ -39,6 +40,7 @@
     --bg:#11110f;--surface:#171715;--surface-2:#22221f;
     --text:#f0f0eb;--muted:#adada5;--faint:#85857e;
     --border:#30302c;--border-strong:#484842;
+    --ok:#4ade80;--bad:#f87171;
   }
 }
 html{-webkit-text-size-adjust:100%}
@@ -192,6 +194,30 @@ footer a:hover{color:var(--text)}
 .qcard .n{flex:0 0 auto;width:24px;height:24px;display:grid;place-items:center;
   font-size:11px;font-weight:750;color:var(--faint)}
 .qcard .q{font-size:14px;line-height:1.5;margin:0}
+.qbody{flex:1 1 auto;min-width:0}
+.qa{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.qa-choice{flex-direction:column;align-items:stretch}
+.qbtn{font:inherit;font-size:14px;font-weight:700;min-height:40px;min-width:52px;padding:8px 14px;
+  border-radius:8px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);cursor:pointer;
+  text-align:left;display:flex;align-items:center;gap:10px}
+.qa-ox .qbtn{justify-content:center}
+.qbtn:hover{background:var(--surface-2)}
+.qbtn:focus-visible,.qinput:focus-visible{outline:2px solid var(--indigo);outline-offset:2px}
+.qbtn .k{flex:0 0 auto;font-size:12px;color:var(--faint);font-weight:750}
+.qbtn[disabled]{cursor:default}
+.qbtn.pick{border-color:var(--text)}
+.qbtn.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--surface))}
+.qinput{font:inherit;font-size:16px;flex:1 1 160px;min-width:0;min-height:40px;padding:8px 12px;border-radius:8px;
+  border:1px solid var(--border-strong);background:var(--surface);color:var(--text)}
+.res{margin-top:10px;font-size:13.5px;line-height:1.6;color:var(--muted)}
+.res .verdict{display:block;font-weight:800;color:var(--text);margin-bottom:2px}
+.res .verdict.ok{color:var(--ok)}
+.res .verdict.bad{color:var(--bad)}
+.try-done{margin:18px 0 0;padding:16px;border:1px solid var(--border-strong);border-radius:10px;max-width:480px}
+.try-done p{margin:0 0 10px;font-size:14px;color:var(--muted)}
+.try-done .try-score{font-size:16px;font-weight:800;color:var(--text)}
+.dl-line{margin:4px 0 0;font-size:13px;color:var(--muted)}
+.dl-line a{text-decoration:underline;text-underline-offset:2px}
 .qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
   border:1px solid var(--border);border-radius:6px;padding:2px 7px;align-self:center}
 .lock{margin:16px 0 0;font-size:13px;color:var(--muted);text-align:left;
@@ -313,7 +339,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/ranking/">순위</a><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://apps.apple.com/app/id6790717022">App Store</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://apps.apple.com/app/id6790717022">App Store</a></nav></div></header>
 <main class="wrap detail">
   <a class="back" href="/">← 모든 세트</a>
   <span class="cat-badge">Community · 공유 세트</span>

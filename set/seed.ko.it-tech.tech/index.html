@@ -29,6 +29,7 @@
   --bg:#f7f7f4;--surface:#fcfcfa;--surface-2:#ecece7;
   --text:#181816;--muted:#64645f;--faint:#6f6f68;
   --border:#deded7;--border-strong:#c7c7bd;--shadow:none;
+  --ok:#15803d;--bad:#b91c1c;
   --radius:10px;--radius-sm:7px;
   scroll-behavior:smooth;
   scroll-padding-top:170px;
@@ -39,6 +40,7 @@
     --bg:#11110f;--surface:#171715;--surface-2:#22221f;
     --text:#f0f0eb;--muted:#adada5;--faint:#85857e;
     --border:#30302c;--border-strong:#484842;
+    --ok:#4ade80;--bad:#f87171;
   }
 }
 html{-webkit-text-size-adjust:100%}
@@ -192,6 +194,30 @@ footer a:hover{color:var(--text)}
 .qcard .n{flex:0 0 auto;width:24px;height:24px;display:grid;place-items:center;
   font-size:11px;font-weight:750;color:var(--faint)}
 .qcard .q{font-size:14px;line-height:1.5;margin:0}
+.qbody{flex:1 1 auto;min-width:0}
+.qa{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.qa-choice{flex-direction:column;align-items:stretch}
+.qbtn{font:inherit;font-size:14px;font-weight:700;min-height:40px;min-width:52px;padding:8px 14px;
+  border-radius:8px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);cursor:pointer;
+  text-align:left;display:flex;align-items:center;gap:10px}
+.qa-ox .qbtn{justify-content:center}
+.qbtn:hover{background:var(--surface-2)}
+.qbtn:focus-visible,.qinput:focus-visible{outline:2px solid var(--indigo);outline-offset:2px}
+.qbtn .k{flex:0 0 auto;font-size:12px;color:var(--faint);font-weight:750}
+.qbtn[disabled]{cursor:default}
+.qbtn.pick{border-color:var(--text)}
+.qbtn.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--surface))}
+.qinput{font:inherit;font-size:16px;flex:1 1 160px;min-width:0;min-height:40px;padding:8px 12px;border-radius:8px;
+  border:1px solid var(--border-strong);background:var(--surface);color:var(--text)}
+.res{margin-top:10px;font-size:13.5px;line-height:1.6;color:var(--muted)}
+.res .verdict{display:block;font-weight:800;color:var(--text);margin-bottom:2px}
+.res .verdict.ok{color:var(--ok)}
+.res .verdict.bad{color:var(--bad)}
+.try-done{margin:18px 0 0;padding:16px;border:1px solid var(--border-strong);border-radius:10px;max-width:480px}
+.try-done p{margin:0 0 10px;font-size:14px;color:var(--muted)}
+.try-done .try-score{font-size:16px;font-weight:800;color:var(--text)}
+.dl-line{margin:4px 0 0;font-size:13px;color:var(--muted)}
+.dl-line a{text-decoration:underline;text-underline-offset:2px}
 .qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
   border:1px solid var(--border);border-radius:6px;padding:2px 7px;align-self:center}
 .lock{margin:16px 0 0;font-size:13px;color:var(--muted);text-align:left;
@@ -313,7 +339,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/ranking/">순위</a><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://apps.apple.com/app/id6790717022">App Store</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/format/">파일 포맷</a><a class="nav-cta" href="https://apps.apple.com/app/id6790717022">App Store</a></nav></div></header>
 <main class="wrap detail">
   <a class="back" href="/">← 모든 세트</a>
   <span class="cat-badge">IT·기술</span>
@@ -340,8 +366,6 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
        explanations); the app auto-detects the format from the contents. -->
   <div class="actions">
     <a class="btn btn-primary" id="open-app" style="grid-column:1/-1" href="swiq://set/seed.ko.it-tech.tech">앱에서 열기 →</a>
-    <a class="btn btn-ghost" href="seed.ko.it-tech.tech.swiq" download="seed.ko.it-tech.tech.swiq">⬇ .swiq 다운로드</a>
-    <a class="btn btn-ghost" href="seed.ko.it-tech.tech.json" download="seed.ko.it-tech.tech.json">⬇ .json 다운로드</a>
   </div>
   <div class="cta">
     <p class="fallback" id="open-fallback" role="alert">앱이 아직 설치되지 않은 것 같아요. 아래 App Store에서 Swiq를 설치한 뒤, 이 페이지로 돌아와 다시 눌러 주세요.</p>
@@ -352,37 +376,66 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     </div>
   </div>
 
-  <section class="preview">
-    <h2>미리보기</h2>
-    <p class="sub">프롬프트 5장 미리보기 · 정답과 해설은 이 미리보기에서 가려져 있어요</p>
+  <section class="preview" id="try" data-src="seed.ko.it-tech.tech.json" data-lang="ko">
+    <h2>먼저 5문제 풀어보기</h2>
+    <p class="sub">답을 고르면 채점과 해설을 보여 드려요. 앱에서는 이렇게 하루 10장씩 넘기며 복습합니다.</p>
     <div class="qgrid">
-    <div class="qcard">
+    <div class="qcard" data-i="0" data-type="ox">
       <span class="n">1</span>
-      <p class="q">컴퓨터에서 CPU는 &#x27;중앙처리장치&#x27;를 뜻한다.</p>
+      <div class="qbody">
+        <p class="q">컴퓨터에서 CPU는 &#x27;중앙처리장치&#x27;를 뜻한다.</p>
+        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard">
+    <div class="qcard" data-i="1" data-type="ox">
       <span class="n">2</span>
-      <p class="q">&#x27;www&#x27;는 월드 와이드 웹(World Wide Web)의 약자다.</p>
+      <div class="qbody">
+        <p class="q">&#x27;www&#x27;는 월드 와이드 웹(World Wide Web)의 약자다.</p>
+        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard">
+    <div class="qcard" data-i="2" data-type="ox">
       <span class="n">3</span>
-      <p class="q">이메일 주소에는 보통 &#x27;@&#x27; 기호가 들어간다.</p>
+      <div class="qbody">
+        <p class="q">이메일 주소에는 보통 &#x27;@&#x27; 기호가 들어간다.</p>
+        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard">
+    <div class="qcard" data-i="3" data-type="ox">
       <span class="n">4</span>
-      <p class="q">저장 용량 단위에서 1GB는 1MB보다 크다.</p>
+      <div class="qbody">
+        <p class="q">저장 용량 단위에서 1GB는 1MB보다 크다.</p>
+        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard">
+    <div class="qcard" data-i="4" data-type="ox">
       <span class="n">5</span>
-      <p class="q">와이파이(Wi-Fi)는 무선으로 인터넷에 연결하는 기술이다.</p>
+      <div class="qbody">
+        <p class="q">와이파이(Wi-Fi)는 무선으로 인터넷에 연결하는 기술이다.</p>
+        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
     </div>
-    <p class="lock">🔒 이 미리보기에서는 정답·해설을 가립니다. 전체 내용은 앱이나 다운로드 파일에서 확인하세요.</p>
+    <div class="try-done" id="try-done" hidden>
+      <p class="try-score" id="try-score"></p>
+      <p>나머지 43문제는 앱에서 이어서 풀 수 있어요.</p>
+      <a class="btn btn-primary" href="https://apps.apple.com/app/id6790717022">App Store에서 받기</a>
+    </div>
+    <p class="lock">정답·해설은 이 페이지 본문에 싣지 않고, 답을 고를 때만 불러옵니다. 전체 내용은 앱이나 다운로드 파일에서 확인하세요.</p>
+    <p class="dl-line">파일로 받기:
+      <a href="seed.ko.it-tech.tech.swiq" download="seed.ko.it-tech.tech.swiq">.swiq 다운로드</a> ·
+      <a href="seed.ko.it-tech.tech.json" download="seed.ko.it-tech.tech.json">.json 다운로드</a> ·
+      <a href="/format/">형식 안내</a></p>
   </section>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
@@ -407,6 +460,62 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       var tf=document.getElementById('tf-cta');
       if(tf)tf.classList.add('hl');
     },1200);
+  });
+})();
+</script>
+<script>
+(function(){
+  var root=document.getElementById('try');
+  if(!root)return;
+  var en=root.getAttribute('data-lang')==='en';
+  var T=en?{ok:'Correct',bad:'Not quite',ans:'Answer: ',err:'Could not load the answer. Tap again.',
+            score:function(n,t){return n+' of '+t+' correct'}}
+          :{ok:'정답이에요',bad:'아쉬워요',ans:'정답: ',err:'정답을 불러오지 못했어요. 다시 눌러 주세요.',
+            score:function(n,t){return t+'문제 중 '+n+'개 맞혔어요'}};
+  var cards=root.querySelectorAll('.qcard'),data=null,pending=null,done=0,right=0;
+  function load(){
+    if(data)return Promise.resolve(data);
+    if(!pending)pending=fetch(root.getAttribute('data-src'))
+      .then(function(r){if(!r.ok)throw 0;return r.json()})
+      .then(function(j){data=j;return j})
+      .catch(function(e){pending=null;throw e});
+    return pending;
+  }
+  function norm(v){return String(v).normalize('NFKC').toLowerCase().replace(/\s+/g,'')}
+  function show(card,fill){var r=card.querySelector('.res');r.hidden=false;r.textContent='';fill(r)}
+  function answer(card,act,btn){
+    var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
+    load().then(function(j){
+      var c=j.cards[i],ok,ans;
+      if(!c)return;
+      if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
+        card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
+      else if(c.type==='text'){var v=input?input.value:'';
+        ok=v.trim()!==''&&(c.answers||[]).some(function(a){return norm(a)===norm(v)});
+        ans=(c.answers||[]).join(' / ');}
+      else{ok=(act==='o')===c.answer;ans=c.answer?'O':'X';}
+      if(btn)btn.classList.add('pick');
+      card.classList.add('done');
+      card.querySelectorAll('button,input').forEach(function(el){el.disabled=true});
+      done++;if(ok)right++;
+      show(card,function(r){
+        var v=document.createElement('span');v.className='verdict '+(ok?'ok':'bad');
+        v.textContent=(ok?'✓ ':'✗ ')+(ok?T.ok:T.bad);r.appendChild(v);
+        r.appendChild(document.createTextNode(T.ans+ans+(c.explanation?' — '+c.explanation:'')));
+      });
+      if(done===cards.length){
+        document.getElementById('try-score').textContent=T.score(right,cards.length);
+        document.getElementById('try-done').hidden=false;
+      }
+    }).catch(function(){show(card,function(r){r.textContent=T.err})});
+  }
+  root.addEventListener('click',function(ev){
+    var b=ev.target.closest('button[data-act]');if(!b||b.disabled)return;
+    answer(b.closest('.qcard'),b.getAttribute('data-act'),b);
+  });
+  root.addEventListener('keydown',function(ev){
+    if(ev.key!=='Enter'||!ev.target.classList.contains('qinput'))return;
+    var card=ev.target.closest('.qcard');answer(card,'t',card.querySelector('button[data-act="t"]'));
   });
 })();
 </script>

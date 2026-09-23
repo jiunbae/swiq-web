@@ -91,7 +91,7 @@
       "type": "ox",
       "prompt": "Goldfish can only remember things for three seconds.",
       "answer": false,
-      "explanation": "Goldfish actually have memories lasting weeks or months; they can even be trained to respond to signals."
+      "explanation": "Goldfish memory is not limited to three seconds. In a controlled conditioning experiment, researchers tested learned fear responses 24 hours after training. How long a memory lasts depends on the task and conditions."
     },
     {
       "type": "ox",
@@ -191,9 +191,9 @@
     },
     {
       "type": "ox",
-      "prompt": "Bulls charge because the color red makes them angry.",
+      "prompt": "Cattle cannot see any colors at all.",
       "answer": false,
-      "explanation": "Cattle cannot see red the way humans do. Bulls react to the movement of the cape, not its color."
+      "explanation": "Cattle have two cone mechanisms that provide the basis for dichromatic color vision. They are not completely color-blind. Color vision alone does not establish why a bull charges."
     },
     {
       "type": "ox",
