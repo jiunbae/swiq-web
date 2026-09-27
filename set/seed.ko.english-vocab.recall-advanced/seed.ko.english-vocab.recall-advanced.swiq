@@ -3,23 +3,23 @@
 @languageCode: ko
 // Swiq — https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-advanced/
 
-Q: '모호한, 여러 뜻으로 해석되는'을 뜻하는 영단어를 입력하세요. | A: ambiguous;vague;obscure;equivocal | ambiguous는 뜻이 분명하지 않고 여러 해석이 가능한 상태를 나타냅니다. vague, obscure, equivocal도 정답으로 인정됩니다.
-Q: '끈질긴, 완강한, 고집스러운'을 뜻하는 영단어를 입력하세요. | A: stubborn;persistent;tenacious;obstinate | stubborn은 자기 생각을 좀처럼 굽히지 않는 완강함을 나타냅니다. persistent, tenacious, obstinate도 정답으로 인정됩니다.
+Q: '뜻이 분명하지 않은, 모호한'을 뜻하는 영어 형용사를 입력하세요. | A: ambiguous;vague;obscure;equivocal | ambiguous와 equivocal은 여러 해석이 가능한 모호함, vague와 obscure는 불명확함을 나타낼 수 있습니다. 이 넓은 뜻풀이에서는 네 단어를 인정하지만 모든 문맥에서 같은 뜻은 아닙니다.
+Q: '쉽게 뜻을 굽히거나 포기하지 않는'을 뜻하는 영어 형용사를 입력하세요. | A: stubborn;persistent;tenacious;obstinate | stubborn과 obstinate는 고집스럽게 뜻을 굽히지 않는 성향, persistent와 tenacious는 끈질기게 계속하는 성향을 나타낼 수 있습니다. 이 문항에서는 네 단어를 인정합니다.
 Q: '풍부한, 많은'을 뜻하는 영단어를 입력하세요. | A: abundant;plentiful;ample | abundant는 넉넉하고 풍부하게 존재하는 상태를 뜻합니다. plentiful, ample도 정답으로 인정됩니다.
-Q: '일시적인, 잠깐 동안의'를 뜻하는 영단어를 입력하세요. | A: temporary;transient;transitory;momentary | temporary는 영구적이지 않고 한동안만 지속되는 것을 뜻합니다. (반대말: permanent) transient, transitory, momentary도 정답으로 인정됩니다.
+Q: '영구적이지 않은, 일시적인'을 뜻하는 영어 형용사를 입력하세요. | A: temporary;transient;transitory;momentary | temporary, transient, transitory는 일시적인 것을 뜻합니다. momentary는 그중 매우 짧은 순간에 초점을 두며, 이 문항의 넓은 뜻풀이에서도 인정합니다.
 Q: '필수적인, 없어서는 안 될'을 뜻하는 영단어를 입력하세요. | A: essential;indispensable | essential은 꼭 필요하고 본질적인 것을 뜻합니다.
 Q: '분석하다'를 뜻하는 영단어를 입력하세요. | A: analyze;analyse | analyze(영국식 analyse)는 대상을 나누어 자세히 살피는 것을 뜻합니다.
 Q: '중요한, 결정적인, 아주 중대한'을 뜻하는 영단어를 입력하세요. | A: crucial;critical | crucial은 결과를 좌우할 만큼 중대하고 결정적인 것을 뜻합니다.
-Q: '뚜렷한, 분명한, 별개의'를 뜻하는 영단어를 입력하세요. | A: distinct;separate | distinct는 확연히 구별되거나 뚜렷하게 다른 것을 나타냅니다. '별개의'라는 뜻으로 답한 separate도 정답으로 인정됩니다.
+Q: '다른 것과 구별되는, 별개의'를 뜻하는 영어 형용사를 입력하세요. | A: distinct;separate | distinct와 separate 모두 구별되거나 별개임을 나타낼 수 있습니다. distinct의 분명하다는 뜻이 모든 문맥에서 separate와 같은 것은 아닙니다.
 Q: '~을 유지하다, 지탱하다, 지속시키다'를 뜻하는 영단어를 입력하세요. | A: sustain;maintain | sustain은 어떤 상태나 활동을 계속 유지·지탱하는 것을 뜻합니다.
 Q: '명백한, 분명한'을 뜻하는 영단어를 입력하세요. | A: obvious;apparent;evident | obvious는 누가 봐도 분명하고 뚜렷한 것을 뜻합니다.
-Q: '~에 기여하다, 이바지하다, 기부하다'를 뜻하는 영단어를 입력하세요. | A: contribute;donate | contribute는 어떤 결과에 도움을 주거나 기여·기부하는 것을 뜻합니다. '기부하다'라는 뜻으로 답한 donate도 정답으로 인정됩니다.
-Q: '대략, 약, 거의'를 뜻하는 영단어(부사)를 입력하세요. | A: approximately;roughly;about | approximately는 정확하지 않지만 그에 가깝게, 대략을 뜻하는 부사입니다.
+Q: '사람이나 단체를 돕기 위해 돈·물품 등을 기부하다'를 뜻하는 영어 동사의 원형을 입력하세요. | A: contribute;donate | contribute와 donate 모두 돈이나 물품 등을 기부한다는 뜻으로 쓸 수 있습니다. contribute는 결과에 기여한다는 뜻도 있지만 모든 용법에서 donate와 바꿀 수 있는 것은 아닙니다.
+Q: '수량이나 시간이 대략, 약'이라는 뜻의 영어 부사를 입력하세요. | A: approximately;roughly;about | approximately, roughly, about은 정확한 수량이나 시간에 가깝다는 뜻입니다. 어떤 상태에 거의 이른다는 almost와 항상 바꿔 쓸 수는 없습니다.
 Q: '설득하다'를 뜻하는 영단어를 입력하세요. | A: persuade;convince | persuade는 상대가 어떤 일을 하도록 설득하는 것을 뜻합니다. convince도 정답으로 인정됩니다.
 Q: '평가하다'를 뜻하는 영단어를 입력하세요. | A: evaluate;assess | evaluate는 가치나 수준을 따져 평가하는 것을 뜻합니다. assess도 정답입니다.
-Q: '정교한, 세련된'을 뜻하는 영단어를 입력하세요. | A: sophisticated;refined;elaborate | sophisticated는 기술·취향이 정교하고 세련된 것을 나타냅니다. refined, elaborate도 정답으로 인정됩니다.
+Q: 문맥에 따라 '정교한' 또는 '세련된'을 뜻하는 영어 형용사를 입력하세요. | A: sophisticated;refined;elaborate | sophisticated는 정교한 기술이나 세련된 취향, refined는 세련된 태도나 개선된 상태, elaborate는 세부가 정교한 것을 나타낼 수 있습니다. 이 문항은 두 뜻 중 하나에 맞는 단어를 인정하며 세 단어가 모든 문맥에서 같은 것은 아닙니다.
 Q: '강화하다, 보강하다'를 뜻하는 영단어를 입력하세요. | A: reinforce;strengthen | reinforce는 기존의 것을 더 튼튼하게 강화·보강하는 것을 뜻합니다. strengthen도 정답입니다.
-Q: '가속하다, 속도를 높이다'를 뜻하는 영단어를 입력하세요. | A: accelerate;speed up | accelerate는 속도를 점점 높이는 것을 뜻합니다. (반대말: decelerate) speed up도 정답으로 인정됩니다.
+Q: '가속하다, 속도를 높이다'를 뜻하는 영어 동사 원형 또는 구동사를 입력하세요. | A: accelerate;speed up | accelerate와 speed up은 속도를 높인다는 뜻입니다. speed up은 두 단어를 띄어 쓰는 구동사입니다.
 Q: '동시에 일어나는'을 뜻하는 영단어를 입력하세요. | A: simultaneous;concurrent | simultaneous는 두 가지 이상의 일이 같은 시각에 일어나는 것을 뜻합니다. 부사형은 simultaneously입니다. concurrent도 정답으로 인정됩니다.
 Q: '주저하다, 망설이다'를 뜻하는 영단어를 입력하세요. | A: hesitate;waver | hesitate는 결정을 내리지 못하고 머뭇거리는 것을 뜻합니다. 명사형은 hesitation입니다. waver도 정답으로 인정됩니다.
 Q: '보존하다, 지키다'를 뜻하는 영단어를 입력하세요. | A: preserve;conserve | preserve는 훼손되지 않게 보존하는 것을 뜻합니다. conserve도 정답으로 인정됩니다.
@@ -29,12 +29,12 @@ Q: '가정하다, 추정하다'를 뜻하는 영단어를 입력하세요. | A: 
 Q: '드러내다, 폭로하다'를 뜻하는 영단어를 입력하세요. | A: reveal;disclose | reveal은 숨겨져 있던 것을 드러내는 것을 뜻합니다. disclose도 정답으로 인정됩니다.
 Q: '통합하다'를 뜻하는 영단어를 입력하세요. | A: integrate;unify;consolidate;merge | integrate는 여러 부분을 하나로 통합하는 것을 뜻합니다. 명사형은 integration입니다. unify, consolidate, merge도 정답으로 인정됩니다.
 Q: '엄청나게 큰, 거대한'을 뜻하는 영단어를 입력하세요. | A: enormous;immense;huge | enormous는 크기나 양이 엄청나게 큰 것을 나타냅니다. immense, huge도 정답입니다.
-Q: '유연한, 융통성 있는'을 뜻하는 영단어를 입력하세요. | A: flexible;adaptable | flexible은 잘 구부러지거나 상황에 맞게 융통성 있는 것을 뜻합니다. 명사형은 flexibility입니다. adaptable도 정답으로 인정됩니다.
-Q: '(말이나 일을) 중간에 끊다, 방해하다'를 뜻하는 영단어를 입력하세요. | A: interrupt;disrupt;disturb | interrupt는 진행 중인 말이나 일을 중간에 끊는 것을 뜻합니다. disrupt, disturb도 정답으로 인정됩니다.
-Q: '뛰어난, 두드러진'을 뜻하는 영단어를 입력하세요. | A: outstanding;remarkable | outstanding은 남들보다 눈에 띄게 뛰어난 것을 나타냅니다. remarkable도 정답으로 인정됩니다.
+Q: '상황에 맞게 바뀔 수 있는, 융통성 있는'을 뜻하는 영어 형용사를 입력하세요. | A: flexible;adaptable | flexible과 adaptable은 상황에 맞게 바뀔 수 있음을 나타냅니다. flexible의 물체가 잘 구부러진다는 뜻까지 adaptable과 같은 것은 아닙니다.
+Q: '말이나 일의 진행을 방해하다'를 뜻하는 영어 동사의 원형을 입력하세요. | A: interrupt;disrupt;disturb | interrupt는 진행을 잠시 끊는 것, disrupt는 정상적인 진행을 흐트러뜨리는 것, disturb는 하던 일을 방해하는 것을 뜻할 수 있습니다. 이 넓은 발문에서는 모두 인정하지만 쓰임은 구별해야 합니다.
+Q: '뛰어난, 두드러진'을 뜻하는 영단어를 입력하세요. | A: outstanding;remarkable | outstanding은 보통보다 매우 뛰어난 것을, remarkable은 특별하여 주목할 만한 것을 나타냅니다. 이 문항에서는 두 단어를 인정하지만 remarkable이 항상 긍정적인 우수함을 뜻하는 것은 아닙니다.
 Q: '축적하다, 모으다'를 뜻하는 영단어를 입력하세요. | A: accumulate;amass;collect;gather | accumulate는 시간이 지나며 조금씩 쌓아 모으는 것을 뜻합니다. amass, collect, gather도 정답으로 인정됩니다.
 Q: '겸손한'을 뜻하는 영단어를 입력하세요. | A: humble;modest | humble은 자신을 낮추는 겸손함을 나타냅니다. modest도 정답으로 인정됩니다.
-Q: '자발적인'을 뜻하는 영단어를 입력하세요. | A: voluntary;spontaneous | voluntary는 강요 없이 스스로 하는 자발적인 것을 뜻합니다. 자원봉사자는 volunteer입니다. spontaneous도 정답으로 인정됩니다.
+Q: '외부의 강요 없이 자발적으로 하는'을 뜻하는 영어 형용사를 입력하세요. | A: voluntary;spontaneous | voluntary는 강요받지 않고 스스로 하는 것, spontaneous는 강요나 사전 계획 없이 자연스럽게 나오는 것을 뜻할 수 있습니다. 이 문항에서는 둘 다 인정하며 계획 여부에 관한 뉘앙스는 구별합니다.
 Q: '통찰(력)'을 뜻하는 영단어를 입력하세요. | A: insight | insight는 본질을 꿰뚫어 보는 통찰력을 뜻합니다.
 Q: '확장하다, 확대하다'를 뜻하는 영단어를 입력하세요. | A: expand;extend;enlarge;broaden | expand는 크기나 범위를 넓혀 확장하는 것을 뜻합니다. 명사형은 expansion입니다. extend, enlarge, broaden도 정답으로 인정됩니다.
 Q: '고의적인, 의도적인'을 뜻하는 영단어를 입력하세요. | A: deliberate;intentional | deliberate는 우연이 아니라 일부러 하는 고의적인 것을 나타냅니다. intentional도 정답입니다.

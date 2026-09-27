@@ -5,26 +5,26 @@
   "cards": [
     {
       "type": "text",
-      "prompt": "'모호한, 여러 뜻으로 해석되는'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'뜻이 분명하지 않은, 모호한'을 뜻하는 영어 형용사를 입력하세요.",
       "answers": [
         "ambiguous",
         "vague",
         "obscure",
         "equivocal"
       ],
-      "explanation": "ambiguous는 뜻이 분명하지 않고 여러 해석이 가능한 상태를 나타냅니다. vague, obscure, equivocal도 정답으로 인정됩니다.",
+      "explanation": "ambiguous와 equivocal은 여러 해석이 가능한 모호함, vague와 obscure는 불명확함을 나타낼 수 있습니다. 이 넓은 뜻풀이에서는 네 단어를 인정하지만 모든 문맥에서 같은 뜻은 아닙니다.",
       "hint": "a로 시작하는 9글자 단어예요."
     },
     {
       "type": "text",
-      "prompt": "'끈질긴, 완강한, 고집스러운'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'쉽게 뜻을 굽히거나 포기하지 않는'을 뜻하는 영어 형용사를 입력하세요.",
       "answers": [
         "stubborn",
         "persistent",
         "tenacious",
         "obstinate"
       ],
-      "explanation": "stubborn은 자기 생각을 좀처럼 굽히지 않는 완강함을 나타냅니다. persistent, tenacious, obstinate도 정답으로 인정됩니다.",
+      "explanation": "stubborn과 obstinate는 고집스럽게 뜻을 굽히지 않는 성향, persistent와 tenacious는 끈질기게 계속하는 성향을 나타낼 수 있습니다. 이 문항에서는 네 단어를 인정합니다.",
       "hint": "s로 시작해요."
     },
     {
@@ -40,14 +40,14 @@
     },
     {
       "type": "text",
-      "prompt": "'일시적인, 잠깐 동안의'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'영구적이지 않은, 일시적인'을 뜻하는 영어 형용사를 입력하세요.",
       "answers": [
         "temporary",
         "transient",
         "transitory",
         "momentary"
       ],
-      "explanation": "temporary는 영구적이지 않고 한동안만 지속되는 것을 뜻합니다. (반대말: permanent) transient, transitory, momentary도 정답으로 인정됩니다.",
+      "explanation": "temporary, transient, transitory는 일시적인 것을 뜻합니다. momentary는 그중 매우 짧은 순간에 초점을 두며, 이 문항의 넓은 뜻풀이에서도 인정합니다.",
       "hint": "t로 시작해요."
     },
     {
@@ -82,12 +82,12 @@
     },
     {
       "type": "text",
-      "prompt": "'뚜렷한, 분명한, 별개의'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'다른 것과 구별되는, 별개의'를 뜻하는 영어 형용사를 입력하세요.",
       "answers": [
         "distinct",
         "separate"
       ],
-      "explanation": "distinct는 확연히 구별되거나 뚜렷하게 다른 것을 나타냅니다. '별개의'라는 뜻으로 답한 separate도 정답으로 인정됩니다.",
+      "explanation": "distinct와 separate 모두 구별되거나 별개임을 나타낼 수 있습니다. distinct의 분명하다는 뜻이 모든 문맥에서 separate와 같은 것은 아닙니다.",
       "hint": "d로 시작해요."
     },
     {
@@ -113,23 +113,23 @@
     },
     {
       "type": "text",
-      "prompt": "'~에 기여하다, 이바지하다, 기부하다'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'사람이나 단체를 돕기 위해 돈·물품 등을 기부하다'를 뜻하는 영어 동사의 원형을 입력하세요.",
       "answers": [
         "contribute",
         "donate"
       ],
-      "explanation": "contribute는 어떤 결과에 도움을 주거나 기여·기부하는 것을 뜻합니다. '기부하다'라는 뜻으로 답한 donate도 정답으로 인정됩니다.",
+      "explanation": "contribute와 donate 모두 돈이나 물품 등을 기부한다는 뜻으로 쓸 수 있습니다. contribute는 결과에 기여한다는 뜻도 있지만 모든 용법에서 donate와 바꿀 수 있는 것은 아닙니다.",
       "hint": "c로 시작하는 10글자 단어예요."
     },
     {
       "type": "text",
-      "prompt": "'대략, 약, 거의'를 뜻하는 영단어(부사)를 입력하세요.",
+      "prompt": "'수량이나 시간이 대략, 약'이라는 뜻의 영어 부사를 입력하세요.",
       "answers": [
         "approximately",
         "roughly",
         "about"
       ],
-      "explanation": "approximately는 정확하지 않지만 그에 가깝게, 대략을 뜻하는 부사입니다.",
+      "explanation": "approximately, roughly, about은 정확한 수량이나 시간에 가깝다는 뜻입니다. 어떤 상태에 거의 이른다는 almost와 항상 바꿔 쓸 수는 없습니다.",
       "hint": "a로 시작하는 긴 단어예요(≈ 기호로도 쓰여요)."
     },
     {
@@ -154,13 +154,13 @@
     },
     {
       "type": "text",
-      "prompt": "'정교한, 세련된'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "문맥에 따라 '정교한' 또는 '세련된'을 뜻하는 영어 형용사를 입력하세요.",
       "answers": [
         "sophisticated",
         "refined",
         "elaborate"
       ],
-      "explanation": "sophisticated는 기술·취향이 정교하고 세련된 것을 나타냅니다. refined, elaborate도 정답으로 인정됩니다.",
+      "explanation": "sophisticated는 정교한 기술이나 세련된 취향, refined는 세련된 태도나 개선된 상태, elaborate는 세부가 정교한 것을 나타낼 수 있습니다. 이 문항은 두 뜻 중 하나에 맞는 단어를 인정하며 세 단어가 모든 문맥에서 같은 것은 아닙니다.",
       "hint": "s로 시작하는 긴 단어예요."
     },
     {
@@ -175,12 +175,12 @@
     },
     {
       "type": "text",
-      "prompt": "'가속하다, 속도를 높이다'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'가속하다, 속도를 높이다'를 뜻하는 영어 동사 원형 또는 구동사를 입력하세요.",
       "answers": [
         "accelerate",
         "speed up"
       ],
-      "explanation": "accelerate는 속도를 점점 높이는 것을 뜻합니다. (반대말: decelerate) speed up도 정답으로 인정됩니다.",
+      "explanation": "accelerate와 speed up은 속도를 높인다는 뜻입니다. speed up은 두 단어를 띄어 쓰는 구동사입니다.",
       "hint": "a로 시작해요. 자동차의 액셀을 떠올리세요."
     },
     {
@@ -279,23 +279,23 @@
     },
     {
       "type": "text",
-      "prompt": "'유연한, 융통성 있는'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'상황에 맞게 바뀔 수 있는, 융통성 있는'을 뜻하는 영어 형용사를 입력하세요.",
       "answers": [
         "flexible",
         "adaptable"
       ],
-      "explanation": "flexible은 잘 구부러지거나 상황에 맞게 융통성 있는 것을 뜻합니다. 명사형은 flexibility입니다. adaptable도 정답으로 인정됩니다.",
+      "explanation": "flexible과 adaptable은 상황에 맞게 바뀔 수 있음을 나타냅니다. flexible의 물체가 잘 구부러진다는 뜻까지 adaptable과 같은 것은 아닙니다.",
       "hint": "f로 시작하는 8글자 단어예요."
     },
     {
       "type": "text",
-      "prompt": "'(말이나 일을) 중간에 끊다, 방해하다'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'말이나 일의 진행을 방해하다'를 뜻하는 영어 동사의 원형을 입력하세요.",
       "answers": [
         "interrupt",
         "disrupt",
         "disturb"
       ],
-      "explanation": "interrupt는 진행 중인 말이나 일을 중간에 끊는 것을 뜻합니다. disrupt, disturb도 정답으로 인정됩니다.",
+      "explanation": "interrupt는 진행을 잠시 끊는 것, disrupt는 정상적인 진행을 흐트러뜨리는 것, disturb는 하던 일을 방해하는 것을 뜻할 수 있습니다. 이 넓은 발문에서는 모두 인정하지만 쓰임은 구별해야 합니다.",
       "hint": "inter-로 시작해요."
     },
     {
@@ -305,7 +305,7 @@
         "outstanding",
         "remarkable"
       ],
-      "explanation": "outstanding은 남들보다 눈에 띄게 뛰어난 것을 나타냅니다. remarkable도 정답으로 인정됩니다.",
+      "explanation": "outstanding은 보통보다 매우 뛰어난 것을, remarkable은 특별하여 주목할 만한 것을 나타냅니다. 이 문항에서는 두 단어를 인정하지만 remarkable이 항상 긍정적인 우수함을 뜻하는 것은 아닙니다.",
       "hint": "out-으로 시작해요."
     },
     {
@@ -332,12 +332,12 @@
     },
     {
       "type": "text",
-      "prompt": "'자발적인'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'외부의 강요 없이 자발적으로 하는'을 뜻하는 영어 형용사를 입력하세요.",
       "answers": [
         "voluntary",
         "spontaneous"
       ],
-      "explanation": "voluntary는 강요 없이 스스로 하는 자발적인 것을 뜻합니다. 자원봉사자는 volunteer입니다. spontaneous도 정답으로 인정됩니다.",
+      "explanation": "voluntary는 강요받지 않고 스스로 하는 것, spontaneous는 강요나 사전 계획 없이 자연스럽게 나오는 것을 뜻할 수 있습니다. 이 문항에서는 둘 다 인정하며 계획 여부에 관한 뉘앙스는 구별합니다.",
       "hint": "v로 시작해요."
     },
     {

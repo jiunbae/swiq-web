@@ -27,7 +27,7 @@
       "answers": [
         "water"
       ],
-      "explanation": "water — 불가산 명사로 관사 없이 씁니다.",
+      "explanation": "water는 물을 뜻할 때 보통 불가산 명사입니다. 특정한 물을 가리키면 the water처럼 정관사를 쓸 수 있으므로, 항상 관사 없이 쓰는 것은 아닙니다.",
       "hint": "w로 시작해요."
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "type": "text",
-      "prompt": "'행복한'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'행복한'을 뜻하며 h로 시작하는 5글자 영어 형용사를 입력하세요.",
       "answers": [
         "happy"
       ],
@@ -54,7 +54,7 @@
       "answers": [
         "breakfast"
       ],
-      "explanation": "breakfast — break(깨다) + fast(단식)에서 온 단어입니다.",
+      "explanation": "breakfast는 아침에 먹는 첫 식사인 아침 식사를 뜻합니다.",
       "hint": "밤사이 단식을 '깨는' 식사예요."
     },
     {
@@ -72,12 +72,12 @@
       "answers": [
         "umbrella"
       ],
-      "explanation": "umbrella — 라틴어 umbra(그늘)에서 왔습니다.",
+      "explanation": "umbrella는 비나 햇빛을 가리는 우산·양산을 뜻합니다.",
       "hint": "u로 시작해요."
     },
     {
       "type": "text",
-      "prompt": "'기억하다'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'기억하다, 떠올리다'를 뜻하며 r로 시작하는 6글자 또는 8글자 영어 동사의 원형을 입력하세요.",
       "answers": [
         "remember",
         "recall"
@@ -100,7 +100,7 @@
     },
     {
       "type": "text",
-      "prompt": "'대답하다'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'대답하다'를 뜻하는 5~6글자 영어 동사의 원형을 입력하세요.",
       "answers": [
         "answer",
         "reply"
@@ -110,12 +110,13 @@
     },
     {
       "type": "text",
-      "prompt": "'여행'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'여행'을 뜻하며 t로 시작하는 4~6글자 영어 명사의 기본형을 입력하세요.",
       "answers": [
         "travel",
-        "trip"
+        "trip",
+        "tour"
       ],
-      "explanation": "travel(여행하다/여행) 또는 trip(짧은 여행) — 둘 다 정답입니다.",
+      "explanation": "travel은 여행 일반, trip은 다녀오는 여행, tour는 여러 장소를 둘러보는 여행을 가리킵니다. 이 문항에서는 세 단어를 모두 인정합니다.",
       "hint": "t로 시작해요."
     },
     {
@@ -138,7 +139,7 @@
     },
     {
       "type": "text",
-      "prompt": "'의사'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'환자를 진료하는 의사'를 뜻하는 6글자 또는 9글자 영어 명사의 단수형을 입력하세요.",
       "answers": [
         "doctor",
         "physician"
@@ -166,7 +167,7 @@
     },
     {
       "type": "text",
-      "prompt": "'숫자, 번호'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'숫자, 번호'를 뜻하며 n으로 시작하는 6글자 영어 명사의 단수형을 입력하세요.",
       "answers": [
         "number"
       ],
@@ -202,12 +203,12 @@
     },
     {
       "type": "text",
-      "prompt": "'저녁 식사'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'저녁 식사'를 뜻하는 6글자 영어 명사의 단수형을 입력하세요.",
       "answers": [
         "dinner",
         "supper"
       ],
-      "explanation": "dinner — supper도 저녁 식사를 뜻해 정답으로 인정됩니다.",
+      "explanation": "dinner와 supper는 저녁 식사를 뜻할 수 있습니다. dinner는 하루의 주요 식사를 가리켜 점심을 뜻할 때도 있으므로 항상 저녁만 뜻하지는 않습니다.",
       "hint": "d로 시작해요."
     },
     {
@@ -239,7 +240,7 @@
     },
     {
       "type": "text",
-      "prompt": "'시장(물건을 사고파는 곳)'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'물건을 사고파는 시장'을 뜻하며 m으로 시작하는 6글자 또는 11글자 영어 명사의 단수형을 입력하세요.",
       "answers": [
         "market",
         "marketplace"
@@ -249,7 +250,7 @@
     },
     {
       "type": "text",
-      "prompt": "'아름다운'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'아름다운, 예쁜'을 뜻하며 b 또는 p로 시작하는 6글자 또는 9글자 영어 형용사를 입력하세요.",
       "answers": [
         "beautiful",
         "pretty"
@@ -259,7 +260,7 @@
     },
     {
       "type": "text",
-      "prompt": "'시작하다'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'시작하다'를 뜻하는 5글자 영어 동사의 원형을 입력하세요.",
       "answers": [
         "begin",
         "start"
@@ -269,7 +270,7 @@
     },
     {
       "type": "text",
-      "prompt": "'돕다, 도와주다'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'돕다'를 뜻하며 h 또는 a로 시작하는 3·4·6글자 영어 동사의 원형을 입력하세요.",
       "answers": [
         "help",
         "assist",
@@ -280,7 +281,7 @@
     },
     {
       "type": "text",
-      "prompt": "'질문'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'질문'을 뜻하며 q로 시작하는 8글자 영어 명사의 단수형을 입력하세요.",
       "answers": [
         "question"
       ],
@@ -307,7 +308,7 @@
     },
     {
       "type": "text",
-      "prompt": "'지도'를 뜻하는 영단어를 입력하세요.",
+      "prompt": "'길을 찾을 때 보는 지도'를 뜻하며 m으로 시작하는 3글자 영어 명사의 단수형을 입력하세요.",
       "answers": [
         "map"
       ],
@@ -316,7 +317,7 @@
     },
     {
       "type": "text",
-      "prompt": "'배고픈'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'배고픈'을 뜻하며 h로 시작하는 6글자 영어 형용사를 입력하세요.",
       "answers": [
         "hungry"
       ],
@@ -334,7 +335,7 @@
     },
     {
       "type": "text",
-      "prompt": "'신발'을 뜻하는 영단어를 입력하세요.",
+      "prompt": "'신발'을 뜻하며 sh로 시작하는 영단어를 입력하세요. 단수형과 복수형을 모두 인정합니다.",
       "answers": [
         "shoes",
         "shoe"
