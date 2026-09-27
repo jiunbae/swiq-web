@@ -218,6 +218,8 @@ footer a:hover{color:var(--text)}
 .try-done{margin:18px 0 0;padding:16px;border:1px solid var(--border-strong);border-radius:10px;max-width:480px}
 .try-done p{margin:0 0 10px;font-size:14px;color:var(--muted)}
 .try-done .try-score{font-size:16px;font-weight:800;color:var(--text)}
+.try-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 8px}
+@media(max-width:440px){.try-actions{grid-template-columns:1fr}}
 .dl-line{margin:4px 0 0;font-size:13px;color:var(--muted)}
 .dl-line a{text-decoration:underline;text-underline-offset:2px}
 .qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
@@ -383,8 +385,6 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 </script>
 <script>
 (function(){
-  var open=document.getElementById('open-app');
-  if(!open)return;
   var timer=null;
   function cancel(){if(timer){clearTimeout(timer);timer=null;}}
   // App took over → Safari is hidden → the scheme worked; stand down.
@@ -392,16 +392,21 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     if(document.visibilityState==='hidden')cancel();
   });
   window.addEventListener('pagehide',cancel);
-  open.addEventListener('click',function(){
-    cancel();
-    timer=setTimeout(function(){
-      timer=null;
-      if(document.visibilityState==='hidden')return;
-      var fb=document.getElementById('open-fallback');
-      if(fb)fb.classList.add('show');
-      var tf=document.getElementById('tf-cta');
-      if(tf)tf.classList.add('hl');
-    },1200);
+  // Each "open in app" link reveals its own not-installed hint next to it.
+  [['open-app','open-fallback','tf-cta'],['try-open-app','try-open-fallback',null]].forEach(function(ids){
+    var open=document.getElementById(ids[0]);
+    if(!open)return;
+    open.addEventListener('click',function(){
+      cancel();
+      timer=setTimeout(function(){
+        timer=null;
+        if(document.visibilityState==='hidden')return;
+        var fb=document.getElementById(ids[1]);
+        if(fb)fb.classList.add('show');
+        var tf=ids[2]&&document.getElementById(ids[2]);
+        if(tf)tf.classList.add('hl');
+      },1200);
+    });
   });
 })();
 </script>

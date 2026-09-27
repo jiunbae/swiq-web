@@ -218,6 +218,8 @@ footer a:hover{color:var(--text)}
 .try-done{margin:18px 0 0;padding:16px;border:1px solid var(--border-strong);border-radius:10px;max-width:480px}
 .try-done p{margin:0 0 10px;font-size:14px;color:var(--muted)}
 .try-done .try-score{font-size:16px;font-weight:800;color:var(--text)}
+.try-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 8px}
+@media(max-width:440px){.try-actions{grid-template-columns:1fr}}
 .dl-line{margin:4px 0 0;font-size:13px;color:var(--muted)}
 .dl-line a{text-decoration:underline;text-underline-offset:2px}
 .qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
@@ -382,56 +384,60 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <h2>Try 5 cards</h2>
     <p class="sub">Pick an answer to see whether you were right, with the explanation. In the app you swipe through 10 a day.</p>
     <div class="qgrid">
-    <div class="qcard" data-i="0" data-type="ox">
+    <div class="qcard" data-i="6" data-type="ox">
       <span class="n">1</span>
       <div class="qbody">
-        <p class="q">The Mona Lisa was painted by Leonardo da Vinci.</p>
+        <p class="q">The violin is a wind instrument.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="1" data-type="ox">
+    <div class="qcard" data-i="18" data-type="ox">
       <span class="n">2</span>
       <div class="qbody">
-        <p class="q">Shakespeare wrote the play &#x27;Romeo and Juliet&#x27;.</p>
+        <p class="q">A haiku is a short form of Japanese poetry.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="2" data-type="ox">
+    <div class="qcard" data-i="19" data-type="ox">
       <span class="n">3</span>
       <div class="qbody">
-        <p class="q">A piano is a keyboard instrument.</p>
+        <p class="q">&#x27;The Scream&#x27; was painted by Pablo Picasso.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="3" data-type="ox">
+    <div class="qcard" data-i="31" data-type="ox">
       <span class="n">4</span>
       <div class="qbody">
-        <p class="q">Beethoven was a famous composer.</p>
+        <p class="q">The Beatles were a rock band from the United States.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="4" data-type="ox">
+    <div class="qcard" data-i="46" data-type="text">
       <span class="n">5</span>
       <div class="qbody">
-        <p class="q">Vincent van Gogh painted &#x27;The Starry Night&#x27;.</p>
-        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <p class="q">What art movement did Claude Monet help found?</p>
+        <div class="qa qa-text"><input class="qinput" type="text" autocomplete="off" aria-label="Your answer" placeholder="Your answer"><button type="button" class="qbtn" data-act="t">Check</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
-      <span class="ox" aria-hidden="true">O/X</span>
+      <span class="ox" aria-hidden="true">Short answer</span>
     </div>
     </div>
     <div class="try-done" id="try-done" hidden>
       <p class="try-score" id="try-score"></p>
-      <p>43 more cards are waiting in the app.</p>
-      <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">Get it on App Store</a>
+      <p>43 more cards are in the app. If you have it, the button below opens this set; after installing, come back to this page and tap it again.</p>
+      <div class="try-actions">
+        <a class="btn btn-primary" id="try-open-app" href="swiq://set/seed.en.arts-culture.arts">Open this set in the app</a>
+        <a class="btn btn-ghost" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">Get it on App Store</a>
+      </div>
+      <p class="fallback" id="try-open-fallback" role="alert">Looks like the app isn&#x27;t installed. Get it on App Store, then come back and tap again.</p>
     </div>
     <p class="lock">Answers &amp; explanations are not in this page; they load only when you answer. View the full content in the app or download files.</p>
     <p class="dl-line">Files:
@@ -443,8 +449,6 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 <footer><div class="wrap"><span>Swiq · 10-card daily recall</span><span><a href="/format/">.swiq file format</a></span><span><a href="/privacy/">Privacy</a></span><span>© 2026</span></div></footer>
 <script>
 (function(){
-  var open=document.getElementById('open-app');
-  if(!open)return;
   var timer=null;
   function cancel(){if(timer){clearTimeout(timer);timer=null;}}
   // App took over → Safari is hidden → the scheme worked; stand down.
@@ -452,16 +456,21 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     if(document.visibilityState==='hidden')cancel();
   });
   window.addEventListener('pagehide',cancel);
-  open.addEventListener('click',function(){
-    cancel();
-    timer=setTimeout(function(){
-      timer=null;
-      if(document.visibilityState==='hidden')return;
-      var fb=document.getElementById('open-fallback');
-      if(fb)fb.classList.add('show');
-      var tf=document.getElementById('tf-cta');
-      if(tf)tf.classList.add('hl');
-    },1200);
+  // Each "open in app" link reveals its own not-installed hint next to it.
+  [['open-app','open-fallback','tf-cta'],['try-open-app','try-open-fallback',null]].forEach(function(ids){
+    var open=document.getElementById(ids[0]);
+    if(!open)return;
+    open.addEventListener('click',function(){
+      cancel();
+      timer=setTimeout(function(){
+        timer=null;
+        if(document.visibilityState==='hidden')return;
+        var fb=document.getElementById(ids[1]);
+        if(fb)fb.classList.add('show');
+        var tf=ids[2]&&document.getElementById(ids[2]);
+        if(tf)tf.classList.add('hl');
+      },1200);
+    });
   });
 })();
 </script>
@@ -483,13 +492,20 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       .catch(function(e){pending=null;throw e});
     return pending;
   }
-  function norm(v){return String(v).normalize('NFKC').toLowerCase().replace(/\s+/g,'')}
+  // Same contract as the app's TextAnswerScoring: NFKC, trim, lowercase,
+  // exact match. Inner spaces are kept ("a p p l e" is not "apple").
+  function norm(v){return String(v).normalize('NFKC').trim().toLowerCase()}
   function show(card,fill){var r=card.querySelector('.res');r.hidden=false;r.textContent='';fill(r)}
+  function lock(card,on){card.querySelectorAll('button,input').forEach(function(el){el.disabled=on})}
   function answer(card,act,btn){
+    // One answer per card: lock before the (possibly slow) first fetch, so
+    // repeated taps or Enter cannot grade the same card twice.
+    if(card.getAttribute('data-state'))return;
+    card.setAttribute('data-state','pending');lock(card,true);
     var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
     load().then(function(j){
       var c=j.cards[i],ok,ans;
-      if(!c)return;
+      if(!c){card.removeAttribute('data-state');lock(card,false);return;}
       if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
         card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
       else if(c.type==='text'){var v=input?input.value:'';
@@ -497,8 +513,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         ans=(c.answers||[]).join(' / ');}
       else{ok=(act==='o')===c.answer;ans=c.answer?'O':'X';}
       if(btn)btn.classList.add('pick');
-      card.classList.add('done');
-      card.querySelectorAll('button,input').forEach(function(el){el.disabled=true});
+      card.classList.add('done');card.setAttribute('data-state','done');
       done++;if(ok)right++;
       show(card,function(r){
         var v=document.createElement('span');v.className='verdict '+(ok?'ok':'bad');
@@ -509,7 +524,10 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         document.getElementById('try-score').textContent=T.score(right,cards.length);
         document.getElementById('try-done').hidden=false;
       }
-    }).catch(function(){show(card,function(r){r.textContent=T.err})});
+    }).catch(function(){
+      card.removeAttribute('data-state');lock(card,false);
+      show(card,function(r){r.textContent=T.err});
+    });
   }
   root.addEventListener('click',function(ev){
     var b=ev.target.closest('button[data-act]');if(!b||b.disabled)return;

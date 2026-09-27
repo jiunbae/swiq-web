@@ -218,6 +218,8 @@ footer a:hover{color:var(--text)}
 .try-done{margin:18px 0 0;padding:16px;border:1px solid var(--border-strong);border-radius:10px;max-width:480px}
 .try-done p{margin:0 0 10px;font-size:14px;color:var(--muted)}
 .try-done .try-score{font-size:16px;font-weight:800;color:var(--text)}
+.try-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 8px}
+@media(max-width:440px){.try-actions{grid-template-columns:1fr}}
 .dl-line{margin:4px 0 0;font-size:13px;color:var(--muted)}
 .dl-line a{text-decoration:underline;text-underline-offset:2px}
 .qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
@@ -382,56 +384,60 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <h2>먼저 5문제 풀어보기</h2>
     <p class="sub">답을 고르면 채점과 해설을 보여 드려요. 앱에서는 이렇게 하루 10장씩 넘기며 복습합니다.</p>
     <div class="qgrid">
-    <div class="qcard" data-i="0" data-type="ox">
+    <div class="qcard" data-i="5" data-type="ox">
       <span class="n">1</span>
       <div class="qbody">
-        <p class="q">&#x27;maintenance&#x27;는 건물이나 기계, 도로 등을 좋은 상태로 유지하기 위해 필요한 작업, 즉 &#x27;유지보수&#x27;를 뜻한다.</p>
+        <p class="q">&#x27;inspection&#x27;은 무언가를 주의 깊게 살펴보는 일이나, 모든 것이 규정에 맞는지 확인하기 위해 건물·기관을 공식적으로 방문하는 일, 즉 &#x27;점검, 검사&#x27;를 뜻한다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="1" data-type="ox">
+    <div class="qcard" data-i="10" data-type="ox">
       <span class="n">2</span>
       <div class="qbody">
-        <p class="q">&#x27;tenant&#x27;는 건물이나 땅을 소유하고 다른 사람에게 빌려주어 돈을 받는 사람, 즉 &#x27;집주인, 임대인&#x27;을 뜻한다.</p>
+        <p class="q">&#x27;evacuate&#x27;는 사람들을 안전한 곳에서 위험한 곳으로 불러 모으다, 즉 &#x27;소집하다&#x27;를 뜻한다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="2" data-type="ox">
+    <div class="qcard" data-i="17" data-type="choice">
       <span class="n">3</span>
       <div class="qbody">
-        <p class="q">&#x27;landlord&#x27;는 건물이나 땅을 소유하고 그 사용 대가로 다른 사람에게서 돈을 받는 사람이나 단체, 즉 &#x27;임대인, 집주인&#x27;을 뜻한다.</p>
-        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <p class="q">다음 문장에서 &#x27;equipment&#x27;의 뜻으로 알맞은 것은? &quot;All office equipment must be turned off before you leave.&quot;</p>
+        <div class="qa qa-choice"><button type="button" class="qbtn qchoice" data-act="c" data-k="1"><span class="k">1</span>가구</button><button type="button" class="qbtn qchoice" data-act="c" data-k="2"><span class="k">2</span>장비, 기기</button><button type="button" class="qbtn qchoice" data-act="c" data-k="3"><span class="k">3</span>비품, 문구류</button><button type="button" class="qbtn qchoice" data-act="c" data-k="4"><span class="k">4</span>서류, 문서</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
-      <span class="ox" aria-hidden="true">O/X</span>
+      <span class="ox" aria-hidden="true">4지선다</span>
     </div>
-    <div class="qcard" data-i="3" data-type="ox">
+    <div class="qcard" data-i="24" data-type="text">
       <span class="n">4</span>
       <div class="qbody">
-        <p class="q">&#x27;vacant&#x27;는 방이나 자리가 이미 사람으로 차 있거나 사용 중인 상태, 즉 &#x27;점유된&#x27;을 뜻한다.</p>
-        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <p class="q">고장 나거나 손상된 것을 다시 좋은 상태로 되돌리다, 즉 &#x27;수리하다&#x27;를 뜻하는 영어 동사를 쓰세요. (예: 폭풍 뒤에 지붕을 ___하다.)</p>
+        <div class="qa qa-text"><input class="qinput" type="text" autocomplete="off" aria-label="답 입력" placeholder="답 입력"><button type="button" class="qbtn" data-act="t">확인</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
-      <span class="ox" aria-hidden="true">O/X</span>
+      <span class="ox" aria-hidden="true">주관식</span>
     </div>
-    <div class="qcard" data-i="4" data-type="ox">
+    <div class="qcard" data-i="35" data-type="text">
       <span class="n">5</span>
       <div class="qbody">
-        <p class="q">&#x27;lease&#x27;는 땅이나 건물, 차량, 장비를 정해진 기간 동안 돈을 내고 사용하기로 하는 계약, 즉 &#x27;임대차 계약&#x27;을 뜻한다.</p>
-        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <p class="q">호텔이나 큰 건물에서 정문으로 들어서면 나오는 넓은 방, 즉 &#x27;로비&#x27;를 뜻하는 영어 명사를 쓰세요. (예: 방문객은 1층 ___에서 출입증을 받으세요.)</p>
+        <div class="qa qa-text"><input class="qinput" type="text" autocomplete="off" aria-label="답 입력" placeholder="답 입력"><button type="button" class="qbtn" data-act="t">확인</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
-      <span class="ox" aria-hidden="true">O/X</span>
+      <span class="ox" aria-hidden="true">주관식</span>
     </div>
     </div>
     <div class="try-done" id="try-done" hidden>
       <p class="try-score" id="try-score"></p>
-      <p>나머지 31문제는 앱에서 이어서 풀 수 있어요.</p>
-      <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">App Store에서 받기</a>
+      <p>나머지 31문제는 앱에서 풀 수 있어요. 앱이 있으면 아래 버튼으로 이 세트가 바로 열리고, 설치했다면 이 페이지로 돌아와 다시 누르면 됩니다.</p>
+      <div class="try-actions">
+        <a class="btn btn-primary" id="try-open-app" href="swiq://set/seed.ko.english-vocab.toeic-07-facilities">앱에서 이 세트 열기</a>
+        <a class="btn btn-ghost" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">App Store에서 받기</a>
+      </div>
+      <p class="fallback" id="try-open-fallback" role="alert">앱이 아직 없는 것 같아요. App Store에서 설치한 뒤 이 페이지로 돌아와 다시 눌러 주세요.</p>
     </div>
     <p class="lock">정답·해설은 이 페이지 본문에 싣지 않고, 답을 고를 때만 불러옵니다. 전체 내용은 앱이나 다운로드 파일에서 확인하세요.</p>
     <p class="dl-line">파일로 받기:
@@ -443,8 +449,6 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 <script>
 (function(){
-  var open=document.getElementById('open-app');
-  if(!open)return;
   var timer=null;
   function cancel(){if(timer){clearTimeout(timer);timer=null;}}
   // App took over → Safari is hidden → the scheme worked; stand down.
@@ -452,16 +456,21 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     if(document.visibilityState==='hidden')cancel();
   });
   window.addEventListener('pagehide',cancel);
-  open.addEventListener('click',function(){
-    cancel();
-    timer=setTimeout(function(){
-      timer=null;
-      if(document.visibilityState==='hidden')return;
-      var fb=document.getElementById('open-fallback');
-      if(fb)fb.classList.add('show');
-      var tf=document.getElementById('tf-cta');
-      if(tf)tf.classList.add('hl');
-    },1200);
+  // Each "open in app" link reveals its own not-installed hint next to it.
+  [['open-app','open-fallback','tf-cta'],['try-open-app','try-open-fallback',null]].forEach(function(ids){
+    var open=document.getElementById(ids[0]);
+    if(!open)return;
+    open.addEventListener('click',function(){
+      cancel();
+      timer=setTimeout(function(){
+        timer=null;
+        if(document.visibilityState==='hidden')return;
+        var fb=document.getElementById(ids[1]);
+        if(fb)fb.classList.add('show');
+        var tf=ids[2]&&document.getElementById(ids[2]);
+        if(tf)tf.classList.add('hl');
+      },1200);
+    });
   });
 })();
 </script>
@@ -483,13 +492,20 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       .catch(function(e){pending=null;throw e});
     return pending;
   }
-  function norm(v){return String(v).normalize('NFKC').toLowerCase().replace(/\s+/g,'')}
+  // Same contract as the app's TextAnswerScoring: NFKC, trim, lowercase,
+  // exact match. Inner spaces are kept ("a p p l e" is not "apple").
+  function norm(v){return String(v).normalize('NFKC').trim().toLowerCase()}
   function show(card,fill){var r=card.querySelector('.res');r.hidden=false;r.textContent='';fill(r)}
+  function lock(card,on){card.querySelectorAll('button,input').forEach(function(el){el.disabled=on})}
   function answer(card,act,btn){
+    // One answer per card: lock before the (possibly slow) first fetch, so
+    // repeated taps or Enter cannot grade the same card twice.
+    if(card.getAttribute('data-state'))return;
+    card.setAttribute('data-state','pending');lock(card,true);
     var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
     load().then(function(j){
       var c=j.cards[i],ok,ans;
-      if(!c)return;
+      if(!c){card.removeAttribute('data-state');lock(card,false);return;}
       if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
         card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
       else if(c.type==='text'){var v=input?input.value:'';
@@ -497,8 +513,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         ans=(c.answers||[]).join(' / ');}
       else{ok=(act==='o')===c.answer;ans=c.answer?'O':'X';}
       if(btn)btn.classList.add('pick');
-      card.classList.add('done');
-      card.querySelectorAll('button,input').forEach(function(el){el.disabled=true});
+      card.classList.add('done');card.setAttribute('data-state','done');
       done++;if(ok)right++;
       show(card,function(r){
         var v=document.createElement('span');v.className='verdict '+(ok?'ok':'bad');
@@ -509,7 +524,10 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         document.getElementById('try-score').textContent=T.score(right,cards.length);
         document.getElementById('try-done').hidden=false;
       }
-    }).catch(function(){show(card,function(r){r.textContent=T.err})});
+    }).catch(function(){
+      card.removeAttribute('data-state');lock(card,false);
+      show(card,function(r){r.textContent=T.err});
+    });
   }
   root.addEventListener('click',function(ev){
     var b=ev.target.closest('button[data-act]');if(!b||b.disabled)return;

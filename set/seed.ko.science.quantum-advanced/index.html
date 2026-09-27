@@ -218,6 +218,8 @@ footer a:hover{color:var(--text)}
 .try-done{margin:18px 0 0;padding:16px;border:1px solid var(--border-strong);border-radius:10px;max-width:480px}
 .try-done p{margin:0 0 10px;font-size:14px;color:var(--muted)}
 .try-done .try-score{font-size:16px;font-weight:800;color:var(--text)}
+.try-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 8px}
+@media(max-width:440px){.try-actions{grid-template-columns:1fr}}
 .dl-line{margin:4px 0 0;font-size:13px;color:var(--muted)}
 .dl-line a{text-decoration:underline;text-underline-offset:2px}
 .qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
@@ -382,46 +384,46 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <h2>먼저 5문제 풀어보기</h2>
     <p class="sub">답을 고르면 채점과 해설을 보여 드려요. 앱에서는 이렇게 하루 10장씩 넘기며 복습합니다.</p>
     <div class="qgrid">
-    <div class="qcard" data-i="0" data-type="ox">
+    <div class="qcard" data-i="6" data-type="ox">
       <span class="n">1</span>
       <div class="qbody">
-        <p class="q">양자 상태에서 같은 방향의 위치와 운동량의 불확정성을 동시에 임의로 작게 만들 수는 없다.</p>
+        <p class="q">표준모형에서 쿼크는 항상 홀로 존재하며 자유 상태로 쉽게 관측된다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="1" data-type="ox">
+    <div class="qcard" data-i="12" data-type="ox">
       <span class="n">2</span>
       <div class="qbody">
-        <p class="q">빛의 에너지가 연속적으로 전달된다는 고전적 파동 모형만으로는 광전효과의 주요 관측 결과를 설명하기 어렵다.</p>
+        <p class="q">경로를 구별할 정보가 없고 간섭 조건이 유지되는 이중슬릿 실험에서는 전자를 하나씩 보내도 검출 위치를 누적하면 간섭무늬가 나타난다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="2" data-type="ox">
+    <div class="qcard" data-i="16" data-type="ox">
       <span class="n">3</span>
       <div class="qbody">
-        <p class="q">파울리 배타 원리에 따르면 동일한 종류의 두 페르미온은 같은 양자 상태를 동시에 점유할 수 있다.</p>
+        <p class="q">플랑크는 흑체복사를 설명할 때 물질의 진동자가 에너지를 불연속적인 값으로 가진다고 가정했다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="3" data-type="ox">
+    <div class="qcard" data-i="22" data-type="ox">
       <span class="n">4</span>
       <div class="qbody">
-        <p class="q">절대영도(0켈빈)에서 모든 분자 운동은 완전히 멈추며, 이는 실험적으로 도달 가능한 온도이다.</p>
+        <p class="q">중성미자는 큰 전하를 띠고 있어 전기장 속에서 크게 휘어진다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="4" data-type="ox">
+    <div class="qcard" data-i="31" data-type="ox">
       <span class="n">5</span>
       <div class="qbody">
-        <p class="q">전자기파 스펙트럼에서 감마선은 가시광선보다 파장이 짧고 진동수가 높다.</p>
+        <p class="q">반도체의 전기 전도도는 온도를 아무리 바꾸어도 전혀 변하지 않는다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
@@ -430,8 +432,12 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     </div>
     <div class="try-done" id="try-done" hidden>
       <p class="try-score" id="try-score"></p>
-      <p>나머지 31문제는 앱에서 이어서 풀 수 있어요.</p>
-      <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">App Store에서 받기</a>
+      <p>나머지 31문제는 앱에서 풀 수 있어요. 앱이 있으면 아래 버튼으로 이 세트가 바로 열리고, 설치했다면 이 페이지로 돌아와 다시 누르면 됩니다.</p>
+      <div class="try-actions">
+        <a class="btn btn-primary" id="try-open-app" href="swiq://set/seed.ko.science.quantum-advanced">앱에서 이 세트 열기</a>
+        <a class="btn btn-ghost" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">App Store에서 받기</a>
+      </div>
+      <p class="fallback" id="try-open-fallback" role="alert">앱이 아직 없는 것 같아요. App Store에서 설치한 뒤 이 페이지로 돌아와 다시 눌러 주세요.</p>
     </div>
     <p class="lock">정답·해설은 이 페이지 본문에 싣지 않고, 답을 고를 때만 불러옵니다. 전체 내용은 앱이나 다운로드 파일에서 확인하세요.</p>
     <p class="dl-line">파일로 받기:
@@ -443,8 +449,6 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 <script>
 (function(){
-  var open=document.getElementById('open-app');
-  if(!open)return;
   var timer=null;
   function cancel(){if(timer){clearTimeout(timer);timer=null;}}
   // App took over → Safari is hidden → the scheme worked; stand down.
@@ -452,16 +456,21 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     if(document.visibilityState==='hidden')cancel();
   });
   window.addEventListener('pagehide',cancel);
-  open.addEventListener('click',function(){
-    cancel();
-    timer=setTimeout(function(){
-      timer=null;
-      if(document.visibilityState==='hidden')return;
-      var fb=document.getElementById('open-fallback');
-      if(fb)fb.classList.add('show');
-      var tf=document.getElementById('tf-cta');
-      if(tf)tf.classList.add('hl');
-    },1200);
+  // Each "open in app" link reveals its own not-installed hint next to it.
+  [['open-app','open-fallback','tf-cta'],['try-open-app','try-open-fallback',null]].forEach(function(ids){
+    var open=document.getElementById(ids[0]);
+    if(!open)return;
+    open.addEventListener('click',function(){
+      cancel();
+      timer=setTimeout(function(){
+        timer=null;
+        if(document.visibilityState==='hidden')return;
+        var fb=document.getElementById(ids[1]);
+        if(fb)fb.classList.add('show');
+        var tf=ids[2]&&document.getElementById(ids[2]);
+        if(tf)tf.classList.add('hl');
+      },1200);
+    });
   });
 })();
 </script>
@@ -483,13 +492,20 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       .catch(function(e){pending=null;throw e});
     return pending;
   }
-  function norm(v){return String(v).normalize('NFKC').toLowerCase().replace(/\s+/g,'')}
+  // Same contract as the app's TextAnswerScoring: NFKC, trim, lowercase,
+  // exact match. Inner spaces are kept ("a p p l e" is not "apple").
+  function norm(v){return String(v).normalize('NFKC').trim().toLowerCase()}
   function show(card,fill){var r=card.querySelector('.res');r.hidden=false;r.textContent='';fill(r)}
+  function lock(card,on){card.querySelectorAll('button,input').forEach(function(el){el.disabled=on})}
   function answer(card,act,btn){
+    // One answer per card: lock before the (possibly slow) first fetch, so
+    // repeated taps or Enter cannot grade the same card twice.
+    if(card.getAttribute('data-state'))return;
+    card.setAttribute('data-state','pending');lock(card,true);
     var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
     load().then(function(j){
       var c=j.cards[i],ok,ans;
-      if(!c)return;
+      if(!c){card.removeAttribute('data-state');lock(card,false);return;}
       if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
         card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
       else if(c.type==='text'){var v=input?input.value:'';
@@ -497,8 +513,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         ans=(c.answers||[]).join(' / ');}
       else{ok=(act==='o')===c.answer;ans=c.answer?'O':'X';}
       if(btn)btn.classList.add('pick');
-      card.classList.add('done');
-      card.querySelectorAll('button,input').forEach(function(el){el.disabled=true});
+      card.classList.add('done');card.setAttribute('data-state','done');
       done++;if(ok)right++;
       show(card,function(r){
         var v=document.createElement('span');v.className='verdict '+(ok?'ok':'bad');
@@ -509,7 +524,10 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         document.getElementById('try-score').textContent=T.score(right,cards.length);
         document.getElementById('try-done').hidden=false;
       }
-    }).catch(function(){show(card,function(r){r.textContent=T.err})});
+    }).catch(function(){
+      card.removeAttribute('data-state');lock(card,false);
+      show(card,function(r){r.textContent=T.err});
+    });
   }
   root.addEventListener('click',function(ev){
     var b=ev.target.closest('button[data-act]');if(!b||b.disabled)return;

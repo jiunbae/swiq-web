@@ -218,6 +218,8 @@ footer a:hover{color:var(--text)}
 .try-done{margin:18px 0 0;padding:16px;border:1px solid var(--border-strong);border-radius:10px;max-width:480px}
 .try-done p{margin:0 0 10px;font-size:14px;color:var(--muted)}
 .try-done .try-score{font-size:16px;font-weight:800;color:var(--text)}
+.try-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 8px}
+@media(max-width:440px){.try-actions{grid-template-columns:1fr}}
 .dl-line{margin:4px 0 0;font-size:13px;color:var(--muted)}
 .dl-line a{text-decoration:underline;text-underline-offset:2px}
 .qcard .ox{flex:0 0 auto;margin-left:auto;font-size:12px;font-weight:800;color:var(--faint);
@@ -382,35 +384,8 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <h2>먼저 5문제 풀어보기</h2>
     <p class="sub">답을 고르면 채점과 해설을 보여 드려요. 앱에서는 이렇게 하루 10장씩 넘기며 복습합니다.</p>
     <div class="qgrid">
-    <div class="qcard" data-i="0" data-type="ox">
-      <span class="n">1</span>
-      <div class="qbody">
-        <p class="q">정도전은 훌륭한 재상을 뽑아 정치의 실권을 맡기는 재상 중심의 정치를 주장하였고, 불씨잡변을 지어 불교를 비판하였다.</p>
-        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
-        <div class="res" aria-live="polite" hidden></div>
-      </div>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
-    <div class="qcard" data-i="1" data-type="ox">
-      <span class="n">2</span>
-      <div class="qbody">
-        <p class="q">태종은 6조에서 올라오는 모든 일을 의정부에서 먼저 논의한 뒤 국왕에게 올리는 의정부 서사제를 채택하여 왕권을 강화하였다.</p>
-        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
-        <div class="res" aria-live="polite" hidden></div>
-      </div>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
-    <div class="qcard" data-i="2" data-type="ox">
-      <span class="n">3</span>
-      <div class="qbody">
-        <p class="q">세종은 의정부 서사제를 시행하면서도 인사와 군사에 관한 일은 직접 처리하여 왕권과 신권의 조화를 이루고자 하였다.</p>
-        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
-        <div class="res" aria-live="polite" hidden></div>
-      </div>
-      <span class="ox" aria-hidden="true">O/X</span>
-    </div>
     <div class="qcard" data-i="3" data-type="ox">
-      <span class="n">4</span>
+      <span class="n">1</span>
       <div class="qbody">
         <p class="q">세조는 집현전을 확대 개편하고 경연을 자주 열어 신하들의 자문을 폭넓게 구하였다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
@@ -418,20 +393,51 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
-    <div class="qcard" data-i="4" data-type="ox">
-      <span class="n">5</span>
+    <div class="qcard" data-i="8" data-type="ox">
+      <span class="n">2</span>
       <div class="qbody">
-        <p class="q">성종은 홍문관을 두어 관원 모두에게 경연관을 겸하게 함으로써 집현전의 기능을 계승하였다.</p>
+        <p class="q">연산군 때 무오사화와 갑자사화를 겪으면서 영남 사림의 대부분이 몰락하였다.</p>
         <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
         <div class="res" aria-live="polite" hidden></div>
       </div>
       <span class="ox" aria-hidden="true">O/X</span>
     </div>
+    <div class="qcard" data-i="16" data-type="ox">
+      <span class="n">3</span>
+      <div class="qbody">
+        <p class="q">15세기 중엽에 완성된 고려사는 기전체, 고려사절요는 편년체로 서술된 역사서이다.</p>
+        <div class="qa qa-ox"><button type="button" class="qbtn" data-act="o" aria-label="O">O</button><button type="button" class="qbtn" data-act="x" aria-label="X">X</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
+      <span class="ox" aria-hidden="true">O/X</span>
+    </div>
+    <div class="qcard" data-i="21" data-type="choice">
+      <span class="n">4</span>
+      <div class="qbody">
+        <p class="q">중종 때 조광조가 사림을 대거 등용하기 위하여 활용한 천거제의 일종은?</p>
+        <div class="qa qa-choice"><button type="button" class="qbtn qchoice" data-act="c" data-k="1"><span class="k">1</span>현량과</button><button type="button" class="qbtn qchoice" data-act="c" data-k="2"><span class="k">2</span>알성시</button><button type="button" class="qbtn qchoice" data-act="c" data-k="3"><span class="k">3</span>증광시</button><button type="button" class="qbtn qchoice" data-act="c" data-k="4"><span class="k">4</span>식년시</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
+      <span class="ox" aria-hidden="true">4지선다</span>
+    </div>
+    <div class="qcard" data-i="34" data-type="text">
+      <span class="n">5</span>
+      <div class="qbody">
+        <p class="q">조선 정부가 시전 상인의 불법적인 상행위를 통제하기 위하여 둔 관청은?</p>
+        <div class="qa qa-text"><input class="qinput" type="text" autocomplete="off" aria-label="답 입력" placeholder="답 입력"><button type="button" class="qbtn" data-act="t">확인</button></div>
+        <div class="res" aria-live="polite" hidden></div>
+      </div>
+      <span class="ox" aria-hidden="true">주관식</span>
+    </div>
     </div>
     <div class="try-done" id="try-done" hidden>
       <p class="try-score" id="try-score"></p>
-      <p>나머지 31문제는 앱에서 이어서 풀 수 있어요.</p>
-      <a class="btn btn-primary" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">App Store에서 받기</a>
+      <p>나머지 31문제는 앱에서 풀 수 있어요. 앱이 있으면 아래 버튼으로 이 세트가 바로 열리고, 설치했다면 이 페이지로 돌아와 다시 누르면 됩니다.</p>
+      <div class="try-actions">
+        <a class="btn btn-primary" id="try-open-app" href="swiq://set/seed.ko.exam-korean-history.deep-06-joseon-early">앱에서 이 세트 열기</a>
+        <a class="btn btn-ghost" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-try&mt=8">App Store에서 받기</a>
+      </div>
+      <p class="fallback" id="try-open-fallback" role="alert">앱이 아직 없는 것 같아요. App Store에서 설치한 뒤 이 페이지로 돌아와 다시 눌러 주세요.</p>
     </div>
     <p class="lock">정답·해설은 이 페이지 본문에 싣지 않고, 답을 고를 때만 불러옵니다. 전체 내용은 앱이나 다운로드 파일에서 확인하세요.</p>
     <p class="dl-line">파일로 받기:
@@ -443,8 +449,6 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 <script>
 (function(){
-  var open=document.getElementById('open-app');
-  if(!open)return;
   var timer=null;
   function cancel(){if(timer){clearTimeout(timer);timer=null;}}
   // App took over → Safari is hidden → the scheme worked; stand down.
@@ -452,16 +456,21 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     if(document.visibilityState==='hidden')cancel();
   });
   window.addEventListener('pagehide',cancel);
-  open.addEventListener('click',function(){
-    cancel();
-    timer=setTimeout(function(){
-      timer=null;
-      if(document.visibilityState==='hidden')return;
-      var fb=document.getElementById('open-fallback');
-      if(fb)fb.classList.add('show');
-      var tf=document.getElementById('tf-cta');
-      if(tf)tf.classList.add('hl');
-    },1200);
+  // Each "open in app" link reveals its own not-installed hint next to it.
+  [['open-app','open-fallback','tf-cta'],['try-open-app','try-open-fallback',null]].forEach(function(ids){
+    var open=document.getElementById(ids[0]);
+    if(!open)return;
+    open.addEventListener('click',function(){
+      cancel();
+      timer=setTimeout(function(){
+        timer=null;
+        if(document.visibilityState==='hidden')return;
+        var fb=document.getElementById(ids[1]);
+        if(fb)fb.classList.add('show');
+        var tf=ids[2]&&document.getElementById(ids[2]);
+        if(tf)tf.classList.add('hl');
+      },1200);
+    });
   });
 })();
 </script>
@@ -483,13 +492,20 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       .catch(function(e){pending=null;throw e});
     return pending;
   }
-  function norm(v){return String(v).normalize('NFKC').toLowerCase().replace(/\s+/g,'')}
+  // Same contract as the app's TextAnswerScoring: NFKC, trim, lowercase,
+  // exact match. Inner spaces are kept ("a p p l e" is not "apple").
+  function norm(v){return String(v).normalize('NFKC').trim().toLowerCase()}
   function show(card,fill){var r=card.querySelector('.res');r.hidden=false;r.textContent='';fill(r)}
+  function lock(card,on){card.querySelectorAll('button,input').forEach(function(el){el.disabled=on})}
   function answer(card,act,btn){
+    // One answer per card: lock before the (possibly slow) first fetch, so
+    // repeated taps or Enter cannot grade the same card twice.
+    if(card.getAttribute('data-state'))return;
+    card.setAttribute('data-state','pending');lock(card,true);
     var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
     load().then(function(j){
       var c=j.cards[i],ok,ans;
-      if(!c)return;
+      if(!c){card.removeAttribute('data-state');lock(card,false);return;}
       if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
         card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
       else if(c.type==='text'){var v=input?input.value:'';
@@ -497,8 +513,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         ans=(c.answers||[]).join(' / ');}
       else{ok=(act==='o')===c.answer;ans=c.answer?'O':'X';}
       if(btn)btn.classList.add('pick');
-      card.classList.add('done');
-      card.querySelectorAll('button,input').forEach(function(el){el.disabled=true});
+      card.classList.add('done');card.setAttribute('data-state','done');
       done++;if(ok)right++;
       show(card,function(r){
         var v=document.createElement('span');v.className='verdict '+(ok?'ok':'bad');
@@ -509,7 +524,10 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         document.getElementById('try-score').textContent=T.score(right,cards.length);
         document.getElementById('try-done').hidden=false;
       }
-    }).catch(function(){show(card,function(r){r.textContent=T.err})});
+    }).catch(function(){
+      card.removeAttribute('data-state');lock(card,false);
+      show(card,function(r){r.textContent=T.err});
+    });
   }
   root.addEventListener('click',function(ev){
     var b=ev.target.closest('button[data-act]');if(!b||b.disabled)return;
