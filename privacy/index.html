@@ -158,6 +158,11 @@ footer a:hover{color:var(--text)}
 .detail h1{font-size:clamp(23px,5vw,32px);margin:12px 0 8px;letter-spacing:-.02em;font-weight:800;line-height:1.2}
 .detail .lead{color:var(--muted);font-size:15.5px;margin:0 0 16px;max-width:62ch}
 .detail .stats{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 22px}
+.content-trust{margin:28px 0;border-top:1px solid var(--border);padding-top:16px;font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.content-trust h2{font-size:16px;color:var(--text);margin:0 0 8px}
+.content-trust p{margin:8px 0}
+.content-trust ul{padding-left:20px}
+.content-trust a{text-decoration:underline}
 .chip{font-size:12px;font-weight:600;color:var(--muted);background:transparent;
   border:1px solid var(--border);border-radius:6px;padding:6px 10px}
 .chip.hl{color:var(--text);border-color:var(--border-strong);font-weight:700}
@@ -366,6 +371,8 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <span class="en">Accounts are optional</span>
   <p>Apple로 로그인하면 세션 통계가 계정에 동기화되고 리더보드에 참여할 수 있으며,
     올린 세트와 구매 내역이 계정에 연결됩니다.</p>
+  <p>계정 동기화는 <strong>카드별 진도나 복습 일정의 백업·복원을 제공하지 않습니다.</strong>
+    앱 삭제나 기기 변경 시 이 기록을 계정에서 복원할 수 없습니다.</p>
   <p><strong>로그인 이전에 이 기기에서 올린 세트도 함께 계정으로 옮겨집니다.</strong>
     로그인하지 않고 세트를 올리면 기기에서 만든 무작위 값으로만 작성자를 구분하는데,
     로그인하는 순간 그 세트들이 계정에 연결되고 앱이 옮긴 개수를 알려줍니다.
@@ -487,7 +494,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <span class="en">Contact</span>
   <p>개인정보 관련 문의·열람·삭제 요청은 <a href="mailto:feedback@jiun.dev" style="color:var(--indigo)">feedback@jiun.dev</a> 로 보내 주세요.</p>
 
-  <h2>English summary</h2>
+  <h2 id="english-summary" lang="en">English summary</h2>
   <span class="en">Effective date: 2026-09-20</span>
   <p>Your learning data (quiz sets, study history, progress, in-app statistics) is
     stored on your device. Signed out, none of it leaves the device. Signed in, the
@@ -516,6 +523,8 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <strong>Which questions you answered is never sent.</strong> Signed out, session
     statistics do not leave the device. Your handle, avatar, weekly XP and rank appear on a leaderboard that
     resets every Monday; an account without a handle is ranked but shown only as "anonymous".</p>
+  <p><strong>Account sync does not back up or restore per-card progress or review schedules.</strong>
+    Those records cannot be restored from your account after deleting the app or changing devices.</p>
   <p>Sets you share to the community are published publicly, including their questions —
     so please keep personal details out of them. When shared without an account we store
     only a hash of a random device token, never the token itself. <strong>Sets you shared

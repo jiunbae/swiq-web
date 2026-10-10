@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>컴활 1급 필기 8 — 쿼리·SQL·폼·보고서 OX 문제 | 컴활 필기 개념 점검 · Swiq</title>
-<meta name="description" content="Access 쿼리 종류와 SQL 문, 폼 구역과 컨트롤, 보고서 그룹화와 페이지 식, 매크로 함수와 이벤트 프로시저를 정리합니다. 기출 OX 방식으로 36문항, 웹에서 5문제를 바로 풀어보고 앱에서 하루 10장씩 점검하세요.">
+<title>컴활 1급 필기 8 — 쿼리·SQL·폼·보고서 문제 | 컴활 필기 개념 점검 · Swiq</title>
+<meta name="description" content="Access 쿼리 종류와 SQL 문, 폼 구역과 컨트롤, 보고서 그룹화와 페이지 식, 매크로 함수와 이벤트 프로시저를 정리합니다. 개념 점검 36문항, 웹에서 5문제를 바로 풀어보고 앱에서 Daily 10으로 연습하세요.">
 <meta name="naver-site-verification" content="32c84ce56c3905c45e939b63ffa9a0be71332e37">
 <meta name="google-site-verification" content="FfsF-kqtNl0jX3XUKsZXaFRfrCRid8UudBbTWny1BkA">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F7F7F4">
@@ -15,13 +15,13 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Swiq">
-<meta property="og:title" content="컴활 1급 필기 8 — 쿼리·SQL·폼·보고서 OX 문제 | 컴활 필기 개념 점검 · Swiq">
-<meta property="og:description" content="Access 쿼리 종류와 SQL 문, 폼 구역과 컨트롤, 보고서 그룹화와 페이지 식, 매크로 함수와 이벤트 프로시저를 정리합니다. 기출 OX 방식으로 36문항, 웹에서 5문제를 바로 풀어보고 앱에서 하루 10장씩 점검하세요.">
+<meta property="og:title" content="컴활 1급 필기 8 — 쿼리·SQL·폼·보고서 문제 | 컴활 필기 개념 점검 · Swiq">
+<meta property="og:description" content="Access 쿼리 종류와 SQL 문, 폼 구역과 컨트롤, 보고서 그룹화와 페이지 식, 매크로 함수와 이벤트 프로시저를 정리합니다. 개념 점검 36문항, 웹에서 5문제를 바로 풀어보고 앱에서 Daily 10으로 연습하세요.">
 <meta property="og:url" content="https://swiq.jiun.dev/set/seed.ko.exam-computer.comact1-08-database-queries/">
 <meta property="og:image" content="https://swiq-api.jiun.dev/v1/og/seed.ko.exam-computer.comact1-08-database-queries.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="컴활 1급 필기 8 — 쿼리·SQL·폼·보고서 OX 문제 | 컴활 필기 개념 점검 · Swiq">
-<meta name="twitter:description" content="Access 쿼리 종류와 SQL 문, 폼 구역과 컨트롤, 보고서 그룹화와 페이지 식, 매크로 함수와 이벤트 프로시저를 정리합니다. 기출 OX 방식으로 36문항, 웹에서 5문제를 바로 풀어보고 앱에서 하루 10장씩 점검하세요.">
+<meta name="twitter:title" content="컴활 1급 필기 8 — 쿼리·SQL·폼·보고서 문제 | 컴활 필기 개념 점검 · Swiq">
+<meta name="twitter:description" content="Access 쿼리 종류와 SQL 문, 폼 구역과 컨트롤, 보고서 그룹화와 페이지 식, 매크로 함수와 이벤트 프로시저를 정리합니다. 개념 점검 36문항, 웹에서 5문제를 바로 풀어보고 앱에서 Daily 10으로 연습하세요.">
 <meta name="twitter:image" content="https://swiq-api.jiun.dev/v1/og/seed.ko.exam-computer.comact1-08-database-queries.png">
 <style>
 *,*::before,*::after{box-sizing:border-box}
@@ -158,6 +158,11 @@ footer a:hover{color:var(--text)}
 .detail h1{font-size:clamp(23px,5vw,32px);margin:12px 0 8px;letter-spacing:-.02em;font-weight:800;line-height:1.2}
 .detail .lead{color:var(--muted);font-size:15.5px;margin:0 0 16px;max-width:62ch}
 .detail .stats{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 22px}
+.content-trust{margin:28px 0;border-top:1px solid var(--border);padding-top:16px;font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.content-trust h2{font-size:16px;color:var(--text);margin:0 0 8px}
+.content-trust p{margin:8px 0}
+.content-trust ul{padding-left:20px}
+.content-trust a{text-decoration:underline}
 .chip{font-size:12px;font-weight:600;color:var(--muted);background:transparent;
   border:1px solid var(--border);border-radius:6px;padding:6px 10px}
 .chip.hl{color:var(--text);border-color:var(--border-strong);font-weight:700}
@@ -445,6 +450,13 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       <a href="seed.ko.exam-computer.comact1-08-database-queries.json" download="seed.ko.exam-computer.comact1-08-database-queries.json">.json 다운로드</a> ·
       <a href="/format/">형식 안내</a></p>
   </section>
+  <section class="content-trust" aria-label="콘텐츠 확인 상태">
+    <h2>콘텐츠 확인 상태</h2>
+    <p>사실 검수: 사용 중인 36문항 중 36문항 확인 · 최근 확인일: 2026-09-20</p>
+    <p>현재 문항과 일치하는 확인 기록만 집계합니다. 아래 자료는 사실 확인 근거이며, 제작 원문·이용 권리는 별도로 확인해야 합니다.</p>
+<details><summary>사실 확인 근거 보기</summary><ul><li><a href="https://learn.microsoft.com/en-us/office/client-developer/access/desktop-database-reference/inner-join-operation-microsoft-access-sql" rel="noopener noreferrer">Microsoft Learn — INNER JOIN operation (Microsoft Access SQL)</a></li><li><a href="https://learn.microsoft.com/en-us/office/client-developer/access/desktop-database-reference/openreport-macro-action" rel="noopener noreferrer">Microsoft Learn — OpenReport macro action</a></li><li><a href="https://learn.microsoft.com/en-us/office/client-developer/access/desktop-database-reference/runsql-macro-action" rel="noopener noreferrer">Microsoft Learn — RunSQL macro action</a></li><li><a href="https://learn.microsoft.com/en-us/office/client-developer/access/desktop-database-reference/select-statement-microsoft-access-sql" rel="noopener noreferrer">Microsoft Learn — SELECT statement (Microsoft Access SQL)</a></li><li><a href="https://learn.microsoft.com/en-us/office/vba/access/concepts/structured-query-language/like-operator-microsoft-access-sql" rel="noopener noreferrer">Microsoft Learn — Like operator (Microsoft Access SQL)</a></li><li><a href="https://learn.microsoft.com/en-us/office/vba/access/concepts/structured-query-language/where-clause-microsoft-access-sql" rel="noopener noreferrer">Microsoft Learn — WHERE clause (Microsoft Access SQL)</a></li><li><a href="https://learn.microsoft.com/en-us/office/vba/api/access.report.pages" rel="noopener noreferrer">Microsoft Learn — Report.Pages property (Access)</a></li><li><a href="https://support.microsoft.com/en-us/office/access-sql-basic-concepts-vocabulary-and-syntax-444d0303-cde1-424e-9a74-e8dc3e460671" rel="noopener noreferrer">Microsoft Support — Access SQL: basic concepts, vocabulary, and syntax</a></li><li><a href="https://support.microsoft.com/en-us/office/add-records-to-a-table-by-using-an-append-query-98a5bd66-2190-4243-9638-8ef649cf3596" rel="noopener noreferrer">Microsoft Support — Add records to a table by using an append query</a></li><li><a href="https://support.microsoft.com/en-us/office/create-a-grouped-or-summary-report-f23301a1-3e0a-4243-9002-4a23ac0fdbf3" rel="noopener noreferrer">Microsoft Support — Create a grouped or summary report</a></li><li><a href="https://support.microsoft.com/en-us/office/create-and-run-a-delete-query-6da65fe1-0fc7-4a64-8ef0-c052cd4c3ec5" rel="noopener noreferrer">Microsoft Support — Create and run a delete query</a></li><li><a href="https://support.microsoft.com/en-us/office/create-and-run-an-update-query-9dddc97c-f17d-43f4-a729-35e5ee1e0514" rel="noopener noreferrer">Microsoft Support — Create and run an update query</a></li><li><a href="https://support.microsoft.com/en-us/office/introduction-to-access-programming-92eb616b-3204-4121-9277-70649e33be4f" rel="noopener noreferrer">Microsoft Support — Introduction to Access programming</a></li><li><a href="https://support.microsoft.com/en-us/office/introduction-to-controls-4a8cf5f2-d739-4ae9-b1e0-510c3f4d6975" rel="noopener noreferrer">Microsoft Support — Introduction to controls</a></li><li><a href="https://support.microsoft.com/en-us/office/introduction-to-forms-e8d47343-c937-44e8-a80f-b6a83a1fa3ae" rel="noopener noreferrer">Microsoft Support — Introduction to forms</a></li><li><a href="https://support.microsoft.com/en-us/office/introduction-to-macros-a39c2a26-e745-4957-8d06-89e0b435aac3" rel="noopener noreferrer">Microsoft Support — Introduction to macros</a></li><li><a href="https://support.microsoft.com/en-us/office/introduction-to-queries-a9739a09-d3ff-4f36-8ac3-5760249fb65c" rel="noopener noreferrer">Microsoft Support — Introduction to queries</a></li><li><a href="https://support.microsoft.com/en-us/office/introduction-to-reports-in-access-e0869f59-7536-4d19-8e05-7158dcd3681c" rel="noopener noreferrer">Microsoft Support — Introduction to reports in Access</a></li><li><a href="https://support.microsoft.com/en-us/office/make-summary-data-easier-to-read-by-using-a-crosstab-query-8465b89c-2ff2-4cc8-ba60-2cd8484667e8" rel="noopener noreferrer">Microsoft Support — Make summary data easier to read by using a crosstab query</a></li><li><a href="https://support.microsoft.com/en-us/office/use-parameters-to-ask-for-input-when-running-a-query-c2806d3d-d500-45a8-8507-ec6af351b6ed" rel="noopener noreferrer">Microsoft Support — Use parameters to ask for input when running a query</a></li></ul></details>
+    <p>오류를 발견했다면 세트명과 문항 번호를 적어 <a href="mailto:feedback@jiun.dev">feedback@jiun.dev</a>로 알려 주세요.</p>
+  </section>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 <script>
@@ -505,7 +517,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
     load().then(function(j){
       var c=j.cards[i],ok,ans;
-      if(!c){card.removeAttribute('data-state');lock(card,false);return;}
+      if(!c)throw 0;
       if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
         card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
       else if(c.type==='text'){var v=input?input.value:'';
@@ -525,6 +537,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         document.getElementById('try-done').hidden=false;
       }
     }).catch(function(){
+      data=null;pending=null;
       card.removeAttribute('data-state');lock(card,false);
       show(card,function(r){r.textContent=T.err});
     });

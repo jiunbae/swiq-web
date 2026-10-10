@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>타입 추론과 제약 해결 OX 퀴즈 | Swiq</title>
-<meta name="description" content="Hindley–Milner 단일화, Rust 라이프타임 추론, 트레잇·타입클래스 해석 — 정적 의미론이 어떻게 &#x27;비자명한 ∃(존재 판정)&#x27;를 품는지 봅니다. 웹에서 5문제를 바로 풀어보고 앱에서 하루 10장씩 복습하세요.">
+<title>타입 추론과 제약 해결 퀴즈 | Swiq</title>
+<meta name="description" content="Hindley–Milner 단일화, Rust 라이프타임 추론, 트레잇·타입클래스 해석 — 정적 의미론이 어떻게 &#x27;비자명한 ∃(존재 판정)&#x27;를 품는지 봅니다. 웹에서 5문제를 바로 풀어보고 앱에서 Daily 10으로 복습하세요.">
 <meta name="naver-site-verification" content="32c84ce56c3905c45e939b63ffa9a0be71332e37">
 <meta name="google-site-verification" content="FfsF-kqtNl0jX3XUKsZXaFRfrCRid8UudBbTWny1BkA">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F7F7F4">
@@ -15,13 +15,13 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Swiq">
-<meta property="og:title" content="타입 추론과 제약 해결 OX 퀴즈 | Swiq">
-<meta property="og:description" content="Hindley–Milner 단일화, Rust 라이프타임 추론, 트레잇·타입클래스 해석 — 정적 의미론이 어떻게 &#x27;비자명한 ∃(존재 판정)&#x27;를 품는지 봅니다. 웹에서 5문제를 바로 풀어보고 앱에서 하루 10장씩 복습하세요.">
+<meta property="og:title" content="타입 추론과 제약 해결 퀴즈 | Swiq">
+<meta property="og:description" content="Hindley–Milner 단일화, Rust 라이프타임 추론, 트레잇·타입클래스 해석 — 정적 의미론이 어떻게 &#x27;비자명한 ∃(존재 판정)&#x27;를 품는지 봅니다. 웹에서 5문제를 바로 풀어보고 앱에서 Daily 10으로 복습하세요.">
 <meta property="og:url" content="https://swiq.jiun.dev/set/seed.ko.cs-theory.type-inference/">
 <meta property="og:image" content="https://swiq-api.jiun.dev/v1/og/seed.ko.cs-theory.type-inference.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="타입 추론과 제약 해결 OX 퀴즈 | Swiq">
-<meta name="twitter:description" content="Hindley–Milner 단일화, Rust 라이프타임 추론, 트레잇·타입클래스 해석 — 정적 의미론이 어떻게 &#x27;비자명한 ∃(존재 판정)&#x27;를 품는지 봅니다. 웹에서 5문제를 바로 풀어보고 앱에서 하루 10장씩 복습하세요.">
+<meta name="twitter:title" content="타입 추론과 제약 해결 퀴즈 | Swiq">
+<meta name="twitter:description" content="Hindley–Milner 단일화, Rust 라이프타임 추론, 트레잇·타입클래스 해석 — 정적 의미론이 어떻게 &#x27;비자명한 ∃(존재 판정)&#x27;를 품는지 봅니다. 웹에서 5문제를 바로 풀어보고 앱에서 Daily 10으로 복습하세요.">
 <meta name="twitter:image" content="https://swiq-api.jiun.dev/v1/og/seed.ko.cs-theory.type-inference.png">
 <style>
 *,*::before,*::after{box-sizing:border-box}
@@ -158,6 +158,11 @@ footer a:hover{color:var(--text)}
 .detail h1{font-size:clamp(23px,5vw,32px);margin:12px 0 8px;letter-spacing:-.02em;font-weight:800;line-height:1.2}
 .detail .lead{color:var(--muted);font-size:15.5px;margin:0 0 16px;max-width:62ch}
 .detail .stats{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 22px}
+.content-trust{margin:28px 0;border-top:1px solid var(--border);padding-top:16px;font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.content-trust h2{font-size:16px;color:var(--text);margin:0 0 8px}
+.content-trust p{margin:8px 0}
+.content-trust ul{padding-left:20px}
+.content-trust a{text-decoration:underline}
 .chip{font-size:12px;font-weight:600;color:var(--muted);background:transparent;
   border:1px solid var(--border);border-radius:6px;padding:6px 10px}
 .chip.hl{color:var(--text);border-color:var(--border-strong);font-weight:700}
@@ -445,6 +450,13 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       <a href="seed.ko.cs-theory.type-inference.json" download="seed.ko.cs-theory.type-inference.json">.json 다운로드</a> ·
       <a href="/format/">형식 안내</a></p>
   </section>
+  <section class="content-trust" aria-label="콘텐츠 확인 상태">
+    <h2>콘텐츠 확인 상태</h2>
+    <p>사실 검수: 사용 중인 36문항 중 36문항 확인 · 최근 확인일: 2026-09-20</p>
+    <p>현재 문항과 일치하는 확인 기록만 집계합니다. 아래 자료는 사실 확인 근거이며, 제작 원문·이용 권리는 별도로 확인해야 합니다.</p>
+<details><summary>사실 확인 근거 보기</summary><ul><li><a href="https://courses.cs.cornell.edu/cs3110/2021sp/textbook/interp/constraints.html" rel="noopener noreferrer">Cornell CS3110 Type Constraints</a></li><li><a href="https://courses.cs.cornell.edu/cs3110/2021sp/textbook/interp/inference.html" rel="noopener noreferrer">Cornell CS3110 — Type Inference</a></li><li><a href="https://courses.cs.cornell.edu/cs3110/2021sp/textbook/interp/letpoly.html" rel="noopener noreferrer">Cornell CS3110 — Let Polymorphism</a></li><li><a href="https://doc.rust-lang.org/nomicon/races.html" rel="noopener noreferrer">Rustonomicon — Data Races and Race Conditions</a></li><li><a href="https://doc.rust-lang.org/nomicon/send-and-sync.html" rel="noopener noreferrer">Rustonomicon — Send and Sync</a></li><li><a href="https://doc.rust-lang.org/nomicon/subtyping.html" rel="noopener noreferrer">Rustonomicon — Subtyping and Variance</a></li><li><a href="https://doc.rust-lang.org/reference/lifetime-elision.html" rel="noopener noreferrer">Rust Reference — Lifetime elision</a></li><li><a href="https://doc.rust-lang.org/reference/names/scopes.html" rel="noopener noreferrer">Rust Reference — Scopes</a></li><li><a href="https://docs.oracle.com/javase/specs/jls/se25/html/jls-10.html" rel="noopener noreferrer">Java Language Specification25 — Arrays</a></li><li><a href="https://docs.python.org/3/library/typing.html" rel="noopener noreferrer">Python typing documentation</a></li><li><a href="https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/instances.html" rel="noopener noreferrer">GHC9.14.1 — Instance declarations and resolution</a></li><li><a href="https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/rank_polymorphism.html" rel="noopener noreferrer">GHC9.14.1 User Guide — Arbitrary-rank polymorphism</a></li><li><a href="https://drops.dagstuhl.de/opus/volltexte/2015/5031/pdf/21.pdf" rel="noopener noreferrer">Siek, Vitousek, Cimini and Boyland — Refined Criteria for Gradual Typing, SNAPL2015</a></li><li><a href="https://lics.siglog.org/archive/1994/Wells-Typabilityandtypech.html" rel="noopener noreferrer">Wells — LICS1994 official paper abstract</a></li><li><a href="https://ocaml.org/docs/mutability-imperative-control-flow" rel="noopener noreferrer">OCaml Mutability and Imperative Control Flow</a></li><li><a href="https://ocaml.org/manual/5.4/polymorphism.html" rel="noopener noreferrer">OCaml5.4 Manual — Polymorphism and its limitations</a></li><li><a href="https://research.cs.queensu.ca/home/jana/papers/bidir-survey/" rel="noopener noreferrer">Dunfield and Krishnaswami — Bidirectional Typing, author publication page</a></li><li><a href="https://researchportal.hw.ac.uk/en/publications/typability-and-type-checking-in-system-f-are-equivalent-and-undec/" rel="noopener noreferrer">Wells1999 — Heriot-Watt research publication abstract</a></li><li><a href="https://rustc-dev-guide.rust-lang.org/borrow-check.html" rel="noopener noreferrer">Rust Compiler Development Guide — MIR borrow check</a></li><li><a href="https://rustc-dev-guide.rust-lang.org/borrow-check/region-inference.html" rel="noopener noreferrer">Rust Compiler Development Guide — Region inference NLL</a></li><li><a href="https://rustc-dev-guide.rust-lang.org/traits/resolution.html" rel="noopener noreferrer">Rust Compiler Development Guide — Trait resolution old-style</a></li><li><a href="https://static.aminer.org/pdf/20170130/pdfs/popl/o8rbwxmj6h2cxf7qdezlupsbgn5u40wn.pdf" rel="noopener noreferrer">Mairson POPL1990 — Deciding ML Typability, paper copy</a></li><li><a href="https://steshaw.org/hm/milner-damas.pdf" rel="noopener noreferrer">Damas and Milner — Principal type-schemes for functional programs (POPL1982, Ian Grant re-keyed copy)</a></li><li><a href="https://suif.stanford.edu/~brm/reading/p253-henglein.pdf" rel="noopener noreferrer">Henglein — Type Inference with Polymorphic Recursion, TOPLAS1993</a></li><li><a href="https://www.cs.cornell.edu/courses/cs3110/2016fa/l/17-inference/notes.html" rel="noopener noreferrer">Cornell CS3110 Type Inference</a></li><li><a href="https://www.haskell.org/onlinereport/haskell2010/haskellch4.html" rel="noopener noreferrer">Haskell2010 Report — 4.4.1 Type Signatures</a></li><li><a href="https://www.repository.cam.ac.uk/items/b7009a90-9bc6-4538-a388-90a2d5617de0" rel="noopener noreferrer">Dolan/Mycroft — MLsub, Cambridge repository abstract</a></li></ul></details>
+    <p>오류를 발견했다면 세트명과 문항 번호를 적어 <a href="mailto:feedback@jiun.dev">feedback@jiun.dev</a>로 알려 주세요.</p>
+  </section>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 <script>
@@ -505,7 +517,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
     load().then(function(j){
       var c=j.cards[i],ok,ans;
-      if(!c){card.removeAttribute('data-state');lock(card,false);return;}
+      if(!c)throw 0;
       if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
         card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
       else if(c.type==='text'){var v=input?input.value:'';
@@ -525,6 +537,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         document.getElementById('try-done').hidden=false;
       }
     }).catch(function(){
+      data=null;pending=null;
       card.removeAttribute('data-state');lock(card,false);
       show(card,function(r){r.textContent=T.err});
     });

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Advanced Computer Science — true/false quiz | Swiq</title>
-<meta name="description" content="Data structures, algorithms, and systems. Try 5 cards on the web, then review 10 a day in the app.">
+<title>Advanced Computer Science — quiz | Swiq</title>
+<meta name="description" content="Data structures, algorithms, and systems. Try 5 cards on the web, then practice up to 10 per Daily 10 session in the app.">
 <meta name="naver-site-verification" content="32c84ce56c3905c45e939b63ffa9a0be71332e37">
 <meta name="google-site-verification" content="FfsF-kqtNl0jX3XUKsZXaFRfrCRid8UudBbTWny1BkA">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F7F7F4">
@@ -15,13 +15,13 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Swiq">
-<meta property="og:title" content="Advanced Computer Science — true/false quiz | Swiq">
-<meta property="og:description" content="Data structures, algorithms, and systems. Try 5 cards on the web, then review 10 a day in the app.">
+<meta property="og:title" content="Advanced Computer Science — quiz | Swiq">
+<meta property="og:description" content="Data structures, algorithms, and systems. Try 5 cards on the web, then practice up to 10 per Daily 10 session in the app.">
 <meta property="og:url" content="https://swiq.jiun.dev/set/seed.en.exam-computer.cs-advanced/">
 <meta property="og:image" content="https://swiq-api.jiun.dev/v1/og/seed.en.exam-computer.cs-advanced.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Advanced Computer Science — true/false quiz | Swiq">
-<meta name="twitter:description" content="Data structures, algorithms, and systems. Try 5 cards on the web, then review 10 a day in the app.">
+<meta name="twitter:title" content="Advanced Computer Science — quiz | Swiq">
+<meta name="twitter:description" content="Data structures, algorithms, and systems. Try 5 cards on the web, then practice up to 10 per Daily 10 session in the app.">
 <meta name="twitter:image" content="https://swiq-api.jiun.dev/v1/og/seed.en.exam-computer.cs-advanced.png">
 <style>
 *,*::before,*::after{box-sizing:border-box}
@@ -158,6 +158,11 @@ footer a:hover{color:var(--text)}
 .detail h1{font-size:clamp(23px,5vw,32px);margin:12px 0 8px;letter-spacing:-.02em;font-weight:800;line-height:1.2}
 .detail .lead{color:var(--muted);font-size:15.5px;margin:0 0 16px;max-width:62ch}
 .detail .stats{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 22px}
+.content-trust{margin:28px 0;border-top:1px solid var(--border);padding-top:16px;font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.content-trust h2{font-size:16px;color:var(--text);margin:0 0 8px}
+.content-trust p{margin:8px 0}
+.content-trust ul{padding-left:20px}
+.content-trust a{text-decoration:underline}
 .chip{font-size:12px;font-weight:600;color:var(--muted);background:transparent;
   border:1px solid var(--border);border-radius:6px;padding:6px 10px}
 .chip.hl{color:var(--text);border-color:var(--border-strong);font-weight:700}
@@ -343,9 +348,9 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/format/">File format</a><a class="nav-cta" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-header&mt=8">App Store</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Swiq home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8588F8"/><stop offset="1" stop-color="#453FC5"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="url(#b)"/><rect x="10" y="18" width="25" height="37" rx="5" fill="#fff" opacity=".24" transform="rotate(-9 22.5 36.5)"/><g transform="rotate(5 34 32)"><rect x="19" y="12" width="31" height="40" rx="6" fill="#FEFEFF"/><path d="M28 43.5C33.2 41.4 35.2 37.2 33 33.2 30.8 29.2 32.8 25.4 38 23.2" fill="none" stroke="#5351E4" stroke-width="3.4" stroke-linecap="round"/><circle cx="46.6" cy="20.2" r="4.7" fill="none" stroke="#10B981" stroke-width="2.7"/><path d="M21.4 40.6 25.8 45M25.8 40.6 21.4 45" stroke="#F43F5E" stroke-width="2.7" stroke-linecap="round"/></g></svg><span class="word">Swiq</span></a><nav><a class="nav-format" href="/format/">File format (Korean)</a><a class="nav-cta" href="https://apps.apple.com/app/apple-store/id6790717022?pt=128291982&ct=web-header&mt=8">App Store</a></nav></div></header>
 <main class="wrap detail">
-  <a class="back" href="/">← All sets</a>
+  <a class="back" href="/?lang=en">← All sets</a>
   <span class="cat-badge">Computer Certification</span>
   <h1>Advanced Computer Science</h1>
   <p class="lead">Data structures, algorithms, and systems</p>
@@ -382,7 +387,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
 
   <section class="preview" id="try" data-src="seed.en.exam-computer.cs-advanced.json" data-lang="en">
     <h2>Try 5 cards</h2>
-    <p class="sub">Pick an answer to see whether you were right, with the explanation. In the app you swipe through 10 a day.</p>
+    <p class="sub">Pick an answer to see whether you were right, with the explanation. In the app, Daily 10 combines due and new cards, up to 10 per session.</p>
     <div class="qgrid">
     <div class="qcard" data-i="0" data-type="ox">
       <span class="n">1</span>
@@ -445,8 +450,15 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
       <a href="seed.en.exam-computer.cs-advanced.json" download="seed.en.exam-computer.cs-advanced.json">Download .json</a> ·
       <a href="/format/">Format</a></p>
   </section>
+  <section class="content-trust" aria-label="Content review">
+    <h2>Content review</h2>
+    <p>Fact-checked: 36 of 36 active cards · Most recent check: 2026-09-20</p>
+    <p>Only checks matching the current card content are counted. These references support factual checks; original authoring materials and usage rights require separate verification.</p>
+<details><summary>Fact-check references</summary><ul><li><a href="https://csrc.nist.gov/glossary/term/bit" rel="noopener noreferrer">bit</a></li><li><a href="https://csrc.nist.gov/glossary/term/volatile_memory" rel="noopener noreferrer">volatile_memory</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Call_stack" rel="noopener noreferrer">English CS primary reference: Call_stack</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Compile" rel="noopener noreferrer">Compile</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Glossary/DNS" rel="noopener noreferrer">DNS</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTTPS" rel="noopener noreferrer">English CS primary reference: HTTPS</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Glossary/SQL" rel="noopener noreferrer">SQL</a></li><li><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/HashMap.html" rel="noopener noreferrer">G7 advanced computer review: HashMap.html</a></li><li><a href="https://docs.oracle.com/javase/specs/jls/se25/html/jls-4.html#jls-4.2.1" rel="noopener noreferrer">English CS primary reference: jls-4.html#jls-4.2.1</a></li><li><a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html" rel="noopener noreferrer">arrays.html</a></li><li><a href="https://docs.python.org/3/library/collections.html#collections.deque" rel="noopener noreferrer">English CS primary reference: collections.html#collections.deque</a></li><li><a href="https://docs.python.org/3/reference/lexical_analysis.html#integer-literals" rel="noopener noreferrer">Advanced computer primary reference: lexical_analysis.html#integer-literals</a></li><li><a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode" rel="noopener noreferrer">English CS primary reference: user-mode-and-kernel-mode</a></li><li><a href="https://physics.nist.gov/cuu/Units/binary.html" rel="noopener noreferrer">binary.html</a></li><li><a href="https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/" rel="noopener noreferrer">English CS primary reference: </a></li><li><a href="https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/7_Deadlocks.html" rel="noopener noreferrer">Advanced computer primary reference: 7_Deadlocks.html</a></li><li><a href="https://www.ibm.com/think/topics/hardware" rel="noopener noreferrer">hardware</a></li><li><a href="https://www.ibm.com/think/topics/primary-vs-secondary-storage" rel="noopener noreferrer">primary-vs-secondary-storage</a></li><li><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/memory-performance-in-a-nutshell.html" rel="noopener noreferrer">memory-performance-in-a-nutshell.html</a></li><li><a href="https://www.intel.com/content/www/us/en/newsroom/resources/moores-law.html" rel="noopener noreferrer">English CS primary reference: moores-law.html</a></li><li><a href="https://www.merriam-webster.com/dictionary/bug" rel="noopener noreferrer">English CS primary reference: bug</a></li><li><a href="https://www.postgresql.org/docs/current/ddl-constraints.html" rel="noopener noreferrer">ddl-constraints.html</a></li><li><a href="https://www.rfc-editor.org/rfc/rfc4861.html" rel="noopener noreferrer">English CS primary reference: rfc4861.html</a></li><li><a href="https://www.rfc-editor.org/rfc/rfc768.txt" rel="noopener noreferrer">English CS primary reference: rfc768.txt</a></li><li><a href="https://www.rfc-editor.org/rfc/rfc826.html" rel="noopener noreferrer">English CS primary reference: rfc826.html</a></li><li><a href="https://www.rfc-editor.org/rfc/rfc9293.html" rel="noopener noreferrer">rfc9293.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/avltree.html" rel="noopener noreferrer">avltree.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/bigOnotation.html" rel="noopener noreferrer">English CS primary reference: bigOnotation.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/binarySearch.html" rel="noopener noreferrer">binarySearch.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/breadthfirst.html" rel="noopener noreferrer">English CS primary reference: breadthfirst.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/levelOrderTraversal.html" rel="noopener noreferrer">English CS primary reference: levelOrderTraversal.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/mergesort.html" rel="noopener noreferrer">English CS primary reference: mergesort.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/preorderTraversal.html" rel="noopener noreferrer">English CS primary reference: preorderTraversal.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/queue.html" rel="noopener noreferrer">English CS primary reference: queue.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/quicksort.html" rel="noopener noreferrer">G7 advanced computer review: quicksort.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/redblack.html" rel="noopener noreferrer">redblack.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/stack.html" rel="noopener noreferrer">English CS primary reference: stack.html</a></li><li><a href="https://xlinux.nist.gov/dads/HTML/tree.html" rel="noopener noreferrer">English CS primary reference: tree.html</a></li></ul></details>
+    <p>Found an error? Email the set title and question number to <a href="mailto:feedback@jiun.dev">feedback@jiun.dev</a>.</p>
+  </section>
 </main>
-<footer><div class="wrap"><span>Swiq · 10-card daily recall</span><span><a href="/format/">.swiq file format</a></span><span><a href="/privacy/">Privacy</a></span><span>© 2026</span></div></footer>
+<footer><div class="wrap"><span>Swiq · 10-card daily recall</span><span><a href="/format/">.swiq file format (Korean)</a></span><span><a href="/privacy/#english-summary">Privacy</a></span><span>© 2026</span></div></footer>
 <script>
 (function(){
   var timer=null;
@@ -505,7 +517,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     var i=+card.getAttribute('data-i'),input=card.querySelector('.qinput');
     load().then(function(j){
       var c=j.cards[i],ok,ans;
-      if(!c){card.removeAttribute('data-state');lock(card,false);return;}
+      if(!c)throw 0;
       if(c.type==='choice'){ok=+btn.getAttribute('data-k')===c.answer;ans=c.choices[c.answer-1];
         card.querySelectorAll('.qchoice')[c.answer-1].classList.add('right');}
       else if(c.type==='text'){var v=input?input.value:'';
@@ -525,6 +537,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
         document.getElementById('try-done').hidden=false;
       }
     }).catch(function(){
+      data=null;pending=null;
       card.removeAttribute('data-state');lock(card,false);
       show(card,function(r){r.textContent=T.err});
     });
