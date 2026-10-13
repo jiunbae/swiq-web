@@ -354,12 +354,15 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <h1>개인정보처리방침</h1>
   <p class="lead">학습 데이터는 기기에 저장됩니다. 로그인하지 않아도 핵심 학습,
     기기 내 세트와 기록, 커뮤니티 익명 둘러보기·공유를 이용할 수 있습니다.</p>
-  <p class="en-sub">Privacy Policy — English summary at the bottom. · 시행일 2026-10-10</p>
+  <p class="en-sub">Privacy Policy — English summary at the bottom. · 시행일 2026-10-13</p>
 
   <h2>학습 데이터는 기기에 저장됩니다</h2>
   <span class="en">Learning data stays on your device</span>
-  <p>퀴즈 세트, 학습 기록, 진도, 앱 내 통계는 사용자의 기기에만 저장됩니다(온디바이스).
-    기기에서 앱을 삭제하면 함께 사라집니다.</p>
+  <p>앱 내부의 퀴즈 세트, 학습 기록, 진도, 통계는 기기의 앱 저장소에 보관됩니다.
+    앱을 삭제하면 이 저장소의 기록도 삭제됩니다.</p>
+  <p>사용자가 앱 저장소와 별도로 내보낸 <strong>.swiqbackup 파일은 선택한 저장 위치에 남으며,
+    직접 보관·관리·삭제해야 합니다.</strong> 파일에는 문항·정답·학습 기록이 포함되며,
+    로그인 토큰과 구매 권한은 포함되지 않습니다. 백업 파일은 Swiq 서버에 자동으로 업로드되지 않습니다.</p>
   <p>로그인한 경우에만, 세션을 마칠 때 <strong>문항 수·정답 수·소요 시간·날짜</strong>와
     <strong>무작위 세션 식별자</strong>가 서버로 전송됩니다. 순위와 뱃지를 계산하기 위한 것이며,
     세션 식별자는 통신이 끊겨 같은 세션을 다시 보낼 때 보상이 두 번 지급되지 않도록 구분하는
@@ -502,11 +505,14 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
   <p>개인정보 관련 문의·열람·삭제 요청은 <a href="mailto:feedback@jiun.dev" style="color:var(--indigo)">feedback@jiun.dev</a> 로 보내 주세요.</p>
 
   <h2 id="english-summary" lang="en">English summary</h2>
-  <span class="en">Effective date: 2026-10-10</span>
-  <p>Your learning data (quiz sets, study history, progress, in-app statistics) is
-    stored on your device. Signed out, none of it leaves the device. Signed in, the
-    only thing sent is the per-session summary described below — the sets, the cards
-    and the answers you gave always stay on your device.</p>
+  <span class="en">Effective date: 2026-10-13</span>
+  <p>The app's quiz sets, study history, progress and statistics are kept in app storage on your device.
+    Deleting the app deletes those stored records. Signing in automatically sends only the per-session
+    summary described below; signed out, session statistics are not sent.</p>
+  <p><strong>.swiqbackup files you export outside app storage remain at your chosen location and must be
+    stored, managed or deleted by you.</strong> They include questions, answers and study records,
+    but do not include sign-in tokens or purchase entitlements. Backup files are not automatically
+    uploaded to Swiq servers.</p>
   <p><strong>Your public profile is opt-in.</strong> Until you choose a handle, nothing
     about you is visible to other users. Once you do, your handle, avatar (a symbol and
     colour picked from a fixed list — no photo uploads), the sets you published and your
@@ -578,7 +584,7 @@ a.store-badge:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,
     <a href="https://developers.cloudflare.com/cloudflare-challenges/challenge-types/javascript-detections/">JavaScript Detections documentation</a>.
     Questions: <a href="mailto:feedback@jiun.dev" style="color:var(--indigo)">feedback@jiun.dev</a>.</p>
 
-  <p class="en-sub">시행일: 2026-10-10</p>
+  <p class="en-sub">시행일: 2026-10-13</p>
 </main>
 <footer><div class="wrap"><span>Swiq · 매일 10장 기억 연습</span><span><a href="/format/">.swiq 파일 포맷</a></span><span><a href="/privacy/">개인정보처리방침</a></span><span>© 2026</span></div></footer>
 </body>
