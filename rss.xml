@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>Swiq 퀴즈 세트</title>
+  <link>https://swiq.jiun.dev/</link>
+  <description>Swiq에서 풀 수 있는 공식 퀴즈 세트 목록</description>
+  <language>ko</language>
+  <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
+  <item>
+    <title>기초 과학</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general.science-basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general.science-basic/</guid>
+    <description>매일 알아두면 좋은 과학 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>세계 지리</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general.world-geo/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general.world-geo/</guid>
+    <description>나라와 지형에 대한 기본 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>역사 상식</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general.history-basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general.history-basic/</guid>
+    <description>한국사와 세계사의 기본 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>우주와 천문</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.science.space/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.science.space/</guid>
+    <description>태양계와 별에 관한 기본 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>인체와 생물</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.science.biology/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.science.biology/</guid>
+    <description>몸과 생명에 관한 기초 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한국 지리</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.geography.korea-geo/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.geography.korea-geo/</guid>
+    <description>우리나라 지형과 지역 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>세계의 수도</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.geography.capitals/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.geography.capitals/</guid>
+    <description>여러 나라의 수도 맞히기</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한국사 인물과 사건</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.history.korea-history/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.history.korea-history/</guid>
+    <description>우리 역사의 인물과 사건</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>세계사</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.history.world-history/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.history.world-history/</guid>
+    <description>세계 역사의 흐름과 사건</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한글 맞춤법</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.language.spelling/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.language.spelling/</guid>
+    <description>헷갈리는 우리말 바른 표기</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>사자성어 뜻</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.language.idioms/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.language.idioms/</guid>
+    <description>자주 쓰는 사자성어의 뜻</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>생활 안전 상식</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general-knowledge.everyday/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general-knowledge.everyday/</guid>
+    <description>일상과 안전에 필요한 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>예술·문화 상식</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.arts-culture.arts/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.arts-culture.arts/</guid>
+    <description>미술·음악·문학의 기본 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>스포츠 상식</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.sports.sports/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.sports.sports/</guid>
+    <description>여러 종목의 기본 규칙과 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>IT·기술 상식</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.it-tech.tech/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.it-tech.tech/</guid>
+    <description>컴퓨터와 인터넷 기초 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Science Basics</title>
+    <link>https://swiq.jiun.dev/set/seed.en.science.science/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.science.science/</guid>
+    <description>Everyday facts about the natural world</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>World Geography</title>
+    <link>https://swiq.jiun.dev/set/seed.en.geography.world-geo/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.geography.world-geo/</guid>
+    <description>Countries, oceans, and landmarks</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>World History</title>
+    <link>https://swiq.jiun.dev/set/seed.en.history.world-history/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.history.world-history/</guid>
+    <description>Key events and figures in history</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>English Vocabulary</title>
+    <link>https://swiq.jiun.dev/set/seed.en.language.vocabulary/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.language.vocabulary/</guid>
+    <description>Common word meanings</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>General Knowledge</title>
+    <link>https://swiq.jiun.dev/set/seed.en.general-knowledge.trivia/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.general-knowledge.trivia/</guid>
+    <description>Everyday facts and simple trivia</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Arts and Culture</title>
+    <link>https://swiq.jiun.dev/set/seed.en.arts-culture.arts/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.arts-culture.arts/</guid>
+    <description>Basics of art, music, and theatre</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Sports</title>
+    <link>https://swiq.jiun.dev/set/seed.en.sports.sports/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.sports.sports/</guid>
+    <description>Rules and facts about popular sports</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Technology</title>
+    <link>https://swiq.jiun.dev/set/seed.en.it-tech.tech/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.it-tech.tech/</guid>
+    <description>Computers and the internet basics</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한국사 기초</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.basic/</guid>
+    <description>시험에 자주 나오는 한국사 기본 사실</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 1 — 선사와 초기 국가</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-01-early/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-01-early/</guid>
+    <description>구석기·신석기·청동기 생활상과 고조선, 부여·고구려·옥저·동예·삼한의 사회를 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 2 — 삼국과 가야</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-02-three-kingdoms/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-02-three-kingdoms/</guid>
+    <description>고구려·백제·신라와 가야의 성장, 율령과 불교, 삼국 통일 과정, 대표 문화유산을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 3 — 남북국 시대</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-03-north-south/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-03-north-south/</guid>
+    <description>통일 신라의 왕권 강화와 하대의 동요, 발해의 건국과 발전, 남북국의 경제·문화유산을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 4 — 고려의 정치와 대외 관계</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-04-goryeo-politics/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-04-goryeo-politics/</guid>
+    <description>고려의 건국과 체제 정비, 중앙·지방 제도, 거란·여진·몽골과의 관계, 무신 정권과 원 간섭기, 공민왕의 개혁을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 5 — 고려의 경제·사회·문화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-05-goryeo-society/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-05-goryeo-society/</guid>
+    <description>전시과와 화폐·상업, 신분과 사회 제도, 유학·역사서·불교와 대장경, 인쇄·건축·청자 등 고려 문화유산을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 6 — 조선 전기</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-06-joseon-early/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-06-joseon-early/</guid>
+    <description>조선의 건국과 통치 체제, 세종·성종의 문물 정비, 사림과 사화, 서원·향약과 붕당, 조선 전기의 경제·대외 관계·문화를 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 7 — 조선 후기</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-07-joseon-late/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-07-joseon-late/</guid>
+    <description>양난과 그 극복, 붕당 정치와 탕평, 세도 정치와 농민 봉기, 조선 후기의 경제·사회 변동과 실학·서민 문화를 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 8 — 근대 사회의 전개</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-08-modern/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-08-modern/</guid>
+    <description>흥선 대원군과 개항, 개화와 위정척사, 갑신정변·동학 농민 운동·갑오개혁, 독립 협회와 대한제국, 국권 피탈과 국권 수호 운동을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한능검 심화 9 — 일제 강점기와 광복</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-09-colonial/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep-09-colonial/</guid>
+    <description>무단·문화·민족 말살 통치, 3·1 운동과 임시 정부, 무장 독립 전쟁과 사회 운동, 광복과 대한민국 정부 수립을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한국사 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.advanced/</guid>
+    <description>제도·사건의 연도와 흐름을 다지는 심화 문제</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한국 근현대사</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.modern/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.modern/</guid>
+    <description>일제강점기와 광복 전후의 핵심 사건</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴퓨터 일반 기초</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.basic/</guid>
+    <description>컴퓨터 활용 시험의 기초 개념</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 2급 필기 1 — 컴퓨터 시스템 관리</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-01-system/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-01-system/</guid>
+    <description>컴퓨터의 원리, 자료 표현, 처리·기억·입출력 장치, 소프트웨어와 운영체제 개념을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 2급 필기 2 — 운영체제 사용과 설정</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-02-windows/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-02-windows/</guid>
+    <description>Windows 창·메뉴·작업 표시줄, 파일 탐색기와 휴지통, 인쇄, 시스템·장치·접근성 설정을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 2급 필기 3 — 인터넷과 멀티미디어</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-03-internet/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-03-internet/</guid>
+    <description>인터넷 프로토콜과 주소, 웹 브라우저와 웹 언어, 전자우편·FTP·클라우드, 멀티미디어 데이터와 최신 정보통신 용어를 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 2급 필기 4 — 정보 보안과 컴퓨터 범죄</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-04-security/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-04-security/</guid>
+    <description>정보 윤리와 저작권·개인정보 보호, 컴퓨터 범죄 유형과 예방, 악성 코드의 종류, 방화벽과 Windows 보안 기능을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 2급 필기 5 — 스프레드시트 기본 조작</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-05-excel-basics/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-05-excel-basics/</guid>
+    <description>Excel의 창 제어와 파일·시트 관리, 데이터 입력과 자동 채우기, 편집과 붙여넣기 옵션, 표시 형식과 조건부 서식을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 2급 필기 6 — 수식·함수·차트·분석·출력</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-06-excel-analysis/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact2-06-excel-analysis/</guid>
+    <description>셀 참조와 오류 값, 자주 쓰는 함수의 동작, 차트 종류와 요소, 정렬·필터·부분합·피벗 테이블·목표값 찾기, 페이지 설정과 인쇄를 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 1급 필기 7 — 데이터베이스와 테이블</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact1-07-database-tables/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact1-07-database-tables/</guid>
+    <description>데이터베이스 개념과 설계 절차, 스키마와 데이터 언어, 관계형 모델의 키, Access 테이블의 데이터 형식·필드 속성·관계와 참조 무결성을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 1급 필기 8 — 쿼리·SQL·폼·보고서</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact1-08-database-queries/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact1-08-database-queries/</guid>
+    <description>Access 쿼리 종류와 SQL 문, 폼 구역과 컨트롤, 보고서 그룹화와 페이지 식, 매크로 함수와 이벤트 프로시저를 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴활 1급 필기 9 — 컴퓨터 일반 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.comact1-09-general-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.comact1-09-general-advanced/</guid>
+    <description>운영체제와 관리 도구, 네트워크 설정과 명령, OSI·TCP/IP 계층과 장비, 컴퓨터 구조·소프트웨어·멀티미디어 심화 개념을 정리합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴퓨터 일반 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.advanced/</guid>
+    <description>자료구조·보안·데이터베이스 심화 개념</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>네트워크·인터넷</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.network/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.network/</guid>
+    <description>인터넷 통신과 웹의 기본 원리</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>영단어 뜻 기초</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.basic/</guid>
+    <description>기초 영단어의 뜻을 O/X·주관식·4지선다로 확인</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 1 — 사무와 인사</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-01-office/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-01-office/</guid>
+    <description>사무실, 인사, 회의, 일정 맥락에서 자주 쓰이는 토익 기본 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 2 — 회의와 일정</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-02-meetings/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-02-meetings/</guid>
+    <description>회의 진행, 일정 조율, 마감과 우선순위 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 3 — 구매와 배송</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-03-orders/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-03-orders/</guid>
+    <description>주문, 견적, 재고, 배송과 반품 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 4 — 재무와 회계</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-04-finance/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-04-finance/</guid>
+    <description>예산, 수익과 비용, 회계 감사, 세금과 투자 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 5 — 마케팅과 고객 서비스</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-05-marketing/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-05-marketing/</guid>
+    <description>광고와 홍보, 설문과 피드백, 고객 문의·불만 처리 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 6 — 여행과 교통</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-06-travel/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-06-travel/</guid>
+    <description>예약과 숙박, 공항과 탑승, 출퇴근과 교통수단 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 7 — 시설과 부동산</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-07-facilities/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-07-facilities/</guid>
+    <description>수리와 점검, 설비와 장비, 임대와 사무실 이전 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 8 — 계약과 고용</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-08-legal/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-08-legal/</guid>
+    <description>계약 조항과 협상, 규정 준수, 채용·평가·퇴직 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>토익 영단어 9 — 공지와 이메일</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-09-office-email/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.toeic-09-office-email/</guid>
+    <description>사내 공지, 이메일 요청과 회신, 문서 검토와 승인 맥락의 토익 빈출 어휘 36개를 뜻과 함께 익힙니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>영단어 뜻 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.advanced/</guid>
+    <description>수능·시험에 나오는 고급 영단어</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>실용 영단어</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.practical/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.practical/</guid>
+    <description>업무·생활에서 자주 쓰는 영단어</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>건강 상식 기초</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.health-medical.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.health-medical.basic/</guid>
+    <description>일상 건강 관리의 기본 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>공부할 때 쓰는 영어</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.learning-habits/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.learning-habits/</guid>
+    <description>복습·집중·읽기·학습 계획에 쓰는 영어 표현 24개를 O/X 18문항과 직접 입력 6문항으로 익혀요.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>인체·의학 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.health-medical.advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.health-medical.advanced/</guid>
+    <description>장기와 생리 작용에 관한 심화 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>영양·식품</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.health-medical.nutrition/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.health-medical.nutrition/</guid>
+    <description>영양소와 식생활에 관한 상식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>경제 상식 기초</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.economy-finance.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.economy-finance.basic/</guid>
+    <description>생활 속 경제 개념의 기초</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>금융·투자 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.economy-finance.advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.economy-finance.advanced/</guid>
+    <description>금리·채권·투자 원리의 심화</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>경제 용어</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.economy-finance.terms/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.economy-finance.terms/</guid>
+    <description>자주 쓰는 경제 용어의 뜻</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>맞춤법 기초</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.korean-language.spelling-basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.korean-language.spelling-basic/</guid>
+    <description>헷갈리기 쉬운 기본 맞춤법</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>맞춤법 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.korean-language.spelling-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.korean-language.spelling-advanced/</guid>
+    <description>뜻이 헷갈리는 단어와 심화 맞춤법</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>표준어·띄어쓰기</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.korean-language.standard/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.korean-language.standard/</guid>
+    <description>표준어 판정과 띄어쓰기 규칙</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Health Basics</title>
+    <link>https://swiq.jiun.dev/set/seed.en.health-medical.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.health-medical.basic/</guid>
+    <description>Everyday facts about the human body and health</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Economy Basics</title>
+    <link>https://swiq.jiun.dev/set/seed.en.economy-finance.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.economy-finance.basic/</guid>
+    <description>Core ideas about money and the economy</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Computer Science Basics</title>
+    <link>https://swiq.jiun.dev/set/seed.en.exam-computer.basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.exam-computer.basic/</guid>
+    <description>Fundamental computing concepts</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>응급처치 상식 O/X</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.health-medical.firstaid/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.health-medical.firstaid/</guid>
+    <description>위급 상황에서 알아 두면 좋은 응급처치</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>영단어 회상 기초</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-basic/</guid>
+    <description>직접 입력해서 떠올리는 기초 영단어 12장 — 보고 고르는 대신 기억에서 꺼내 보세요.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>상식 4지선다</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general-knowledge.mcq-basic/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general-knowledge.mcq-basic/</guid>
+    <description>네 개의 보기 중 정답을 고르는 기본 상식 12장.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>숫자로 기억하는 핵심 지식</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general-knowledge.numeric-recall/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general-knowledge.numeric-recall/</guid>
+    <description>한국사·과학·기술의 기준 수치를 여러 방식으로 복습해요</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>양자·현대물리 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.science.quantum-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.science.quantum-advanced/</guid>
+    <description>양자역학과 현대물리의 핵심 개념</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>상대성이론 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.science.relativity-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.science.relativity-advanced/</guid>
+    <description>특수·일반 상대성이론의 핵심</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>분자생물학 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.science.molecular-biology/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.science.molecular-biology/</guid>
+    <description>DNA·단백질·세포의 원리</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>세계사 고급</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.history.world-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.history.world-advanced/</guid>
+    <description>근대 이후 세계사의 핵심 사건</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>한국사 고급</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-korean-history.deep/</guid>
+    <description>고대부터 조선까지 심화 한국사</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>경제 원리 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.economy-finance.principles/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.economy-finance.principles/</guid>
+    <description>수요·공급부터 거시경제까지</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>컴퓨터과학 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.cs-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.cs-advanced/</guid>
+    <description>자료구조·알고리즘·시스템 원리</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>프로그래밍 개념 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.exam-computer.programming/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.exam-computer.programming/</guid>
+    <description>언어·패러다임·개발 원리</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>철학·논리학 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general-knowledge.philosophy/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general-knowledge.philosophy/</guid>
+    <description>서양 철학과 논리학의 핵심</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>인체·의학 고급</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.health-medical.anatomy-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.health-medical.anatomy-advanced/</guid>
+    <description>인체 생리와 의학 심화 지식</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>지리·지정학 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.geography.geopolitics/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.geography.geopolitics/</guid>
+    <description>세계 지형·해협·지정학의 요충지</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>수학 개념 심화</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.general-knowledge.math-concepts/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.general-knowledge.math-concepts/</guid>
+    <description>수와 도형, 확률의 핵심 개념</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>클래식 음악·미술사 고급</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.arts-culture.classical-arts/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.arts-culture.classical-arts/</guid>
+    <description>명작곡가와 미술 사조의 핵심</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>영단어 고급 회상</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.english-vocab.recall-advanced/</guid>
+    <description>고급 어휘를 뜻으로 떠올려 입력</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Advanced Science</title>
+    <link>https://swiq.jiun.dev/set/seed.en.science.advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.science.advanced/</guid>
+    <description>Deeper physics, chemistry, and biology</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Advanced World History</title>
+    <link>https://swiq.jiun.dev/set/seed.en.history.world-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.history.world-advanced/</guid>
+    <description>Key turning points in world history</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Advanced Economics</title>
+    <link>https://swiq.jiun.dev/set/seed.en.economy-finance.principles/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.economy-finance.principles/</guid>
+    <description>Core principles of micro and macro economics</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Advanced Computer Science</title>
+    <link>https://swiq.jiun.dev/set/seed.en.exam-computer.cs-advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.exam-computer.cs-advanced/</guid>
+    <description>Data structures, algorithms, and systems</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Advanced Geography</title>
+    <link>https://swiq.jiun.dev/set/seed.en.geography.advanced/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.en.geography.advanced/</guid>
+    <description>Landforms, capitals, and geopolitics</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>선언형 vs 명령형 입문</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.cs-theory.paradigms/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.cs-theory.paradigms/</guid>
+    <description>&#x27;무엇(what)&#x27;과 &#x27;어떻게(how)&#x27;로 갈라 보는 두 패러다임 — 그 경계가 왜 생각만큼 또렷하지 않은지부터 짚습니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>언어 의미론: 정적 vs 실행</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.cs-theory.semantics/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.cs-theory.semantics/</guid>
+    <description>정적 의미론과 실행(동적) 의미론을 가르고, 작동적·표시적·공리적 의미론을 정리합니다. &#x27;그냥 의미론&#x27;이라 뭉뚱그릴 때 생기는 함정도 함께.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>논리와 양화사: ∀·∃</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.cs-theory.logic-quantifiers/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.cs-theory.logic-quantifiers/</guid>
+    <description>술어 논리의 전칭·존재 양화사와 그 성질. 목격자의 존재와 그 목격자를 찾는 계산을 구분합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>타입 추론과 제약 해결</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.cs-theory.type-inference/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.cs-theory.type-inference/</guid>
+    <description>Hindley–Milner 단일화, Rust 라이프타임 추론, 트레잇·타입클래스 해석 — 정적 의미론이 어떻게 &#x27;비자명한 ∃(존재 판정)&#x27;를 품는지 봅니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>동시성과 메모리 모델</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.cs-theory.memory-model/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.cs-theory.memory-model/</guid>
+    <description>happens-before, 데이터 경합, 순차 일관성, 그리고 공리적 메모리 모델. &#x27;허용 동작 = ∃(rf·mo…) 공리 충족&#x27; 형태가 왜 문제의 핵심인지.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>패러다임 분류의 사회문화성</title>
+    <link>https://swiq.jiun.dev/set/seed.ko.cs-theory.classification/</link>
+    <guid isPermaLink="true">https://swiq.jiun.dev/set/seed.ko.cs-theory.classification/</guid>
+    <description>패러다임 분류의 기준과 한계를 검토하고, 언어의 계산 방식과 메모리 모델의 명세 방식을 구별합니다.</description>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  </item>
+</channel></rss>
